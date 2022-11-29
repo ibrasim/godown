@@ -13,8 +13,8 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
-                    {{ __('You are logged in!') }}
+                    <img src="{{ asset('/bracelet.jpg') }}" />
+                    {{ __('MVR 16.26') }}
                 </div>
             </div>
         </div>
