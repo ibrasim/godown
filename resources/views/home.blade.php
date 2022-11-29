@@ -14,7 +14,7 @@
                         </div>
                     @endif
                     <img src="{{ asset('/bracelet.jpg') }}" />
-                    {{ __('MVR 16.26') }}
+                 <h2>   {{ __('MVR 25.00 Hurry!... Available until stocks run out') }}</h2>
                 </div>
             </div>
         </div>
