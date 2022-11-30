@@ -13,7 +13,7 @@
                             {{ session('status') }}
                         </div>
                     @endif
-                    <img src="{{ asset('/bracelet.jpg') }}" />
+                    <img src="{{ asset('/bracelet1.jpg') }}" />
                  <h2>   {{ __('MVR 5.0') }}</h2>
                  <br>
                  <img src="{{ asset('/jewel1.jpg') }}" />
