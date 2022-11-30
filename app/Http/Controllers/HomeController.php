@@ -43,6 +43,11 @@ class HomeController extends Controller
                     // return view('home')-> with ('activity_data', $array1);  
                   return view('home');
                 }
+                if ($user1=='razy' )
+         
+                {                     
+                  return view('home');
+                }
                 else
                 {
                    //return 'please login';
