@@ -48,6 +48,11 @@ class HomeController extends Controller
                 {                     
                   return view('agent2');
                 }
+                if ($user1=='Aminath' )
+         
+                {                     
+                  return view('agent3');
+                }
                 else
                 {
                    //return 'please login';
