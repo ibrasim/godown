@@ -14,7 +14,16 @@
                         </div>
                     @endif
                     <img src="{{ asset('/bracelet.jpg') }}" />
-                 <h2>   {{ __('MVR 25.00 Hurry!... Available until stocks run out') }}</h2>
+                 <h2>   {{ __('MVR 5.0') }}</h2>
+                 <br>
+                 <img src="{{ asset('/jewel1.jpg') }}" />
+                 <h2>   {{ __('MVR 5.00') }}</h2>
+                 <br>
+                 <img src="{{ asset('/jewel2.jpg') }}" />
+                 <h2>   {{ __('MVR 5.00') }}</h2>
+                 <br>
+                 <img src="{{ asset('/jewel3.jpg') }}" />
+                 <h2>   {{ __('MVR 5.00') }}</h2>
                 </div>
             </div>
         </div>
