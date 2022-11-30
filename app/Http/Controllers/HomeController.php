@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use Illuminate\Support\Facades\Auth;  // used to check if user is logged in (Auth())
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -23,6 +23,43 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
-    }
+        //  return view('home');
+    
+        if  ($this->middleware('auth')==true)
+        {
+            
+            $user1 = Auth::user()->name;
+ if ($user1=='shiya' )
+         
+                {      
+                
+
+                    // $array1 = fbcc_activity::select ('id','name','activity','comment')->where ('name','like',$user1)
+                    // ->get();
+                    //return $array1;
+
+                    
+                    
+                    // return view('home')-> with ('activity_data', $array1);  
+                  return view('home');
+                }
+                else
+                {
+                   //return 'please login';
+                   return view('agent1');
+                   
+                }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+            }}
+    
 }
