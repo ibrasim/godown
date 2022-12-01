@@ -48,7 +48,7 @@ class HomeController extends Controller
                 {                     
                   return view('agent2');
                 }
-                if ($user1=='Aminath' or $user1=='Ahsan TEST' )
+                if ($user1=='Aminath' or $user1=='asim' )
          
                 {                     
                   return view('agent3');
