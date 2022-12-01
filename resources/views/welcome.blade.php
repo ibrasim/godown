@@ -64,8 +64,7 @@
 
                             <div class="ml-12">
                                 <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                    When an item is available it will be shown in the user's page. The pages will be developed in due course. kindly check if the item matches with your requriements. Especailly the specification and price.
-                                </div>
+                .                </div>
                             </div>
                         </div>
 
@@ -77,8 +76,7 @@
 
                             <div class="ml-12">
                                 <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                    content to be developed later
-                                </div>
+                 .               </div>
                             </div>
                         </div>
 

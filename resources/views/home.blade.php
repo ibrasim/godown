@@ -24,6 +24,9 @@
                  <br>
                  <img src="{{ asset('/jewel3.jpg') }}" />
                  <h2>   {{ __('MVR 5.00') }}</h2>
+
+                 <br>
+                 
                 </div>
             </div>
         </div>
