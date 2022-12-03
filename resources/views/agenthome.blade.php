@@ -81,9 +81,21 @@
               <div class="icon">
                 <i class="ion ion-pie-graph"></i>
               </div>
+              
               <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
             </div>
+            
           </div>
+          <div>
+          <img src="{{ asset('/bag-prathunam-3dec.jpg') }}" />
+                 <h2>   {{ __('MVR 85.00') }}</h2>
+                 <br>
+                 <img src="{{ asset('/dress-prathunam-3dec.jpg') }}" />
+                 <h2>   {{ __('MVR 135.00') }}</h2>
+                 <br>
+                
+      
+              </div>
           <!-- ./col -->
         </div>
         <!-- /.row -->
