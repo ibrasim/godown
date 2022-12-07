@@ -139,6 +139,135 @@
  	    <td>360.00</td>
          <td>6 dec</td>
          </tr>
+         <tr>
+         <td>Tooth Brush</td>
+        <td>Berman </td>
+ 	    <td>36</td>
+        <td>180</td>
+ 	    <td>540.00</td>
+         <td>5 dec</td>
+         </tr>
+         <tr>
+         <td>Tooth Brush</td>
+        <td>Oral B </td>
+ 	    <td>36</td>
+        <td>180</td>
+ 	    <td>540.00</td>
+         <td>5 dec</td>
+         </tr>
+         <tr>
+         <td>Cotton Bud</td>
+        <td>square</td>
+ 	    <td>24</td>
+        <td>200</td>
+ 	    <td>400.00</td>
+         <td>5 dec</td>
+         </tr>
+         <tr>
+         <td>Cotton Bud</td>
+        <td>round</td>
+ 	    <td>24</td>
+        <td>180</td>
+ 	    <td>360.00</td>
+         <td>5 dec</td>
+         </tr>
+         <tr>
+         <td>Disposable razor</td>
+        <td>Dorco</td>
+ 	    <td>72</td>
+        <td>180</td>
+ 	    <td>360.00</td>
+         <td>5 dec</td>
+         </tr>
+         <tr>
+         <td>Comb</td>
+        <td></td>
+ 	    <td>4</td>
+        <td>26</td>
+ 	    <td>78.00</td>
+         <td>5 dec</td>
+         </tr>
+         <tr>
+         <td>Comb</td>
+        <td></td>
+ 	    <td>2</td>
+        <td>1</td>
+ 	    <td>38.00</td>
+         <td>5 dec</td>
+         </tr>
+         <tr>
+         <td>Toothpick</td>
+        <td>wooden</td>
+ 	    <td>60</td>
+        <td>65</td>
+ 	    <td>325.00</td>
+         <td>5 dec</td>
+         </tr>
+
+         <tr>
+         <td>Steel wool</td>
+        <td>wooden</td>
+ 	    <td>1</td>
+        <td>1000</td>
+ 	    <td>1000.00</td>
+         <td>5 dec</td>
+         </tr>
+         <tr>
+         <td>Sponge</td>
+        <td></td>
+ 	    <td>36</td>
+        <td>1</td>
+ 	    <td>145.00</td>
+         <td>5 dec</td>
+         </tr>
+        
+         <tr>
+         <td>Spoon</td>
+        <td>rice</td>
+ 	    <td>36</td>
+        <td>95</td>
+ 	    <td>285.00</td>
+         <td>5 dec</td>
+         </tr>
+
+         
+         <tr>
+         <td>knife</td>
+        <td>kiwi</td>
+ 	    <td>12</td>
+        <td>1</td>
+ 	    <td>296.00</td>
+         <td>5 dec</td>
+         </tr>
+
+         
+         <tr>
+         <td>knife</td>
+        <td>kiwi</td>
+ 	    <td>12</td>
+        <td>1</td>
+ 	    <td>335.00</td>
+         <td>5 dec</td>
+         </tr>
+
+         
+         <tr>
+         <td>knife</td>
+        <td>kiwi</td>
+ 	    <td>12</td>
+        <td>1</td>
+ 	    <td>435.00</td>
+         <td>5 dec</td>
+         </tr>
+         
+         <tr>
+         <td>Razor</td>
+        <td>disposable</td>
+ 	    <td>36</td>
+        <td>60</td>
+ 	    <td>180.00</td>
+         <td>5 dec</td>
+         </tr>
     </tbody>
   </table>
 </div>
