@@ -86,24 +86,30 @@
             </div>
             
           </div>
+          
           <div>
-          <img src="{{ asset('/bag-prathunam-3dec.jpg') }}" />
-                 <h2>   {{ __('MVR 85.00') }}</h2>
-                 <br>
-                 <img src="{{ asset('/dress-prathunam-3dec.jpg') }}" />
-                 <h2>   {{ __('MVR 135.00') }}</h2>
-                 <br>
-                
-      
+          <span class="brand-text font-weight-light">
+         
               </div>
+              
           <!-- ./col -->
-        </div>
+        
         <!-- /.row -->
         <!-- Main row -->
         
         <!-- /.row (main row) -->
-      </div><!-- /.container-fluid -->
+      
     </section>
     <!-- /.content -->
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 @endsection()
