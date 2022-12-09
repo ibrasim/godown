@@ -135,7 +135,7 @@
                    <td>{{$item->email1}}</td>
                    <td>{{$item->socialaccounts}}</td>   
                    <td>  <a target="_blank" href= "{{$item->field2 }}">photo</a>   </td>         
-                
+                   $fileStoragePath = '/storage/pdf/' . $filename;
                   
                 </tr>
  @endforeach 
