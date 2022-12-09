@@ -134,7 +134,7 @@
                    <td>{{$item->mobile}}</td>
                    <td>{{$item->email1}}</td>
                    <td>{{$item->socialaccounts}}</td>   
-                   <td>  <a target="_blank" href={{asset($item->field2)}}>photo</a>   </td>         
+                   <td>  <a target="_blank" href={{$item->field2}}>photo</a>   </td>         
                 </tr>
  @endforeach 
            </table>
