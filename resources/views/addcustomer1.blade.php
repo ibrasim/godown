@@ -118,6 +118,7 @@
       <th scope="col">Mobile</th>
       <th scope="col">Email</th>
       <th scope="col">Social Account</th>
+      <th scope="col">photo</th>
     </tr>
   </thead>
    @foreach ($customer as $item) 
@@ -132,7 +133,8 @@
                    <td>{{$item->registration}}</td>
                    <td>{{$item->mobile}}</td>
                    <td>{{$item->email1}}</td>
-                   <td>{{$item->socialaccounts}}</td>              
+                   <td>{{$item->socialaccounts}}</td>   
+                   <td>  <a target="_blank" href={{$item->field2}}>photo</a>   </td>         
                 </tr>
  @endforeach 
            </table>
@@ -140,4 +142,5 @@
         
 
     </div>
+    
 @endsection

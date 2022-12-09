@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\customer;
 use Illuminate\Http\Request;
+use App\Http\Controllers\Excel;
 
 class customerController extends Controller
 {
@@ -17,6 +18,10 @@ class customerController extends Controller
         //
     }
 
+    public function export() 
+{
+   return Excel::download(new UsersExport, 'users.xlsx');
+}
     /**
      * Show the form for creating a new resource.
      *
