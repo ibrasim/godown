@@ -1,6 +1,8 @@
 <?php
 
 namespace App\Http\Controllers;
+
+use App\Models\customer;
 use Illuminate\Support\Facades\Auth;  // used to check if user is logged in (Auth())
 use Illuminate\Http\Request;
 
@@ -74,6 +76,11 @@ class HomeController extends Controller
     
             public function index1()
             {
-                return view('addcustomer');
+                
+              $customer = customer::all();
+   
+              
+              
+              return view('addcustomer1',compact('customer'));
             }
 }
