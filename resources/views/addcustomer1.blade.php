@@ -75,7 +75,7 @@
                                 <div class="col">
                                      <input type="text" name="socialaccounts" class="form-control" placeholder="social accounts">
                                 </div>
-                                
+                               
                                 <button type="submit" class="btn btn-primary">
                                         {{ __('Add') }}
                                     </button>
@@ -134,8 +134,12 @@
                    <td>{{$item->mobile}}</td>
                    <td>{{$item->email1}}</td>
                    <td>{{$item->socialaccounts}}</td>   
-                   <td>  <a target="_blank" href= "{{$item->field2 }}">photo</a>   </td>         
-                   $fileStoragePath = '/storage/pdf/' . $filename;
+                   <!-- <td>  <a target="_blank" href= "{{$item->field2 }}">photo</a>   </td>          -->
+             
+                   <!-- <a href="{{$item->field2 }}" ><img src="{{$item->field2 }}" >d</a> -->
+                   <td>
+                   <td> <img src="{{$item->field2 }}"  width="45" height="75"></td> 
+                   </td> 
                   
                 </tr>
  @endforeach 
