@@ -138,7 +138,7 @@
                   
                    <!-- <a href="{{$item->field2 }}" ><img src="{{$item->field2 }}" >d</a> -->
                    <td>
-                   <td> <img src="{{asset( $item->field2) }}"  width="45" height="75"></td> 
+                   <td> <a href= "{{ asset( $item->field2) }}"  width="45" height="75">photo</a></td> 
                    </td> 
                   
                 </tr>
