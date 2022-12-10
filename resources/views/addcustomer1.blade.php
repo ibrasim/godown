@@ -145,7 +145,7 @@
                    <td> <a href= "{{ asset('storage/'.$item->field2) }}"  width="45" height="75">photo</a></td> 
                    </td>  -->
                    <td>
-                   <td> <a href= "{{ asset('/'.$item->field2) }}"  width="45" height="75">photo</a></td> 
+                   <td> <a target="_blank" href= "{{ asset('/'.$item->field2) }}"  width="45" height="75">photo</a></td> 
                    </td> 
                 
                    <!-- asset('storage/student_img/'.$stud->photo) -->
