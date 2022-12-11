@@ -1,4 +1,4 @@
-@extends('layouts.admin')
+@extends('layouts.app')
 
 @section('content')
 <div class="container">
@@ -75,7 +75,7 @@
                                 <div class="col">
                                      <input type="text" name="socialaccounts" class="form-control" placeholder="social accounts">
                                 </div>
-                               
+                                <div class="col">
                                 <button type="submit" class="btn btn-primary">
                                         {{ __('Add') }}
                                     </button>
@@ -109,9 +109,7 @@
            <thead>
     <tr>
       <th scope="col">Shipping mark </th>
-      <th scope="col">Nick</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
+      
       <th scope="col">Company Name</th>
       <th scope="col">Country</th>
       <th scope="col">Registration</th>
@@ -125,9 +123,7 @@
                               
   <tr>
                    <td>{{$item->shippingmark}}</td>
-                   <td>{{$item->nickname}}</td>
-                   <td>{{$item->fistname}}</td>
-                   <td>{{$item->lastname}}</td>
+                  
                    <td>{{$item->companyname}}</td>
                    <td>{{$item->country}}</td> 
                    <td>{{$item->registration}}</td>
@@ -137,15 +133,15 @@
                    <!-- <td>  <a target="_blank" href= "{{$item->field2 }}">photo</a>   </td>          -->
                   
                    <!-- <a href="{{$item->field2 }}" ><img src="{{$item->field2 }}" >d</a> -->
-                   <td>
+                   
                    <!-- <td> <a href= "{{ asset( $item->field2) }}"  width="45" height="75">photo</a></td>  -->
-                   </td> 
+                   
                   
                    <!-- <td>
                    <td> <a href= "{{ asset('storage/'.$item->field2) }}"  width="45" height="75">photo</a></td> 
                    </td>  -->
-                   <td>
-                   <td> <a target="_blank" href= "{{ asset('/'.$item->field2) }}"  width="45" height="75">photo</a></td> 
+                   
+                   <td> <a target="_blank" href= "{{ asset('/'.$item->field2) }}"  width="45" height="75">photo</a>
                    </td> 
                 
                    <!-- asset('storage/student_img/'.$stud->photo) -->

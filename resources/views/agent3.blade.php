@@ -10,21 +10,6 @@
                 <div class="card-body">
                     
                
-               
-                 <img src="{{ asset('/towel.jpg') }}" />
-                 <h2>   {{ __('MVR 5.00') }}</h2>
-                 <br>
-                 <img src="{{ asset('/displate.jpg') }}" />
-                 <h2>   {{ __('MVR 5.00') }}</h2>
-                 <br>
-                 <img src="{{ asset('/tbrush.jpg') }}" />
-                 <h2>   {{ __('MVR 5.00') }}</h2>
-                 <br>
-                 <img src="{{ asset('/bedsheet.jpg') }}" />
-                 <h2>   {{ __('MVR 5.00') }}</h2>
-                 <br>
-                 <img src="{{ asset('/brusht.jpg') }}" />
-                 <h2>   {{ __('MVR 5.00') }}</h2>
       
       
       

@@ -18,10 +18,7 @@ class customerController extends Controller
         //
     }
 
-    public function export() 
-{
-   return Excel::download(new UsersExport, 'users.xlsx');
-}
+  
     /**
      * Show the form for creating a new resource.
      *
