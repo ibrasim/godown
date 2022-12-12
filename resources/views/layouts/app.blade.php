@@ -73,7 +73,7 @@
                                 <a href="{{route('addcustomer')}}">Customer</a>
                                 </div>
                                 <div>
-                                <a href="{{route('addcustomer')}}">Vendor</a>
+                                <a href="{{route('addvendor')}}">Vendor</a>
                                 </div>
                                 </div>
                                 

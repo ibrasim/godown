@@ -83,4 +83,15 @@ class HomeController extends Controller
               
               return view('addcustomer1',compact('customer'));
             }
+            public function index2()
+            {
+                
+                       
+              
+              return view('addvendor');
+            }
+          
+           
+
+            
 }
