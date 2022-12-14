@@ -143,8 +143,21 @@
                    
                    <td> <a target="_blank" href= "{{ asset('/'.$item->field2) }}"  width="45" height="75">photo</a>
                    </td> 
+                   <td>  <!-- asset('storage/student_img/'.$stud->photo) -->
                 
-                   <!-- asset('storage/student_img/'.$stud->photo) -->
+                
+                
+    <form action="{{ route('delete_customer',$item->id) }}" method="post">
+                         
+                         
+                         @csrf
+                   <button type="submit" value="delete" class="btn btn-danger" > DELETE </button>
+                  
+                  
+                 </form>
+                 </td> 
+                
+                
                 </tr>
  @endforeach 
            </table>
@@ -153,4 +166,5 @@
 
     </div>
     
+
 @endsection

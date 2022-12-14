@@ -92,6 +92,10 @@ class HomeController extends Controller
             }
           
            
-
+            public function destroy($id)
+            {
+                customer::destroy($id);
+              return redirect('home');
+            }
             
 }

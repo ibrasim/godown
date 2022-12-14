@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Models\customer;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -25,3 +25,9 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/addcustomer', [App\Http\Controllers\HomeController::class, 'index1'])->name('addcustomer');
 Route::get('/addvendor', [App\Http\Controllers\HomeController::class, 'index2'])->name('addvendor');
 Route::post('/savecustomer', [App\Http\Controllers\customerController::class, 'store'])->name('savecustomer');
+
+
+
+Route::post('delete_customer/{id}',[App\Http\Controllers\HomeController::class,'destroy'])->name('delete_customer');
+
+
