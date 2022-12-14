@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Models\customer;
+use App\Models\vendor;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -23,11 +25,11 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/addcustomer', [App\Http\Controllers\HomeController::class, 'index1'])->name('addcustomer');
-Route::get('/addvendor', [App\Http\Controllers\HomeController::class, 'index2'])->name('addvendor');
+Route::get('/addvendor', [App\Http\Controllers\vendorscontroller::class, 'index'])->name('addvendor');
 Route::post('/savecustomer', [App\Http\Controllers\customerController::class, 'store'])->name('savecustomer');
-
-
+Route::post('/savevendor', [App\Http\Controllers\vendorscontroller::class, 'store'])->name('savevendor');
 
 Route::post('delete_customer/{id}',[App\Http\Controllers\HomeController::class,'destroy'])->name('delete_customer');
 
+Route::post('delete_vendor/{id}',[App\Http\Controllers\vendorscontroller::class,'destroy'])->name('delete_vendor');
 
