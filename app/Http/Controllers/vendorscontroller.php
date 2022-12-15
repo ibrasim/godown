@@ -69,7 +69,7 @@ class vendorscontroller extends Controller
         $vendor->vendorwebsite = $request->input('vendorwebsite');  
        
        $vendor  ->save();
-       return redirect('/home')->with('success','customer data saved');
+       return redirect('/addvendor')->with('success','customer data saved');
     }
 
     /**

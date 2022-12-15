@@ -56,45 +56,45 @@
                             </div>
                             <div class="form-group row">
                                 <div class="col">
-                                     <input type="text" name="vendorsocialaccount"class="form-control" placeholder="Other Name">
+                                     <input type="text" name="vendorsocialaccount"class="form-control" placeholder="vendorsocialaccount">
                                 </div>
                                 <div class="col">
-                                     <input type="text" name="vendormobile1"class="form-control" placeholder="Social Accounts">
+                                     <input type="text" name="vendormobile1"class="form-control" placeholder="vendormobile1">
                                 </div>
                                 <div class="col">
-                                    <input type="text" name="vendormobile2"class="form-control" placeholder="Mobile 1">
+                                    <input type="text" name="vendormobile2"class="form-control" placeholder="vendormobile2">
                                 </div>
                                 <div class="col">
-                                    <input type="text" name="vendoremail1"class="form-control" placeholder="Mobile 2">
-                                </div>
-                            </div>
-                            <div class="form-group row">
-                                <div class="col">
-                                     <input type="text" name="vendoremail2"class="form-control" placeholder="Email 1">
-                                </div>
-                                <div class="col">
-                                     <input type="text" name="vendorbank"class="form-control" placeholder="Email 2">
-                                </div>
-                                <div class="col">
-                                    <input type="text" name="vendoraccountno1"class="form-control" placeholder="e-mail 2">
-                                </div>
-                                <div class="col">
-                                    <input type="text" name="vendoraccountholdername1"class="form-control" placeholder="e-mail 2">
+                                    <input type="text" name="vendoremail1"class="form-control" placeholder="vendoremail1">
                                 </div>
                             </div>
                             <div class="form-group row">
                                 <div class="col">
-                                     <input type="text" name="vendorbank2" class="form-control" placeholder="Bank 1">
+                                     <input type="text" name="vendoremail2"class="form-control" placeholder=vendoremail2">
                                 </div>
                                 <div class="col">
-                                     <input type="text" name="vendoraccountno2" class="form-control" placeholder="Account Number">
+                                     <input type="text" name="vendorbank"class="form-control" placeholder="vendorbank">
                                 </div>
                                 <div class="col">
-                                     <input type="text" name="vendoraccountholdername2" class="form-control" placeholder="Account Holder Name">
+                                    <input type="text" name="vendoraccountno1"class="form-control" placeholder="vendoraccountno1">
+                                </div>
+                                <div class="col">
+                                    <input type="text" name="vendoraccountholdername1"class="form-control" placeholder="vendoraccountholdername1">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col">
+                                     <input type="text" name="vendorbank2" class="form-control" placeholder="vendorbank2">
+                                </div>
+                                <div class="col">
+                                     <input type="text" name="vendoraccountno2" class="form-control" placeholder="vendoraccountno2">
+                                </div>
+                                <div class="col">
+                                     <input type="text" name="vendoraccountholdername2" class="form-control" placeholder="vendoraccountholdername2">
                                 </div>
                                 
                                 <div class="col">
-                                     <input type="text" name="vendorwebsite" class="form-control" placeholder="Bank 2">
+                                     <input type="text" name="vendorwebsite" class="form-control" placeholder="vendorwebsite">
                                 </div>
                              </div> 
                                 <div class="col">

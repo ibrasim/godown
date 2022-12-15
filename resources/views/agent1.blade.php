@@ -9,8 +9,8 @@
 
                 <div class="card-body">
                     
-               
-                 <h2>   {{ 'Tasks Completed and ready for testing' }}</h2>
+               <div class="bg-primary"><h2>   {{ 'Tasks Completed and ready for testing' }}</h2></div>
+                 
                 </div>
                 <div>
                     <table class="table thead-dark">
@@ -54,7 +54,10 @@
                         </tbody>
                       </table>
                 </div>
-                <h2>   {{ 'Tasks Todo - (in priority order)' }}</h2>
+                <div class="bg-warning">
+                  <h2>   {{ 'Tasks Todo - (in priority order)' }}</h2>
+                </div>
+                
                 <div>
                     <table class="table thead-dark">
                         <thead>

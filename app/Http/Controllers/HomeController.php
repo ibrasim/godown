@@ -31,7 +31,7 @@ class HomeController extends Controller
         {
             
             $user1 = Auth::user()->name;
- if ($user1=='shiya' )
+               if ($user1=='shiya' )
          
                 {      
                 
