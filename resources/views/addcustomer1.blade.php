@@ -1,5 +1,4 @@
 @extends('layouts.app')
-
 @section('content')
 <div class="container">
         <div class="row justify-content-center">
@@ -23,7 +22,7 @@
                                 </div>
                               
                             </div>
-                            <div class="form-group row">
+								<div class="form-group row">
                                 <div class="col">
                                      <input type="text" name="LastName" class="form-control" placeholder="Last Name ">
                                 </div>
@@ -35,7 +34,7 @@
                                 </div>
                               
                             </div>
-                            <div class="form-group row">
+								<div class="form-group row">
                                 <div class="col">
                                      <input type="text" name="Address" class="form-control" placeholder="Address">
                                 </div>
@@ -47,7 +46,7 @@
                                 </div>
                               
                             </div>
-                            <div class="form-group row">
+								<div class="form-group row">
                                 <div class="col">
                                      <input type="text" name="Country"class="form-control" placeholder="Country">
                                 </div>
@@ -59,7 +58,7 @@
                                 </div>
                               
                             </div>
-                            <div class="form-group row">
+								<div class="form-group row">
                                 <div class="col">
                                      <input type="text" name="Mobile"class="form-control" placeholder="Mobile">
                                 </div>
@@ -71,7 +70,7 @@
                                 </div>
                               
                             </div>
-                            <div class="form-group row">
+								<div class="form-group row">
                                 <div class="col">
                                      <input type="text" name="socialaccounts" class="form-control" placeholder="social accounts">
                                 </div>
@@ -81,19 +80,8 @@
                                     </button>
                               
                             </div>
-
+  
                         </form>
-
-
-
-<!--  -->
-
-
-
-
-
-
-<!--  -->
 
                     </div>
                 </div>
@@ -104,67 +92,42 @@
           
          
                 
-           <!-- <table > -->
+				
            <table class="table table-hover">     
            <thead>
-    <tr>
-      <th scope="col">Shipping mark </th>
-      
-      <th scope="col">Company Name</th>
-      <th scope="col">Country</th>
-      <th scope="col">Registration</th>
-      <th scope="col">Mobile</th>
-      <th scope="col">Email</th>
-      <th scope="col">Social Account</th>
-      <th scope="col">photo</th>
-    </tr>
-  </thead>
-   @foreach ($customer as $item) 
+				<tr>
+				  <th scope="col">Shipping mark </th>
+				  <th scope="col">Company Name</th>
+				  <th scope="col">Country</th>
+				  <th scope="col">Registration</th>
+				  <th scope="col">Mobile</th>
+				  <th scope="col">Email</th>
+				  <th scope="col">Social Account</th>
+				  <th scope="col">photo</th>
+				</tr>
+			</thead>
+		@foreach ($customer as $item) 
                               
-  <tr>
-                   <td>{{$item->shippingmark}}</td>
-                  
+				<tr>
+                   <td>{{$item->shippingmark}}</td>      
                    <td>{{$item->companyname}}</td>
                    <td>{{$item->country}}</td> 
                    <td>{{$item->registration}}</td>
                    <td>{{$item->mobile}}</td>
                    <td>{{$item->email1}}</td>
                    <td>{{$item->socialaccounts}}</td>   
-                   <!-- <td>  <a target="_blank" href= "{{$item->field2 }}">photo</a>   </td>          -->
-                  
-                   <!-- <a href="{{$item->field2 }}" ><img src="{{$item->field2 }}" >d</a> -->
-                   
-                   <!-- <td> <a href= "{{ asset( $item->field2) }}"  width="45" height="75">photo</a></td>  -->
-                   
-                  
-                   <!-- <td>
-                   <td> <a href= "{{ asset('storage/'.$item->field2) }}"  width="45" height="75">photo</a></td> 
-                   </td>  -->
-                   
                    <td> <a target="_blank" href= "{{ asset('/'.$item->field2) }}"  width="45" height="75">photo</a>
                    </td> 
-                   <td>  <!-- asset('storage/student_img/'.$stud->photo) -->
-                
-                
-                
-    <form action="{{ route('delete_customer',$item->id) }}" method="post">
+                   <td>
+						<form action="{{ route('delete_customer',$item->id) }}" method="post">
                          
                          
                          @csrf
-                   <button type="submit" value="delete" class="btn btn-danger" > DELETE </button>
-                  
-                  
-                 </form>
-                 </td> 
-                
-                
-                </tr>
- @endforeach 
-           </table>
-            
-        
-
+							<button type="submit" value="delete" class="btn btn-danger" > DELETE </button>
+						</form>             
+                         
+                    </tr>
+	@endforeach 
+           </table>     
     </div>
-    
-
 @endsection
