@@ -74,13 +74,13 @@
 <table class="table table-hover">     
     <thead>
          <tr>
+            <th scope="col">Discard</th>
            <th scope="col">Customer Name </th>
            <th scope="col">Packages</th>
            <th scope="col">Vessel / Vehicle Name</th>
            <th scope="col">Vehicle Number</th>
            <th scope="col">Assigned Date / Time</th>
             <th scope="col">Status</th>
-            <th scope="col">Discard</th>  
             <th scope="col">Update</th>  
           
          </tr>
