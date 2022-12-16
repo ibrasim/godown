@@ -45,9 +45,24 @@
   
                         </form>
 
-                    </div>
+
+                        <div class="card-body">
+                            <form method="GET" action="pending-delivery">
+                                @csrf
+                                <div class="form-group row">
+                                    <div class="col">
+                                        <button type="submit" class="btn btn-warning">
+                                                {{ __('PENDING') }}
+                                            </button>
+                                      
+                                    </div>
+
+
+                                 </div>
       
-      
+                            
+                            </form>
+                        </div>
       
                 </div>
             </div>
@@ -63,31 +78,45 @@
            <th scope="col">Packages</th>
            <th scope="col">Vessel / Vehicle Name</th>
            <th scope="col">Vehicle Number</th>
-           <th scope="col">assigned Daet / Time</th>
-                     
+           <th scope="col">Assigned Date / Time</th>
+            <th scope="col">Status</th>
+            <th scope="col">Discard</th>  
+            <th scope="col">Update</th>  
           
          </tr>
      </thead>
  @foreach ($delivery as $item1) 
                        
          <tr>
+            <td>
+                <form action="{{ route('delete_delivery',$item1->id) }}" method="post"> 
+                                 
+                 @csrf
+
+                 <button type="submit" value="delete" class="btn btn-danger" > DELETE </button>
+               </form>    
+                 
+                    
+                 </td>
             <td>{{$item1->customer}}</td>      
             <td>{{$item1->pkgs}}</td>
             <td>{{$item1->boat}}</td> 
             <td>{{$item1->vehicleno}}</td>
             <td>{{$item1->assignedtime}}</td>
+             <td>{{$item1->status}}</td>
            
             
-            <td>
-                 <form action="{{ route('delete_delivery',$item1->id) }}" method="post"> 
+          
+                    <td>
+                 <form action="{{ route('update_delivery',$item1->id) }}" method="post"> 
                                   
                   @csrf
 
-                  <button type="submit" value="delete" class="btn btn-danger" > DELETE </button>
+                  <button type="submit" value="delete" class="btn btn-success" > UPDATE </button>
                 </form>    
                   
                      
-                  
+                  </td>
                  
                   
              </tr>

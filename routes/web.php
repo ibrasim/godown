@@ -37,3 +37,5 @@ Route::post('delete_vendor/{id}',[App\Http\Controllers\vendorscontroller::class,
 Route::get('/adddelivery', [App\Http\Controllers\DeliveryController::class, 'index'])->name('adddelivery');
 Route::post('delete_delivery/{id}',[App\Http\Controllers\DeliveryController::class,'destroy'])->name('delete_delivery');
 Route::post('/savedelivery', [App\Http\Controllers\DeliveryController::class, 'store'])->name('savedelivery');
+Route::post('update_delivery/{id}',[App\Http\Controllers\DeliveryController::class,'update'])->name('update_delivery');
+Route::get('/pending-delivery', [App\Http\Controllers\DeliveryController::class, 'index4'])->name('pending-delivery');

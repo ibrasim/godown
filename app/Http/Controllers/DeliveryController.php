@@ -15,11 +15,30 @@ class DeliveryController extends Controller
      */
     public function index()
     {
-        $delivery = delivery::all();
-               
-              
+        $delivery = delivery::orderByDesc('id')->get();
+        // orderBy('id', 'DESC')
+        // $posts = Post::orderBy('id', 'DESC')->get();
+        // orderBy('created_at', 'desc')
+        // $posts = Post::orderBy('name')->get();
+        // $posts = Post::orderByDesc('name')->get();         
         return view('agent4',compact('delivery'));
     }
+
+    public function index4()
+    {
+        $inst=null;
+        $delivery = delivery::where ('status',$inst)->orderByDesc('id')->get();
+
+
+
+
+
+        return view('agent4',compact('delivery'));
+    }
+
+
+
+    
 
     /**
      * Show the form for creating a new resource.
@@ -70,7 +89,7 @@ class DeliveryController extends Controller
      */
     public function edit(delivery $delivery)
     {
-        //
+
     }
 
     /**
@@ -80,11 +99,21 @@ class DeliveryController extends Controller
      * @param  \App\Models\delivery  $delivery
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, delivery $delivery)
+    
+//    
+    public function update(Request $request, $id)
     {
-        //
+        $upd="DELIVERED";
+        $delivery = delivery::find($id);
+        $delivery->status =  $upd;
+        $delivery->save();
+        return redirect('adddelivery');
+        
+        
     }
-
+   
+   
+    
     /**
      * Remove the specified resource from storage.
      *
