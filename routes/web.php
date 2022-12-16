@@ -33,3 +33,7 @@ Route::post('delete_customer/{id}',[App\Http\Controllers\HomeController::class,'
 
 Route::post('delete_vendor/{id}',[App\Http\Controllers\vendorscontroller::class,'destroy'])->name('delete_vendor');
 
+
+Route::get('/adddelivery', [App\Http\Controllers\DeliveryController::class, 'index'])->name('adddelivery');
+Route::post('delete_delivery/{id}',[App\Http\Controllers\DeliveryController::class,'destroy'])->name('delete_delivery');
+Route::post('/savedelivery', [App\Http\Controllers\DeliveryController::class, 'store'])->name('savedelivery');

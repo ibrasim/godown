@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\customer;
+use App\Models\delivery;
 use Illuminate\Support\Facades\Auth;  // used to check if user is logged in (Auth())
 use Illuminate\Http\Request;
 
@@ -55,6 +56,17 @@ class HomeController extends Controller
                 {                     
                   return view('agent3');
                 }
+                if ($user1=='Ahmed' )
+         
+                {            
+                  $delivery = delivery::all();
+               
+              
+                  return view('agent4',compact('delivery'));         
+                  
+                  
+
+                }
                 else
                 {
                    //return 'please login';
@@ -91,11 +103,25 @@ class HomeController extends Controller
               return view('addvendor');
             }
           
+   
+            public function index3()
+            {
+                
+              $delivery = delivery::all();
+               
+              
+              return view('agent4',compact('delivery'));
+            }
            
+   
+   
+   
             public function destroy($id)
             {
                 customer::destroy($id);
               return redirect('home');
             }
+
+           
             
 }
