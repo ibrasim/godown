@@ -113,6 +113,15 @@
                             
                           </tr>
                           </tr>
+                          <tr>
+                            <th scope="row">6</th>
+                            
+                            <td>to include "Shipment Open" and "Shipment Close" procedure in the system</td>
+                            <td>TO DO</td>
+                            <td>discussed on 17 dec </td>
+                            
+                          </tr>
+                          </tr>
                         </tbody>
                       </table>
                 </div>

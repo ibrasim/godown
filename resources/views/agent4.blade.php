@@ -15,6 +15,10 @@
                           
                             <div class="form-group row">
                                 <div class="col">
+                                    <input type="text"  name="shopname" class="form-control" placeholder="Shop Name">
+                               </div>
+
+                                <div class="col">
                                      <input type="text"  name="customer" class="form-control" placeholder="Customer">
                                 </div>
                                 <div class="col">
@@ -75,9 +79,11 @@
     <thead>
          <tr>
             <th scope="col">Discard</th>
+            <th scope="col">Shop Name</th>
            <th scope="col">Customer Name </th>
            <th scope="col">Packages</th>
            <th scope="col">Vessel / Vehicle Name</th>
+           <th scope="col">Reverse</th>
            <th scope="col">Vehicle Number</th>
            <th scope="col">Assigned Date / Time</th>
             <th scope="col">Status</th>
@@ -93,14 +99,25 @@
                                  
                  @csrf
 
-                 <button type="submit" value="delete" class="btn btn-danger" > DELETE </button>
+                 <button type="submit" value="delete" class="btn btn-secondary" > DELETE </button>
                </form>    
                  
                     
                  </td>
+            <td>{{$item1->completetime}}</td>      
             <td>{{$item1->customer}}</td>      
             <td>{{$item1->pkgs}}</td>
             <td>{{$item1->boat}}</td> 
+            <td>
+                <form action="{{ route('update_reverse',$item1->id) }}" method="post"> 
+                                 
+                 @csrf
+
+                 <button type="submit" value="delete" class="btn btn-danger" > UNDO </button>
+               </form>    
+                 
+                    
+                 </td>
             <td>{{$item1->vehicleno}}</td>
             <td>{{$item1->assignedtime}}</td>
              <td>{{$item1->status}}</td>

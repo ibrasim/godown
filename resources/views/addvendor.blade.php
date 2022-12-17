@@ -8,6 +8,7 @@
 						<form method="POST" action="savevendor">
                             @csrf                 
                             <div class="form-group row">
+                                
                                 <div class="col">
                                      <input type="text"  name="vendorname" class="form-control" placeholder="Shop / Company / Individual Name">
                                 </div>

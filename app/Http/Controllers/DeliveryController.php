@@ -65,6 +65,7 @@ class DeliveryController extends Controller
         $delivery->boat = $request->input('boat');     
         $delivery->vehicleno = $request->input('vehicleno');     
         $delivery->assignedtime = $request->input('assigntime');     
+        $delivery->completetime = $request->input('shopname');     
         
         $delivery ->save();
        return redirect('/adddelivery')->with('success','delivery data saved');
@@ -113,6 +114,18 @@ class DeliveryController extends Controller
     }
    
    
+
+    public function reverse(Request $request, $id)
+    {
+        $upd= null;
+        $delivery = delivery::find($id);
+        $delivery->status =  $upd;
+        $delivery->save();
+        return redirect('adddelivery');
+        
+        
+    }
+
     
     /**
      * Remove the specified resource from storage.
