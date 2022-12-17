@@ -83,10 +83,13 @@
            <th scope="col">Customer Name </th>
            <th scope="col">Packages</th>
            <th scope="col">Vessel / Vehicle Name</th>
-           <th scope="col">Reverse</th>
+           
            <th scope="col">Vehicle Number</th>
-           <th scope="col">Assigned Date / Time</th>
-            <th scope="col">Status</th>
+           <th scope="col">Action</th>
+           
+           <th scope="col">Assigned /Start / Finish  Time</th>
+          
+            
             <th scope="col">Update</th>  
           
          </tr>
@@ -108,19 +111,20 @@
             <td>{{$item1->customer}}</td>      
             <td>{{$item1->pkgs}}</td>
             <td>{{$item1->boat}}</td> 
+          
+            <td>{{$item1->vehicleno}}</td>
             <td>
-                <form action="{{ route('update_reverse',$item1->id) }}" method="post"> 
+                <form action="{{ route('complete_delivery',$item1->id) }}" method="post"> 
                                  
                  @csrf
 
-                 <button type="submit" value="delete" class="btn btn-danger" > UNDO </button>
+                 <button type="submit" value="delete" class="btn btn-warning" > Finish Delivery </button>
                </form>    
                  
                     
                  </td>
-            <td>{{$item1->vehicleno}}</td>
             <td>{{$item1->assignedtime}}</td>
-             <td>{{$item1->status}}</td>
+           
            
             
           
@@ -129,7 +133,7 @@
                                   
                   @csrf
 
-                  <button type="submit" value="delete" class="btn btn-success" > UPDATE </button>
+                  <button type="submit" value="delete" class="btn btn-success" > Start Delivery </button>
                 </form>    
                   
                      

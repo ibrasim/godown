@@ -27,7 +27,8 @@ class DeliveryController extends Controller
     public function index4()
     {
         $inst=null;
-        $delivery = delivery::where ('status',$inst)->orderByDesc('id')->get();
+        // $delivery = delivery::where ('status',$inst)->orderByDesc('id')->get();
+        $delivery = delivery::orderByDesc('id')->get();
 
 
 
@@ -58,13 +59,15 @@ class DeliveryController extends Controller
      */
     public function store(Request $request)
     {
+        $upd2 = date('m/d/Y h:i:s a', time());    
         $delivery = new delivery();
    
         $delivery->customer = $request->input('customer');     
         $delivery->pkgs = $request->input('packages');     
         $delivery->boat = $request->input('boat');     
         $delivery->vehicleno = $request->input('vehicleno');     
-        $delivery->assignedtime = $request->input('assigntime');     
+        $delivery->assignedtime =  $upd2; 
+        
         $delivery->completetime = $request->input('shopname');     
         
         $delivery ->save();
@@ -104,22 +107,46 @@ class DeliveryController extends Controller
 //    
     public function update(Request $request, $id)
     {
-        $upd="DELIVERED";
+        
+        // $upd="DELIVERED";
+        $upd = date('m/d/Y h:i:s a', time());
+        // $upd="DELIVERED";
+
         $delivery = delivery::find($id);
-        $delivery->status =  $upd;
+        $delivery->assignedtime=$delivery->assignedtime.$upd;
         $delivery->save();
         return redirect('adddelivery');
         
         
     }
+
+    public function complete(Request $request, $id)
+    {
+        
+        // $upd="DELIVERED";
+        $upd = date('m/d/Y h:i:s a', time());
+        // $upd="DELIVERED";
+
+        $delivery = delivery::find($id);
+        // $delivery->remarks = $delivery-> assignedtime. $upd;
+        $delivery->assignedtime=$delivery->assignedtime.$upd;
+        $delivery->save();
+        return redirect('adddelivery');
+        
+        
+    }
+    
    
    
 
     public function reverse(Request $request, $id)
     {
         $upd= null;
+        $upd1= null;
+
         $delivery = delivery::find($id);
         $delivery->status =  $upd;
+        $delivery->remarks =  $upd1;
         $delivery->save();
         return redirect('adddelivery');
         
