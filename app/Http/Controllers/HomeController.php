@@ -56,7 +56,7 @@ class HomeController extends Controller
                 {                     
                   return view('agent3');
                 }
-                if ($user1=='Ahmed' )
+                if ($user1=='Ahmed'  or $user1=='Ali' )
          
                 {            
                   $delivery = delivery::all();
