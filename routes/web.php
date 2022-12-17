@@ -38,4 +38,9 @@ Route::get('/adddelivery', [App\Http\Controllers\DeliveryController::class, 'ind
 Route::post('delete_delivery/{id}',[App\Http\Controllers\DeliveryController::class,'destroy'])->name('delete_delivery');
 Route::post('/savedelivery', [App\Http\Controllers\DeliveryController::class, 'store'])->name('savedelivery');
 Route::post('update_delivery/{id}',[App\Http\Controllers\DeliveryController::class,'update'])->name('update_delivery');
+
 Route::get('/pending-delivery', [App\Http\Controllers\DeliveryController::class, 'index4'])->name('pending-delivery');
+
+
+ Route::get('/addtracking', [App\Http\Controllers\TrackingController::class, 'index'])->name('addtracking');
+ Route::post('/savetracking', [App\Http\Controllers\TrackingController::class, 'store'])->name('savetracking');

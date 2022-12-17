@@ -75,6 +75,9 @@
                                 <div>
                                 <a href="{{route('addvendor')}}">Vendor</a>
                                 </div>
+                                <div>
+                                    <a href="{{route('addtracking')}}">Tracking</a>
+                                    </div>
                                 </div>
                                 
                             </li>
