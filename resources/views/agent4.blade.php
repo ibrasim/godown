@@ -62,7 +62,7 @@
                                     <div class="form-group row">
                                         <div class="col">
                                             <button type="submit" class="btn btn-warning">
-                                                    {{ __('PKG ORDER BY') }}
+                                                    {{ __('CUSTOMER ORDERED') }}
                                                 </button>
                                           
                                         </div>

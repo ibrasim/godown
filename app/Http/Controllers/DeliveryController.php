@@ -28,7 +28,7 @@ class DeliveryController extends Controller
     {
         $inst=null;
         // $delivery = delivery::where ('status',$inst)->orderByDesc('id')->get();
-        $delivery = delivery::orderByDesc('pkgs')->get();
+        $delivery = delivery::orderBy('customer')->get();
 
 
 
