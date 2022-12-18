@@ -28,7 +28,7 @@ class DeliveryController extends Controller
     {
         $inst=null;
         // $delivery = delivery::where ('status',$inst)->orderByDesc('id')->get();
-        $delivery = delivery::orderByDesc('id')->get();
+        $delivery = delivery::orderByDesc('pkgs')->get();
 
 
 
@@ -59,16 +59,29 @@ class DeliveryController extends Controller
      */
     public function store(Request $request)
     {
-        $upd2 = date('m/d/Y h:i:s a', time());    
+        // $upd2 = date('m/d/Y h:i:s a', time());    
+        // $upd2 = date('m/d/Y');
+
+        // date_default_timezone_set("Asia/Calcutta");
+        date_default_timezone_set("Asia/Tashkent");
+        
+        // $upd2 = date("d-m-y h:i:s"); 
+        $upd2 = date("d-m-y h:i"); 
+        
+
+
+        
+        
+        
         $delivery = new delivery();
    
         $delivery->customer = $request->input('customer');     
         $delivery->pkgs = $request->input('packages');     
         $delivery->boat = $request->input('boat');     
         $delivery->vehicleno = $request->input('vehicleno');     
-        $delivery->assignedtime =  $upd2; 
+        $delivery->assignedtime =  $upd2."|"; 
         
-        $delivery->completetime = $request->input('shopname');     
+        // $delivery->completetime = $request->input('shopname');     
         
         $delivery ->save();
        return redirect('/adddelivery')->with('success','delivery data saved');
@@ -107,13 +120,13 @@ class DeliveryController extends Controller
 //    
     public function update(Request $request, $id)
     {
-        
+        date_default_timezone_set("Asia/Tashkent");
         // $upd="DELIVERED";
-        $upd = date('m/d/Y h:i:s a', time());
+        $upd = date('d/m/Y h:i', time());
         // $upd="DELIVERED";
 
         $delivery = delivery::find($id);
-        $delivery->assignedtime=$delivery->assignedtime.$upd;
+        $delivery->assignedtime=$delivery->assignedtime.$upd."|"; ;
         $delivery->save();
         return redirect('adddelivery');
         
@@ -122,14 +135,14 @@ class DeliveryController extends Controller
 
     public function complete(Request $request, $id)
     {
-        
+        date_default_timezone_set("Asia/Tashkent");
         // $upd="DELIVERED";
-        $upd = date('m/d/Y h:i:s a', time());
+        $upd = date('d/m/Y h:i', time());
         // $upd="DELIVERED";
 
         $delivery = delivery::find($id);
         // $delivery->remarks = $delivery-> assignedtime. $upd;
-        $delivery->assignedtime=$delivery->assignedtime.$upd;
+        $delivery->assignedtime=$delivery->assignedtime.$upd."|"; ;
         $delivery->save();
         return redirect('adddelivery');
         

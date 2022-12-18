@@ -15,58 +15,64 @@
                           
                             <div class="form-group row">
                                 <div class="col">
-                                    <input type="text"  name="shopname" class="form-control" placeholder="Shop Name">
+                                    <label for="exampleInputEmail1">Shop Name</label>
+                                    <input type="text"  name="shopname" class="form-control" >
                                </div>
-
-                                <div class="col">
-                                     <input type="text"  name="customer" class="form-control" placeholder="Customer">
-                                </div>
-                                <div class="col">
-                                     <input type="text" name="packages" class="form-control" placeholder="packages">
-                                </div>
-                                <div class="col">
-                                    <input type="text" name="boat"class="form-control" placeholder="boat Name ">
-                                </div>
-                              
-                                <div class="col">
-                                    <input type="text" name="vehicleno" class="form-control" placeholder="vehicleno ">
-                               </div>
-                           
                                <div class="col">
-                                <input type="text" name="assigntime" class="form-control" placeholder="assig datae & time">
-                           </div>
-                       
-                   
-                              
-                           
-						
+                                <label for="exampleInputEmail1">Customer Name</label>
+                                 <input type="text"  name="customer" class="form-control">
+                                </div>
                                 <div class="col">
+                                    <label for="exampleInputEmail1">Packages</label>
+                                     <input type="text" name="packages" class="form-control" >
+                                </div>
+                            </div>
+                       
+                                
+                            <div class="form-group row">
+                               
+                                <div class="col">
+                                    <label for="exampleInputEmail1">Vessel Name</label>
+                                    <input type="text" name="boat"class="form-control" >
+                                </div>    
+                                <div class="col">
+                                    <label for="exampleInputEmail1">Vehicle Number</label>
+                                    <input type="text" name="vehicleno" class="form-control" >
+                               </div>
+                            
+                               <div class="col">
                                 <button type="submit" class="btn btn-primary">
                                         {{ __('Add') }}
                                     </button>
                               
                             </div>
-  
+                            </div>
+
+                          
                         </form>
 
-
-                        <div class="card-body">
-                            <form method="GET" action="pending-delivery">
-                                @csrf
-                                <div class="form-group row">
-                                    <div class="col">
-                                        <button type="submit" class="btn btn-warning">
-                                                {{ __('PENDING') }}
-                                            </button>
-                                      
-                                    </div>
-
-
-                                 </div>
-      
+                        <div class="form-group row">
                             
-                            </form>
+                               
+                             
+                               
+                            <div class="col">
+                                <form method="GET" action="pending-delivery">
+                                    @csrf
+                                    <div class="form-group row">
+                                        <div class="col">
+                                            <button type="submit" class="btn btn-warning">
+                                                    {{ __('PKG ORDEREDED') }}
+                                                </button>
+                                          
+                                        </div>
+                                     </div>
+                                </form>
+                            </div>
+
+                            
                         </div>
+                     
       
                 </div>
             </div>
@@ -78,11 +84,12 @@
 <table class="table table-hover">     
     <thead>
          <tr>
-            <th scope="col">Discard</th>
-            <th scope="col">Shop Name</th>
-           <th scope="col">Customer Name </th>
+            <th scope="col">Action</th>
+            <th scope="col">ID</th>
+            <th scope="col">Shop</th>
+           <th scope="col">Customer</th>
            <th scope="col">Packages</th>
-           <th scope="col">Vessel / Vehicle Name</th>
+           <th scope="col">Vessel</th>
            
            <th scope="col">Vehicle Number</th>
            <th scope="col">Action</th>
@@ -107,6 +114,7 @@
                  
                     
                  </td>
+                 <td>{{$item1->id}}</td>      
             <td>{{$item1->completetime}}</td>      
             <td>{{$item1->customer}}</td>      
             <td>{{$item1->pkgs}}</td>
