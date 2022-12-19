@@ -15,14 +15,34 @@ class DeliveryController extends Controller
      */
     public function index()
     {
-        $delivery = delivery::orderByDesc('id')->get();
+        
+        //$delivery = delivery::orderByDesc('id')->where('assignedtime' ,'=', '19-12')->get(); 
+        //$delivery5 = delivery::orderByDesc('id')->get();
+        //$deliv =  strlen($delivery5->assignedtime);
+
+        
+
+        
+        $delivery = delivery::orderByDesc('id')->where('status','=' ,null)->get();
+        
+        //$delivery = delivery::orderByDesc('id')->get();
         // orderBy('id', 'DESC')
         // $posts = Post::orderBy('id', 'DESC')->get();
         // orderBy('created_at', 'desc')
         // $posts = Post::orderBy('name')->get();
         // $posts = Post::orderByDesc('name')->get();         
         return view('agent4',compact('delivery'));
+     
+
+
     }
+
+
+    public function index9()
+    {
+        return view('receivegood');
+    }
+
 
     public function index4()
     {
@@ -67,11 +87,7 @@ class DeliveryController extends Controller
         
         // $upd2 = date("d-m-y h:i:s"); 
         $upd2 = date("d-m-y h:i"); 
-        
-
-
-        
-        
+            
         
         $delivery = new delivery();
    
@@ -80,6 +96,7 @@ class DeliveryController extends Controller
         $delivery->boat = $request->input('boat');     
         $delivery->vehicleno = $request->input('vehicleno');     
         $delivery->assignedtime =  $upd2."|"; 
+        $delivery->completetime =  $request->input('shopname');     
         
         // $delivery->completetime = $request->input('shopname');     
         
@@ -93,9 +110,29 @@ class DeliveryController extends Controller
      * @param  \App\Models\delivery  $delivery
      * @return \Illuminate\Http\Response
      */
-    public function show(delivery $delivery)
+     public function show(delivery $delivery,$id)
+     
     {
-        //
+    //  return  delivery::find($id);
+    $data = delivery::find($id);
+    return view('agent5',['data'=>$data]);
+        
+    }
+
+    public function edit2(Request  $req)
+    {
+
+        $da=delivery::find($req->id);
+         $da->customer=$req->input('customer');
+         $da->boat=$req->input('boat');
+         $da->assignedtime=$req->input('assignedtime');
+         $da->status=$req->input('status');
+        //$data->assignedtime='assignedtime';
+        $da->save();
+        return redirect('adddelivery');
+ //return redirect('adddelivery');
+ 
+
     }
 
     /**
@@ -104,9 +141,9 @@ class DeliveryController extends Controller
      * @param  \App\Models\delivery  $delivery
      * @return \Illuminate\Http\Response
      */
-    public function edit(delivery $delivery)
+    public function edit(delivery $delivery,$request)
     {
-
+return $request->input();
     }
 
     /**
@@ -140,9 +177,11 @@ class DeliveryController extends Controller
         $upd = date('d/m/Y h:i', time());
         // $upd="DELIVERED";
 
+        $completestatus='completed';
         $delivery = delivery::find($id);
         // $delivery->remarks = $delivery-> assignedtime. $upd;
         $delivery->assignedtime=$delivery->assignedtime.$upd."|"; ;
+        $delivery->status=$completestatus;
         $delivery->save();
         return redirect('adddelivery');
         

@@ -53,7 +53,10 @@
 
                         <div class="form-group row">
                             
-                               
+                            
+                            
+                            
+                            
                              
                                
                             <div class="col">
@@ -70,12 +73,26 @@
                                 </form>
                             </div>
 
+                           
+
+                            
+
+
+
+
+
                             
                         </div>
                      
       
                 </div>
             </div>
+
+
+
+
+
+            
         </div>
     </div>
 </div>
@@ -88,6 +105,7 @@
             <th scope="col">ID</th>
             <th scope="col">Shop</th>
            <th scope="col">Customer</th>
+           <th scope="col">Update</th>
            <th scope="col">Packages</th>
            <th scope="col">Vessel</th>
            
@@ -117,6 +135,10 @@
                  <td>{{$item1->id}}</td>      
             <td>{{$item1->completetime}}</td>      
             <td>{{$item1->customer}}</td>      
+            <td><a href={{ "show_delivery/".$item1['id'] }}>Edit</td>
+
+
+
             <td>{{$item1->pkgs}}</td>
             <td>{{$item1->boat}}</td> 
           
