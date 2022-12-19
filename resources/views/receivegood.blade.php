@@ -118,6 +118,7 @@
             <th scope="col">Delivered ID</th>
             <th scope="col">Mode</th>
             <th scope="col">Date</th>
+            <th scope="col">time</th>
             <th scope="col">Type</th>
             <th scope="col">Cargo</th>
             <th scope="col">Packages</th>
@@ -141,6 +142,7 @@
                    <td>{{$item->deliverystaffid}}</td>      
                    <td>{{$item->modeoftransport}}</td>      
                    <td>{{$item->receivedate}}</td>      
+                   <td>{{$item->receivetime}}</td>      
                    <td>{{$item->cargotype}}</td>      
                    <td>{{$item->packagetype}}</td>    
                    <td>{{$item->noofpkgs}}</td>    
