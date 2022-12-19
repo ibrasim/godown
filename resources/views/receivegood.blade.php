@@ -7,49 +7,49 @@
                     <!-- <div class="card-header">{{ __('Receive Goods for Export') }}</div> -->
 
                     <div class="card-body">
-                        <form method="POST" action="savedelivery">
+                        <form method="" action="">
                             @csrf
                           
                             <div class="form-group row">
                                 <div class="col">
-                                    <label for="exampleInputEmail1">Consignment No</label>
-                                    <input type="text"  name="shopname" class="form-control" >
+                                    <label for="exampleInputEmail1">Customer code</label>
+                                    <input type="text"  name="customercode" class="form-control" >
                                </div>
                                <div class="col">
-                                <label for="exampleInputEmail1">Customer ID / Name</label>
-                                 <input type="text"  name="customer" class="form-control">
+                                <label for="exampleInputEmail1">Customer name</label>
+                                 <input type="text"  name="customername" class="form-control">
                                 </div>
                                 <div class="col">
-                                    <label for="exampleInputEmail1">Supplier ID / Name</label>
-                                     <input type="text" name="packages" class="form-control" >
+                                    <label for="exampleInputEmail1">Supplier code</label>
+                                     <input type="text" name="suppliercode" class="form-control" >
                                 </div>
                                 <div class="col">
-                                    <label for="exampleInputEmail1" placeholder="Shipping Mark">Current Address</label>
-                                     <input type="text" name="packages" class="form-control" >
+                                    <label for="exampleInputEmail1" placeholder="Shipping Mark">supplier name</label>
+                                     <input type="text" name="suppliername" class="form-control" >
                                 </div>
                                 <div class="col">
-                                    <label for="exampleInputEmail1">Primary Contact</label>
-                                     <input type="text" name="packages" class="form-control" >
+                                    <label for="exampleInputEmail1">Delivery staff name</label>
+                                     <input type="text" name="deliverystaffname" class="form-control" >
                                 </div>
 
                                 <div class="col">
-                                    <label for="exampleInputEmail1">Current Phone</label>
-                                     <input type="text" name="packages" class="form-control" >
+                                    <label for="exampleInputEmail1">Delivery staff ID</label>
+                                     <input type="text" name="deliverystaffid" class="form-control" >
                                 </div>
                             </div>
 
                             <div class="form-group row">
                                 <div class="col">
-                                    <label for="exampleInputEmail1">Delivery Staff Name</label>
-                                    <input type="text"  name="shopname" class="form-control" >
+                                    <label for="exampleInputEmail1">Goods receive date</label>
+                                    <input type="text"  name="goodsrecievedate" class="form-control" >
                                </div>
                                <div class="col">
-                                <label for="exampleInputEmail1">Delivery Staff ID</label>
-                                 <input type="text"  name="customer" class="form-control">
+                                <label for="exampleInputEmail1">Goods receive time</label>
+                                 <input type="text"  name="goodsreceivetime" class="form-control">
                                 </div>
                                 <div class="col">
-                                    <label for="exampleInputEmail1">Mode of Transport</label>
-                                     <input type="text" name="packages" class="form-control" >
+                                    <label for="exampleInputEmail1">Package Type</label>
+                                     <input type="text" name="packagetype" class="form-control" >
                                 </div>
                                 <div class="col">
                                     <label for="exampleInputEmail1">Arrived Date / Time</label>
@@ -70,27 +70,43 @@
                                
                                 <div class="col">
                                     <label for="exampleInputEmail1">No of Packages</label>
-                                     <input type="text" name="packages" class="form-control" >
+                                     <input type="text" name="noofpkg" class="form-control" >
                                 </div>
                                 <div class="col">
                                     <label for="exampleInputEmail1">Total Weight</label>
-                                     <input type="text" name="packages" class="form-control" >
+                                     <input type="text" name="weight" class="form-control" >
                                 </div>
                                 <div class="col">
-                                    <label for="exampleInputEmail1">Total Weigt</label>
-                                     <input type="text" name="packages" class="form-control" >
+                                    <label for="exampleInputEmail1">location</label>
+                                     <input type="text" name="locatio" class="form-control" >
                                 </div>
                                 <div class="col">
-                                    <label for="exampleInputEmail1">Total Weigt</label>
-                                     <input type="text" name="packages" class="form-control" >
+                                    <label for="exampleInputEmail1">staffid</label>
+                                     <input type="text" name="staffid" class="form-control" >
                                 </div>
+
+                                <div class="col">
+                                    <button type="submit" class="btn btn-primary">
+                                            {{ __('Add') }}
+                                        </button>
+                                  
+                                </div>
+                                <div class="col">
+                                    <button type="submit" class="btn btn-primary">
+                                            {{ __('Show') }}
+                                        </button>
+                                  
+                                </div>
+
+
+
                             </div>
 
 
                         </div>
                     </div>
-                </div>
-            </div>
+
+
 
 
 
@@ -98,44 +114,52 @@
 
         </div>
     </div>
+
+    
+<table class="table table-hover">     
+    <thead>
+         <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Name</th>
+            <th scope="col">Delivered</th>
+            <th scope="col">Delivered ID</th>
+            <th scope="col">Mode</th>
+            <th scope="col">Date</th>
+            <th scope="col">Type</th>
+            <th scope="col">Cargo</th>
+            <th scope="col">Packages</th>
+            <th scope="col">Weight</th>
+            <th scope="col">Location</th>
+            <th scope="col">Status</th>
+          
+         </tr>
+     </thead>
          
-                {{-- @foreach ($customer as $item) 
+                @foreach ($goods as $item) 
 				
-           <table class="table table-hover">     
-           <thead>
-				<tr>
-				  <th scope="col">Shipping mark </th>
-				  <th scope="col">Company Name</th>
-				  <th scope="col">Country</th>
-				  <th scope="col">Registration</th>
-				  <th scope="col">Mobile</th>
-				  <th scope="col">Email</th>
-				  <th scope="col">Social Account</th>
-				  <th scope="col">photo</th>
-				</tr>
-			</thead>
+        
 		
                               
 				<tr>
-                   <td>{{$item->shippingmark}}</td>      
-                   <td>{{$item->companyname}}</td>
-                   <td>{{$item->country}}</td> 
-                   <td>{{$item->registration}}</td>
-                   <td>{{$item->mobile}}</td>
-                   <td>{{$item->email1}}</td>
-                   <td>{{$item->socialaccounts}}</td>   
-                   <td> <a target="_blank" href= "{{ asset('/'.$item->field2) }}"  width="45" height="75">photo</a>
-                   </td> 
-                   <td>
-						<form action="{{ route('delete_customer',$item->id) }}" method="post">
-                         
-                         
-                         @csrf
-							<button type="submit" value="delete" class="btn btn-danger" > DELETE </button>
-						</form>             
-                         
+                   <td>{{$item->id}}</td>      
+                   <td>{{$item->customername}}</td>      
+                   <td>{{$item->suppliername}}</td>      
+                   <td>{{$item->deliverystaffname}}</td>      
+                   <td>{{$item->deliverystaffid}}</td>      
+                   <td>{{$item->modeoftransport}}</td>      
+                   <td>{{$item->receivedate}}</td>      
+                   <td>{{$item->cargotype}}</td>      
+                   <td>{{$item->packagetype}}</td>    
+                   <td>{{$item->noofpkgs}}</td>    
+                   <td>{{$item->weight}}</td>    
+                   <td>{{$item->location}}</td>      
+                   <td>{{$item->status}}</td>      
+
+                
+                 
                     </tr>
 	@endforeach 
-           </table>      --}}
+           </table>      
     </div>
 @endsection

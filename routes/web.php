@@ -56,4 +56,8 @@ Route::get('/pending-delivery', [App\Http\Controllers\DeliveryController::class,
 
 
   
- Route::get('/receivegood', [App\Http\Controllers\DeliveryController::class, 'index9'])->name('receivegood');
+ Route::get('/receivegood', [App\Http\Controllers\GoodsreceiveController::class, 'index'])->name('receivegood');
+
+
+
+ 
