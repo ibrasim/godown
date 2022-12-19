@@ -7,7 +7,7 @@
                     <!-- <div class="card-header">{{ __('Receive Goods for Export') }}</div> -->
 
                     <div class="card-body">
-                        <form method="" action="">
+                        <form method="POST" action="savereceivegood">
                             @csrf
                           
                             <div class="form-group row">
@@ -40,34 +40,22 @@
 
                             <div class="form-group row">
                                 <div class="col">
-                                    <label for="exampleInputEmail1">Goods receive date</label>
-                                    <input type="text"  name="goodsrecievedate" class="form-control" >
+                                    <label for="exampleInputEmail1">Mode of Transport</label>
+                                    <input type="text"  name="modeoftransport" class="form-control" >
                                </div>
                                <div class="col">
                                 <label for="exampleInputEmail1">Goods receive time</label>
                                  <input type="text"  name="goodsreceivetime" class="form-control">
                                 </div>
                                 <div class="col">
-                                    <label for="exampleInputEmail1">Package Type</label>
-                                     <input type="text" name="packagetype" class="form-control" >
+                                    <label for="exampleInputEmail1">type of Cago</label>
+                                     <input type="text" name="typeofcargo" class="form-control" >
                                 </div>
-                                <div class="col">
-                                    <label for="exampleInputEmail1">Arrived Date / Time</label>
-                                     <input type="text" name="packages" class="form-control" >
-                                </div>
+                                
                                 <div class="col">
                                     <label for="exampleInputEmail1">Type of Package</label>
-                                    <input type="text"  name="shopname" class="form-control" >
+                                    <input type="text"  name="packagetype" class="form-control" >
                                </div>
-                               <div class="col">
-                                <label for="exampleInputEmail1">Type of Cargo</label>
-                                 <input type="text"  name="customer" class="form-control">
-                                </div>
-                            </div>
-
-                            <div class="form-group row">
-                               
-                               
                                 <div class="col">
                                     <label for="exampleInputEmail1">No of Packages</label>
                                      <input type="text" name="noofpkg" class="form-control" >
@@ -76,9 +64,17 @@
                                     <label for="exampleInputEmail1">Total Weight</label>
                                      <input type="text" name="weight" class="form-control" >
                                 </div>
+                              
+                            </div>
+
+                            <div class="form-group row">
+                               
+                               
+                               
+                               
                                 <div class="col">
                                     <label for="exampleInputEmail1">location</label>
-                                     <input type="text" name="locatio" class="form-control" >
+                                     <input type="text" name="location" class="form-control" >
                                 </div>
                                 <div class="col">
                                     <label for="exampleInputEmail1">staffid</label>
@@ -87,21 +83,17 @@
 
                                 <div class="col">
                                     <button type="submit" class="btn btn-primary">
-                                            {{ __('Add') }}
+                                            {{ __('Save') }}
                                         </button>
                                   
                                 </div>
-                                <div class="col">
-                                    <button type="submit" class="btn btn-primary">
-                                            {{ __('Show') }}
-                                        </button>
-                                  
-                                </div>
+                               
+                              
 
 
 
                             </div>
-
+                        </form>
 
                         </div>
                     </div>
@@ -163,3 +155,10 @@
            </table>      
     </div>
 @endsection
+
+
+
+{{--  --}}
+
+
+{{-- https://stackoverflow.com/questions/26146719/use-laravel-to-download-table-as-csv --}}

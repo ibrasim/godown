@@ -57,7 +57,7 @@ Route::get('/pending-delivery', [App\Http\Controllers\DeliveryController::class,
 
   
  Route::get('/receivegood', [App\Http\Controllers\GoodsreceiveController::class, 'index'])->name('receivegood');
-
+ Route::post('/savereceivegood', [App\Http\Controllers\GoodsreceiveController::class, 'store'])->name('savereceivegood');
 
 
  

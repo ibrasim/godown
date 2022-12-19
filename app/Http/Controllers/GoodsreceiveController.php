@@ -38,7 +38,34 @@ class GoodsreceiveController extends Controller
      */
     public function store(Request $request)
     {
-        //
+
+        $goodsreceive = new goodsreceive();
+        // $upd2 = date('m/d/Y h:i:s a', time());    
+        // $upd2 = date('m/d/Y');
+        // date_default_timezone_set("Asia/Calcutta");
+        date_default_timezone_set("Asia/Tashkent");
+        // $upd2 = date("d-m-y h:i:s"); 
+        $upd2 = date("d-m-y h:i"); 
+        $goodsreceive = new goodsreceive();
+        $goodsreceive->customercode = $request->input('customercode');     
+        $goodsreceive->customername = $request->input('customername');     
+        $goodsreceive->suppliercode = $request->input('suppliercode');     
+        $goodsreceive->suppliername = $request->input('suppliername');     
+        $goodsreceive->deliverystaffname = $request->input('deliverystaffname');     
+        $goodsreceive->deliverystaffid = $request->input('deliverystaffid');     
+        $goodsreceive->modeoftransport = $request->input('modeoftransport');     
+        $goodsreceive->receivedate =   $upd2 ;     
+        $goodsreceive->receivetime = $request->input('goodsreceivetime');     
+        $goodsreceive->cargotype = $request->input('typeofcargo');     
+        $goodsreceive->packagetype = $request->input('packagetype');     
+        $goodsreceive->noofpkgs = $request->input('noofpkg');     
+        $goodsreceive->weight = $request->input('weight');     
+        $goodsreceive->staff = $request->input('staffid');     
+        $goodsreceive->location = $request->input('location');     
+        $goodsreceive->status =  $upd2;     
+        
+        $goodsreceive->save();
+       return redirect('/receivegood')->with('success','delivery data saved');
     }
 
     /**
