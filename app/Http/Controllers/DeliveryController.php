@@ -175,16 +175,38 @@ return $request->input();
 //    
     public function update(Request $request, $id)
     {
-        date_default_timezone_set("Asia/Tashkent");
-        // $upd="DELIVERED";
-        $upd = date('d/m/Y h:i', time());
-        // $upd="DELIVERED";
-
+        // date_default_timezone_set("Asia/Tashkent");
+        // //$upd="DELIVERED";
+        // $upd = date('d/m/Y h:i', time());
+        // //$upd="DELIVERED";
+        // $delivery = delivery::find($id);
+        // $delivery->assignedtime=$delivery->assignedtime.$upd."|"; ;
+        // $delivery->save();
+        // return redirect('adddelivery');
+        
         $delivery = delivery::find($id);
+
+        
+        // if (is_null($delivery->assignedtime))
+           if (strlen($delivery->assignedtime >= 15))
+        {
+            date_default_timezone_set("Asia/Tashkent");
+            $upd = date('d/m/Y h:i', time());
+            $delivery = delivery::find($id);
         $delivery->assignedtime=$delivery->assignedtime.$upd."|"; ;
         $delivery->save();
         return redirect('adddelivery');
-        
+        }
+        else
+        {
+            return redirect('adddelivery');
+        }
+
+
+
+
+
+
         
     }
 

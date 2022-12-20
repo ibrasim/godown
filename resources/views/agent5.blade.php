@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-12">
             <div class="card">
-                <div class="card-header">{{ __('UPDATE DATA (to restart delivery without delecting record, delete all in STATUS and ASSIGNDATETIME)') }}</div>
+                <div class="card-header">{{ __('UPDATE DATA') }}</div>
 
             
                     
@@ -67,44 +67,29 @@
                         <div class="row">
                           
                                
-                            <div class="row">
+                            
 
                             <div class="col">
                                 <label for="exampleInputEmail1">Assigned Date time</label>
                                 <input type="text"  name="assignedtime"  value="{{ $data['assignedtime'] }}" class="form-control" >
                             </div>
 
-                            <div class="row">
+                            <div class="col">
                                 <label for="exampleInputEmail1">Status</label>
                                 <input type="text"  name="status"  value="{{ $data['status'] }}" class="form-control" >
                             </div>
 
-                            <div class="col">
-                                
-                    
-                                <button type="submit" value="update" class="btn btn-success" >Update </button>                   
-                            
+                            <div class="col">                    
+                                <button type="submit" value="update" class="btn btn-success btn-lg float-right" >Update </button>                                               
                             </div>
 
-                        </div>
+
+
+                      
                         </div>
                             
     
-<H3>
-    {{ __('to restart delivery without delecting record, delete all in STATUS and ASSIGNDATETIME') }}                   
-</H3>
 
-<H3>
-    {{ __('to make changes changes, UPDATE in respective field and click UPDATE button') }}                   
-</H3>
-
-<H3>
-    {{ __('to go to main menu click DATABASE OR Delivery in menu under login (right)') }}                   
-</H3>
-
-<H3>
-    {{ __('to go to main menu click DATABASE OR Delivery in menu under login (right)') }}                   
-</H3>
 
 
                               
