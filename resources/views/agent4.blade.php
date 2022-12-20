@@ -110,12 +110,12 @@
            <th scope="col">Vessel</th>
            
            <th scope="col">Vehicle Number</th>
-           <th scope="col">Action</th>
+           <th scope="col">Finish</th>
            
            <th scope="col">Assigned /Start / Finish  Time</th>
           
             
-            <th scope="col">Update</th>  
+            <th scope="col">Start</th>  
           
          </tr>
      </thead>
@@ -148,11 +148,13 @@
                                  
                  @csrf
 
-                 <button type="submit" value="delete" class="btn btn-warning" > Finish Delivery </button>
+                 <button type="submit" value="delete" class="btn btn-warning" > Finish </button>
                </form>    
                  
                     
-                 </td>
+
+            </td>
+            
             <td>{{$item1->assignedtime}}</td>
            
            
@@ -163,7 +165,7 @@
                                   
                   @csrf
 
-                  <button type="submit" value="delete" class="btn btn-success" > Start Delivery </button>
+                  <button type="submit" value="delete" class="btn btn-success" > Start </button>
                 </form>    
                   
                      

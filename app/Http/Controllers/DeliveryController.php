@@ -127,6 +127,10 @@ class DeliveryController extends Controller
          $da->boat=$req->input('boat');
          $da->assignedtime=$req->input('assignedtime');
          $da->status=$req->input('status');
+         $da->pkgs=$req->input('pkgs');
+         $da->completetime=$req->input('newshopname');
+         $da->vehicleno=$req->input('vehicleno');
+
         //$data->assignedtime='assignedtime';
         $da->save();
         return redirect('adddelivery');
