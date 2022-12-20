@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-8">
+        <div class="col-md-12">
             <div class="card">
                 <div class="card-header">{{ __('DELIVERY') }}</div>
 
@@ -26,11 +26,6 @@
                                     <label for="exampleInputEmail1">Packages</label>
                                      <input type="text" name="packages" class="form-control" >
                                 </div>
-                            </div>
-                       
-                                
-                            <div class="form-group row">
-                               
                                 <div class="col">
                                     <label for="exampleInputEmail1">Vessel Name</label>
                                     <input type="text" name="boat"class="form-control" >
@@ -40,49 +35,57 @@
                                     <input type="text" name="vehicleno" class="form-control" >
                                </div>
                             
-                               <div class="col">
-                                <button type="submit" class="btn btn-primary">
-                                        {{ __('Add') }}
-                                    </button>
-                              
+                            
                             </div>
-                            </div>
-
-                          
-                        </form>
-
-                        <div class="form-group row">
-                            
-                            
-                            
-                            
-                            
-                             
+                       
+                                
+                            <div class="form-group row">
                                
-                            <div class="col">
-                                <form method="GET" action="pending-delivery">
-                                    @csrf
-                                    <div class="form-group row">
-                                        <div class="col">
-                                            <button type="submit" class="btn btn-warning">
-                                                    {{ __('CUSTOMER ORDERED') }}
-                                                </button>
-                                          
-                                        </div>
+                               
+                            
+                              
+
+                            <div class="form-group col">
+                                <div class="col">
+                                    <button type="submit" class="btn btn-primary">
+                                            {{ __('Add New Record') }}
+                                        </button>
+                                  
                                      </div>
-                                </form>
+                                </div>
+                            </form>
+                                <div class="col">
+                                    <form method="GET" action="pending-delivery">
+                                        @csrf
+                                        <div class="form-group row">
+                                            <div class="col">
+                                                <button type="submit" class="btn btn-secondary">
+                                                        {{ __('CUSTOMER ORDERED') }}
+                                                    </button>
+                                              
+                                            </div>
+                                         </div>
+                                    </form>
+                                </div>
+
+                                <div class="col">
+                                    <form method="GET" action="delivery_ordered">
+                                        @csrf
+                                        <div class="form-group row">
+                                            <div class="col">
+                                                <button type="submit" class="btn btn-danger">
+                                                        {{ __('DESCENDING ORDER') }}
+                                                    </button>
+                                              
+                                            </div>
+                                         </div>
+                                    </form>
+                                </div>
+
+
                             </div>
+                     
 
-                           
-
-                            
-
-
-
-
-
-                            
-                        </div>
                      
       
                 </div>

@@ -57,6 +57,20 @@ class DeliveryController extends Controller
         return view('agent4',compact('delivery'));
     }
 
+    public function index5()
+    {
+        $inst=null;
+        // $delivery = delivery::where ('status',$inst)->orderByDesc('id')->get();
+        $delivery = delivery::all()->sortByDesc('id');
+
+//        $results = Project::all()->sortByDesc("name");
+        // $results = delivery::orderBy('id')->get();
+
+
+
+        return view('agent4',compact('delivery'));
+    }
+
 
 
     

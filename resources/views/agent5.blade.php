@@ -3,7 +3,7 @@
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-8">
+        <div class="col-md-12">
             <div class="card">
                 <div class="card-header">{{ __('UPDATE DATA (to restart delivery without delecting record, delete all in STATUS and ASSIGNDATETIME)') }}</div>
 
@@ -12,19 +12,7 @@
                     <div class="card-body">
                         <input type="hidden" name="id" value="{{$data ['id'] }}">
 
-                   
-<H3>
-                        {{ __('to restart delivery without delecting record, delete all in STATUS and ASSIGNDATETIME') }}                   
-                    </H3>
-
-                    <H3>
-                        {{ __('to make changes changes, UPDATE in respective field and click UPDATE button') }}                   
-                    </H3>
-
-                    <H3>
-                        {{ __('to go to main menu click DATABASE OR Delivery in menu under login (right)') }}                   
-                    </H3>
-
+ 
                           <div class="form-group row">
                             <form action="{{ route('editdata',$data->id) }}" method="post">
                                 @csrf
@@ -101,7 +89,24 @@
                         </div>
                         </div>
                             
-                            
+    
+<H3>
+    {{ __('to restart delivery without delecting record, delete all in STATUS and ASSIGNDATETIME') }}                   
+</H3>
+
+<H3>
+    {{ __('to make changes changes, UPDATE in respective field and click UPDATE button') }}                   
+</H3>
+
+<H3>
+    {{ __('to go to main menu click DATABASE OR Delivery in menu under login (right)') }}                   
+</H3>
+
+<H3>
+    {{ __('to go to main menu click DATABASE OR Delivery in menu under login (right)') }}                   
+</H3>
+
+
                               
                               
                               
