@@ -38,67 +38,28 @@
                             
                             </div>
                        
-                                
+                            <?php echo "<br>"; ?>
+                          
+                          
                             <div class="form-group row">
                                
-                               
-                            
-                              
+                                
 
                             <div class="form-group col">
                                 <div class="col">
-                                    <button type="submit" class="btn btn-primary">
+                                    <button type="submit" class="btn btn-primary" position="relative" >
                                             {{ __('Add New Record') }}
                                         </button>
                                   
                                      </div>
                                 </div>
                             </form>
-                                <div class="col">
-                                    <form method="GET" action="pending-delivery">
-                                        @csrf
-                                        <div class="form-group row">
-                                            <div class="col">
-                                                <button type="submit" class="btn btn-secondary">
-                                                        {{ __('CUSTOMER ORDERED') }}
-                                                    </button>
-                                              
-                                            </div>
-                                         </div>
-                                    </form>
-                                </div>
+                              
+                              
 
-                                <div class="col">
-                                    <form method="GET" action="delivery_ordered">
-                                        @csrf
-                                        <div class="form-group row">
-                                            <div class="col">
-                                                <button type="submit" class="btn btn-danger">
-                                                        {{ __('DESCENDING ORDER') }}
-                                                    </button>
-                                              
-                                            </div>
-                                         </div>
-                                    </form>
-                                </div>
+                             
 
-                                <div class="col">
-                                    <form method="GET" action="export_to">
-                                    
-                                  
-                                        @csrf
-                                      
-                                        <div class="form-group row">
-                                            <div class="col">
-                                                <button type="submit" class="btn btn-danger">
-                                                        {{ __('Export to CSV') }}
-                                                    </button>
-                                              
-                                            </div>
-                                         </div>
-                                    </form>
-                                </div>
-
+                              
                             </div>
                      
 

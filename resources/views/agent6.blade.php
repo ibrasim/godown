@@ -9,7 +9,51 @@
 
                 <div class="card-body">
                     
+                    <div class="col">
+                        <form method="GET" action="pending-delivery">
+                            @csrf
+                            <div class="form-group row">
+                                <div class="col">
+                                    <button type="submit" class="btn btn-secondary">
+                                            {{ __('CUSTOMER ORDERED') }}
+                                        </button>
+                                  
+                                </div>
+                             </div>
+                        </form>
+                    </div>
             
+
+                    <div class="col">
+                        <form method="GET" action="shopodered">
+                            @csrf
+                            <div class="form-group row">
+                                <div class="col">
+                                    <button type="submit" class="btn btn-secondary">
+                                            {{ __('SHOP ORDERED') }}
+                                        </button>
+                                  
+                                </div>
+                             </div>
+                        </form>
+                    </div>
+
+                    <div class="col">
+                        <form method="GET" action="delivery_ordered">
+                            @csrf
+                            <div class="form-group row">
+                                <div class="col">
+                                    <button type="submit" class="btn btn-danger">
+                                            {{ __('DESCENDING ORDER') }}
+                                        </button>
+                                  
+                                </div>
+                             </div>
+                        </form>
+                    </div>
+
+                 
+
                     <table class="table table-hover">     
                         <thead>
                              <tr>
@@ -24,7 +68,7 @@
                                <th scope="col">Action Date Time</th>         
                              </tr>
                          </thead>
-                     @foreach ($de as $item1)                     
+                     @foreach ($delivery as $item1)                     
                              <tr>
                                 <td>{{$item1->id}}</td>      
                                 <td>{{$item1->created_at}}</td>      

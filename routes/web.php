@@ -52,6 +52,9 @@ Route::post('update_reverse/{id}',[App\Http\Controllers\DeliveryController::clas
 Route::get('/pending-delivery', [App\Http\Controllers\DeliveryController::class, 'index4'])->name('pending-delivery');
 Route::get('/delivery_ordered', [App\Http\Controllers\DeliveryController::class, 'index5'])->name('delivery_ordered');
 
+Route::get('/shopodered', [App\Http\Controllers\DeliveryController::class, 'shopodered'])->name('shopodered');
+
+
 
 
  Route::get('/addtracking', [App\Http\Controllers\TrackingController::class, 'index'])->name('addtracking');

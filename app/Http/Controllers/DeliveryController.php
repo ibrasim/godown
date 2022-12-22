@@ -54,8 +54,24 @@ class DeliveryController extends Controller
 
 
 
-        return view('agent4',compact('delivery'));
+        return view('agent6',compact('delivery'));
     }
+
+
+    public function shopodered()
+    {
+        $inst=null;
+        // $delivery = delivery::where ('status',$inst)->orderByDesc('id')->get();
+        $delivery = delivery::orderBy('completetime')->get();
+
+
+
+
+
+        return view('agent6',compact('delivery'));
+    }
+
+
 
     public function index5()
     {
@@ -68,7 +84,7 @@ class DeliveryController extends Controller
 
 
 
-        return view('agent4',compact('delivery'));
+        return view('agent6',compact('delivery'));
     }
 
 
@@ -190,21 +206,22 @@ return $request->input();
         // if (is_null($delivery->assignedtime))
         $var1=0;
         $var1=strlen($delivery->assignedtime);
-           if ($var1 == 32) 
+           if ($var1 == 15) 
         {
-            return redirect('adddelivery');
-        }
-        
-        
-        else
-    {
-        date_default_timezone_set("Asia/Tashkent");
+            
+            date_default_timezone_set("Asia/Tashkent");
         $upd = date('d/m/Y h:i', time());
         $delivery = delivery::find($id);
     $delivery->assignedtime=$delivery->assignedtime.$upd."|"; ;
     $delivery->save();
     return redirect('adddelivery');
-           
+        }
+        
+        
+        else
+    {
+        
+        return redirect('adddelivery');
            
     }
 
@@ -233,19 +250,37 @@ return $request->input();
 
     public function complete(Request $request, $id)
     {
-        date_default_timezone_set("Asia/Tashkent");
-        // $upd="DELIVERED";
-        $upd = date('d/m/Y h:i', time());
-        // $upd="DELIVERED";
 
-        $completestatus='completed';
         $delivery = delivery::find($id);
-        // $delivery->remarks = $delivery-> assignedtime. $upd;
-        $delivery->assignedtime=$delivery->assignedtime.$upd."|"; ;
-        $delivery->status=$completestatus;
-        $delivery->save();
-        return redirect('adddelivery');
+        $var1=0;
+        $var1=strlen($delivery->assignedtime);
+           if ($var1 == 32) 
+        {
+            
+            date_default_timezone_set("Asia/Tashkent");
+            // $upd="DELIVERED";
+            $upd = date('d/m/Y h:i', time());
+            // $upd="DELIVERED";
+    
+            $completestatus='completed';
+            $delivery = delivery::find($id);
+            // $delivery->remarks = $delivery-> assignedtime. $upd;
+            $delivery->assignedtime=$delivery->assignedtime.$upd."|"; ;
+            $delivery->status=$completestatus;
+            $delivery->save();
+            return redirect('adddelivery');    
+            
+            
+        }
         
+        
+        else
+    {
+
+        return redirect('adddelivery');
+
+        
+    }   
         
     }
     
@@ -285,8 +320,8 @@ return $request->input();
 public function data_dump()
 {
 
-    $de = delivery::orderByDesc('id')->get();
-    return view('agent6',compact('de'));
+    $delivery = delivery::orderByDesc('id')->get();
+    return view('agent6',compact('delivery'));
  
 
 }
