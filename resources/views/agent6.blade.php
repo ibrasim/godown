@@ -20,6 +20,7 @@
                                <th scope="col">Packages</th>
                                <th scope="col">Vessel</th>    
                                <th scope="col">Vehicle Number</th>
+                               <th scope="col">Status</th>
                                <th scope="col">Action Date Time</th>         
                              </tr>
                          </thead>
@@ -32,6 +33,7 @@
                                 <td>{{$item1->pkgs}}</td>
                                 <td>{{$item1->boat}}</td> 
                                 <td>{{$item1->vehicleno}}</td>
+                                <td>{{$item1->status}}</td>
                                 <td>{{$item1->assignedtime}}</td>
                                  </tr>
                     @endforeach 
