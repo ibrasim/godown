@@ -43,6 +43,7 @@ Route::post('complete_delivery/{id}',[App\Http\Controllers\DeliveryController::c
 
 Route::get('show_delivery/{id}',[App\Http\Controllers\DeliveryController::class,'show'])->name('show_delivery');
 
+Route::get('/export_to', [App\Http\Controllers\DeliveryController::class, 'data_dump'])->name('export_to');
 
 
 

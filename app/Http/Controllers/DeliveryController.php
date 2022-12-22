@@ -282,7 +282,16 @@ return $request->input();
 
 
     
+public function data_dump()
+{
 
-
+    $de = delivery::orderByDesc('id')->get();
+    return view('agent6',compact('de'));
+ 
 
 }
+}
+
+
+
+

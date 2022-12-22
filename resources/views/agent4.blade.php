@@ -82,6 +82,22 @@
                                     </form>
                                 </div>
 
+                                <div class="col">
+                                    <form method="GET" action="export_to">
+                                    
+                                  
+                                        @csrf
+                                      
+                                        <div class="form-group row">
+                                            <div class="col">
+                                                <button type="submit" class="btn btn-danger">
+                                                        {{ __('Export to CSV') }}
+                                                    </button>
+                                              
+                                            </div>
+                                         </div>
+                                    </form>
+                                </div>
 
                             </div>
                      
