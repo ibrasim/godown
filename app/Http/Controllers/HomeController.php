@@ -59,7 +59,9 @@ class HomeController extends Controller
                 if ($user1=='Ahmed'  or $user1=='Ali' )
          
                 {            
-                  $delivery = delivery::all();
+
+                  $delivery = delivery::orderByDesc('id')->where('status','=' ,null)->get();
+                  // $delivery = delivery::all();
                
               
                   return view('agent4',compact('delivery'));         
