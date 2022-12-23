@@ -160,6 +160,7 @@ class DeliveryController extends Controller
          $da->pkgs=$req->input('pkgs');
          $da->completetime=$req->input('newshopname');
          $da->vehicleno=$req->input('vehicleno');
+         $da->remarks=$req->input('remarks');
 
         //$data->assignedtime='assignedtime';
         $da->save();

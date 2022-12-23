@@ -80,6 +80,18 @@
                                 <input type="text"  name="status"  value="{{ $data['status'] }}" class="form-control" >
                             </div>
 
+                            
+
+                            <div class="col">
+                                <label for="exampleInputEmail1">Remarks</label>
+                                <input type="text"  name="remarks"  value="{{ $data['remarks'] }}" class="form-control" >
+                            </div>
+                            
+                          
+
+
+
+
                             <div class="col">                    
                                 <?php echo "<br>"; ?>
                                 <button type="submit" value="update" class="btn btn-success btn-lg float-right" >Update </button>                                               

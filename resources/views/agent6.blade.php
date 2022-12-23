@@ -8,13 +8,13 @@
                 <div class="card-header">{{ __('please select data and past special -match destination formatting- in Excel and save locally prefered to do end of every day') }}</div>
 
                 <div class="card-body">
-                    
+                    <div class="row">
                     <div class="col">
                         <form method="GET" action="pending-delivery">
                             @csrf
                             <div class="form-group row">
                                 <div class="col">
-                                    <button type="submit" class="btn btn-secondary">
+                                    <button type="submit" class="btn btn-success">
                                             {{ __('CUSTOMER ORDERED') }}
                                         </button>
                                   
@@ -29,7 +29,7 @@
                             @csrf
                             <div class="form-group row">
                                 <div class="col">
-                                    <button type="submit" class="btn btn-secondary">
+                                    <button type="submit" class="btn btn-warning">
                                             {{ __('SHOP ORDERED') }}
                                         </button>
                                   
@@ -44,7 +44,7 @@
                             <div class="form-group row">
                                 <div class="col">
                                     <button type="submit" class="btn btn-danger">
-                                            {{ __('DESCENDING ORDER') }}
+                                            {{ __('LAST RECROD FIRST') }}
                                         </button>
                                   
                                 </div>
@@ -52,7 +52,7 @@
                         </form>
                     </div>
 
-                 
+                </div>
 
                     <table class="table table-hover">     
                         <thead>
@@ -66,6 +66,7 @@
                                <th scope="col">Vehicle Number</th>
                                <th scope="col">Status</th>
                                <th scope="col">Action Date Time</th>         
+                               <th scope="col">Remarks</th>         
                              </tr>
                          </thead>
                      @foreach ($delivery as $item1)                     
@@ -79,6 +80,7 @@
                                 <td>{{$item1->vehicleno}}</td>
                                 <td>{{$item1->status}}</td>
                                 <td>{{$item1->assignedtime}}</td>
+                                <td>{{$item1->remarks}}</td>
                                  </tr>
                     @endforeach 
                         </table>     
