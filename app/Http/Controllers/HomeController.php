@@ -60,8 +60,8 @@ class HomeController extends Controller
          
                 {            
 
-                  $delivery = delivery::orderByDesc('id')->where('status','=' ,null)->get();
-                  // $delivery = delivery::all();
+                  //$delivery = delivery::orderByDesc('id')->where('status','=' ,null)->get();
+                   $delivery = delivery::all();
                
               
                   return view('agent4',compact('delivery'));         
