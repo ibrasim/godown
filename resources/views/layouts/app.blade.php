@@ -82,8 +82,15 @@
                                 <div>
                                     <a href="{{route('addtracking')}}">Tracking</a>
                                     </div>
-                                </div>
                                 
+                                    <div>
+                                    <a href="{{route('additem')}}">New Items</a>
+                                    </div>
+                    
+                                
+                                
+                                </div>
+                                                    
                                 
                             </li>
                         @endguest

@@ -16,11 +16,11 @@
                             <div class="form-group row">
                                 <div class="col">
                                     <label for="exampleInputEmail1">Shop Name</label>
-                                    <input type="text"  name="shopname" class="form-control" >
+                                    <input type="text"  name="shopname" class="form-control" required="" >
                                </div>
                                <div class="col">
                                 <label for="exampleInputEmail1">Customer Name</label>
-                                 <input type="text"  name="customer" class="form-control">
+                                 <input type="text"  name="customer" class="form-control" required="">
                                 </div>
                                 <div class="col">
                                     <label for="exampleInputEmail1">Packages</label>

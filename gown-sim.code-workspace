@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "gown-sim"
+		},
+		{
+			"path": "public"
+		},
+		{
+			"path": "resources"
+		},
+		{
+			"path": "routes"
+		},
+		{
+			"path": "storage"
+		},
+		{
+			"path": "tests"
+		}
+	]
+}

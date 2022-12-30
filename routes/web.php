@@ -65,5 +65,9 @@ Route::get('/shopodered', [App\Http\Controllers\DeliveryController::class, 'shop
  Route::get('/receivegood', [App\Http\Controllers\GoodsreceiveController::class, 'index'])->name('receivegood');
  Route::post('/savereceivegood', [App\Http\Controllers\GoodsreceiveController::class, 'store'])->name('savereceivegood');
 
+//  Route::get('/add_item', [App\Http\Controllers\HomeController::class, 'additem'])->name('add_item');
+
+Route::get('/additem', [App\Http\Controllers\itemController::class, 'index'])->name('additem');
+Route::post('/saveitem', [App\Http\Controllers\itemController::class, 'store'])->name('saveitem');
 
  
