@@ -7,6 +7,7 @@
             <div class="card">
                 <div class="card-header">{{ __('Sem -2 short notes') }}</div>
                 <div style = "padding:35px;"> 
+                <h2>CRIMINAL LAW</h2>
                 <h4>week-1 assult and battery </h4>
 
 Assault' means physical attack against the body of another person resulting in serious bodily injury; excluding indecent/sexual assault; threats and slapping/punching. 'Assault' leading to death should also be excluded.<br>
@@ -73,6 +74,53 @@ Receiving Stolen Property: It is a crime to purchase or accept property that a p
 Extortion: Extortion, which is similar to blackmail, involves the taking of money, services, or property through force by means of threat or intimidation. The threats do not need to be followed through on immediately. They can be carried out at some later time in the future;<br>
 Burglary and Robbery:The elements of burglary consist of the unlawful breaking and entering into another person’s home or building for the purpose of committing a felony therein. Burglary becomes the crime of robbery when the individual commits a theft with the use of threat or force. Also, robbery will be elevated to the crime of armed robbery if it involves the use of a weapon.<br> 
 One other element that differs between the two is that burglary requires a breaking and entering, whereas robbery does not; <br>
+<h2>CONSTITUTIONAL LAW</h2>
+<h4>week-1 Introduction to Constitution </h4>
+why: what we need to live decently with dignity in a civic society <br>
+James Madison, US 4th president :People need government, if men were angels,  no government would be necessary <br>
+fundamental things humans need: as human beings we all need food, shelter,education,security,protection from violence and des rimnation, recogination and respecit and freedom or rights <br>
+people create government and dedicat power to them to lay out a mechanism to deliver the fundamental things mentioned above <br>
+problem: we need to give power to perform funcgtions of government <br>
+power without limit lead to corruption, dictatorship and oppresion <br>
+power problem: election will of people, need of basic rules USAGE and PROTECTION <br>
+why we need constitution- we need rules, supreme law, organize, determine and difficult tot change the laws <br>
+to solve the power problem consitution give control to people <br>
+to solve the power problem in two ways ORGANIZATION and CONSTRAINING <br>
+divisionof power - presidition, parliament (national/state/municipal) <br>
+rotation - election <br>
+separation of powers -court , military, police, civil service <br>
+constraints by must and must not <br>
+must do - cannot be touchered, cnnot imprision without due cause, freedom of speech <br>
+must do- eduction, health care, sanitation, housing,safeguard <br>
+CONSTITUTION <br>
+constitution is the supreme low of the land <br>
+it contains laws relation between different leves of goverment and between governmetn and citizens <br>
+<h4>week-2 Functions of the constitution </h4>
+a modern consitution should reflect <br>
+Q.1     How is the legislative executive and judicial organs structured and how it is   <br>
+organised;What are the powers given to legislative, executive and judiciary; What is the mutual relationship between legislative, executive and judiciary;What is the relation between these organs and the people; What type of government the state has <br>
+it is in various chapters of Maldivian consitution <br>
+eg: Chapter I ,III, IV,  V,  VI ,II,  VII, XI, XII of Maldivian Constitution. <br>
+
+
+<h2>Law of Contract II</h2>
+<h4>Terms of contract </h4>
+
+terms and representations,collateral contracts, parol evidence rule <br>
+A term is something that is in the contract that are made by one of the parties to the
+agreement which defines their undertakings and without it the party would not have made
+their way into the contract. <br>
+A representation is a statement that one of the parties have made during the negotiations
+which is not mentioned in the contract <br>
+How do the Courts decide whether it is a ‘term’ or a‘representation’?.<br>
+it is done on the following: Time factor, Importance of the statement, Knowledge of the parties, The manner in which the statement was made, The statement reduced to writing <br>
+Collateral Contract is a A subsidiary contract where the parties to one contract enter into or a promise to
+enter into another contract, Both contracts can exist side by side <br>
+Parol evidence is any agreement between the parties that is not contained in the
+contract in written form. <br>
+The courts will uphold and enforce expressed terms. <br>
+The express terms represent intention of the parties at the time they entered into
+the contract <br>
 
 
 </div>

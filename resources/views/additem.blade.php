@@ -121,14 +121,22 @@
 
 
 
+<br>
+<br>
+<br>
 
 	
 <table class="table table-hover">     
     <thead>
          <tr>
             <th scope="col">Id</th> 
-            <th scope="col">Name</th>        
-            <th scope="col">Image</th> 
+            <th scope="col">Name</th>   
+            <th scope="col">Delivered Date</th>  
+            <th scope="col">Sost Price</th> 
+            <th scope="col">Action</th> 
+            <th scope="col">Sold Date</th> 
+            <th scope="col">Sold Price</th> 
+           
             <th scope="col">Image</th> 
                           
          </tr>
@@ -136,9 +144,25 @@
  @foreach ($item as $item1)                   
          <tr>  
                  <td>{{$item1->id}}</td>   
-                 <td>{{$item1->itemname}}</td>    
-                 <td>{{$item1->image}}</td>  
-            <td><img src={{asset('image') . '/' .$item1->image}} height="100" width="100"></td>  
+                 <td>{{$item1->itemname}}</td>   
+                 <td>{{$item1->hscode}}</td>   
+                 <td>{{$item1->hsdescription}}</td>   
+                 <td> <form action="" method="post"> 
+                                  
+                                  @csrf
+                
+                                  <button type="submit" value="update" class="btn btn-warning" > SOLD </button>
+                                </form>  
+
+
+
+                 </td>   
+                 <td>{{$item1->ldescript1}}</td>   
+
+                 <td>{{$item1->ldescript2}}</td>   
+
+                
+            <td><img src={{asset('image') . '/' .$item1->image}} height="50" width="80"></td>  
             
       </tr>
 @endforeach 
