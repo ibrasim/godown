@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-12">
             <div class="card">
-                <div class="card-header">{{ __('please select data and past special -match destination formatting- in Excel and save locally prefered to do end of every day') }}</div>
+                <div class="card-header">{{ __('Search Data') }}</div>
 
                 <div class="card-body">
                     <div class="row">
@@ -38,19 +38,7 @@
                         </form>
                     </div>
 
-                    <div class="col">
-                        <form method="GET" action="delivery_ordered">
-                            @csrf
-                            <div class="form-group row">
-                                <div class="col">
-                                    <button type="submit" class="btn btn-danger">
-                                            {{ __('LAST RECROD FIRST') }}
-                                        </button>
-                                  
-                                </div>
-                             </div>
-                        </form>
-                    </div>
+                  
 
                 </div>
 
