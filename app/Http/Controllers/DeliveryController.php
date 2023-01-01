@@ -16,7 +16,9 @@ class DeliveryController extends Controller
     public function index()
     {
         
-        //$delivery = delivery::orderByDesc('id')->where('assignedtime' ,'=', '19-12')->get(); 
+        if  ($this->middleware('auth')==true)
+        {
+                    //$delivery = delivery::orderByDesc('id')->where('assignedtime' ,'=', '19-12')->get(); 
         //$delivery5 = delivery::orderByDesc('id')->get();
         //$deliv =  strlen($delivery5->assignedtime);
 
@@ -35,6 +37,10 @@ class DeliveryController extends Controller
      
 
 
+        }
+
+
+
     }
 
 
@@ -49,11 +55,6 @@ class DeliveryController extends Controller
         $inst=null;
         // $delivery = delivery::where ('status',$inst)->orderByDesc('id')->get();
         $delivery = delivery::orderBy('customer')->get();
-
-
-
-
-
         return view('agent6',compact('delivery'));
     }
 
@@ -109,6 +110,9 @@ class DeliveryController extends Controller
      */
     public function store(Request $request)
     {
+
+        if  ($this->middleware('auth')==true)
+        {
         // $upd2 = date('m/d/Y h:i:s a', time());    
         // $upd2 = date('m/d/Y');
 
@@ -132,6 +136,7 @@ class DeliveryController extends Controller
         
         $delivery ->save();
        return redirect('/adddelivery')->with('success','delivery data saved');
+        }
     }
 
     /**

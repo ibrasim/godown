@@ -73,7 +73,7 @@
                                 <a href="{{route('adddelivery')}}">Delivery</a>
                                 </div>
                                 <div>
-                                    <a href="{{route('pending-delivery')}}">Search</a>
+                                    <a href="{{route('delivery_ordered')}}">Search</a>
                                     </div>
                     
                                    

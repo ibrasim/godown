@@ -104,7 +104,7 @@ eg: Chapter I ,III, IV,  V,  VI ,II,  VII, XI, XII of Maldivian Constitution. <b
 
 
 <h2>Law of Contract II</h2>
-<h4>Terms of contract </h4>
+<h4> week -2 Terms of contract </h4>
 
 terms and representations,collateral contracts, parol evidence rule <br>
 A term is something that is in the contract that are made by one of the parties to the
@@ -121,6 +121,33 @@ contract in written form. <br>
 The courts will uphold and enforce expressed terms. <br>
 The express terms represent intention of the parties at the time they entered into
 the contract <br>
+
+<h4>week 4 - classification of terms </h4>
+1. Express and Implied Terms <br>
+2. Terms implied by Courts and Statute <br>
+3. Conditions, Warranties and Innominate terms <br>
+4. Standard form contracts <br>
+1. An express is a term that is expressly agreed between the contracting parties. This is done via writing the terms they have agreed upon or, Verbally, where they have discussed and agreed between the parties about what 
+they want <br>
+2. Implied terms are terms that are not expressed in the contract but are taken to be as  effective as if they had been included in the contract <br>
+3. A contract has implied terms that are read into the agreement, by the courts or through statute.Terms implied in law are not terms that the parties would have agreed to, but rather terms that arise as a legal incident of a particular legal relationship.<br>
+limited circumstances where court may decide implied if terms applied throuh custom , fact,law etc <br>
+terms implied as fact are based on either business efficacy test or officius bystander test <br>
+business efficacy test: Is the term necessary to give the contract business efficacy? This means that would the contract make business sense without it? <br>
+bystander test: when an officious bystander or a third party had been there at the time the contract was in the making and had suggested that such a term should be included, obviously both parties to the contract would have agreed to incorporate it in the contract. <br>
+3. Conditions, Warranties, and Innominate terms A condition is a major term of the contract which goes to the depth of the contract. It can be inferred that a condition goes directly to the root of the contract. If a condition is breached the innocent party is entitle to repudiate ie. end the contract and claim damages.<br>
+warranties <br>
+Warranties are minor terms of a contract which are not central to the existence of the contract. If a warranty is breached the innocent party may claim damages but it is NOT a term when breached that would end the contract.<br>
+innominate terms <br>
+Warranties are minor terms of a contract which are not central to the existence of the contract. If a warranty is breached the innocent party may claim damages but it is NOT a term when breached that would end the contract.<br>
+Standard form contracts <br>
+These are contracts where the terms and conditions are put forward by one party and the other party is not given an opportunity to negotiate or amend those terms and conditionsThey are non-negotiated provisions, usually in preprinted forms.These are sometimes referred to as “boilerplate contracts,” “contracts of adhesion,” or “take it or leave it” contracts. <br>
+
+
+
+
+
+
 
 
 </div>
