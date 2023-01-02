@@ -139,7 +139,6 @@ bystander test: when an officious bystander or a third party had been there at t
 warranties <br>
 Warranties are minor terms of a contract which are not central to the existence of the contract. If a warranty is breached the innocent party may claim damages but it is NOT a term when breached that would end the contract.<br>
 innominate terms <br>
-Warranties are minor terms of a contract which are not central to the existence of the contract. If a warranty is breached the innocent party may claim damages but it is NOT a term when breached that would end the contract.<br>
 Standard form contracts <br>
 These are contracts where the terms and conditions are put forward by one party and the other party is not given an opportunity to negotiate or amend those terms and conditionsThey are non-negotiated provisions, usually in preprinted forms.These are sometimes referred to as “boilerplate contracts,” “contracts of adhesion,” or “take it or leave it” contracts. <br>
 

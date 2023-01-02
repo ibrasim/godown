@@ -71,3 +71,4 @@ Route::get('/additem', [App\Http\Controllers\itemController::class, 'index'])->n
 Route::post('/saveitem', [App\Http\Controllers\itemController::class, 'store'])->name('saveitem');
 
  
+Route::post('/editsellingprice',[App\Http\Controllers\itemController::class,'edit2'])->name('editsellingprice');

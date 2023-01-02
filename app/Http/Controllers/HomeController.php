@@ -6,7 +6,7 @@ use App\Models\customer;
 use App\Models\delivery;
 use Illuminate\Support\Facades\Auth;  // used to check if user is logged in (Auth())
 use Illuminate\Http\Request;
-
+use App\Models\item;
 class HomeController extends Controller
 {
     /**
@@ -46,10 +46,21 @@ class HomeController extends Controller
                     // return view('home')-> with ('activity_data', $array1);  
                   return view('home');
                 }
-                if ($user1=='razy' )
+                if ($user1=='razy' or $user1=='fazy' )
          
                 {                     
-                  return view('agent2');
+                  
+                       // $goods = goodsreceive::orderByDesc('id')->get();
+        
+       // return view('receivegood',compact('goods'));
+$item = item::orderByDesc('id')->get();
+
+return view ('agent2',compact('item'));
+                  
+                  
+                  
+                  
+              //    return view('agent2');
                 }
                 if ($user1=='Aminath' or $user1=='asim' )
          

@@ -38,6 +38,16 @@
                         </form>
                     </div>
 
+
+                    <div class="col">
+                        testing location by using (http://followme.mv/)
+                        <a href="https://m.followme.mv/public/4990" target="_blank">A</a>
+                        <a href="https://m.followme.mv/public/8388" target="_blank">B</a>
+                        <a href="https://m.followme.mv/public/8860" target="_blank">C</a>
+                        <a href="https://m.followme.mv/public/6645" target="_blank">D</a>
+                        <a href="https://m.followme.mv/public/14498" target="_blank">E</a>
+                        <a href="https://m.followme.mv/public/12013" target="_blank">E</a>
+                    </div>
                   
 
                 </div>

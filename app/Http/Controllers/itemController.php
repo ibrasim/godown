@@ -131,9 +131,29 @@ public function savworking_copy(Request $request)
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    
+    
+     public function edit2(Request  $req)
+     {
+
+        $da1=item::find($req->id);
+        $upd2 = date("d-m-y h:i"); 
+        $da1->f1=$upd2;
+        // $da1->f2=$req->input('sp');
+        
+        
+       // dd($req->id);
+        
+        
+       //$data->assignedtime='assignedtime';
+       $da1->save();
+        return redirect('home');
+//return redirect('adddelivery');
+     }
+    
+     public function edit($id)
     {
-        //
+     
     }
 
     /**
