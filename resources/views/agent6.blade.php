@@ -39,8 +39,9 @@
                     </div>
 
 
-                    <div class="col">
-                        testing location by using (http://followme.mv/)
+                    <div class="col">                        
+                        public vessel location provided by
+                        <a href="default.asp"><img src=" http://followme.mv/api/images/icon_50.png" style="width:42px;height:42px;"></a>
                         <a href="https://m.followme.mv/public/4990" target="_blank">A</a>
                         <a href="https://m.followme.mv/public/8388" target="_blank">B</a>
                         <a href="https://m.followme.mv/public/8860" target="_blank">C</a>
