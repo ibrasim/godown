@@ -80,6 +80,11 @@ return view ('agent2',compact('item'));
                   
 
                 }
+                if ($user1=='dheema'  or $user1=='arjun'  or $user1=='shafeeq')
+         
+                {
+                  return view('agent3');
+                }
                 else
                 {
                    //return 'please login';
