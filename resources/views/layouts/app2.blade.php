@@ -70,7 +70,7 @@
                                         @csrf
                                     </form>
                                     <div>
-                                <a href="{{route('law-sm2')}}">Short Notes</a>
+                                <a href="{{route('lawsm2')}}">Short Notes</a>
                                 </div>
                               
                                    

@@ -21,6 +21,7 @@ Route::get('/', function () {
     
 });
 
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
@@ -74,4 +75,7 @@ Route::post('/saveitem', [App\Http\Controllers\itemController::class, 'store'])-
 Route::post('/editsellingprice',[App\Http\Controllers\itemController::class,'edit2'])->name('editsellingprice');
 Route::post('/deleteimage',[App\Http\Controllers\itemController::class,'deleteimage'])->name('deleteimage');
 
-Route::get('/law-sm2', [App\Http\Controllers\HomeController::class, 'law-sm2'])->name('law-sm2');
+
+
+
+Route::get('/lawsm2', [App\Http\Controllers\HomeController::class, 'lawsm2'])->name('lawsm2');

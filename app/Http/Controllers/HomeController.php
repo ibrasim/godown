@@ -141,5 +141,10 @@ return view ('agent2',compact('item'));
             }
 
            
+            public function lawsm2 ()
+            {
+              return view('agent3');
+            }
+
             
 }
