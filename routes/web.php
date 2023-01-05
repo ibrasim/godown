@@ -72,3 +72,4 @@ Route::post('/saveitem', [App\Http\Controllers\itemController::class, 'store'])-
 
  
 Route::post('/editsellingprice',[App\Http\Controllers\itemController::class,'edit2'])->name('editsellingprice');
+Route::post('/deleteimage',[App\Http\Controllers\itemController::class,'deleteimage'])->name('deleteimage');

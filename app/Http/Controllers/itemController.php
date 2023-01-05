@@ -131,14 +131,29 @@ public function savworking_copy(Request $request)
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    
+    public function deleteimage(Request $request)
+    {
+        $newitem = item::find($request->id);
+
+        unlink("image/".$newitem->image);
+
+        item::where("id",  $newitem->id)->delete();
+
+        return back()->with("success", "Image deleted successfully.");
+        
+    }
+
+     
+
     
      public function edit2(Request  $req)
      {
 
         $da1=item::find($req->id);
         $upd2 = date("d-m-y h:i"); 
-        $da1->f1=$upd2;
+        $da1->f1=$req->input('sp');
+        $da1->f2=$upd2;
+        
         // $da1->f2=$req->input('sp');
         
         

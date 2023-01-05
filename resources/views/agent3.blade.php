@@ -101,6 +101,108 @@ Q.1     How is the legislative executive and judicial organs structured and how 
 organised;What are the powers given to legislative, executive and judiciary; What is the mutual relationship between legislative, executive and judiciary;What is the relation between these organs and the people; What type of government the state has <br>
 it is in various chapters of Maldivian consitution <br>
 eg: Chapter I ,III, IV,  V,  VI ,II,  VII, XI, XII of Maldivian Constitution. <br>
+constitution can be written or unwritten <br>
+the type of government can be unitary or federal <br>
+federal has multiple hierarchy levels with both the central authority and the state (or proviences both being sovereign)<br>
+central or national override the state rule <br>
+there is a balance between tthe leels of government <br>
+power and responsibility shared betwen the national locallevels <br>
+unitary no hierarchy of soverne powers <br>
+in unitary central or national government can orrder the state to do anything <br>
+unitary has huge percentage of power <br>
+tpe of government can be presidential or parliamentary <br>
+in presidental- political and administative powers are devided between executive legeslative and judicial branches <br>
+head -president <br>
+presidet elect directly by the people and answerable to voters <br>
+parliament-prime minister and cabinet is executive authority and derived from legislature <br>
+head - clear differntiation between head of government and head of state <br>
+election and responsibliyt- pm member of parliament elected by ruling party <br>
+<h4>week-3 Entrenchment </h4>
+the process by which ideas became fixed and cannot be changed <br>
+a concept in which certain ammendments either moredifficult or impossible to pass <br>
+if done it becomes invalid <br>
+also konwns ans eternatiy clause or rigidity  <br>
+protects the governmnet, rights on individuals also protects institutiona and rights against legal change <br>
+eg- ammendment of the consitution 261 <br>
+eg- non assent by president and national referrendum <br>
+<h4>week-4 constitutionalism</h4>
+abc
+<h4>week-5 Parliamentary supermacy</h4>
+supremacy in law context :Highest authority of some (fundamental) norms, institutions or branches of power in a certain legal system. <br>
+Any rule inconsistent with a constitutional rule is an invalid rule. <br>
+Any rule inconsistent with a constitutional rule is an invalid rule. <br>
+OR we may say that all laws and conduct must conform to the prescripts of the constitution <br>
+In this sense, the constitution is the ultimate authority for law-making and lawful conduct. <br>
+constitional supermacy is found in Maldives consitution as THE POWERS OF THE STATE SHALL BE EXERCISED IN ACCORDANCE WITH THIS CONSITUTION <br>
+Constitutional Supremacy— Counter-Majoritarian dilemma <br>
+when all state organs ar bound by supreme consitution,in a democratic state it gives rise to counter majoritiaran dilemma <br>
+becuase when parliement gets powers and majority gets the power to do certain if not all <br>
+showing maajoirty determain the ruls of the state <br>
+then if majoiryt of people can overrule constitutionrules then question becomes how is consitution supereme <br>
+This could have implications for minority groups that are not represented by the majority in Parliament but whom a constitution seeks to protect <br>
+how is it addressed in Maldives consitution- independe judeges  / islamic sharia when deciding  matters related to consitution <br>
+Maldives constititional allow judges to function without impartily fear and prejudice. <br>
+<h4>week-6 </h4>
+todo
+<h4>week-7 </h4>
+to do
+
+<h4>week-8 islamic constitutionalism </h4>
+sources are the Quran, the sunnah Ijma and Qiyas <br>
+1. Change in Time, Place and Circumstance <br>
+basic sharia principle - A major principle of Islamic jurisprudence is that laws may change with the passage of time and the change of place or circumstances <br>
+2. Necessity/Avoidance of Harm <br>
+This principle has also been stated in terms of choosing the lesser of two evils. Several Qur'anic ayahs as well as the hadith clearly permit the prohibited in case of necessity or severe harm. <br>
+Some ayahs state that God will forgive anyone who breaks the law under duress. <br>
+A famous saying of the Prophet is that Islam is a religion of facilitation not complication. <br>
+For this reason, the all four schools of Islamic thought, permitted drinking alcohol and eating pork out of necessity. <br>
+3. Cessation of Cause <br>
+Where an Islamic law applies to specific factual situations, the existence of the law itself is dependent on the continued existence of that factual situation. <br>
+For example, the Qur'an encouraged Muslims to give a certain group of Arabs, called "al-Mu'allafatu Qulubuhum," a share in the charitable donations paid by Muslims. <br>
+COMPATIBILITY OF DIVINE LAW WITH A DEMOCRATIC FORM OF GOVERNMENT <br>
+But any law passed by legislature (i.e., the majority) if contradictory to Constitution (e.g., USA) will be declared as VOID. <br>
+Anti Majoritarian Difficulty <br>
+Quran & Judicial majlis Shura for Unconstitutionality or Ghair Sharai’ Qawaid <br>
+Since the Qur'an provides the basic structure of governance and essential values, a Muslim legislature needs to promulgate a multitude of laws in the process of governance, just as the U.S. legislature does. <br>
+The Muslims who would have the power of "judicial review" in the Muslim state would be those of a judicial majlis shura, <br>
+As explained earlier, Islam is flexible, and part of its flexibility lies in the ability to interpret and supplement the Qur'an, in ways consistent with the Qur'an, to produce laws suitable to a certain epoch and society. <br>
+While the additions will have the weight of constitutional laws, they will never, however, be confused with divine laws.  <br>
+Separation of Powers <br>
+In the days of the Prophet, all legislative, executive and judicial powers rested with him. This arrangement made sense during that period, since the Prophet was the Messenger of God who was in charge of teaching Muslims the basic principles of Islam, as well as showing them how to act and live in accordance with these principles. <br>
+In worldly matters, like those of agriculture or warfare, the Prophet consulted the experts. He also repeatedly encouraged Muslims to do the same. <br>
+Furthermore, the Prophet was in the habit of consulting with other Muslims, and at times followed the advice of Muslims even when he clearly disagreed with it. Such was his respect for the consultative process that. <br>
+Separation of Powers <br>
+After the Prophet, al-Khulafa' al-Rashideen followed in the Prophet's footsteps to the extent possible. Since the revelation of the Qur'an was completed before the Prophet’s passing, Muslims had to do their best to find the proper laws governing each new situation they encountered based only on the learning the Prophet left them and on common sense. <br>
+To minimize error, the khalifahs turned to shura. In matters of religion, other mujtahids were consulted. <br>
+On other matters, the khalifahs, following the example of the Prophet, also relied on shura with the appropriate groups. Thus, shura was a hallmark of early Islamic governance. <br>
+In the days of the Prophet those who provided shura (the "Shura People") were Wise Ones and ascended to their status by a natural process of recognition by the Muslims at large <br>
+
+
+
+<h4> week-9 constitutional principles </h4>
+the constitutional principles cosists of POPULAR SOVEREIGNTY.The governments right to rule comes from the people is mentined in the article 4 of Maldives Constitutiona which states that all the powers of the
+state of the Maldives are derrived from and remain with the state. the constitution rests on the idea of popular sovernty which changes and grows and evolve.<br>
+LIMITED GOVERNMENT: the government has power howeverit is giern byt the constitution and is limited. here in the constitution it is written that legislative power is vested in the peoples majlis. it is also mentioned that the executive power is wested with the preseident. it is also mentioned that judicial power is  witin the courts. <br>
+it is to be noted that bot the citizens and rulers must obey the law. that means no person or group cy bypass the law.<br>
+SEPARATION OF POWERS: the constitutionl separates powers and are declarted such as the parliamen makes laws while the president sitting in the exectuie branche carries  out the laws and thecourts explain and interpret the laws <br>
+the objective of power sepeartion is to provide check and balances.<br>
+it also provides division of governemtn role into branches <br>
+federaslism: a system of government in whihc power is divided between central government and smalll political units such as states.<br>
+dual sovernity means powers are clearly defined and runs with little overlap <br>
+delegate powers: consitution aasigns certain powers to national governments <br>
+reserved powers: poers kept by the state consurrnetpowers: powers shared by national and state govermetns <br>
+Maldvies a unitary form of government <br>
+ unitary vs federal <br>
+federal has multiple hierarch levels while unitary has not such hierarchy <br>
+in federal cetnral or nationl rule overides state rules while in unitary the national governmen can order stat to do anything <br>
+in federal there are balance in level of govenrment while <br>
+in unitary/Federal huge percentage of power given to government. <br>
+republicanism-Citizens elect representatives to carry out their will. based ont eh belief that he people exercise their power by voting for their political representatives. <br>
+Civic Republicanism is the idea that citizens stay informed about politics and participate in the process. <br>
+in presidential: political and administrative powers are devided betweent the executive and leglistave and judical branches. presidnet is that head. president electd by voters and answerable to voters<br>
+in paliamentary: the leglislature give power to prime minister and cabniet for carryig out executive authoiryt head of goveernemetn and head of state has clear differenciation.<br>
+in parliamentary the prime minister is the member of paliamrnt and elect by ruling party.<br>
+TBC from slide 22
 
 
 <h2>Law of Contract II</h2>
