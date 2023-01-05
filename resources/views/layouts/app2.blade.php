@@ -70,7 +70,7 @@
                                         @csrf
                                     </form>
                                     <div>
-                                <a href="{{route('adddelivery')}}">Villa College - BSLaw - SEM2- short notes by Asim</a>
+                                <a href="{{route('law-sm2')}}">Short Notes</a>
                                 </div>
                               
                                    
