@@ -2,7 +2,7 @@
 @section('content')
 <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-8">
+            <div class="col-md-12">
                 <div class="card">
                     <!-- <div class="card-header">{{ __('Register New Staff') }}</div> -->
 
@@ -20,65 +20,58 @@
                                 <div class="col">
                                     <input type="text" name="FirstName"class="form-control" placeholder="First Name ">
                                 </div>
-                              
-                            </div>
-								<div class="form-group row">
                                 <div class="col">
-                                     <input type="text" name="LastName" class="form-control" placeholder="Last Name ">
-                                </div>
+                                    <input type="text" name="LastName" class="form-control" placeholder="Last Name ">
+                               </div>
+                            </div>
+							<div class="form-group row">   
                                 <div class="col">
                                      <input type="text" name="CompanyName" class="form-control" placeholder="Company Name">
                                 </div>
                                 <div class="col">
                                     <input type="text" name="BusinessRegistration"class="form-control" placeholder="Business Registration #">
                                 </div>
-                              
+                                <div class="col">
+                                    <input type="text" name="Address" class="form-control" placeholder="Address">
+                               </div>
+                               <div class="col">
+                                    <input type="text" name="RoadName"class="form-control" placeholder="Road Name">
+                                </div>
                             </div>
-								<div class="form-group row">
-                                <div class="col">
-                                     <input type="text" name="Address" class="form-control" placeholder="Address">
-                                </div>
-                                <div class="col">
-                                     <input type="text" name="RoadName"class="form-control" placeholder="Road Name">
-                                </div>
+							<div class="form-group row">  
                                 <div class="col">
                                     <input type="text" name="City"class="form-control" placeholder="City">
                                 </div>
-                              
+                                <div class="col">
+                                    <input type="text" name="Country"class="form-control" placeholder="Country">
+                               </div>
+                               <div class="col">
+                                    <input type="text" name="ZipCode"class="form-control" placeholder="Zip Code">
+                               </div>
+                               <div class="col">
+                                   <input type="text" name="Telephone"class="form-control" placeholder="Telephone">
+                            </div>  
                             </div>
 								<div class="form-group row">
                                 <div class="col">
-                                     <input type="text" name="Country"class="form-control" placeholder="Country">
+                                        <input type="text" name="Mobile"class="form-control" placeholder="Mobile">
                                 </div>
                                 <div class="col">
-                                     <input type="text" name="ZipCode"class="form-control" placeholder="Zip Code">
+                                        <input type="text" name="e-mail1"class="form-control" placeholder="e-mail 1">
                                 </div>
                                 <div class="col">
-                                    <input type="text" name="Telephone"class="form-control" placeholder="Telephone">
+                                       <input type="text" name="e-mail2"class="form-control" placeholder="e-mail 2">
                                 </div>
-                              
+                                <div class="col">
+                                    <input type="text" name="socialaccounts" class="form-control" placeholder="social accounts">
+                               </div>
                             </div>
-								<div class="form-group row">
-                                <div class="col">
-                                     <input type="text" name="Mobile"class="form-control" placeholder="Mobile">
-                                </div>
-                                <div class="col">
-                                     <input type="text" name="e-mail1"class="form-control" placeholder="e-mail 1">
-                                </div>
-                                <div class="col">
-                                    <input type="text" name="e-mail2"class="form-control" placeholder="e-mail 2">
-                                </div>
-                              
-                            </div>
-								<div class="form-group row">
-                                <div class="col">
-                                     <input type="text" name="socialaccounts" class="form-control" placeholder="social accounts">
-                                </div>
+								
+								<div class="form-group row"> 
                                 <div class="col">
                                 <button type="submit" class="btn btn-primary">
                                         {{ __('Add') }}
-                                    </button>
-                              
+                                </button> 
                             </div>
   
                         </form>
@@ -86,9 +79,13 @@
                     </div>
                 </div>
             </div>
+            <?php echo "<br>"; ?>
+            <?php echo "<br>"; ?>
+
+                              
         </div>
         
-
+      
           
          
                 
@@ -104,6 +101,7 @@
 				  <th scope="col">Email</th>
 				  <th scope="col">Social Account</th>
 				  <th scope="col">photo</th>
+                  <th scope="col">Action</th>
 				</tr>
 			</thead>
 		@foreach ($customer as $item) 

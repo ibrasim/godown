@@ -62,7 +62,7 @@ return view ('agent2',compact('item'));
                   
               //    return view('agent2');
                 }
-                if ($user1=='Aminath' or $user1=='asim' )
+                if ($user1=='Aminath' or $user1=='asim@asim' )
          
                 {                     
                   return view('agent3');
