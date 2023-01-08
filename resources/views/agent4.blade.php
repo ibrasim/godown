@@ -31,7 +31,7 @@
                                     <input type="text" name="boat"class="form-control" >
                                 </div>    
                                 <div class="col">
-                                    <label for="exampleInputEmail1">Vehicle Number</label>
+                                    <label for="exampleInputEmail1">Vehicle Number.</label>
                                     <input type="text" name="vehicleno" class="form-control" >
                                </div>
                             

@@ -6,7 +6,7 @@
     <div class="row justify-content-center">
         <div class="col-md-12">
             <div class="card">
-                <div class="card-header">{{ __('Short notes for MCQ and EXAM. This is just draft copied form slide nned to be edited. All thanks to our lecturers who provided an oean of wonderful study materials (slides,books, links notes) for us!') }}</div>
+                <div class="card-header">{{ __('Short notes for MCQ and EXAM. This is just draft notes copied from slides. Need to proofread and edit. All thanks to our lecturers who provided an ocean of study materials for us!') }}</div>
                 {{-- <div style = "padding:35px;">  --}}
                 
 
@@ -88,6 +88,7 @@ One other element that differs between the two is that burglary requires a break
 </p>
 <h2>CONSTITUTIONAL LAW</h2>
 <h4>week-1 Introduction to Constitution </h4>
+<p class="p-4 bg-success text-white">
 why: what we need to live decently with dignity in a civic society <br>
 James Madison, US 4th president :People need government, if men were angels,  no government would be necessary <br>
 fundamental things humans need: as human beings we all need food, shelter,education,security,protection from violence and des rimnation, recogination and respecit and freedom or rights <br>
@@ -107,7 +108,9 @@ must do- eduction, health care, sanitation, housing,safeguard <br>
 CONSTITUTION <br>
 constitution is the supreme low of the land <br>
 it contains laws relation between different leves of goverment and between governmetn and citizens <br>
+</p>
 <h4>week-2 Functions of the constitution </h4>
+<p class="p-4 bg-danger text-white">
 a modern consitution should reflect <br>
 Q.1     How is the legislative executive and judicial organs structured and how it is   <br>
 organised;What are the powers given to legislative, executive and judiciary; What is the mutual relationship between legislative, executive and judiciary;What is the relation between these organs and the people; What type of government the state has <br>
@@ -129,7 +132,9 @@ presidet elect directly by the people and answerable to voters <br>
 parliament-prime minister and cabinet is executive authority and derived from legislature <br>
 head - clear differntiation between head of government and head of state <br>
 election and responsibliyt- pm member of parliament elected by ruling party <br>
+</p>
 <h4>week-3 Entrenchment </h4>
+<p class="p-4 bg-success text-white">
 the process by which ideas became fixed and cannot be changed <br>
 a concept in which certain ammendments either moredifficult or impossible to pass <br>
 if done it becomes invalid <br>
@@ -137,9 +142,25 @@ also konwns ans eternatiy clause or rigidity  <br>
 protects the governmnet, rights on individuals also protects institutiona and rights against legal change <br>
 eg- ammendment of the consitution 261 <br>
 eg- non assent by president and national referrendum <br>
+</p>
 <h4>week-4 constitutionalism</h4>
-abc
+<p class="p-4 bg-danger text-white">
+In this segment we learn what is contortionism, code of Hammurabi & Cyrus Cylinder, the Magna Carta and Rule of law <br>
+“A country may have constitution but not necessarily constitutionalism. As a country with dictatorship where the word of Dictator is the law will be said to have constitution but not constitutionalism.” <br>
+Spirit of constitution. – 1- Constitutionalism is the <mark>spirit </mark>that makes constitution an <mark>organic </mark> document—, 2-envisaging <mark>checks and balances putting the powers of Legislature and executive under some </mark>restrains, and by—3-  <mark>preventing the arbitrariness by such authorities </mark> and organs. <br>
+
+Synchronization. Constitutionalism needs to be permeated in a Nation's constitution <mark>to 	preserve the basic freedoms of individual and to maintain his dignity. </mark> <br>
+<mark>What is the Code of ‘HAMMURABI’</mark>— 	Babylonian King Hammurabi of Babylon around 1750 BC made the laws to be written that include principles of justice, fairness and protection. <br>
+It was prescribed that 1-people must be<mark> protected by law </mark>; a <mark>ruler is restricted by law and cannot arbitrarily</mark>--deal with his subjects, 2 <mark>women, children, foreigners and other groups3- deserve special protection</mark> slaves should <mark>not be mistreated</mark>, 4 <mark>courts must be free from corruption and arbitrariness. </mark><br>
+<mark>What is Cyrus Cylinder</mark> The origins of Human Rights are ideally pinpointed to the year 539 BC, when the troops of Cyrus the Great conquered Babylon. Cyrus freed the slaves and ended slavery, Declared that all people had the right to choose their own religion, , Established racial equality. <br> 
+<mark>What is Magna Carta </mark> charter of English liberties granted by King John on June 15, 1215. t promised the protection of church rights, 2- protection from illegal imprisonment, 3 access to swift justice as right to just and fair trial, and 4-limitations on taxation and other feudal payments to the Crown.5- It focused on the rights of free men—in particular the barons
+<mark>What are the features of constitutionalism</mark>1- Written constitution.2- Independent Judiciary with power of Judicial review. 2- Doctrine of rule of law. 3-Separation of power. 4-Free elections to legislature. 5-Democracy. 6- Fundamental rights of people.7- Federalism <br>
+<mark>Who is A.V. Dicy and what are his contributions to constitutionalism? </mark>
+ A British constitutional theorist, .lived (4 February 1835 – 7 April 1922), one of the first Professors of Law at the London School of Economics, and a leading constitutional scholar of his day. <br>
+Rule of law connotes higher kind of law which is <mark>reasonable, just and non-discriminatory </mark> and not just mean purely and simply ruling according to the statutory laws. AV.Dicey’s three ideas are 1-Absence of arbitrary power. (1st principle), 2. Equality before law. - (second principle) 3.  Individual liberties.-  (third principle) <br>
+</p>
 <h4>week-5 Parliamentary supermacy</h4>
+<p class="p-4 bg-success text-white">
 supremacy in law context :Highest authority of some (fundamental) norms, institutions or branches of power in a certain legal system. <br>
 Any rule inconsistent with a constitutional rule is an invalid rule. <br>
 Any rule inconsistent with a constitutional rule is an invalid rule. <br>
@@ -154,12 +175,17 @@ then if majoiryt of people can overrule constitutionrules then question becomes 
 This could have implications for minority groups that are not represented by the majority in Parliament but whom a constitution seeks to protect <br>
 how is it addressed in Maldives consitution- independe judeges  / islamic sharia when deciding  matters related to consitution <br>
 Maldives constititional allow judges to function without impartily fear and prejudice. <br>
+</p>
 <h4>week-6 </h4>
+<p class="p-4 bg-danger text-white">
 todo
+</p>
 <h4>week-7 </h4>
+<p class="p-4 bg-danger text-white">
 to do
-
+</p>
 <h4>week-8 islamic constitutionalism </h4>
+<p class="p-4 bg-success text-white">
 sources are the Quran, the sunnah Ijma and Qiyas <br>
 1. Change in Time, Place and Circumstance <br>
 basic sharia principle - A major principle of Islamic jurisprudence is that laws may change with the passage of time and the change of place or circumstances <br>
@@ -188,10 +214,10 @@ After the Prophet, al-Khulafa' al-Rashideen followed in the Prophet's footsteps 
 To minimize error, the khalifahs turned to shura. In matters of religion, other mujtahids were consulted. <br>
 On other matters, the khalifahs, following the example of the Prophet, also relied on shura with the appropriate groups. Thus, shura was a hallmark of early Islamic governance. <br>
 In the days of the Prophet those who provided shura (the "Shura People") were Wise Ones and ascended to their status by a natural process of recognition by the Muslims at large <br>
-
-
+</p>
 
 <h4> week-9 constitutional principles </h4>
+<p class="p-4 bg-danger text-white">
 the constitutional principles cosists of POPULAR SOVEREIGNTY.The governments right to rule comes from the people is mentined in the article 4 of Maldives Constitutiona which states that all the powers of the
 state of the Maldives are derrived from and remain with the state. the constitution rests on the idea of popular sovernty which changes and grows and evolve.<br>
 LIMITED GOVERNMENT: the government has power howeverit is giern byt the constitution and is limited. here in the constitution it is written that legislative power is vested in the peoples majlis. it is also mentioned that the executive power is wested with the preseident. it is also mentioned that judicial power is  witin the courts. <br>
@@ -215,6 +241,37 @@ in presidential: political and administrative powers are devided betweent the ex
 in paliamentary: the leglislature give power to prime minister and cabniet for carryig out executive authoiryt head of goveernemetn and head of state has clear differenciation.<br>
 in parliamentary the prime minister is the member of paliamrnt and elect by ruling party.<br>
 TBC from slide 22
+</p>
+<h4> week-10 constitional principes and rule of law</h4>
+<p class="p-4 bg-success text-white">
+what are the basic principles of the constitution <br>
+popular sovereignty -  the governments right to rule comes from the people. It evolves with the change of the nation and circumstance <br>
+limited government means government has the powers that are given by the constitution. It relates to rule of law that no group or powerful leader is above the rule but must obey rule <br>
+the powers are separated in the parliament, president and court in which parliament make law while president in the executive branch carries out the law and judicial branch explains and interpret the laws. <br>
+in federalism power is divided between federal government and smaller political units known as states. Dual sovereignty related sot federalism which has some overlap in power. <br>
+Delegated powers -constitution assign certain powers to national government <br>
+Reserved powers – powers kept by the states <br>
+Concurrent powers – powers shared between national and state governments. <br>
+Difference between unitary and federal system of governments <br>
+
+Republicanism – citizens elect representative to carry out their will <br>
+Republicanism is based on this belief: The people exercise their power by voting for their political representatives. Civic Republicanism is the idea that citizens stay informed about politics and participate in the process. <br>
+The Maldives constitution (2008) in chapter 2 giver the court to provide remedy if fundamental right is breached. <br>
+Aristotle formulated the question whether it was better to be ruled by the best man or the best laws. <br>
+Montesquieu’s work on the Rule of Law is best known in connection with his insistence on the separation of powers <br>
+A.V Dicey - Rule of law connotes higher kind of law which is reasonable, just and non-discriminatory and not just mean purely and simply ruling according to the statutory laws. no man is above the law no man is punishable except for breach of law established before ordinary courts in ordinary manne. No discretionary and arbitrary power<br>
+
+</p>
+
+<h4> week-11 Separation of powers</h4>
+<p class="p-4 bg-danger text-white">
+  to do
+</p>
+<h4> week-12 Tools of Democracy</h4>
+<p class="p-4 bg-success text-white">
+  to do
+</p>
+
 
 
 <h2>Law of Contract II</h2>
