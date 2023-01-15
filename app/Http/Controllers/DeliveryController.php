@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\delivery;
 use Illuminate\Http\Request;
-
+use Illuminate\Support\Facades\Auth;
 
 class DeliveryController extends Controller
 {
@@ -17,6 +17,8 @@ class DeliveryController extends Controller
     {
         
         if  ($this->middleware('auth')==true)
+
+if(Auth::check()        ==true)
         {
                     //$delivery = delivery::orderByDesc('id')->where('assignedtime' ,'=', '19-12')->get(); 
         //$delivery5 = delivery::orderByDesc('id')->get();
@@ -39,7 +41,10 @@ class DeliveryController extends Controller
 
         }
 
-
+else
+{
+    return redirect('login');
+}
 
     }
 
@@ -76,6 +81,9 @@ class DeliveryController extends Controller
 
     public function index5()
     {
+        if(Auth::check()        ==true)
+        {
+
         $inst=null;
         // $delivery = delivery::where ('status',$inst)->orderByDesc('id')->get();
         $delivery = delivery::all()->sortByDesc('id');
@@ -88,6 +96,11 @@ class DeliveryController extends Controller
         return view('agent6',compact('delivery'));
     }
 
+    else{
+
+        return redirect('login');
+    }
+    }
 
 
     

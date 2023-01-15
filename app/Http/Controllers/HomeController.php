@@ -72,9 +72,13 @@ return view ('agent2',compact('item'));
                 {            
 
                   //$delivery = delivery::orderByDesc('id')->where('status','=' ,null)->get();
-                   $delivery = delivery::all();
+                   //$delivery = delivery::all()->paginate(15);
                
-              
+                   $delivery = delivery::all();
+ 
+
+
+
                   return view('agent4',compact('delivery'));         
                   
                   

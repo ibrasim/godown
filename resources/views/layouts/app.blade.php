@@ -35,12 +35,16 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav me-auto">
-
+                        <a class="nav-link" href="{{route('adddelivery')}}">Delivery</a>
+                        <a class="nav-link"href="{{route('delivery_ordered')}}">Search</a>
                     </ul>
+
+
 
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ms-auto">
                         <!-- Authentication Links -->
+                        
                         @guest
                             @if (Route::has('login'))
                                 <li class="nav-item">
@@ -70,21 +74,21 @@
                                         @csrf
                                     </form>
                                     <div>
-                                <a href="{{route('addcustomer')}}">Customer</a>
+                                {{-- <a href="{{route('addcustomer')}}">Customer</a> --}}
                                 </div>
                                 <div>
-                                <a href="{{route('addvendor')}}">Vendor</a>
+                                {{-- <a href="{{route('addvendor')}}">Vendor</a> --}}
                                 </div>
                                 <div>
-                                    <a href="{{route('receivegood')}}">Receive Goods</a>
+                                    {{-- <a href="{{route('receivegood')}}">Receive Goods</a> --}}
                                     </div>
                                
                                 <div>
-                                    <a href="{{route('addtracking')}}">Tracking</a>
+                                    {{-- <a href="{{route('addtracking')}}">Tracking</a> --}}
                                     </div>
                                 
                                     <div>
-                                    <a href="{{route('additem')}}">New Items</a>
+                                    {{-- <a href="{{route('additem')}}">New Items</a> --}}
                                     </div>
                     
                                 

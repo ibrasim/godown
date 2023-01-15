@@ -28,6 +28,7 @@
                     <th scope="col">Send for Shipping </th>
                     <th scope="col">Shipped Date</th>
                     <th scope="col">Arrival Date </th>
+                    <th scope="col">Status </th>
                     </tr>
                     </thead>
                @foreach ($tracking as $item)                             
@@ -41,6 +42,7 @@
                         <td>{{$item->sendforshipdt}}</td>
                         <td>{{$item->shhippeddt}}</td>
                         <td>{{$item->arrivaldt}}</td>
+                        <td>{{$item->status}}</td>
                     </tr>
              @endforeach 
                        </table>
