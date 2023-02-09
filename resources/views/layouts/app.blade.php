@@ -38,6 +38,7 @@
                     <ul class="navbar-nav ms-auto">
                         <a class="nav-link" href="{{route('adddelivery')}}">Delivery</a>
                         <a class="nav-link"href="{{route('delivery_ordered')}}">Search</a>
+                        
                     </ul>
 
 

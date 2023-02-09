@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\delivery;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use App\Http\Controllers\mysql_query;
 
 class DeliveryController extends Controller
 {
@@ -61,6 +62,14 @@ else
         // $delivery = delivery::where ('status',$inst)->orderByDesc('id')->get();
         $delivery = delivery::orderBy('customer')->get();
         return view('agent6',compact('delivery'));
+    
+    
+   
+
+    
+    
+     
+    
     }
 
 
@@ -344,6 +353,29 @@ public function data_dump()
  
 
 }
+
+
+    
+public function chart()
+{
+
+    $year = ['8','7','6','5','4','3'];
+    $user = [444,608,639,653,784];
+    
+    foreach ($year as $key => $value) {
+    
+   // $user[] = User::where(User::raw("DATE_FORMAT(created_at, '%Y')"),$value)->count();  
+    //$user[] = mv_covid_death::where(mv_covid_death::raw("DATE_FORMAT(date, '%d')"),$value)->count();         
+        }
+         
+     return view('chart1')->with('year',json_encode($year,JSON_NUMERIC_CHECK))->with('user',json_encode($user,JSON_NUMERIC_CHECK));
+
+}
+
+
+
+
+
 }
 
 
