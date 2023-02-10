@@ -53,12 +53,12 @@
                         <thead>
                              <tr style="background-color: #76c4e6">
                                 <th scope="col">ID</th>
-                                <th scope="col">Created Date</th>
+                                <th scope="col">Created</th>
                                 <th scope="col">Shop</th>
                                <th scope="col">Customer</th>
                                <th scope="col">Packages</th>
                                <th scope="col">Vessel</th>    
-                               <th scope="col">Vehicle Number</th>
+                               <th scope="col">Vehicle</th>
                                <th scope="col">Status</th>
                                <th scope="col">Action Date Time</th>         
                                <th scope="col">Remarks</th>         
