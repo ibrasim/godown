@@ -1,15 +1,17 @@
 @extends('layouts.app1')
 
 @section('content')
+
 <div class="container">
+{{-- <div class="container" --}}
     <div class="row justify-content-center">
         <div class="col-md-12">
             <div class="card">
                 <div class="card-header">{{ __('DELIVERY') }}</div>
 
-                <div class="card-body">
+               
                     
-                    <div class="card-body">
+                    <div class="card-body" style="background-color: #76c4e6">
                         <form method="POST" action="savedelivery">
                             @csrf
                           
@@ -22,37 +24,43 @@
                                 <label for="exampleInputEmail1">Customer Name</label>
                                  <input type="text"  name="customer" class="form-control" required="">
                                 </div>
-                                <div class="col">
+                                <div class="col" >
                                     <label for="exampleInputEmail1">Packages</label>
-                                     <input type="text" name="packages" class="form-control" >
+                                     <input type="text" name="packages" class="form-control" style = "width:65px;" >
                                 </div>
                                 <div class="col">
+
+                                
                                     <label for="exampleInputEmail1">Vessel Name</label>
                                     <input type="text" name="boat"class="form-control" >
                                 </div>    
                                 <div class="col">
-                                    <label for="exampleInputEmail1">Vehicle Number.</label>
-                                    <input type="text" name="vehicleno" class="form-control" >
+                                    <label for="exampleInputEmail1">Vehicle Number</label>
+                                    <input type="text" name="vehicleno" class="form-control" style = "width:105px;" >
                                </div>
+
+
+                               
+                               <div class="col">
+                                <button type="submit" class="btn btn-primary" position="relative"  style = "height:55px">
+                                        {{ __('Add') }}
+                                    </button>
+                              
+                                 </div>
+                                 
+                                </div>
+                                <?php echo "<br>"; ?>
                             
-                            
-                            </div>
                        
-                            <?php echo "<br>"; ?>
+                            
+                            
                           
                           
                             <div class="form-group row">
                                
                                 
 
-                            <div class="form-group col">
-                                <div class="col">
-                                    <button type="submit" class="btn btn-primary" position="relative" >
-                                            {{ __('Add New Record') }}
-                                        </button>
-                                  
-                                     </div>
-                                </div>
+
                             </form>
                               
                               
@@ -65,7 +73,7 @@
 
                      
       
-                </div>
+               
             </div>
 
 
@@ -76,12 +84,13 @@
         </div>
     </div>
 </div>
+<?php echo "<br>"; ?>
 
 	
 <table class="table table-hover">     
     <thead>
-         <tr>
-            <th scope="col">Action</th>
+         <tr style="background-color: #68eec3">
+            <th scope="col">Delete</th>
             <th scope="col">ID</th>
             <th scope="col">Shop</th>
            <th scope="col">Customer</th>

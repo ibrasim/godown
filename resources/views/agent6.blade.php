@@ -51,7 +51,7 @@
 
                     <table class="table table-hover">     
                         <thead>
-                             <tr>
+                             <tr style="background-color: #76c4e6">
                                 <th scope="col">ID</th>
                                 <th scope="col">Created Date</th>
                                 <th scope="col">Shop</th>

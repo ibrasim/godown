@@ -41,8 +41,6 @@
                         <a class="nav-link"href="{{route('chart1')}}">Chart</a>
                     </ul>
 
-
-
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ms-auto">
                         
