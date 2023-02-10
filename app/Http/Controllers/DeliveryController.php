@@ -359,25 +359,48 @@ public function data_dump()
 public function chart()
 {
 
-    $year = ['8','7','6','5','4','3'];
-    $user = [444,608,639,653,784];
+    if  ($this->middleware('auth')==true)
+
+    if(Auth::check()        ==true)
+            {
+    
+
+
+//                $year = delivery::select('created_at', delivery::raw('count(*) as daily_count'))
+  //             ->groupBy('created_at')
+    //           ->get()->pluck('daily_count')->toarray();
+
+
+
+            //    $user = delivery::all()->pluck('pkgs')->toarray();  
+
+
+
+
+    $year = ['1-feb','2-feb','3-feb','4-feb','5-feb','6-feb','7-feb','8-feb','9-feb','10-feb'];
+    $user = [40,13,0,47,31,36,30,29,41,0];
     
     foreach ($year as $key => $value) {
     
-   // $user[] = User::where(User::raw("DATE_FORMAT(created_at, '%Y')"),$value)->count();  
-    //$user[] = mv_covid_death::where(mv_covid_death::raw("DATE_FORMAT(date, '%d')"),$value)->count();         
+    //$user[] = delivery::where(delivery::raw("DATE_FORMAT(created_at, '%Y')"),$value)->count();  
+    //$user[] = delivery::where(delivery::raw("DATE_FORMAT(created_at, '%d')"),$value)->count();         
         }
          
-     return view('chart1')->with('year',json_encode($year,JSON_NUMERIC_CHECK))->with('user',json_encode($user,JSON_NUMERIC_CHECK));
-
-}
-
-
-
+    return view('chart1')->with('year',json_encode($year,JSON_NUMERIC_CHECK))->with('user',json_encode($user,JSON_NUMERIC_CHECK));
 
 
 }
 
 
+
+
+else
+{
+    return redirect('login');
+}
+}
+
+
+}
 
 

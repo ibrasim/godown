@@ -22,8 +22,8 @@ var year = <?php echo $year; ?>;
     var barChartData = {
         labels: year,
         datasets: [{
-            label: 'Packages',
-            backgroundColor: "blue",
+            label: 'records',
+            backgroundColor: "red",
             data: user
         }]
     };
@@ -38,14 +38,14 @@ var year = <?php echo $year; ?>;
                 elements: {
                     rectangle: {
                         borderWidth: 2,
-                        borderColor: '#ffa0a0',
+                        borderColor: '#de2f2f',
                         borderSkipped: 'bottom'
                     }
                 },
                 responsive: true,
                 title: {
                     display: true,
-                    text: 'Recent package delivered data'
+                    text: 'No of records February 1-10 2023'
                 }
             }
         });
