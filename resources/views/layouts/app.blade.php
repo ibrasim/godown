@@ -39,6 +39,8 @@
                         <a class="nav-link" href="{{route('adddelivery')}}">Delivery</a>
                         <a class="nav-link"href="{{route('delivery_ordered')}}">Search</a>
                         <a class="nav-link"href="{{route('chart1')}}">Chart</a>
+                        <a class="nav-link"href="https://m.followme.mv/public/"  target="_blank">Vessels</a>
+                        <a class="nav-link"href="{{route('warehouse_item_entry')}}">Items</a>
                     </ul>
 
                     <!-- Right Side Of Navbar -->

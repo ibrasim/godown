@@ -82,3 +82,8 @@ Route::post('/deleteimage',[App\Http\Controllers\itemController::class,'deleteim
 
 
 Route::get('/lawsm2', [App\Http\Controllers\HomeController::class, 'lawsm2'])->name('lawsm2');
+
+
+
+Route::get('/warehouse_item_entry', [App\Http\Controllers\WarehouseitemController::class, 'index'])->name('warehouse_item_entry');
+
