@@ -37,7 +37,7 @@ var year = <?php echo $year; ?>;
             options: {
                 elements: {
                     rectangle: {
-                        borderWidth: 2,
+                        borderWidth: 3,
                         borderColor: '#de2f2f',
                         borderSkipped: 'bottom'
                     }
@@ -45,7 +45,7 @@ var year = <?php echo $year; ?>;
                 responsive: true,
                 title: {
                     display: true,
-                    text: 'No of records February 1-10 2023'
+                    text: 'No of records February 1-14 2023'
                 }
             }
         });
