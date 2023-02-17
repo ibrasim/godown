@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\warehouseitem;
+use Faker\Guesser\Name;
 use Illuminate\Http\Request;
 
 class WarehouseitemController extends Controller
@@ -14,7 +15,11 @@ class WarehouseitemController extends Controller
      */
     public function index()
     {
-        return view('agent7');
+     
+     
+        $warehouseitem = warehouseitem::orderByDesc('id')->get();
+             
+        return view('agent7',compact('warehouseitem'));
      
     }
 
@@ -36,7 +41,26 @@ class WarehouseitemController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $warehouseitem = new warehouseitem();
+        $warehouseitem->item_code = $request->input('itemcode');
+        
+        $warehouseitem->item_category = implode(',', $request->category);
+        
+
+        $warehouseitem->item_name = $request->input('inputdetail');
+        
+        
+        $warehouseitem->min_quantity = $request->input('reorderlevel');
+        //$warehouseitem->user = $request->input('itemcode');
+        //$warehouseitem->user =  $request->user();
+        $warehouseitem->user =  $request->user()->name;
+        
+
+        //dd($warehouseitem);
+        $warehouseitem ->save();
+
+
+      return redirect('/warehouse_item_entry');
     }
 
     /**

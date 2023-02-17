@@ -8,11 +8,13 @@
         <div class="col-md-12">
             <div class="card">
                 <div class="card-header">{{ __('NEW ITEM ENTRY') }}</div>
-
+<center> <h3>FOR TEST DATA ONLY</h3> </center> 
                
                     
                     <div class="card-body" style="background-color: #d3aec4">
-                        <form method="get" action="/home">
+                        
+                          <form action="{{ route('save_warehouse_item') }}" method="post">
+                            
                             @csrf
                           
                             
@@ -22,7 +24,7 @@
                             
                                 
                                   <label for="inputcode">Item Code</label>
-                                  <input type="text" class="form-control" id="inputcode">
+                                  <input type="text" class="form-control" id="itemcode" name="itemcode" class="form-control" required="">
                                                     
 
                                 </div>
@@ -35,21 +37,21 @@
                               
                               
                                 <label>Category</label>
-                                <select id="category" name="name[]" multiple class="form-control" >
-                                <option value="Codeigniter">Battery</option>
-                                <option value="CakePHP">Biscuits</option>
-                                <option value="Laravel">Chips</option>
-                                <option value="YII">Coffee</option>
-                                <option value="Zend">Cooking Oil</option>
-                                <option value="Symfony">Cosmetics</option>
-                                <option value="Phalcon">Daiy Producst</option>
-                                <option value="Slim">Detergent</option>
-                                <option value="Slim">Pharmaceuticals</option>
-                                <option value="Slim">Snacks</option>
-                                <option value="Slim">Spices</option>
-                                <option value="Slim">Supari</option>
-                                <option value="Slim">Sweets</option>
-                                <option value="Slim">Tape</option>
+                                <select id="category" name="category[]" multiple class="form-control" class="form-control" required="">
+                                <option value="Battery">Battery</option>
+                                <option value="Biscuits">Biscuits</option>
+                                <option value="Chips">Chips</option>
+                                <option value="Coffee">Coffee</option>
+                                <option value="Cooking Oil">Cooking Oil</option>
+                                <option value="Cosmetics">Cosmetics</option>
+                                <option value="Daiy Producst">Daiy Producst</option>
+                                <option value="Detergent">Detergent</option>
+                                <option value="Pharmaceuticals">Pharmaceuticals</option>
+                                <option value="Snacks">Snacks</option>
+                                <option value="Spices">Spices</option>
+                                <option value="Supari">Supari</option>
+                                <option value="Sweets">Sweets</option>
+                                <option value="Tape">Tape</option>
                                 </select>
                               
 
@@ -65,7 +67,7 @@
                             
                           <div class="col">
                                     <label for="inputdetail">Item Detail</label>
-                                    <input type="text" class="form-control" id="inputdetail">
+                                    <input type="text" class="form-control" id="inputdetail" name="inputdetail" class="form-control" required="">
                                   </div>
                             
                                   <div class="col">
@@ -74,7 +76,7 @@
                               
                               
                                 <label for="inputAddress2">Re-order level</label>
-                                <input type="text" class="form-control" id="inputAddress2" >
+                                <input type="text" class="form-control" id="reorderlevel" name="reorderlevel"  class="form-control" required="">
                               </div>
                              
                               <div class="col">
@@ -105,84 +107,37 @@
 </div>
 <?php echo "<br>"; ?>
 
-{{-- 	
+
 <table class="table table-hover">     
     <thead>
-         <tr style="background-color: #68eec3">
-            <th scope="col">Delete</th>
+         <tr style="background-color: #f0b2da">
+
             <th scope="col">ID</th>
-            <th scope="col">Shop</th>
-           <th scope="col">Customer</th>
-           <th scope="col">Update</th>
-           <th scope="col">Packages</th>
-           <th scope="col">Vessel</th>
+            <th scope="col">Item Code</th>
+           <th scope="col">Item Name</th>
+           <th scope="col">Category</th>
+           <th scope="col">Reorder Level</th>
+           <th scope="col">User</th>
            
-           <th scope="col">Vehicle Number</th>
-           <th scope="col">Finish</th>
-           
-           <th scope="col">Assigned /Start / Finish  Time</th>
-          
-            
-            <th scope="col">Start</th>  
-          
-         </tr>
      </thead>
- @foreach ($delivery as $item1) 
+ @foreach ($warehouseitem as $item1) 
                        
          <tr>
-            <td>
-                <form action="{{ route('delete_delivery',$item1->id) }}" method="post"> 
-                                 
-                 @csrf
-
-                 <button type="submit" value="delete" class="btn btn-secondary" > DELETE </button>
-               </form>    
-                 
-                    
-                 </td>
+           
                  <td>{{$item1->id}}</td>      
-            <td>{{$item1->completetime}}</td>      
-            <td>{{$item1->customer}}</td>      
-            <td><a href={{ "show_delivery/".$item1['id'] }}>Edit</td>
+            <td>{{$item1->item_code}}</td>      
+            <td>{{$item1->item_name}}</td>      
+            <td>{{$item1->item_category}}</td>      
+            <td>{{$item1->min_quantity}}</td>      
+            <td>{{$item1->user}}</td>      
+            
 
-
-
-            <td>{{$item1->pkgs}}</td>
-            <td>{{$item1->boat}}</td> 
-          
-            <td>{{$item1->vehicleno}}</td>
-            <td>
-                <form action="{{ route('complete_delivery',$item1->id) }}" method="post"> 
-                                 
-                 @csrf
-
-                 <button type="submit" value="delete" class="btn btn-warning" > Finish </button>
-               </form>    
-                 
+     
                     
 
-            </td>
-            
-            <td>{{$item1->assignedtime}}</td>
-           
-           
-            
-          
-                    <td>
-                 <form action="{{ route('update_delivery',$item1->id) }}" method="post"> 
-                                  
-                  @csrf
-
-                  <button type="submit" value="delete" class="btn btn-success" > Start </button>
-                </form>    
-                  
-                     
-                  </td>
-                 
-                  
              </tr>
 @endforeach 
-    </table>      --}}
+    </table>      
 </div>
 @endsection
 

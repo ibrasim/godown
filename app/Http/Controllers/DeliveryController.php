@@ -377,8 +377,8 @@ public function chart()
 
 
 
-    $year = ['1-feb','2-feb','3-feb','4-feb','5-feb','6-feb','7-feb','8-feb','9-feb','10-feb','11-feb','12-feb','13-feb','14-feb',];
-    $user = [40,13,0,47,31,36,30,29,41,0,30,63,38,34];
+    $year = ['1-feb','2-feb','3-feb','4-feb','5-feb','6-feb','7-feb','8-feb','9-feb','10-feb','11-feb','12-feb','13-feb','14-feb','15-feb','16-feb','17-feb'];
+    $user = [40,13,0,47,31,36,30,29,41,0,30,63,38,34,36,36,0];
     
     foreach ($year as $key => $value) {
     

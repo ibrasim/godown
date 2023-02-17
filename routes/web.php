@@ -78,12 +78,8 @@ Route::post('/saveitem', [App\Http\Controllers\itemController::class, 'store'])-
 Route::post('/editsellingprice',[App\Http\Controllers\itemController::class,'edit2'])->name('editsellingprice');
 Route::post('/deleteimage',[App\Http\Controllers\itemController::class,'deleteimage'])->name('deleteimage');
 
-
-
-
 Route::get('/lawsm2', [App\Http\Controllers\HomeController::class, 'lawsm2'])->name('lawsm2');
-
-
-
 Route::get('/warehouse_item_entry', [App\Http\Controllers\WarehouseitemController::class, 'index'])->name('warehouse_item_entry');
+
+Route::post('/save_warehouse_item', [App\Http\Controllers\WarehouseitemController::class, 'store'])->name('save_warehouse_item');
 
