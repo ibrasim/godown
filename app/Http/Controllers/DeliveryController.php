@@ -102,7 +102,7 @@ else
         
         //$students = Student::orderBy('first_name')->paginate(5);
         //$delivery = delivery::get()->sortByDesc('id');
-        $delivery = delivery::orderBy('id')->paginate(45);
+        $delivery = delivery::orderByDesc('id')->paginate(45);
 
 
 

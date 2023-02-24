@@ -140,7 +140,7 @@
            
                  <td>{{$d->item_code}}</td>      
                  <td>{{$d->item_name}}</td>      
-                 <td>{{$d->totalstock}}</td>      
+                 
             
 
      

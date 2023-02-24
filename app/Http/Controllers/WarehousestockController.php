@@ -22,10 +22,10 @@ class WarehousestockController extends Controller
      
 
 
- $data1 =         DB::table('warehouseitem')
-         ->select('warehouseitem.item_code','warehouseitem.item_name','warehousestocks.qty')
+ $data1 =         DB::table('warehouseitems')
+         ->select('warehouseitems.item_code','warehouseitems.item_name','warehousestocks.qty')
         
-         ->join('warehousestocks','warehousestocks.item_code','=','warehouseitem.item_code')
+         ->join('warehousestocks','warehousestocks.item_code','=','warehouseitems.item_code')
         
          //->where(['warehouseitems.item_code', '=', 12])
         
