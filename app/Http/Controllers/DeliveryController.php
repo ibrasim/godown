@@ -16,6 +16,7 @@ class DeliveryController extends Controller
      */
     public function index()
     {
+     
         
         if  ($this->middleware('auth')==true)
 
@@ -28,7 +29,8 @@ if(Auth::check()        ==true)
         
 
         
-        $delivery = delivery::orderByDesc('id')->where('status','=' ,null)->get();
+        //$delivery = delivery::orderByDesc('id')->where('status','=' ,null)->get();
+        $delivery = delivery::orderByDesc('id')->where('status','=' ,null)->paginate(8);
         
         //$delivery = delivery::orderByDesc('id')->get();
         // orderBy('id', 'DESC')
@@ -95,7 +97,14 @@ else
 
         $inst=null;
         // $delivery = delivery::where ('status',$inst)->orderByDesc('id')->get();
-        $delivery = delivery::all()->sortByDesc('id');
+        //$delivery = delivery::all()->sortByDesc('id');
+        
+        
+        //$students = Student::orderBy('first_name')->paginate(5);
+        //$delivery = delivery::get()->sortByDesc('id');
+        $delivery = delivery::orderBy('id')->paginate(45);
+
+
 
 //        $results = Project::all()->sortByDesc("name");
         // $results = delivery::orderBy('id')->get();

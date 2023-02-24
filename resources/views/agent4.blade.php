@@ -164,6 +164,11 @@
              </tr>
 @endforeach 
     </table>     
+    <div  style="margin-left :40%">
+        {{ $delivery->links() }}
+    </div>
+
+
 </div>
 @endsection
 
