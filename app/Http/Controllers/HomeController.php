@@ -77,9 +77,11 @@ return view ('agent2',compact('item'));
                    //$delivery = delivery::all();
                   //return view('agent4',compact('delivery'));         
 
-                  $delivery = delivery::orderByDesc('id')->where('status','=' ,null)->get();
-                  return view('agent4',compact('delivery'));
-                  
+               //   $delivery = delivery::orderByDesc('id')->where('status','=' ,null)->get();
+                 // return view('agent4',compact('delivery'));
+                 
+                 $delivery = delivery::orderByDesc('id')->where('status','=' ,null)->paginate(8);
+                 return view('agent4',compact('delivery'));
 
                 }
                 if ($user1=='dheema'  or  $user1=='arjun')

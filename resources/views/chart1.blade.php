@@ -23,7 +23,7 @@ var year = <?php echo $year; ?>;
         labels: year,
         datasets: [{
             label: 'records',
-            backgroundColor: "green",
+            backgroundColor: "orange",
             data: user
         }]
     };
@@ -45,7 +45,7 @@ var year = <?php echo $year; ?>;
                 responsive: true,
                 title: {
                     display: true,
-                    text: 'No of records February 1-17 2023'
+                    text: 'No of records February 1-23 2023'
                 }
             }
         });
