@@ -62,7 +62,13 @@ else
     {
         $inst=null;
         // $delivery = delivery::where ('status',$inst)->orderByDesc('id')->get();
-        $delivery = delivery::orderBy('customer')->get();
+        
+
+
+//        $delivery = delivery::orderByDesc('id')->where('status','=' ,null)->paginate(8);
+
+
+        $delivery = delivery::orderBy('customer')->paginate(15);
         return view('agent6',compact('delivery'));
     
     
@@ -79,7 +85,9 @@ else
     {
         $inst=null;
         // $delivery = delivery::where ('status',$inst)->orderByDesc('id')->get();
-        $delivery = delivery::orderBy('completetime')->get();
+     
+        
+        $delivery = delivery::orderBy('completetime')->paginate(15);
 
 
 
