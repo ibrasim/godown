@@ -31,8 +31,8 @@
                         <tbody>
                           <tr>
                             <th scope="row">2024</th>
-                            <td>2024</td>
-                            <td>fairview A</td>
+                            <td>fairview A2024</td>
+                            <td></td>
                             <td>monthly</td>
                             <td>10-Jan-24</td>
                             <td>Dr.Omar</td>
