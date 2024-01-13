@@ -30,10 +30,10 @@ class WarehousestockController extends Controller
          //->where(['warehouseitems.item_code', '=', 12])
         
          ->get();
-//         dd($data);
+         dd($data1);
           //return view('agent8');
         
-          return view('agent8',compact('data1'));
+//          return view('agent8',compact('data1'));
 
 
          
@@ -53,10 +53,11 @@ class WarehousestockController extends Controller
         $data1 =  DB::table('warehouseitems')
             ->join('warehousestocks', 'warehouseitems.item_code', '=','warehousestocks.item_code')
             ->select('warehouseitems.item_code', 'warehouseitems.item_name', DB::raw('SUM(warehousestocks.qty) as totalstock'))
-            ->groupBy('warehouseitems.item_code','warehousestocks.item_code','warehouseitems.item_name')
+            ->groupBy('warehouseitems.item_code','warehousestocks.item_code','warehouseitems.item_name') 
             
             
-            ->get();
+            
+            ->paginate(1);
         //dd( $data1);
 
         return view('agent8',compact('data1'));
@@ -84,6 +85,56 @@ class WarehousestockController extends Controller
      */
     public function store(Request $request)
     {
+     
+        if  ($this->middleware('auth')==true)
+        {
+        
+            $warehousestock = new warehousestock();
+        
+$warcode = "Kakaage Aage";
+   
+            $warehousestock->item_code = $request->input('itemcode');     
+            $warehousestock->qty = $request->input('itemqty');     
+            //$warehousestock->warehouse = $request->input('warehouse');  
+            
+            //$warehousestock->warehouse = $request->input('warehouse')->implode(",",warehouse);
+            $warehousestock->wharehouse_code = $request->input('itemcode');     
+            $warehousestock->wharehouse_name =$warcode;
+            $warehousestock->user =$warcode;
+
+            $warehousestock->balance = $request->input('itemcode');     
+        
+       // dd( $warehousestock);
+        
+        // $delivery->completetime = $request->input('shopname');     
+        
+        $warehousestock ->save();
+       //return redirect('/adddelivery')->with('success','delivery data saved');
+        }
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
         //
     }
 

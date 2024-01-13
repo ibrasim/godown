@@ -16,7 +16,7 @@ class GoodsreceiveController extends Controller
     {
         $goods = goodsreceive::orderByDesc('id')->get();
         
-        return view('receivegood',compact('goods'));
+         return view('receivegood',compact('goods'));
         
     }
 

@@ -10,14 +10,18 @@
                 <div class="card-header">{{ __('STOCK ENTRY') }}</div>
 <center> <h3>FOR TEST STOCK IN DATA ONLY</h3> </center> 
                     <div class="card-body" style="background-color: #c06e6e">
+                      <form action="{{ route('warehouse_stock_save') }}" method="post">
+                        @csrf
                         <div class="row">
                           <div class="col">
                         <label for="inputcode">Item Code</label>
                         <input type="text" class="form-control" id="itemcode" name="itemcode" class="form-control" required="">                    
-                        <form action="{{ route('warehouse_item_check') }}" method="post">
+                   
+                        {{-- <form action="{{ route('warehouse_item_check') }}" method="post">
                           @csrf
                         <button type="submit" class="btn btn-warning">Check</button>
                         </form>
+                    --}}
                       </div>
                     
 
@@ -57,7 +61,7 @@
                             
                                 
                                   <label for="inputcode">Quantity</label>
-                                  <input type="text" class="form-control" id="itemcode" name="itemcode" class="form-control" required="">
+                                  <input type="text" class="form-control" id="itemcode" name="itemqty" class="form-control" required="">
                                   {{-- <input type="text"  name="id"  value="{{ $data['qty'] }}" class="form-control" >       --}}
 
                                 </div>
@@ -70,7 +74,7 @@
                               
                               
                                 <label>Warehouse</label>
-                                <select id="category" name="category[]" multiple class="form-control" class="form-control" required="">
+                                <select id="category" name="warehouse[]" multiple class="form-control" class="form-control" required="">
                                 <option value="Battery">Kakaage Aage</option>
                                 <option value="Biscuits">Bageechaage</option>
                                 <option value="Chips">Warehoue 1</option>
@@ -97,7 +101,7 @@
                               
                               <div class="col">
                               <button type="submit" class="btn btn-primary">Save</button>
-
+                            </form>
                             {{-- </form> --}}
                             
                           </div>
@@ -140,7 +144,7 @@
            
                  <td>{{$d->item_code}}</td>      
                  <td>{{$d->item_name}}</td>      
-                 
+                 <td>{{$d->totalstock}}</td>      
             
 
      
@@ -149,6 +153,11 @@
              </tr>
 @endforeach 
     </table>       
+      </table>     
+    <div  style="margin-left :40%">
+        {{ $data1->links() }}
+    </div> 
+
 </div>
 @endsection
 

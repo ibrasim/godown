@@ -16,7 +16,7 @@
                     <table class="table thead-dark">
                         <thead>
                           <tr>
-                            <th scope="col">No</th>
+                            <th scope="col">No-</th>
                             <th scope="col">Task Detail</th>
                             <th scope="col">Started</th>
                             <th scope="col">Completed</th>

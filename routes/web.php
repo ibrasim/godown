@@ -86,3 +86,5 @@ Route::post('/save_warehouse_item', [App\Http\Controllers\WarehouseitemControlle
 
 Route::get('/warehouse_stock_entry', [App\Http\Controllers\WarehousestockController::class, 'index'])->name('warehouse_stock_entry');
 Route::post('/warehouse_item_check', [App\Http\Controllers\WarehousestockController::class, 'show'])->name('warehouse_item_check');
+
+Route::post('/warehouse_stock_save', [App\Http\Controllers\WarehousestockController::class, 'store'])->name('warehouse_stock_save');
