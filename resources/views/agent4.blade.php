@@ -17,7 +17,7 @@
                           
                             <div class="form-group row">
                                 <div class="col">
-                                    <label for="exampleInputEmail1">Shop Name</label>
+                                    <label for="exampleInputEmail1">Shop Name*</label>
                                     <input type="text"  name="shopname" class="form-control" required="" >
                                </div>
                                <div class="col">
