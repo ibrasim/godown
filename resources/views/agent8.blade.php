@@ -75,11 +75,11 @@
                               
                                 <label>Warehouse</label>
                                 <select id="category" name="warehouse[]" multiple class="form-control" class="form-control" required="">
-                                <option value="Battery">Kakaage Aage</option>
-                                <option value="Biscuits">Bageechaage</option>
+                                <option value="Battery">aKakaage Aage</option>
+                                <option value="Biscuits">aBageechaage</option>
                                 <option value="Chips">Warehoue 1</option>
                                 <option value="Sweets">Warehoue 2</option>
-                                <option value="Tape">Warehoue 3</option>
+                                <option value="Tape">Warehoue 3 test</option>
                                 </select>
                               
 
