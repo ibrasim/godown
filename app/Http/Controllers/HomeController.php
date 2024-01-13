@@ -84,7 +84,7 @@ return view ('agent2',compact('item'));
                  return view('agent4',compact('delivery'));
 
                 }
-                if ($user1=='dheema'  or  $user1=='arjun')
+                if ($user1=='omar'  or  $user1=='arjun')
          
                 {
                   return view('agent3');

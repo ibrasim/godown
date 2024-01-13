@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Welcome to Administator Page updated on  17 december 2022') }}</div>
+                <div class="card-header">{{ __(' 13 January 2024') }}</div>
 
                 <div class="card-body">
                     
@@ -88,39 +88,6 @@
                             
                           </tr>
                          
-                          </tr>
-                          <tr>
-                            <th scope="row">3</th>
-                            <td>Add management Dashboard</td>
-                            <td>TO DO</td>
-                            <td>TO DO </td>
-                            
-                          </tr>
-                          </tr>
-                          <tr>
-                            <th scope="row">4</th>
-                            <td>Add item entry page </td>
-                            <td>TO DO</td>
-                            <td>TO DO </td>
-                            
-                          </tr>
-                          <tr>
-                            <th scope="row">5</th>
-                            
-                            <td>Purchase Domain and test on cloud</td>
-                            <td>TO DO</td>
-                            <td>TO DO </td>
-                            
-                          </tr>
-                          </tr>
-                          <tr>
-                            <th scope="row">6</th>
-                            
-                            <td>to include "Shipment Open" and "Shipment Close" procedure in the system</td>
-                            <td>TO DO</td>
-                            <td>discussed on 17 dec </td>
-                            
-                          </tr>
                           </tr>
                         </tbody>
                       </table>
