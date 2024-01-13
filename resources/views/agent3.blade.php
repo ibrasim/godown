@@ -43,16 +43,51 @@
                           </tr>
                           <tr>
                             <th scope="row">2024</th>
-                            <td>2023</td>
-                            <td>fairview A </td>
+                            <td>fairview A</td>
                             <td>December</td>
                             <td>monthly</td>
-                            <td>1-Dec-2023</td>
+                            <td>1-Dec-24</td>
                             <td>Dr.Omar</td>
                             <td>7620.00</td>
+                            <td>transfer</td>
                             <td>rent with utility bills (as agreed)</td>
                           </tr>
 
+                          <tr>
+                            <th scope="row">2024</th>
+                            <td>fairview A</td>
+                            <td>November </td>
+                            <td>monthly</td>
+                            <td>30-Nov-23</td>
+                            <td>Dr.Omar</td>
+                            <td>7620.00</td>
+                            <td>transfer</td>
+                            <td>rent with utility bills (as agreed)</td>
+                          </tr>
+
+                          <tr>
+                            <th scope="row">2024</th>
+                            <td>fairview A</td>
+                            <td>October </td>
+                            <td>monthly</td>
+                            <td>1-Oct-23</td>
+                            <td>Dr.Omar</td>
+                            <td>7500.00</td>
+                            <td>cash hand over</td>
+                            <td>rent with utility bills (as agreed)</td>
+                          </tr>
+
+                          <tr>
+                            <th scope="row">2024</th>
+                            <td>fairview A</td>
+                            <td>September </td>
+                            <td>monthly</td>
+                            <td>9-Sep-23</td>
+                            <td>Dr.Omar</td>
+                            <td>7500.00</td>
+                            <td>cash hand over</td>
+                            <td>rent with utility bills (as agreed)</td>
+                          </tr>
                           
                           </tr>
                         </tbody>
