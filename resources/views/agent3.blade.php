@@ -32,13 +32,14 @@
                           <tr>
                             <th scope="row">2024</th>
                             <td>fairview A</td>
+                            <td>january</td>
                             <td>monthly</td>
                             <td>10-Jan-24</td>
                             <td>Dr.Omar</td>
                             <td>7812.59</td>
                             <td>transfer</td>
                             <td>rent with utility bills (as agreed)</td>
-                            <td>xx</td>
+                            
                           </tr>
                           <tr>
                             <th scope="row">2024</th>
