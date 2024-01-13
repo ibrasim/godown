@@ -31,16 +31,27 @@
                         <tbody>
                           <tr>
                             <th scope="row">1</th>
-                            <td>1</td>
-                            <td>2</td>
-                            <td>2</td>
-                            <td>2</td>
-                            <td>2</td>
-                            <td>2</td>
-                            <td>2</td>
-                            <td>2</td>
-                            <td>2</td>
+                            <td>fairview A</td>
+                            <td>2024</td>
+                            <td>monthly</td>
+                            <td>10-Jan-24</td>
+                            <td>Dr.Omar</td>
+                            <td>7812.59</td>
+                            <td>transfer</td>
+                            <td>rent with utility bills (as agreed)</td>
                           </tr>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>fairview A</td>
+                            <td>2023 </td>
+                            <td>December</td>
+                            <td>monthly</td>
+                            <td>1-Dec-2023</td>
+                            <td>Dr.Omar</td>
+                            <td>7620.00</td>
+                            <td>rent with utility bills (as agreed)</td>
+                          </tr>
+
                           
                           </tr>
                         </tbody>
