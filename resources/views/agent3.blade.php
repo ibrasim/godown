@@ -6,7 +6,7 @@
     <div class="row justify-content-center">
         <div class="col-md-12">
             <div class="card">
-                <div class="card-header">{{ __('s!') }}</div>
+                <div class="card-header">{{ __('proprty rent details') }}</div>
                 {{-- <div style = "padding:35px;">  --}}
                 
 
@@ -42,7 +42,7 @@
                             
                           </tr>
                           <tr>
-                            <th scope="row">2024</th>
+                            <th scope="row">2023</th>
                             <td>fairview A</td>
                             <td>December</td>
                             <td>monthly</td>
@@ -54,7 +54,7 @@
                           </tr>
 
                           <tr>
-                            <th scope="row">2024</th>
+                            <th scope="row">2023</th>
                             <td>fairview A</td>
                             <td>November </td>
                             <td>monthly</td>
@@ -66,7 +66,7 @@
                           </tr>
 
                           <tr>
-                            <th scope="row">2024</th>
+                            <th scope="row">2023</th>
                             <td>fairview A</td>
                             <td>October </td>
                             <td>monthly</td>
@@ -78,7 +78,7 @@
                           </tr>
 
                           <tr>
-                            <th scope="row">2024</th>
+                            <th scope="row">2023</th>
                             <td>fairview A</td>
                             <td>September </td>
                             <td>monthly</td>
@@ -90,7 +90,7 @@
                           </tr>
                           
                           <tr>
-                            <th scope="row">2024</th>
+                            <th scope="row">2023</th>
                             <td>fairview A</td>
                             <td>August </td>
                             <td>monthly</td>
@@ -102,7 +102,7 @@
                           </tr>
 
                           <tr>
-                            <th scope="row">2024</th>
+                            <th scope="row">2023</th>
                             <td>fairview A</td>
                             <td>July </td>
                             <td>monthly</td>
@@ -114,7 +114,7 @@
                           </tr>
 
                           <tr>
-                            <th scope="row">2024</th>
+                            <th scope="row">2023</th>
                             <td>fairview A</td>
                             <td>June </td>
                             <td>monthly</td>
@@ -126,7 +126,7 @@
                           </tr>
 
                           <tr>
-                            <th scope="row">2024</th>
+                            <th scope="row">2023</th>
                             <td>fairview A</td>
                             <td>May </td>
                             <td>monthly</td>
@@ -138,7 +138,7 @@
                           </tr>
                             
                           <tr>
-                            <th scope="row">2024</th>
+                            <th scope="row">2023</th>
                             <td>fairview A</td>
                             <td>April </td>
                             <td>monthly</td>
@@ -150,7 +150,7 @@
                           </tr>
 
                           <tr>
-                            <th scope="row">2024</th>
+                            <th scope="row">2023</th>
                             <td>fairview A</td>
                             <td>March </td>
                             <td>monthly</td>
@@ -162,7 +162,7 @@
                           </tr>
 
                           <tr>
-                            <th scope="row">2024</th>
+                            <th scope="row">2023</th>
                             <td>fairview A</td>
                             <td>February</td>
                             <td>monthly</td>
@@ -174,7 +174,7 @@
                           </tr>
 
                           <tr>
-                            <th scope="row">2024</th>
+                            <th scope="row">2023</th>
                             <td>fairview A</td>
                             <td>January</td>
                             <td>half-monthly</td>
@@ -193,7 +193,7 @@
 
 
  
-<h4>test </h4>
+
 <p class="p-4 bg-success text-white">
 T
 </p>
