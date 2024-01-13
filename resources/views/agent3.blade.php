@@ -30,7 +30,7 @@
                         </thead>
                         <tbody>
                           <tr>
-                            <th scope="row">1</th>
+                            <th scope="row">2024</th>
                             <td>fairview A</td>
                             <td>2024</td>
                             <td>monthly</td>
@@ -41,7 +41,7 @@
                             <td>rent with utility bills (as agreed)</td>
                           </tr>
                           <tr>
-                            <th scope="row">1</th>
+                            <th scope="row">2024</th>
                             <td>fairview A</td>
                             <td>2023 </td>
                             <td>December</td>
