@@ -216,18 +216,26 @@ T
                         </thead>
                         <tbody>
                           <tr>
-                            <th scope="row">2024</th>
+                            <th scope="row">2023</th>
                             <td>fairview A</td>
                             <td>Water</td>
                             <td>December</td>
                             <td>612.59</td>
                             <td>28 Dec 2023</td>
                             <td>139-130453</td>
-                            <td>Dr.Omar</td>
-                            
-                            
+                            <td>Dr.Omar</td>                            
                           </tr>
-                          
+                          <tr>
+                            <th scope="row">2023</th>
+                            <td>fairview A</td>
+                            <td>Water</td>
+                            <td>November</td>
+                            <td>1014.33</td>
+                            <td>28 Dec 2023</td>
+                            <td>139-123532</td>
+                            <td>Dr.Omar</td>                            
+                          </tr>
+
 
                           </tr>
                         </tbody>
