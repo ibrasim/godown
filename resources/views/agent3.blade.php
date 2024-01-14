@@ -22,8 +22,8 @@
                             <th scope="col">Month</th>
                             <th scope="col">Duration</th>
                             <th scope="col">paid_date</th>
-                            <th scope="col">Aamount</th>
                             <th scope="col">Tenant</th>
+                            <th scope="col">Amount</th>
                             <th scope="col">Mode</th>
                             <th scope="col">Other Details</th>
                           </tr>
@@ -198,7 +198,40 @@
 T
 </p>
  
+<div class="container">
+                      
+                      <table class="table thead-dark">
+                        <thead>
+                          <tr>
+                            <th scope="col">Year</th>
+                            <th scope="col">Unit</th>
+                            <th scope="col">utility</th>
+                            <th scope="col">Month</th>
+                            <th scope="col">amount</th>
+                            <th scope="col">paid_date</th>
+                            <th scope="col">bill_no</th>
+                            <th scope="col">Paid_By</th>
+                            
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">2024</th>
+                            <td>fairview A</td>
+                            <td>Water</td>
+                            <td>December</td>
+                            <td>612.59</td>
+                            <td>28 Dec 2023</td>
+                            <td>139-130453</td>
+                            <td>Dr.Omar</td>
+                            
+                            
+                          </tr>
+                          
 
+                          </tr>
+                        </tbody>
+                      </table>
 
 
 </div>
