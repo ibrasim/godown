@@ -295,7 +295,7 @@ Water
 
 
 
-<p class="p-4 bg-success text-white">
+<p class="p-4 bg-primary text-white">
 Waste
 </p>
  
@@ -337,7 +337,7 @@ Waste
 
 
 
-<p class="p-4 bg-success text-white">
+<p class="p-4 bg-warning text-white">
 Internet
 </p>
  
