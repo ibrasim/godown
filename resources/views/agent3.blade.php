@@ -334,6 +334,48 @@ Waste
 
 
 </div>
+
+
+
+<p class="p-4 bg-success text-white">
+Internet
+</p>
+ 
+<div class="container">
+                      
+                      <table class="table thead-dark">
+                        <thead>
+                          <tr>
+                            <th scope="col">Year</th>
+                            <th scope="col">Unit</th>
+                            <th scope="col">utility</th>
+                            <th scope="col">Month</th>
+                            <th scope="col">amount</th>
+                            <th scope="col">paid_date</th>
+                            <th scope="col">bill_no</th>
+                            <th scope="col">Paid_By</th>
+                            
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">2023</th>
+                            <td>fairview A</td>
+                            <td>Internet-SuperNet_U5M_250</td>
+                            <td>December</td>
+                            <td>422.76</td>
+                            <td>15 Jan 2024</td>
+                            <td>0006976120</td>
+                            <td>Dr.Omar</td>                            
+                          </tr>
+                    
+
+                          </tr>
+                        </tbody>
+                      </table>
+
+
+</div>
                 <div class="card-body">
                     
                
