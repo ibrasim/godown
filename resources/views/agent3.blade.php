@@ -193,7 +193,7 @@
 
 
  
-<p class="p-4 bg-success text-white">
+<p class="p-4 bg-info text-white">
 Electricty
 </p>
  
