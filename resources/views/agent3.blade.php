@@ -193,9 +193,59 @@
 
 
  
+<p class="p-4 bg-success text-white">
+Electricty
+</p>
+ 
+<div class="container">
+                      
+                      <table class="table thead-dark">
+                        <thead>
+                          <tr>
+                            <th scope="col">Year</th>
+                            <th scope="col">Unit</th>
+                            <th scope="col">utility</th>
+                            <th scope="col">Month</th>
+                            <th scope="col">amount</th>
+                            <th scope="col">paid_date</th>
+                            <th scope="col">bill_no</th>
+                            <th scope="col">Paid_By</th>
+                            
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">2023</th>
+                            <td>fairview A</td>
+                            <td>Electricty</td>
+                            <td>December</td>
+                            <td>403.59</td>
+                            <td>28 Dec 2023</td>
+                            <td>139-130451</td>
+                            <td>Dr.Omar</td>                            
+                          </tr>
+                          <tr>
+                            <th scope="row">2023</th>
+                            <td>fairview A</td>
+                            <td>Electricty</td>
+                            <td>November</td>
+                            <td>525.16</td>
+                            <td>30 Nov 2023</td>
+                            <td>139-123534</td>
+                            <td>Dr.Omar</td>                            
+                          </tr>
+
+                          </tr>
+                        </tbody>
+                      </table>
+
+
+</div>
+
+
 
 <p class="p-4 bg-success text-white">
-T
+Water
 </p>
  
 <div class="container">
@@ -231,11 +281,52 @@ T
                             <td>Water</td>
                             <td>November</td>
                             <td>1014.33</td>
-                            <td>28 Dec 2023</td>
+                            <td>31 Nov 2023</td>
                             <td>139-123532</td>
                             <td>Dr.Omar</td>                            
                           </tr>
 
+                          </tr>
+                        </tbody>
+                      </table>
+
+
+</div>
+
+
+
+<p class="p-4 bg-success text-white">
+Waste
+</p>
+ 
+<div class="container">
+                      
+                      <table class="table thead-dark">
+                        <thead>
+                          <tr>
+                            <th scope="col">Year</th>
+                            <th scope="col">Unit</th>
+                            <th scope="col">utility</th>
+                            <th scope="col">Month</th>
+                            <th scope="col">amount</th>
+                            <th scope="col">paid_date</th>
+                            <th scope="col">bill_no</th>
+                            <th scope="col">Paid_By</th>
+                            
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">2023</th>
+                            <td>fairview A</td>
+                            <td>Waste</td>
+                            <td>December</td>
+                            <td>100.00</td>
+                            <td>17 Jan 2024</td>
+                            <td>100002256834</td>
+                            <td>Dr.Omar</td>                            
+                          </tr>
+                    
 
                           </tr>
                         </tbody>
