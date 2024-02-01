@@ -29,6 +29,18 @@
                           </tr>
                         </thead>
                         <tbody>
+                        <tr>
+                            <th scope="row">2024</th>
+                            <td>fairview A</td>
+                            <td>February</td>
+                            <td>monthly</td>
+                            <td>30-Jan-24</td>
+                            <td>Dr.Omar</td>
+                            <td>6852.50</td>
+                            <td>transfer</td>
+                            <td>rent with utility bills (as agreed)</td>
+                            
+                          </tr>
                           <tr>
                             <th scope="row">2024</th>
                             <td>fairview A</td>
@@ -214,7 +226,18 @@ Electricty
                           </tr>
                         </thead>
                         <tbody>
-                          <tr>
+                        <tr>
+                            <th scope="row">2024</th>
+                            <td>fairview A</td>
+                            <td>Electricty</td>
+                            <td>January</td>
+                            <td>295.16</td>
+                            <td>30 Jan 2024</td>
+                            <td>139-142560</td>
+                            <td>Dr.Omar</td>                            
+                          </tr>
+
+                        <tr>
                             <th scope="row">2023</th>
                             <td>fairview A</td>
                             <td>Electricty</td>
@@ -265,6 +288,16 @@ Water
                           </tr>
                         </thead>
                         <tbody>
+                        <tr>
+                            <th scope="row">2024</th>
+                            <td>fairview A</td>
+                            <td>Water</td>
+                            <td>January</td>
+                            <td>51.55</td>
+                            <td>30 Jan 2024</td>
+                            <td>142-559</td>
+                            <td>Dr.Omar</td>                            
+                          </tr>
                           <tr>
                             <th scope="row">2023</th>
                             <td>fairview A</td>
