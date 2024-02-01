@@ -30,7 +30,7 @@
                         </thead>
                         <tbody>
                         <tr>
-                            <th scope="row">2024</th>
+                            <th scope="row">2024.</th>
                             <td>fairview A</td>
                             <td>February</td>
                             <td>monthly</td>
