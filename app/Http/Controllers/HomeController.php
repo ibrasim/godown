@@ -135,7 +135,7 @@ return view ('agent2',compact('item'));
                       }
           
                     }
-
+                  }
 
             public function index2()
             {
