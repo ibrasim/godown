@@ -56,7 +56,7 @@ class customerController extends Controller
        $customer->email2 = $request->input('e-mail2'); 
        $customer->socialaccounts = $request->input('socialaccounts'); 
        $customer ->save();
-       return redirect('/home')->with('success','customer data saved');
+       return redirect('/')->with('success','customer data saved');
     }
 
     /**
