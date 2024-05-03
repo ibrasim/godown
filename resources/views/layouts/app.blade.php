@@ -42,6 +42,7 @@
                         <a class="nav-link"href="https://m.followme.mv/public/"  target="_blank">Vessels</a>
                         <a class="nav-link"href="{{route('warehouse_item_entry')}}">Items</a>
                         <a class="nav-link"href="{{route('warehouse_stock_entry')}}">Stock IN</a>
+                        <a class="nav-link"href="{{route('addcustomer')}}">Customer</a>
                     </ul>
 
                     <!-- Right Side Of Navbar -->
