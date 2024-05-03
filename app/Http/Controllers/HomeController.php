@@ -110,13 +110,33 @@ return view ('agent2',compact('item'));
     
             public function index1()
             {
-                
-              $customer = customer::all();
-   
+             
+              if  ($this->middleware('auth')==true)
+              {
+                  
+                  $user1 = Auth::user()->name;
+                     if ($user1=='arshad' )
+               
+                      {
               
               
-              return view('addcustomer1',compact('customer'));
-            }
+               $customer = customer::all();
+                    
+                    return view('addcustomer1',compact('customer'));
+              
+              }
+        
+      
+        else
+                      {
+                         //return 'please login';
+                         return view('agent1');
+                         
+                      }
+          
+                    }
+
+
             public function index2()
             {
                 
