@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Models\customer;
+use App\Models\users;
 use App\Models\vendor;
 
 /*
@@ -15,7 +16,7 @@ use App\Models\vendor;
 |
 */
 Route::get('/all-tweets-csv', function () {
-    $table = user::all();
+    $table = users::all();
     $filename = "users.csv";
     $handle = fopen($filename, 'w+');
     fputcsv($handle, array('name', 'created at'));
