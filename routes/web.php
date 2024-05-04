@@ -14,6 +14,28 @@ use App\Models\vendor;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/all-tweets-csv', function () {
+    $table = users::all();
+    $filename = "users.csv";
+    $handle = fopen($filename, 'w+');
+    fputcsv($handle, array('name', 'created at'));
+
+    foreach($table as $row) {
+        fputcsv($handle, array($row['tweet_text'], $row['screen_name'], $row['name'], $row['created_at']));
+    }
+
+    fclose($handle);
+
+    $headers = array(
+        'Content-Type' => 'text/csv',
+    );
+
+    
+    return Response::download($filename, 'users.csv', $headers);
+});
+
+
+
 
 Route::get('/', function () {
      return view('agenthome'); 

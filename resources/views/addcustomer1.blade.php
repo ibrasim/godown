@@ -74,6 +74,17 @@
                                 </button> 
                             </div>
   
+
+                            <div class="form-group row"> 
+                                <div class="col">
+                                <!-- <button type="submit" class="btn btn-primary"> -->
+                                        {{ __('Export') }}
+                                
+                                        <a href="/all-tweets-csv" class="btn btn-primary">Export as CSV</a>
+                                    <!-- </button>  -->
+                            </div>
+
+
                         </form>
 
                     </div>
