@@ -15,6 +15,8 @@ use App\Models\vendor;
 | contains the "web" middleware group. Now create something great!
 |
 */
+// to get csv data from a table change code to a function in controller or keep in route but to use  customer dump  
+// thanks to the forum contributers here (https://stackoverflow.com/questions/26146719/use-laravel-to-download-table-as-csv)
 Route::get('/all-tweets-csv', function () {
     $table = user::all();
     $filename = "users.csv";

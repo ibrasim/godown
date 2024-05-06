@@ -43,6 +43,7 @@
                         <a class="nav-link"href="{{route('warehouse_item_entry')}}">Items</a>
                         <a class="nav-link"href="{{route('warehouse_stock_entry')}}">Stock IN</a>
                         <a class="nav-link"href="{{route('addcustomer')}}">Customer</a>
+                        <a class="nav-link"href="{{route('addvendor')}}">Supplier</a>
                     </ul>
 
                     <!-- Right Side Of Navbar -->
