@@ -137,15 +137,46 @@ return view ('agent2',compact('item'));
                     }
                   }
 
-            public function index2()
+            
+            
+                  public function index2()
             {
                 
-                       
+              if  ($this->middleware('auth')==true)
+              {
+                  
+                  $user1 = Auth::user()->name;
+                     if ($user1=='arshad' )
+               
+                      {
               
-              return view('addvendor');
+              
+               $vendor = vendor::all();
+                    
+                    return view('addvendor',compact('vendor'));
+              
+              }
+        
+      
+        else
+                      {
+                         //return 'please login';
+                         return view('agent1');
+                         
+                      }
+          
+                    }
             }
           
    
+
+
+
+
+
+
+
+
             public function index3()
             {
                 

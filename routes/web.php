@@ -51,7 +51,9 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/addcustomer', [App\Http\Controllers\HomeController::class, 'index1'])->name('addcustomer');
-Route::get('/addvendor', [App\Http\Controllers\vendorscontroller::class, 'index'])->name('addvendor');
+Route::get('/addvendor', [App\Http\Controllers\HomeController::class, 'index2'])->name('addvendor');
+
+// Route::get('/addvendor', [App\Http\Controllers\vendorscontroller::class, 'index'])->name('addvendor');
 Route::post('/savecustomer', [App\Http\Controllers\customerController::class, 'store'])->name('savecustomer');
 Route::post('/savevendor', [App\Http\Controllers\vendorscontroller::class, 'store'])->name('savevendor');
 
