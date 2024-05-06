@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Models\customer;
+
+use App\Models\vendor;
 use App\Models\delivery;
 use Illuminate\Support\Facades\Auth;  // used to check if user is logged in (Auth())
 use Illuminate\Http\Request;
