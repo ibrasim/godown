@@ -17,7 +17,24 @@ use App\Models\vendor;
 */
 // to get csv data from a table change code to a function in controller or keep in route but to use  customer dump  
 // thanks to the forum contributers here (https://stackoverflow.com/questions/26146719/use-laravel-to-download-table-as-csv)
-Route::get('/all-tweets-csv', function () {
+
+    Route::get('/addcustomer', function (Request $request) {
+        $customer = User::when($request->term, function ($query, $term) {
+            $query->where(function ($query) use ($term) {
+                // $query->where('name', 'like', "%{$term}%")->orWhere('email', 'like', "%{$term}%");
+                $query->where('shippingmark', 'like', "%{$term}%");
+            });
+        })->get();
+    
+        return view('addcustomer', [
+            'addcustomer' => $customer,
+        ]);
+    });
+
+
+
+
+    Route::get('/all-tweets-csv', function () {
     $table = user::all();
     $filename = "users.csv";
     $handle = fopen($filename, 'w+');
