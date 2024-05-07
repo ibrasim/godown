@@ -90,23 +90,6 @@
                     </div>
 
 
-<div>
-<form role="search" aria-label="Contacts">
-    <label for="term">Search</label>
-    <input type="search" id="term" name="term">
-    <button>Submit</button>
-  </form>
-  <h2>Results</h2>
-  <ul role="list">
-    
-    @foreach ($customer as $item) 
-      <li>{{ $customer->shippingmark }} </li>
-    @endforeach
-  </ul>
-
-
-</div>
-
 
 
 
