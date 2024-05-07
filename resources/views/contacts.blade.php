@@ -13,7 +13,7 @@
   <h2>Results</h2>
   <ul id="contacts">
   @foreach($contacts as $contact)
-    <li>{{ $contact->name }} – {{ $contact->email }}</li>
+    <li>{{ $contact->shippingmark }} – {{ $contact->shippingmark }}</li>
   @endforeach
 </ul>
 <body>
