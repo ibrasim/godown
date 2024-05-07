@@ -100,7 +100,7 @@
   <ul role="list">
     
     @foreach ($customer as $item) 
-      <li>{{ $customer->shippingmark }} – {{$customer->companyname }}</li>
+      <li>{{ $customer->shippingmark }} </li>
     @endforeach
   </ul>
 
