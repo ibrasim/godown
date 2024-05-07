@@ -1,9 +1,13 @@
 <?php
-
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Models\customer;
 use App\Models\User;
 use App\Models\vendor;
+
+
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
