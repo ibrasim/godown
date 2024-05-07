@@ -46,7 +46,7 @@ use App\Models\vendor;
     fputcsv($handle, array('shippingmark', 'companyname', 'telephone', 'mobile', 'email1'));
 
     foreach($table as $row) {
-        fputcsv($handle, array($row['tweet_text'], $row['screen_name'], $row['shippingmark'], $row['companyname'], $row['telephone'], $row['mobile'], $row['email1']));
+        fputcsv($handle, array( $row['shippingmark'], $row['companyname'], $row['telephone'], $row['mobile'], $row['email1']));
     }
 
     fclose($handle);
