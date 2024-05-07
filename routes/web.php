@@ -25,7 +25,8 @@ use App\Models\vendor;
         // $contacts = User::when($request->term, function ($query, $term) {
             $contacts = customer::when($request->term, function ($query, $term) {
             $query->where(function ($query) use ($term) {
-                $query->where('shippingmark', 'like', "%{$term}%")->orWhere('companyname', 'like', "%{$term}%");
+                // $query->where('shippingmark', 'like', "%{$term}%")->orWhere('companyname', 'like', "%{$term}%");
+                $query->where('shippingmark', 'like', "%{$term}%");
             });
         })->get();
     
