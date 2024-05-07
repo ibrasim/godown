@@ -22,9 +22,10 @@ use App\Models\vendor;
 
    
     Route::get('/contacts', function (Request $request) {
-        $contacts = User::when($request->term, function ($query, $term) {
+        // $contacts = User::when($request->term, function ($query, $term) {
+            $contacts = customer::when($request->term, function ($query, $term) {
             $query->where(function ($query) use ($term) {
-                $query->where('name', 'like', "%{$term}%")->orWhere('email', 'like', "%{$term}%");
+                $query->where('shippingmark', 'like', "%{$term}%")->orWhere('companyname', 'like', "%{$term}%");
             });
         })->get();
     
