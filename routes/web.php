@@ -19,7 +19,9 @@ use App\Models\vendor;
 // thanks to the forum contributers here (https://stackoverflow.com/questions/26146719/use-laravel-to-download-table-as-csv)
 
     Route::get('/addcustomer', function (Request $request) {
-        $customer = customer::when($request->term, function ($query, $term) {
+        // $customer = customer::when($request->term, function ($query, $term) {
+            $customer = customer::when($request->term, function ($query, $term) {
+        
             $query->where(function ($query) use ($term) {
                 // $query->where('name', 'like', "%{$term}%")->orWhere('email', 'like', "%{$term}%");
                 $query->where('shippingmark', 'like', "%{$term}%");
