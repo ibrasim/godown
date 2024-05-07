@@ -40,7 +40,7 @@ use App\Models\vendor;
 
 
     Route::get('/all-tweets-csv', function () {
-    $table = user::all();
+    $table = customer::all();
     $filename = "users.csv";
     $handle = fopen($filename, 'w+');
     fputcsv($handle, array('name', 'created at'));
