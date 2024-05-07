@@ -93,6 +93,34 @@
 
 
 
+                    <div>
+
+                    <!-- <form role="search" aria-label="Contacts"> -->
+                    <form role="search" aria-label="Contacts" x-init x-target="contacts">
+  
+                    <label for="term">Search</label>
+
+                    <label for="term">Search</label>
+    <!-- <input type="search" id="term" name="term"> -->
+      <input type="search" id="term" name="term" @input.debounce="$el.form.requestSubmit()">
+  
+      <button x-show="false">Submit</button>
+
+    <button>Submit</button>
+  </form>
+  <h2>Results</h2>
+  <ul role="list">
+    
+    @foreach ($customer as $item) 
+      <li>{{ $customer->shippingmark }} </li>
+    @endforeach
+  </ul>
+
+
+</div>
+
+
+
 
 
 
