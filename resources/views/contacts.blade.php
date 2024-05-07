@@ -2,6 +2,10 @@
 <html>
 <head>
   <title>Contacts</title>
+
+  <script defer src="https://cdn.jsdelivr.net/npm/@imacrayon/alpine-ajax@0.3.0/dist/cdn.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.11.1/dist/cdn.min.js"></script>
+
 </head>
 <body>
   <h1>Contacts</h1>
