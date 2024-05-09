@@ -117,7 +117,7 @@ return view ('agent2',compact('item'));
               {
                   
                   $user1 = Auth::user()->name;
-                     if ($user1=='arshad' )
+                     if ($user1=='admin' )
                
                       {
               
@@ -148,7 +148,7 @@ return view ('agent2',compact('item'));
               {
                   
                   $user1 = Auth::user()->name;
-                     if ($user1=='arshad' )
+                     if ($user1=='admin' )
                
                       {
               
