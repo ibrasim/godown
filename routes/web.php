@@ -43,10 +43,13 @@ use App\Models\vendor;
     $table = customer::all();
     $filename = "users.csv";
     $handle = fopen($filename, 'w+');
-    fputcsv($handle, array('shippingmark', 'companyname', 'telephone', 'mobile', 'email1'));
+    fputcsv($handle, array('id','shippingmark','nickname','firstname','lastname', 'companyname', 'registration','address','road','city','country','zipcode','telephone', 'mobile', 'email1','email1','socialaccounts','created_at'));
 
     foreach($table as $row) {
         fputcsv($handle, array( $row['shippingmark'], $row['companyname'], $row['telephone'], $row['mobile'], $row['email1']));
+    
+        fputcsv($handle, array( $row['id'],$row['shippingmark'],$row['nickname'],$row['firstname'],$row['lastname'], $row['companyname'], $row['registration'],$row['address'],$row['road'],$row['city'],$row['country'],$row['zipcode'],$row['telephone'], $row['mobile'], $row['email1'],$row['email1'],$row['socialaccounts']$row['created_at'])
+    
     }
 
     fclose($handle);
