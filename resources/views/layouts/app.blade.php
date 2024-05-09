@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ config('app.name', 'Laravel0') }}</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -42,12 +42,12 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav ms-auto">
-                        <a class="nav-link" href="{{route('adddelivery')}}">Delivery</a>
-                        <a class="nav-link"href="{{route('delivery_ordered')}}">Search</a>
-                        <a class="nav-link"href="{{route('chart1')}}">Chart</a>
-                        <a class="nav-link"href="https://m.followme.mv/public/"  target="_blank">Vessels</a>
-                        <a class="nav-link"href="{{route('warehouse_item_entry')}}">Items</a>
-                        <a class="nav-link"href="{{route('warehouse_stock_entry')}}">Stock IN</a>
+                        <!-- <a class="nav-link" href="{{route('adddelivery')}}">Delivery</a> -->
+                        <!-- <a class="nav-link"href="{{route('delivery_ordered')}}">Search</a> -->
+                        <!-- <a class="nav-link"href="{{route('chart1')}}">Chart</a> -->
+                        <!-- <a class="nav-link"href="https://m.followme.mv/public/"  target="_blank">Vessels</a> -->
+                        <!-- <a class="nav-link"href="{{route('warehouse_item_entry')}}">Items</a> -->
+                        <!-- <a class="nav-link"href="{{route('warehouse_stock_entry')}}">Stock IN</a> -->
                         <a class="nav-link"href="{{route('addcustomer')}}">Customer</a>
                         <a class="nav-link"href="{{route('addvendor')}}">Supplier</a>
                         
