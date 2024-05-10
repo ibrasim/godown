@@ -115,6 +115,7 @@
         <table class="table table-hover">     
         <thead>
 		<tr>
+        <th scope="col">CUSTOMER </th>
         <th scope="col">ITEM No </th>
         <th scope="col">ITEM Qty </th>
 		<th scope="col">ITEM Name </th>
@@ -126,6 +127,7 @@
 		</thead>
    @foreach ($billentry as $item)                             
 		<tr>
+        <td>{{$item->custid}}</td>
         <td>{{$item->itmeno}}</td>
         <td>{{$item->qty}}</td>
 			<td>{{$item->item_name}}</td>
