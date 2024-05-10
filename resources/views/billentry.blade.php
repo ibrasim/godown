@@ -112,30 +112,7 @@
         
 
 
-        <table class="table table-hover">     
-        <thead>
-		<tr>
-		<th scope="col">ShopName </th>
-		<th scope="col">Address</th>
-		<th scope="col">Mobile</th>
-        <th scope="col">Email</th>
-		</tr>
-		</thead>
-   @foreach ($vendor as $item)                             
-		<tr>
-			<td>{{$item->vendorname}}</td>
-			<td>{{$item->vendoraddress}}</td>
-			<td>{{$item->vendoremail1}}</td> 
-            <td>{{$item->vendoremail1}}</td> 
-			<td>
-            <form action="{{ route('delete_vendor',$item->id) }}" method="post">
-			 @csrf
-			 <button type="submit" value="delete" class="btn btn-danger" > DELETE </button> 
-			</form>  
-            </td>   
-		</tr>
- @endforeach 
-           </table>
+       
 
     </div>
     
