@@ -116,6 +116,7 @@
         <thead>
 		<tr>
         <th scope="col">CUSTOMER </th>
+        <th scope="col">SUPPLIER </th>
         <th scope="col">ITEM No </th>
         <th scope="col">ITEM Qty </th>
 		<th scope="col">ITEM Name </th>
@@ -128,6 +129,7 @@
    @foreach ($billentry as $item)                             
 		<tr>
         <td>{{$item->custid}}</td>
+        <td>{{$item->suppid}}</td>
         <td>{{$item->itmeno}}</td>
         <td>{{$item->qty}}</td>
 			<td>{{$item->item_name}}</td>
