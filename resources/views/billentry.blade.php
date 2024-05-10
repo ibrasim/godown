@@ -133,10 +133,10 @@
             <td>{{$item->rate}}</td>
             <td>{{$item->total}}</td>
 			<td>
-            <form action="{{ route('delete_vendor',$item->id) }}" method="post">
+            <!-- <form action="{{ route('delete_vendor',$item->id) }}" method="post">
 			 @csrf
 			 <button type="submit" value="delete" class="btn btn-danger" > DELETE </button> 
-			</form>  
+			</form>   -->
             </td>   
 		</tr>
  @endforeach 
