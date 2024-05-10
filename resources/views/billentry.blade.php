@@ -115,13 +115,23 @@
         <table class="table table-hover">     
         <thead>
 		<tr>
+        <th scope="col">ITEM No </th>
+        <th scope="col">ITEM Qty </th>
 		<th scope="col">ITEM Name </th>
+        <th scope="col">ITEM Packing </th>
+        <th scope="col">ITEM Rate </th>
+        <th scope="col">ITEM Total </th>
 		
 		</tr>
 		</thead>
    @foreach ($billentry as $item)                             
 		<tr>
+        <td>{{$item->itemno}}</td>
+        <td>{{$item->qty}}</td>
 			<td>{{$item->item_name}}</td>
+            <td>{{$item->packing}}</td>
+            <td>{{$item->rate}}</td>
+            <td>{{$item->total}}</td>
 			<td>
             <form action="{{ route('delete_vendor',$item->id) }}" method="post">
 			 @csrf
