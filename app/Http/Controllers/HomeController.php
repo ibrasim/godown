@@ -186,7 +186,7 @@ public function index4()
   
    $vendor = vendor::all();
         
-        return view('addvendor',compact('vendor'));
+        return view('billentry',compact('vendor'));
   
   }
 
