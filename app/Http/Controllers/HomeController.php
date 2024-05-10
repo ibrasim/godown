@@ -171,6 +171,55 @@ return view ('agent2',compact('item'));
             }
           
    
+// 
+public function index4()
+{
+    
+  if  ($this->middleware('auth')==true)
+  {
+      
+      $user1 = Auth::user()->name;
+         if ($user1=='admin' )
+   
+          {
+  
+  
+   $vendor = vendor::all();
+        
+        return view('addvendor',compact('vendor'));
+  
+  }
+
+
+else
+          {
+             //return 'please login';
+             return view('billenty');
+             
+          }
+
+        }
+}
+
+// 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
