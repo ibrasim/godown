@@ -126,7 +126,7 @@
 		</thead>
    @foreach ($billentry as $item)                             
 		<tr>
-        <td>{{$item->itemno}}</td>
+        <td>{{$item->itmeno}}</td>
         <td>{{$item->qty}}</td>
 			<td>{{$item->item_name}}</td>
             <td>{{$item->packing}}</td>
