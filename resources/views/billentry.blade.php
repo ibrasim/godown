@@ -112,7 +112,25 @@
         
 
 
-       
+        <table class="table table-hover">     
+        <thead>
+		<tr>
+		<th scope="col">ITEM Name </th>
+		
+		</tr>
+		</thead>
+   @foreach ($billentry as $item)                             
+		<tr>
+			<td>{{$item->item_name}}</td>
+			<td>
+            <form action="{{ route('delete_vendor',$item->id) }}" method="post">
+			 @csrf
+			 <button type="submit" value="delete" class="btn btn-danger" > DELETE </button> 
+			</form>  
+            </td>   
+		</tr>
+ @endforeach 
+           </table>
 
     </div>
     
