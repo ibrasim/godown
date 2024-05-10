@@ -75,7 +75,7 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/billentry', [App\Http\Controllers\BillentryController::class, 'index'])->name('billentry');
+Route::get('/billentry', [App\Http\Controllers\HomeController::class, 'index'])->name('billentry');
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/addcustomer', [App\Http\Controllers\HomeController::class, 'index1'])->name('addcustomer');
 Route::get('/addvendor', [App\Http\Controllers\HomeController::class, 'index2'])->name('addvendor');
