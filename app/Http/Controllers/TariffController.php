@@ -21,7 +21,7 @@ class TariffController extends Controller
         
        
     
-        dd( $query);
+        dd($contacts);
         //  return view('contacts', ['contacts' => $contacts,]);
      
      
