@@ -4,7 +4,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Dashboardx') }}</div>
+                <div class="card-header">{{ __('Customer Search') }}</div>
                 <div class="card-body">
                 
                 <form role="search" aria-label="Contacts" x-init x-target="contacts">
@@ -16,7 +16,7 @@
                                <h2>Results</h2>
                                <ul id="contacts">
                                @foreach($contacts as $contact)
-                                 <li>{{ $contact->shippingmark }} – {{ $contact->shippingmark }}</li>
+                                 <li>{{ $contact->shippingmark }} – {{ $contact->firstname }}– {{ $contact->lastname}}– {{ $contact->companyname }}– {{ $contact->mobile}}– {{ $contact->email1}}</li>
                                @endforeach
                              </ul>
        
