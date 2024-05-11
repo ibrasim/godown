@@ -66,7 +66,8 @@
                                     <input type="text" name="socialaccounts" class="form-control" placeholder="social accounts">
                                </div>
                             </div>
-								
+								<br>
+                                
 								<div class="form-group row"> 
                                 <div class="col">
                                 <button type="submit" class="btn btn-primary">
@@ -74,15 +75,15 @@
                                 </button> 
                             </div>
   
-
-                            <div class="form-group row"> 
-                                <div class="col">
-                                <!-- <button type="submit" class="btn btn-primary"> -->
-                                        {{ __('Export') }}
+                          
+                           
+                            <div class="col">
+                                   <!-- <button type="submit" class="btn btn-primary"> -->
+                           {{ __('Export') }}
                                 
-                                        <a href="/all-tweets-csv" class="btn btn-primary">Export as CSV</a>
-                                    <!-- </button>  -->
-                            </div>
+                                <a href="/all-tweets-csv" class="btn btn-secondary">Export as CSV</a>
+                            <!-- </button>  -->
+    </div>
 
 
                         </form>
