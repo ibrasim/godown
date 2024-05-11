@@ -51,7 +51,8 @@
                         <a class="nav-link"href="{{route('addcustomer')}}">Customer</a>
                         <a class="nav-link"href="{{route('addvendor')}}">Supplier</a>
                         <a class="nav-link"href="{{route('billentry')}}">BillEntry</a>
-                        <a class="nav-link"href="{{route('customersearch')}}">SearchCustomer</a>
+                        <a class="nav-link"href="{{route('customersearch')}}">CustomerSearch</a>
+                        <a class="nav-link"href="{{route('tariffsearch')}}">TariffSearch</a>
                         
                     </ul>
 
