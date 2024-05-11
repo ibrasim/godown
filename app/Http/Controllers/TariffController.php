@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Tariff;
+use App\Models\customer;
 use Illuminate\Http\Request;
 
 class TariffController extends Controller
