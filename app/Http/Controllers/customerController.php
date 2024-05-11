@@ -3,11 +3,25 @@
 namespace App\Http\Controllers;
 
 use App\Models\customer;
+use App\Models\User;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Excel;
 
+use Illuminate\Support\Facades\Auth; 
 class customerController extends Controller
 {
+
+    /**
+     * Create a new controller instance.
+     *
+     * @return void
+     */
+   public function __construct()
+   {
+       $this->middleware('auth');
+   }
+
+
     /**
      * Display a listing of the resource.
      *
@@ -103,4 +117,66 @@ class customerController extends Controller
     {
         //
     }
+
+    public function customersearch(Request $request)
+    {
+
+// 
+if  ($this->middleware('auth')==true)
+{
+    
+    $user1 = Auth::user()->name;
+       if ($user1=='admin' )
+ 
+        {
+            $contacts = customer::when($request->term, function ($query, $term) {
+                $query->where(function ($query) use ($term) {
+                    // $query->where('shippingmark', 'like', "%{$term}%")->orWhere('companyname', 'like', "%{$term}%");
+                    $query->where('shippingmark', 'like', "%{$term}%");
+                });
+            })->get();
+        
+             return view('contacts', ['contacts' => $contacts,]);
+        }
+             else
+             {
+                //return 'please login';
+                return view('agent1');
+                
+             }
+ 
+           }
+
+        
+    }
+// 
+
+        //
+
+
+  // $contacts = User::when($request->term, function ($query, $term) {
+    // $contacts = customer::when($request->term, function ($query, $term) {
+    //     $query->where(function ($query) use ($term) {
+    //         // $query->where('shippingmark', 'like', "%{$term}%")->orWhere('companyname', 'like', "%{$term}%");
+    //         $query->where('shippingmark', 'like', "%{$term}%");
+    //     });
+    // })->get();
+
+    //  return view('contacts', ['contacts' => $contacts,]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // }
+
+
 }

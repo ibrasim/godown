@@ -5,9 +5,6 @@ use App\Models\customer;
 use App\Models\User;
 use App\Models\vendor;
 use App\Models\Billentry;
-
-
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -20,7 +17,6 @@ use App\Models\Billentry;
 */
 // to get csv data from a table change code to a function in controller or keep in route but to use  customer dump  
 // thanks to the forum contributers here (https://stackoverflow.com/questions/26146719/use-laravel-to-download-table-as-csv)
-
    
     Route::get('/contacts', function (Request $request) {
         // $contacts = User::when($request->term, function ($query, $term) {
@@ -74,6 +70,9 @@ Route::get('/', function () {
 
 
 Auth::routes();
+
+
+Route::get('/customersearch', [App\Http\Controllers\customerController::class, 'customersearch'])->name('customersearch');
 
 Route::get('/billentry', [App\Http\Controllers\HomeController::class, 'index4'])->name('billentry');
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
