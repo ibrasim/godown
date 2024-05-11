@@ -17,7 +17,7 @@ class TariffController extends Controller
      
       
      
-        $contacts = Tariff2sa::all();
+        $contacts = Tariff22a::all();
         
        
     
