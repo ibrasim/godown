@@ -16,7 +16,7 @@
                                <h2>Results</h2>
                                <ul id="contacts">
                                @foreach($contacts as $contact)
-                                 <li>{{ $contact->shippingmark }} – {{ $contact->firstname }}– {{ $contact->lastname}}– {{ $contact->companyname }}– {{ $contact->mobile}}– {{ $contact->email1}}</li>
+                                 <li>{{ $contact->shippingmark }} – {{ $contact->registration }}- {{ $contact->firstname }}– {{ $contact->lastname}}– {{ $contact->companyname }}– {{ $contact->mobile}}– {{ $contact->email1}}</li>
                                @endforeach
                              </ul>
        
