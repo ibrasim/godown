@@ -53,7 +53,7 @@
                         <a class="nav-link"href="{{route('billentry')}}">BillEntry</a>
                         <a class="nav-link"href="{{route('customersearch')}}">CustomerSearch</a>
                         <a class="nav-link"href="{{route('tariffsearch')}}">TariffSearch</a>
-                        
+                        <a class="nav-link"href="{{route('dashboard')}}">Dashboard</a>
                     </ul>
 
                     <!-- Right Side Of Navbar -->

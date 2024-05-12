@@ -200,7 +200,42 @@ else
           }
 
         }
-}
+
+
+      }
+
+        public function dashboard()
+        {
+            
+          if  ($this->middleware('auth')==true)
+          {
+              
+              $user1 = Auth::user()->name;
+                 if ($user1=='admin' )
+           
+                  {
+          
+          
+            $data = customer::all()->count();
+                
+            
+                return view('dashboard',compact('data'));
+          
+          }
+        
+        
+        else
+                  {
+                     //return 'please login';
+                     return view('billenty');
+                     
+                  }
+        
+                }
+        
+        
+
+      }
 
 // 
 

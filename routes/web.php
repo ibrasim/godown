@@ -71,6 +71,7 @@ Route::get('/', function () {
 
 Auth::routes();
 
+Route::get('/dashboard', [App\Http\Controllers\HomeController::class, 'dashboard'])->name('dashboard');
 Route::get('/tariffsearch', [App\Http\Controllers\TariffmvController::class, 'index'])->name('tariffsearch');
 
 Route::get('/customersearch', [App\Http\Controllers\customerController::class, 'customersearch'])->name('customersearch');
