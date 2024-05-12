@@ -134,6 +134,8 @@
                                            CUSTOMER CB15 0.5<br>
                                            CUSTOMER CB15 2 CBM<br>
                                            {{ Auth::user()->name}}                                
+                                           {{$data}}
+                                           
                                     </h1> 
                                     <!-- https://www.youtube.com/watch?v=WjDwKlHhXHI -->
                                     </div>
