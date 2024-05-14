@@ -19,7 +19,7 @@
                                     <input type="text" name="vendoraddress"class="form-control" placeholder="Unit">
                                 </div>
                                 <div class="col">
-                                    <input type="text" name="vendorroad"class="form-control" placeholder="Bill Description ">
+                                    <input type="text"  maxlength="25" name="vendorroad"class="form-control" placeholder="Bill Description ">
                                 </div>
                                 <div class="col">
                                     <input type="text" name="vendorroad"class="form-control" placeholder="Rate">
