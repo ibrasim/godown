@@ -48,6 +48,10 @@
                                 <div class="col">
                                     <input type="text" name="vendorctry"class="form-control" placeholder="Remarks">
                                 </div>
+                                <div class="col">
+                                    <input type="text" name="vendorctry"class="form-control" placeholder="Remarks">
+                                </div>
+                              
                               
                             </div>
                       
