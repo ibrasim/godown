@@ -71,6 +71,8 @@ Route::get('/', function () {
 
 Auth::routes();
 
+Route::post('/savedata', [App\Http\Controllers\DataentryController::class, 'store'])->name('savedata');
+
 Route::get('/dashboard', [App\Http\Controllers\HomeController::class, 'dashboard'])->name('dashboard');
 Route::get('/tariffsearch', [App\Http\Controllers\TariffmvController::class, 'index'])->name('tariffsearch');
 

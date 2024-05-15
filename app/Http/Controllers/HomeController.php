@@ -188,6 +188,7 @@ public function index4()
    $billentry = Billentry::all();
         
         return view('billentry',compact('billentry'));
+        //  return view('home');
   
   }
 
@@ -195,7 +196,8 @@ public function index4()
 else
           {
              //return 'please login';
-             return view('billenty');
+            //  return view('billentry');
+            return view('home');
              
           }
 

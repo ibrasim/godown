@@ -2,68 +2,94 @@
 @section('content')
 <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-8">
+            <div class="col-md-12">
                 <div class="card">
                     <div class="card-body">
-						<form method="POST" action="savevendor">
+						<form method="POST" action="savedata">
                             @csrf                 
                             <div class="form-group row">
-                                
-                                <div class="col">
-                                     <input type="text"  name="vendorname" class="form-control" placeholder="Qty">
-                                </div>
-                                <div class="col">
-                                     <input type="text" name="vendorregno" class="form-control" placeholder="Packing">
-                                </div>
-                                <div class="col">
-                                    <input type="text" name="vendoraddress"class="form-control" placeholder="Unit">
-                                </div>
-                                <div class="col">
-                                    <input type="text"  maxlength="25" name="vendorroad"class="form-control" placeholder="Bill Description ">
-                                </div>
-                                <div class="col">
-                                    <input type="text" name="vendorroad"class="form-control" placeholder="Rate">
-                                </div>
-                              
-                                <div class="col">
-                                    <input type="text" name="vendorroad"class="form-control" placeholder="Total">
-                                </div>
-                              
 
-                            </div>
+                                <div class="col">
+                                <input type="text"  name="billno" class="form-control" placeholder="billno no">
+                                </div> 
+                                <div class="col">
+                                <input type="text"  name="billdate" class="form-control" placeholder="billdate Date">
+                                </div> 
+                                <div class="col">
+                                <input type="text"   name="cust_id" class="form-control" placeholder="supp_id ID">                           
+                                </div> 
+                                <div class="col">
+                                <input type="text"  name="supp_id" class="form-control" placeholder="supp_id ID">
+                                </div> 
+                                <div class="col">
+                                <input type="text"  name="itemno" class="form-control" placeholder="itemno">
+                                </div> 
+                                <div class="col">
+                                <input type="text"  name="unit"class="form-control" placeholder="Unit">
+                                </div> 
+                                <div class="col">
+                                <input type="text"  name="qty" class="form-control" placeholder="Qty">
+                                </div> 
+                            </div> 
+                           
+                            <div class="form-group row">
+                                <div class="col">
+                                <input type="text"  name="packing" class="form-control" placeholder="Packing">                             
+                                </div> 
+                                <div class="col">
+                                <input type="text"  name="bill_item_name" class="form-control" placeholder="Bill item name">
+                                </div> 
+                                <div class="col">
+                                <input type="text" name="item_name" class="form-control" placeholder="item name">
+                                </div> 
+                                <div class="col">
+                                <input type="text"  name="bill_rate" class="form-control" placeholder="Bill Rate">
+                                </div> 
+                                <div class="col">
+                                <input type="text"  name="act_rate" class="form-control" placeholder="Act Rate">
+                                </div> 
+                                <div class="col">
+                                <input type="text"  name="bill_total" class="form-control" placeholder="Bill Total">                          
+                                </div> 
+                                <div class="col">
+                                <input type="text"  name="brand" class="form-control" placeholder="Brand">
+                                </div> 
+                            </div> 
                             
-							<div class="form-group row">
+                            
+                            <div class="form-group row">
                                 <div class="col">
-                                     <input type="text" name="vendodistrict" class="form-control" placeholder="Supplier ID">
-                                </div>
-                                <div class="col">
-                                     <input type="text" name="vendorarea" class="form-control" placeholder="Customer Id">
-                                </div>
-                                <div class="col">
-                                    <input type="text" name="vendorcity"class="form-control" placeholder="GRN no">
-                                </div>
-                                <div class="col">
-                                    <input type="text" name="vendorctry"class="form-control" placeholder="Box No">
-                                </div>
-                                <div class="col">
-                                    <input type="text" name="vendorctry"class="form-control" placeholder="Remarks">
-                                </div>
-                                <div class="col">
-                                    <input type="text" name="vendorctry"class="form-control" placeholder="Remarks">
-                                </div>
-                              
-                              
-                            </div>
-                      
-                      
-                      
-                             </div> 
+                            <input type="text"  name="model" class="form-control" placeholder="Model">
+                            </div> 
+                            <div class="col">
+                            <input type="text"  name="size" class="form-control" placeholder="Size">
+                            </div> 
+                            <div class="col">
+                            <input type="text"  name="grn" class="form-control" placeholder="Grno">
+                            </div> 
+                            <div class="col">
+                            <input type="text"  name="boxno" class="form-control" placeholder="Box no">
+                            </div> 
+                            <div class="col">
+                            <input type="text"  name="hscode" class="form-control" placeholder="hscode">
+                            </div> 
+                            <div class="col">
+                            <input type="text"  name="hsdesc" class="form-control" placeholder="hsdesc">
+                            </div> 
+                            <div class="col">
+                            <input type="text"  name="remarks" class="form-control" placeholder="Remarks">
+                            </div> 
+                           
+                            <div class="form-group row">
                                 <div class="col">
                                 <button type="submit" class="btn btn-warning">
                                         {{ __('Add') }}
                                     </button>
 								</div>                               
                   
+                                </div> 
+                                </div> 
+
                         </form>
                     </div>
                 </div>
@@ -76,31 +102,27 @@
         <thead>
 		<tr>
         <th scope="col">CUSTOMER </th>
-        <th scope="col">SUPPLIER </th>
-        <th scope="col">Box No </th>
-        <th scope="col">GRN No</th>
-        <th scope="col">ITEM No </th>
-        <th scope="col">ITEM Qty </th>
-		<th scope="col">ITEM Name </th>
-        <th scope="col">ITEM Packing </th>
-        <th scope="col">ITEM Rate </th>
-        <th scope="col">ITEM Total </th>
+        <th scope="col">CUSTOMER </th>
+        <th scope="col">BILL DATE </th>
+        <th scope="col">CUSTOMER </th>
+        <th scope="col">UNIT </th>
+        <th scope="col">PACKING </th>
+        <th scope="col">BILL DESCRIPT </th>
+		
 		
 		</tr>
 		</thead>
    @foreach ($billentry as $item)                             
 		<tr>
-        <td>{{$item->custid}}</td>
-        <td>{{$item->suppid}}</td>
-        <td>{{$item->itmeno}}</td>
-        <td>{{$item->itmeno}}</td>
-        <td>{{$item->itmeno}}</td>
-        <td>{{$item->qty}}</td>
-			<td>{{$item->item_name}}</td>
-            <td>{{$item->packing}}</td>
-            <td>{{$item->rate}}</td>
-            <td>{{$item->total}}</td>
-			<td>
+        <td>{{$item->id}}</td>
+        <td>{{$item->act_desc}}</td>
+        <td>{{$item->bill_date}}</td>
+        <td>{{$item->bill_desc}}</td>
+        <td>{{$item->unit}}</td>
+        <td>{{$item->packing}}</td>
+        <td>{{$item->bill_desc}}</td>
+        <td>{{$item->bill_brand}}</td>
+        	<td>
             <!-- <form action="{{ route('delete_vendor',$item->id) }}" method="post">
 			 @csrf
 			 <button type="submit" value="delete" class="btn btn-danger" > DELETE </button> 

@@ -2,7 +2,7 @@
 @section('content')
 <div class="container">
         <div class="row justify-content-center">
-            <div class="col-md-8">
+            <div class="col-md-12">
                 <div class="card">
                     <div class="card-body">
 						<form method="POST" action="savevendor">
@@ -107,8 +107,7 @@
                         </form>
                     </div>
                 </div>
-            </div>
-        </div>
+            
         
 
 
@@ -119,6 +118,11 @@
 		<th scope="col">Address</th>
 		<th scope="col">Mobile</th>
         <th scope="col">Email</th>
+        <th scope="col">Email</th>
+        <th scope="col">Email</th>
+        <th scope="col">Email</th>
+        <th scope="col">Email</th>
+        <th scope="col">Email</th>
 		</tr>
 		</thead>
    @foreach ($vendor as $item)                             
@@ -127,7 +131,14 @@
 			<td>{{$item->vendoraddress}}</td>
 			<td>{{$item->vendoremail1}}</td> 
             <td>{{$item->vendoremail1}}</td> 
+            <td>{{$item->vendoremail1}}</td> 
+            <td>{{$item->vendoremail1}}</td> 
+            <td>{{$item->vendoremail1}}</td> 
+            <td>{{$item->vendoremail1}}</td> 
+            
+			
 			<td>
+
             <form action="{{ route('delete_vendor',$item->id) }}" method="post">
 			 @csrf
 			 <button type="submit" value="delete" class="btn btn-danger" > DELETE </button> 
