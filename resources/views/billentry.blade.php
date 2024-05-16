@@ -102,6 +102,7 @@
         <thead>
 		<tr>
         <th scope="col">ID </th>
+        <th scope="col">SUPPLIER </th>
         <th scope="col">CUSTOMER </th>
         <th scope="col">BILL DATE </th>
         <th scope="col">CUSTOMER </th>
@@ -115,7 +116,8 @@
    @foreach ($billentry as $item)                             
 		<tr>
         <td>{{$item->id}}</td>
-        <td>{{$item->cstid}}</td>
+        <td>{{$item->suppid}}</td>
+        <td>{{$item->custid}}</td>
         <td>{{$item->bill_date}}</td>
         <td>{{$item->unit}}</td>
         <td>{{$item->packing}}</td>     
