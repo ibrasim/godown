@@ -105,9 +105,11 @@
         <th scope="col">SUPPLIER </th>
         <th scope="col">CUSTOMER </th>
         <th scope="col">BILL DATE </th>
-        <th scope="col">CUSTOMER </th>
         <th scope="col">UNIT </th>
         <th scope="col">PACKING </th>
+        <th scope="col">DESCRIPTION </th>
+        <th scope="col">RATE </th>
+        <th scope="col">TOTAL </th>
         
 		
 		
@@ -122,6 +124,8 @@
         <td>{{$item->unit}}</td>
         <td>{{$item->packing}}</td>     
         <td>{{$item->bill_desc}}</td>
+        <td>{{$item->rate}}</td>
+        <td>{{$item->total}}</td>
         	<td>
             <!-- <form action="{{ route('delete_vendor',$item->id) }}" method="post">
 			 @csrf
