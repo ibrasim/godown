@@ -10,16 +10,16 @@
                             <div class="form-group row">
 
                                 <div class="col">
-                                <input type="text"  name="billno" class="form-control" placeholder="billno no">
+                                <input type="text"  name="billno" class="form-control" placeholder="bill no">
                                 </div> 
                                 <div class="col">
-                                <input type="text"  name="billdate" class="form-control" placeholder="billdate Date">
+                                <input type="text"  name="billdate" class="form-control" placeholder="bill Date">
                                 </div> 
                                 <div class="col">
-                                <input type="text"   name="cust_id" class="form-control" placeholder="supp_id ID">                           
+                                <input type="text"   name="supp_id" class="form-control" placeholder="supp_id">                           
                                 </div> 
                                 <div class="col">
-                                <input type="text"  name="supp_id" class="form-control" placeholder="supp_id ID">
+                                <input type="text"  name="cust_id" class="form-control" placeholder="cust_id">
                                 </div> 
                                 <div class="col">
                                 <input type="text"  name="itemno" class="form-control" placeholder="itemno">

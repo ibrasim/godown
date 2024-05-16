@@ -22,8 +22,8 @@ public function store(Request $request)
     $dataentry->billno = $request->input('billno');     
     $dataentry->bill_date =  now();  
     // $request->input('billdate');     
-    $dataentry->suppid = $request->input('supp_id');   
-    $dataentry->custid = $request->input('cust_id');   
+    $dataentry->suppid = $request->input('cust_id');   
+    $dataentry->custid = $request->input('supp_id');   
     $dataentry->itmeno = $request->input('itemno');  
     $dataentry->unit = $request->input('unit');     
     $dataentry->qty = $request->input('qty');   
