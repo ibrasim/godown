@@ -6,6 +6,8 @@ use App\Models\customer;
 
 use App\Models\vendor;
 use App\Models\delivery;
+use App\Models\Dataentry;
+
 use App\Models\Billentry;
 use Illuminate\Support\Facades\Auth;  // used to check if user is logged in (Auth())
 use Illuminate\Http\Request;
@@ -185,7 +187,7 @@ public function index4()
           {
   
   
-   $billentry = Billentry::all();
+   $billentry = Dataentry::all();
         
         return view('billentry',compact('billentry'));
         //  return view('home');

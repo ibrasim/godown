@@ -101,13 +101,13 @@
         <table class="table table-hover">     
         <thead>
 		<tr>
-        <th scope="col">CUSTOMER </th>
+        <th scope="col">ID </th>
         <th scope="col">CUSTOMER </th>
         <th scope="col">BILL DATE </th>
         <th scope="col">CUSTOMER </th>
         <th scope="col">UNIT </th>
         <th scope="col">PACKING </th>
-        <th scope="col">BILL DESCRIPT </th>
+        
 		
 		
 		</tr>
@@ -115,13 +115,11 @@
    @foreach ($billentry as $item)                             
 		<tr>
         <td>{{$item->id}}</td>
-        <td>{{$item->act_desc}}</td>
+        <td>{{$item->cstid}}</td>
         <td>{{$item->bill_date}}</td>
-        <td>{{$item->bill_desc}}</td>
         <td>{{$item->unit}}</td>
-        <td>{{$item->packing}}</td>
+        <td>{{$item->packing}}</td>     
         <td>{{$item->bill_desc}}</td>
-        <td>{{$item->bill_brand}}</td>
         	<td>
             <!-- <form action="{{ route('delete_vendor',$item->id) }}" method="post">
 			 @csrf
