@@ -18,6 +18,8 @@ use App\Models\Billentry;
 // to get csv data from a table change code to a function in controller or keep in route but to use  customer dump  
 // thanks to the forum contributers here (https://stackoverflow.com/questions/26146719/use-laravel-to-download-table-as-csv)
    
+    
+
     Route::get('/contacts', function (Request $request) {
         // $contacts = User::when($request->term, function ($query, $term) {
             $contacts = customer::when($request->term, function ($query, $term) {
@@ -71,7 +73,29 @@ Route::get('/', function () {
 
 Auth::routes();
 
+
+
+Route::post('update_requestorder/{id}',[App\Http\Controllers\RequestorderController::class,'update_requestorder'])->name('update_requestorder');
+
+Route::get('/Requestorder', [App\Http\Controllers\RequestorderController::class, 'index6'])->name('Requestorder');
+Route::post('/requestorderentry', [App\Http\Controllers\RequestorderController::class, 'store'])->name('requestorderentry');
+
+Route::post('delete_requestorder/{id}',[App\Http\Controllers\RequestorderController::class,'destroy'])->name('delete_requestorder');
+
+
+Route::get('/updateweight/{id}', [App\Http\Controllers\GoodsreceivenoteController::class, 'update'])->name('updateweight');
+Route::get('/goodereceive_entry', [App\Http\Controllers\GoodsreceivenoteController::class, 'index'])->name('goodereceive_entry');
+Route::post('/grnsavedata', [App\Http\Controllers\GoodsreceivenoteController::class, 'store'])->name('grnsavedata');
+
+
+
+
+
+// Route::get('/updatepacking', [App\Http\Controllers\DataentryController::class, 'update'])->name('updatepacking');
 Route::post('/savedata', [App\Http\Controllers\DataentryController::class, 'store'])->name('savedata');
+
+
+
 
 Route::get('/dashboard', [App\Http\Controllers\HomeController::class, 'dashboard'])->name('dashboard');
 Route::get('/tariffsearch', [App\Http\Controllers\TariffmvController::class, 'index'])->name('tariffsearch');

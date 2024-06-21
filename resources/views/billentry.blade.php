@@ -1,11 +1,17 @@
 @extends('layouts.app')
 @section('content')
+
+
+
+
+
 <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-body">
 						<form method="POST" action="savedata">
+                        <?php $z = 3; ?> 
                             @csrf                 
                             <div class="form-group row">
 
@@ -96,7 +102,7 @@
             </div>
         </div>
         
-
+<div>
 
         <table class="table table-hover">     
         <thead>
@@ -110,6 +116,7 @@
         <th scope="col">DESCRIPTION </th>
         <th scope="col">RATE </th>
         <th scope="col">TOTAL </th>
+        <th scope="col">TOTAL </th>
         
 		
 		
@@ -122,11 +129,18 @@
         <td>{{$item->custid}}</td>
         <td>{{$item->bill_date}}</td>
         <td>{{$item->unit}}</td>
-        <td>{{$item->packing}}</td>     
+        <td><a href = "/updatepacking" class="editable" date-type="text" data-name="sdf" data-pk="{{$item->packing}}" >{{$item->packing}}</a></td>     
         <td>{{$item->bill_desc}}</td>
+
+       
+        
         <td>{{$item->rate}}</td>
         <td>{{$item->total}}</td>
-        	<td>
+        	<td>{{$item->total}}</td>
+        
+            <!-- <td><a href= "" {{$item->id }}">click</a></td> -->
+        
+        <td>
             <!-- <form action="{{ route('delete_vendor',$item->id) }}" method="post">
 			 @csrf
 			 <button type="submit" value="delete" class="btn btn-danger" > DELETE </button> 
@@ -134,8 +148,36 @@
             </td>   
 		</tr>
  @endforeach 
-           </table>
 
-    </div>
+ 
+
+           </table>
+           </div>
+
+
     
+
+ 
+<script>
+    $.fn.editable.defaults.mode="inline";
+$ .ajaxSetup({
+    headers:{ 'X-CSRF-TOKEN': '{{ csrf_token()}}'
+
+    }
+});
+$('.editable').editable({
+    url:"/updatepacking",
+    type='text',
+    pk:1,
+    name:"title",
+    title:"enter name"
+});
+</script>
+    
+
 @endsection
+
+
+
+    
+  

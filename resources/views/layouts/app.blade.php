@@ -23,6 +23,10 @@
   <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.11.1/dist/cdn.min.js"></script>
 
 
+  <link href="//cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/jqueryui-editable/css/jqueryui-editable.css" rel="stylesheet"/>
+<script src="//cdnjs.cloudflare.com/ajax/libs/x-editable/1.5.0/jqueryui-editable/js/jqueryui-editable.min.js"></script>
+
+
 
 </head>
 <body>
@@ -48,12 +52,15 @@
                         <!-- <a class="nav-link"href="https://m.followme.mv/public/"  target="_blank">Vessels</a> -->
                         <!-- <a class="nav-link"href="{{route('warehouse_item_entry')}}">Items</a> -->
                         <!-- <a class="nav-link"href="{{route('warehouse_stock_entry')}}">Stock IN</a> -->
-                        <a class="nav-link"href="{{route('addcustomer')}}">Customer</a>
-                        <a class="nav-link"href="{{route('addvendor')}}">Supplier</a>
-                        <a class="nav-link"href="{{route('billentry')}}">Data Entry</a>
-                        <a class="nav-link"href="{{route('customersearch')}}">CustomerSearch</a>
-                        <a class="nav-link"href="{{route('tariffsearch')}}">TariffSearch</a>
-                        <a class="nav-link"href="{{route('dashboard')}}">Dashboard</a>
+                        
+                        <a class="nav-link"href="{{route('Requestorder')}}">Request</a>
+                        <!-- <a class="nav-link"href="{{route('goodereceive_entry')}}">GRN</a> -->
+                        <!-- <a class="nav-link"href="{{route('addcustomer')}}">Customer</a> -->
+                        <!-- <a class="nav-link"href="{{route('addvendor')}}">Supplier</a> -->
+                        <!-- <a class="nav-link"href="{{route('billentry')}}">Data Entry</a> -->
+                        <!-- <a class="nav-link"href="{{route('customersearch')}}">CustomerSearch</a> -->
+                        <!-- <a class="nav-link"href="{{route('tariffsearch')}}">TariffSearch</a> -->
+                        <!-- <a class="nav-link"href="{{route('dashboard')}}">Dashboard</a> -->
                     </ul>
 
                     <!-- Right Side Of Navbar -->
@@ -123,5 +130,9 @@
             @yield('content')
         </main>
     </div>
+
+
+
+
 </body>
 </html>
