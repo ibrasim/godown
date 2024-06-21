@@ -27,7 +27,7 @@ class CreateGoodsreceivenotesTable extends Migration
             $table->string('deliv_id')->nullable();      
             $table->float('leng')->nullable();      
             $table->float('heigh')->nullable();           
-            $table->float('width')->nullable();    
+         
             $table->float('cbm') ->nullable();   
             $table->float('width') ->nullable();   
             $table->float('height') ->nullable();   
