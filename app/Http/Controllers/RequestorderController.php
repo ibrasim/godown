@@ -18,8 +18,10 @@ class RequestorderController extends Controller
         {
             
             $user1 = Auth::user()->name;
-               if ($user1=='admin' )
+               if ($user1=='admin' or $user=='zamu' )
          
+
+
                 {
               
 

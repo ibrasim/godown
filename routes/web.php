@@ -2,6 +2,7 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Models\customer;
+use App\Models\Requestorder;
 use App\Models\User;
 use App\Models\vendor;
 use App\Models\Billentry;
@@ -48,6 +49,31 @@ use App\Models\Billentry;
         // fputcsv($handle, array( $row['shippingmark'], $row['companyname'], $row['telephone'], $row['mobile'], $row['email1']));
     
         fputcsv($handle, array($row['id'], $row['shippingmark'], $row['nickname'], $row['firstname'], $row['lastname'], $row['companyname'], $row['registration'],$row['address'],$row['road'],$row['city'],$row['country'],$row['zipcode'],$row['telephone'], $row['mobile'], $row['email1'], $row['email1'], $row['socialaccounts'], $row['created_at']));
+    
+    }
+
+    fclose($handle);
+
+    $headers = array(
+        'Content-Type' => 'text/csv',
+    );
+
+    
+    return Response::download($filename, 'users.csv', $headers);
+});
+
+
+
+Route::get('/all-tweets1-csv', function () {
+    $table = requestorder::all();
+    $filename = "users1.csv";
+    $handle = fopen($filename, 'w+');
+    fputcsv($handle, array('id','item_name','hscode','brand','unit','packing','category','reqested_qty', 'req_date_time_by', 'approve_date_time_by'));
+
+    foreach($table as $row) {
+        // fputcsv($handle, array( $row['shippingmark'], $row['companyname'], $row['telephone'], $row['mobile'], $row['email1']));
+    
+        fputcsv($handle, array($row['id'], $row['item_name'], $row['hscode'], $row['brand'], $row['unit'], $row['packing'],  $row['category'],$row['reqested_qty'], $row['req_date_time_by'], $row['approve_date_time_by']));
     
     }
 

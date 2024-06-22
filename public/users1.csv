@@ -1,0 +1,9 @@
+id,item_name,hscode,brand,unit,packing,category,reqested_qty,req_date_time_by,approve_date_time_by
+3,"DRUMSTICK (FRESH OR CHILLED) –",0709990011,sdf,KGM,"1x1 packets",kitchen,10,"DRUMSTICK (FRESH OR CHILLED) –",
+4,"WATER TAP",8481809017,na,NMB,"1x1 nos",maintenance,1,"WATER TAP",
+5,"mobile phone",977,nokia,nos,"1 nos",electronic,5,"mobile phone",
+8,something,"some code",sdf,unit,pack,kitchen,150,"2024-06-21 05:37:01admin","2024-06-21 05:37:26admin"
+9,keyboard,898988,sdf,nos,"1 x nos",entertainment,2,"2024-06-21 06:27:25admin","2024-06-21 06:28:04admin"
+10,kambalhi,898888,small,nos,"1 nos",meat,43,"2024-06-21 06:34:24zamu",
+11,"ceiling fan",8414591012,sdf,nbr,"1 x 1","house keeping",6,"2024-06-22 02:54:13zamu","2024-06-22 02:55:23zamu"
+12,table,i888,none,nos,"1 nos","house keeping",10,"2024-06-22 03:19:38admin",

@@ -92,7 +92,22 @@
 								                          
                   
                                 </div> 
+
+
+
+
+
                                 </div> 
+
+                                
+                                <div class="col">
+                                   <!-- <button type="submit" class="btn btn-primary"> -->
+                                  {{ __('Export') }}
+                                
+                                <a href="/all-tweets1-csv" class="btn btn-primary">Export as CSV</a>
+                            <!-- </button>  -->
+                                </div>
+
 
                         </form>
 
