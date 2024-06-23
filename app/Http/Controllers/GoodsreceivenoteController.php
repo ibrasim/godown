@@ -138,9 +138,17 @@ $y=$request->input('no_pkgs');
                 
         // return redirect('/')->with('success','Data entry data saved');
             
+        public function up1(request $request, $id)
+        {
+            $GoodsreceivenoteItem = GoodsreceivenoteItem::find($id);
+            // $GoodsreceivenoteItem->weight = $request->weight1;
+            
+            $GoodsreceivenoteItem->weight = $request->input('weight1');
+            
 
-     
-
+            $GoodsreceivenoteItem->update();
+            // dd($GoodsreceivenoteItem);
+        }
 
         public function update(request $request, $id)
         {
@@ -152,11 +160,11 @@ $y=$request->input('no_pkgs');
             //coud do in a grid too for appearance
 
 $GoodsreceivenoteItem = GoodsreceivenoteItem::find($id);
-// $GoodsreceivenoteItem->weight = $request->weight1;
+//   $GoodsreceivenoteItem->weight = $request->weight1;
 
- //dd($GoodsreceivenoteItem);
- return view('goodsreceivenoteupdate',compact('GoodsreceivenoteItem'));
-// $GoodsreceivenoteItem->update(); 
+//   dd($GoodsreceivenoteItem);
+    return view('goodsreceivenoteupdate',compact('GoodsreceivenoteItem'));
+//  $GoodsreceivenoteItem->update(); 
         }
 
 
@@ -220,3 +228,6 @@ $GoodsreceivenoteItem = GoodsreceivenoteItem::find($id);
         //
     }
 }
+
+
+

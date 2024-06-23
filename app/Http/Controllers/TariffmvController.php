@@ -21,7 +21,7 @@ class TariffmvController extends Controller
     {
         $user1 = Auth::user()->name;
      
-        if ($user1=='admin' or  $user1=='zamu')
+        if ($user1=='admin' or  $user1=='zamu' or $user1=='arshad')
  
         {
            

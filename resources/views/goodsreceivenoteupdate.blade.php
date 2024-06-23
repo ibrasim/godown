@@ -10,8 +10,12 @@
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-body">
-						<form method="POST" action="grnsavedata">
-                        <?php $z = 3; ?> 
+						<form method="post" action= "{{ route('updateweight',$GoodsreceivenoteItem->id) }}" >
+                        
+
+                        
+
+                        
                             @csrf              
                             
                             <div class="form-group row">
@@ -41,7 +45,7 @@
                             <div class="col">
                             <div class="form-group mb-2">
                             <label for = "title">WEIGHT<span class="text-danger">*<span></label>
-                            <input type="text"  name="weight" value="{{$GoodsreceivenoteItem->weight}}"class="form-control" placeholder="WEIGHT">
+                            <input type="text"  name="weight1" value="{{$GoodsreceivenoteItem->weight}}"class="form-control" placeholder="WEIGHT">
                             </div>                               
                             </div>                               
                             
@@ -54,20 +58,27 @@
                             </div> 
 
                             
-                           
                             <div class="form-group mb-2">
-                                
-                                <button type="submit" class="btn btn-warning">
-                                        {{ __('UPDATE') }}
-                                    </button>
-								                          
-                  
-                                </div> 
-                                </div> 
-
+                           
+                           </div> 
+                           </div> 
+                          
                         </form>
 
-                                      
+                        <form  action = "{{ route('updateweightchange',$GoodsreceivenoteItem->id) }}"  method="post">
+                        
+                        @csrf
+
+                        
+                        <input type="text"  name="weight1" value="{{$GoodsreceivenoteItem->weight}}"class="form-control" placeholder="WEIGHT">
+
+                           <button type="submit" class="btn btn-warning">
+                                   {{ __('UPDATE') }}
+                               </button>
+                                                     
+                               </form>
+
+                           
                                                                                         
                                         
 

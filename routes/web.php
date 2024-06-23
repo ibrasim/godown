@@ -109,10 +109,14 @@ Route::post('/requestorderentry', [App\Http\Controllers\RequestorderController::
 Route::post('delete_requestorder/{id}',[App\Http\Controllers\RequestorderController::class,'destroy'])->name('delete_requestorder');
 
 
+
+
 Route::get('/updateweight/{id}', [App\Http\Controllers\GoodsreceivenoteController::class, 'update'])->name('updateweight');
 Route::get('/goodereceive_entry', [App\Http\Controllers\GoodsreceivenoteController::class, 'index'])->name('goodereceive_entry');
 Route::post('/grnsavedata', [App\Http\Controllers\GoodsreceivenoteController::class, 'store'])->name('grnsavedata');
 
+
+Route::post('/updateweightchange/{id}', [App\Http\Controllers\GoodsreceivenoteController::class, 'up1'])->name('updateweightchange');
 
 
 

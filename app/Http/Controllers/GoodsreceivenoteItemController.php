@@ -70,6 +70,10 @@ class GoodsreceivenoteItemController extends Controller
     public function update(Request $request, GoodsreceivenoteItem $goodsreceivenoteItem)
     {
         //
+        dd('$GoodsreceivenoteItem');
+
+
+
     }
 
     /**
