@@ -98,8 +98,9 @@ Route::get('/', function () {
 
 
 Auth::routes();
+Route::get('showapproveddata/{id}',[App\Http\Controllers\RequestorderController::class,'show'])->name('showapproveddata');
 
-
+Route::post('/updaterequestorder/{id}', [App\Http\Controllers\RequestorderController::class, 'update'])->name('updaterequestorder');
 
 Route::post('update_requestorder/{id}',[App\Http\Controllers\RequestorderController::class,'update_requestorder'])->name('update_requestorder');
 

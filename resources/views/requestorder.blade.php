@@ -143,9 +143,11 @@
         <th scope="col">unit</th>
         <th scope="col">packing</th>
         <th scope="col">category</th>
+        <th scope="col">supplier</th>
         <th scope="col">requested qty</th>
         <th scope="col">requested date / by</th>
         <th scope="col">approved date / by</th>
+        <th scope="col">action</th>
         <th scope="col">action</th>
         <th scope="col">action</th>
 		
@@ -162,6 +164,7 @@
                                         <td>{{ $v1->unit}}</td>
                                         <td>{{ $v1->packing}}</td>
                                         <td>{{ $v1->category}}</td>
+                                        <td>{{ $v1->supplier}}</td>
                                         <td>{{ $v1->reqested_qty}}</td>
                                         <td>{{ $v1->req_date_time_by}}</td>
                                         <td>{{ $v1->approve_date_time_by}}</td>
@@ -202,6 +205,26 @@
                                    
                                         
                                     </td>           
+
+
+                                    <td>
+                                    
+                                    <form action="{{ route('delete_requestorder',$v1->id) }}" method="post">
+                                    @csrf                                    
+                                    <!-- <td> <form action="{{url('/updateweight,$v->id')}}" method="POST">ddd</a> -->
+                                    <!-- <td> <a href="{{ url('/updateweight',$v1->id) }}" class="btn btn-xs btn-info pull-right">Edhgit</a> -->
+                                    
+                                    <!-- <button type="submit" value="delete" class="btn btn-success" > PURCHASE </button> -->
+                                    <a href="{{ url('/showapproveddata',$v1->id) }}" class="btn btn-primary btn-sm">PURCHASE</a>
+                                    
+                                    <!-- <a href="{{ url('/updateweight,$v->id') }}" class="btn btn-xs btn-info pull-right">Edit</a> -->
+                                    </form></td>                                 
+
+                                    
+                               
+                                    
+                                </td>      
+
                                         
                                       
 		</tr>

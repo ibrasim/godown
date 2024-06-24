@@ -101,10 +101,26 @@ class RequestorderController extends Controller
      * @param  \App\Models\Requestorder  $requestorder
      * @return \Illuminate\Http\Response
      */
-    public function show(Requestorder $requestorder)
+    public function show($id)
     {
-        //
+        $p = Requestorder ::find($id);
+
+        // $GoodsreceivenoteItem->weight = $request->weight1;       
+        // $GoodsreceivenoteItem->weight = $request->input('weight1');
+        // $GoodsreceivenoteItem->update();
+        // dd($Requestorder);
+        // return ('welcome');
+        return view('Requestorderupdate',compact('p'));
     }
+
+
+
+
+
+        
+        
+        
+    
 
     /**
      * Show the form for editing the specified resource.
@@ -124,8 +140,17 @@ class RequestorderController extends Controller
      * @param  \App\Models\Requestorder  $requestorder
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Requestorder $requestorder)
+    public function update(request $request, $id)
     {
+        
+        
+        $requp = Requestorder ::find($id);      
+        $requp->supplier = $request->input('supplier');
+        $requp->update();
+        
+        return redirect('/')->with('success','Data entry data saved');
+        
+        
         //
     }
 
