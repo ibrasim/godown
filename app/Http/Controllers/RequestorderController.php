@@ -110,7 +110,7 @@ class RequestorderController extends Controller
         // $GoodsreceivenoteItem->update();
         // dd($Requestorder);
         // return ('welcome');
-        return view('Requestorderupdate',compact('p'));
+        return view('requestorderupdate',compact('p'));
     }
 
 
