@@ -58,6 +58,9 @@ else
      */
     public function store(Request $request)
     {
+        $mlimit = $request->input('no_pkgs');  
+        if ( $mlimit <= 5)
+        {
                 $Goodsreceivenote = new Goodsreceivenote();
                 $Goodsreceivenote->grn_no = $request->input('grn_no');     
                 $Goodsreceivenote->sup_id = $request->input('sup_id');     
@@ -81,7 +84,11 @@ $y=$request->input('no_pkgs');
                      $GoodsreceivenoteItem->weight = $request->input('no_pkgs');    
                      $GoodsreceivenoteItem->save(); 
                  }
-                
+        }
+        else
+        {
+            return view('/home'); 
+        }
 
                 }
   // for ($x=0 ; $x <= $y; $x++) 

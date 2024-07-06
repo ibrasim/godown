@@ -137,16 +137,19 @@
         <thead>
 		<tr>
         <th scope="col">id </th>
-        <th scope="col">item name </th>
+        <th scope="col">item </th>
         <th scope="col">hscode</th>
         <th scope="col">brand</th>
         <th scope="col">unit</th>
         <th scope="col">packing</th>
         <th scope="col">category</th>
         <th scope="col">supplier</th>
-        <th scope="col">requested qty</th>
-        <th scope="col">requested date / by</th>
-        <th scope="col">approved date / by</th>
+        <th scope="col">unitprice</th>
+        <th scope="col">totalprice</th>
+        <th scope="col">purchased</th>
+        <th scope="col">requested</th>
+        <th scope="col">requested</th>
+        <th scope="col">approved</th>
         <th scope="col">action</th>
         <th scope="col">action</th>
         <th scope="col">action</th>
@@ -165,6 +168,9 @@
                                         <td>{{ $v1->packing}}</td>
                                         <td>{{ $v1->category}}</td>
                                         <td>{{ $v1->supplier}}</td>
+                                        <td>{{ $v1->unit_price}}</td>
+                                        <td>{{ $v1->total_price}}</td>
+                                        <td>{{ $v1->purchased}}</td>
                                         <td>{{ $v1->reqested_qty}}</td>
                                         <td>{{ $v1->req_date_time_by}}</td>
                                         <td>{{ $v1->approve_date_time_by}}</td>

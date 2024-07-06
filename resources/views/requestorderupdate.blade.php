@@ -67,11 +67,11 @@
                         @csrf
 
                         <label for = "title">UNIT PRICE<span class="text-danger">*<span></label> 
-                        <input type="text"  name="weight1" class="form-control" placeholder="UNIT PRICE">
+                        <input type="text"  name="unitprice" class="form-control" placeholder="UNIT PRICE">
                         <label for = "title">TOTAL PRICE<span class="text-danger">*<span></label>
-                        <input type="text"  name="weight1" class="form-control" placeholder="TOTAL PRICE">
+                        <input type="text"  name="totalprice" class="form-control" placeholder="TOTAL PRICE">
                         <label for = "title">PURCHASED QUANTITY<span class="text-danger">*<span></label>
-                        <input type="text"  name="weight1" class="form-control" placeholder="PURCHASED QUANTITY">
+                        <input type="text"  name="purqty" class="form-control" placeholder="PURCHASED QUANTITY">
                         <label for = "title">SUPPLIER<span class="text-danger">*<span></label>
                         <input type="text"  name="supplier" class="form-control" placeholder="SUPPLIER">
 

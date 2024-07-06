@@ -146,6 +146,13 @@ class RequestorderController extends Controller
         
         $requp = Requestorder ::find($id);      
         $requp->supplier = $request->input('supplier');
+
+        $requp->unit_price = $request->input('unitprice');
+        $requp->total_price = $request->input('totalprice');
+        $requp->purchased = $request->input('purqty');
+
+        
+        
         $requp->update();
         
         return redirect('/')->with('success','Data entry data saved');
