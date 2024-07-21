@@ -14,8 +14,8 @@ class DataentryController extends Controller
 
 public function store(Request $request)
 {
-    $y=$request->input('billno');        
-    for ($x=0 ; $x <= $y; $x++) {
+    // $y=$request->input('billno');        
+    // for ($x=0 ; $x <= $y; $x++) {
  
     $dataentry = new dataentry();
     date_default_timezone_set("Asia/Tashkent");
@@ -28,7 +28,8 @@ public function store(Request $request)
     $dataentry->suppid = $request->input('cust_id');   
     $dataentry->custid = $request->input('supp_id');   
     // $dataentry->itmeno = $request->input('itemno');  
-    $dataentry->itmeno = $x;
+    // $dataentry->itmeno = $x;
+     $dataentry->itmeno = 1;
     $dataentry->unit = $request->input('unit');     
     $dataentry->qty = $request->input('qty');   
     $dataentry->packing = $request->input('packing');   
@@ -66,7 +67,7 @@ public function store(Request $request)
 
     $dataentry ->save();
     //  echo "The number is: $x <br>";
-}
+// }
     return redirect('/')->with('success','Data entry data saved');
 }
 
