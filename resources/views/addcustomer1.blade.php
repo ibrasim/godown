@@ -12,13 +12,13 @@
                           
                             <div class="form-group row">
                                 <div class="col">
-                                     <input type="text"  name="ShippingMark" class="form-control" placeholder="Shipping Mark">
+                                     <input type="text"  name="ShippingMark" class="form-control" placeholder="Shipping Mark *">
                                 </div>
                                 <div class="col">
                                      <input type="text" name="NickNameSirName" class="form-control" placeholder="Nick Name/Sir Name">
                                 </div>
                                 <div class="col">
-                                    <input type="text" name="FirstName"class="form-control" placeholder="First Name ">
+                                    <input type="text" name="FirstName"class="form-control" placeholder="First Name * ">
                                 </div>
                                 <div class="col">
                                     <input type="text" name="LastName" class="form-control" placeholder="Last Name ">
@@ -26,44 +26,44 @@
                             </div>
 							<div class="form-group row">   
                                 <div class="col">
-                                     <input type="text" name="CompanyName" class="form-control" placeholder="Company Name">
+                                     <input type="text" name="CompanyName" class="form-control" placeholder="Company Name ">
                                 </div>
                                 <div class="col">
-                                    <input type="text" name="BusinessRegistration"class="form-control" placeholder="Business Registration #">
+                                    <input type="text" name="BusinessRegistration"class="form-control" placeholder="Business Registration Number ">
                                 </div>
                                 <div class="col">
-                                    <input type="text" name="Address" class="form-control" placeholder="Address">
+                                    <input type="text" name="Address" class="form-control" placeholder="Address *">
                                </div>
                                <div class="col">
-                                    <input type="text" name="RoadName"class="form-control" placeholder="Road Name">
+                                    <input type="text" name="RoadName"class="form-control" placeholder="Road Name ">
                                 </div>
                             </div>
 							<div class="form-group row">  
                                 <div class="col">
-                                    <input type="text" name="City"class="form-control" placeholder="City">
+                                    <input type="text" name="City"class="form-control" placeholder="City ">
                                 </div>
                                 <div class="col">
-                                    <input type="text" name="Country"class="form-control" placeholder="Country">
+                                    <input type="text" name="Country"class="form-control" placeholder="Country *">
                                </div>
                                <div class="col">
-                                    <input type="text" name="ZipCode"class="form-control" placeholder="Zip Code">
+                                    <input type="text" name="ZipCode"class="form-control" placeholder="Zip Code ">
                                </div>
                                <div class="col">
-                                   <input type="text" name="Telephone"class="form-control" placeholder="Telephone">
+                                   <input type="text" name="Telephone"class="form-control" placeholder="Telephone ">
                             </div>  
                             </div>
 								<div class="form-group row">
                                 <div class="col">
-                                        <input type="text" name="Mobile"class="form-control" placeholder="Mobile">
+                                        <input type="text" name="Mobile"class="form-control" placeholder="Mobile *">
                                 </div>
                                 <div class="col">
-                                        <input type="text" name="e-mail1"class="form-control" placeholder="e-mail 1">
+                                        <input type="text" name="e-mail1"class="form-control" placeholder="e-mail 1 *">
                                 </div>
                                 <div class="col">
-                                       <input type="text" name="e-mail2"class="form-control" placeholder="e-mail 2">
+                                       <input type="text" name="e-mail2"class="form-control" placeholder="e-mail 2 ">
                                 </div>
                                 <div class="col">
-                                    <input type="text" name="socialaccounts" class="form-control" placeholder="social accounts">
+                                    <input type="text" name="socialaccounts" class="form-control" placeholder="social accounts ">
                                </div>
                             </div>
 								<br>
@@ -126,7 +126,7 @@
 				  <th scope="col">Mobile</th>
 				  <th scope="col">Email</th>
 				  <th scope="col">Social Account</th>
-				  <th scope="col">photo</th>
+				  <th scope="col">date</th>
                   <th scope="col">Action</th>
 				</tr>
 			</thead>
@@ -140,8 +140,9 @@
                    <td>{{$item->mobile}}</td>
                    <td>{{$item->email1}}</td>
                    <td>{{$item->socialaccounts}}</td>   
-                   <td> <a target="_blank" href= "{{ asset('/'.$item->field2) }}"  width="45" height="75">photo</a>
-                   </td> 
+                   <td>{{$item->created_at}}</td>   
+                   <!-- <td> <a target="_blank" href= "{{ asset('/'.$item->field2) }}"  width="45" height="75">photo</a> -->
+                   <!-- </td>  -->
                    <td>
 						<form action="{{ route('delete_customer',$item->id) }}" method="post">
                          
