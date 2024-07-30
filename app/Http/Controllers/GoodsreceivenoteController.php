@@ -20,7 +20,7 @@ class GoodsreceivenoteController extends Controller
                      // $delivery = delivery::orderByDesc('id')->where('status','=' ,null)->paginate(8);
 
 
- $v = DB::table('goodsreceivenotes')->select('goodsreceivenotes.grn_no','goodsreceivenotes.cust_id','goodsreceivenotes.sup_id','goodsreceivenotes.no_pkgs','goodsreceivenotes.mode_trans','goodsreceivenote_items.grn_no','goodsreceivenote_items.id','goodsreceivenote_items.weight','goodsreceivenote_items.item_no')
+ $v = DB::table('goodsreceivenotes')->select('goodsreceivenotes.grn_no','goodsreceivenotes.cust_id','goodsreceivenotes.sup_id','goodsreceivenotes.deliv_name','goodsreceivenotes.no_pkgs','goodsreceivenotes.mode_trans','goodsreceivenote_items.grn_no','goodsreceivenote_items.id','goodsreceivenote_items.weight','goodsreceivenote_items.item_no')
 ->join('goodsreceivenote_items','goodsreceivenotes.grn_no','=','goodsreceivenote_items.grn_no')->get();                 
 
 //  dd($v);

@@ -127,6 +127,7 @@
         <th scope="col">GRN  NO </th>
         <th scope="col">CUSTOMER </th>
         <th scope="col">SPPLIER</th>
+        <th scope="col">DELIVERED BY</th>
         <th scope="col">PKGS</th>
         <th scope="col">WEIGHT</th>
         <th scope="col">ACTION</th>
@@ -142,6 +143,7 @@
         <td>{{ $v1->grn_no}}</td>
         <td>{{ $v1->cust_id}}</td>
         <td>{{ $v1->sup_id}}</td>
+        <td>{{ $v1->deliv_name}} </td>
         <td>{{ $v1->no_pkgs}} </td>
         <td>{{ $v1->weight}} </td>
                                      
