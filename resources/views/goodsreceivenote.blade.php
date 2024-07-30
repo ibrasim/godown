@@ -130,8 +130,8 @@
         <th scope="col">DELIVERED BY</th>
         <th scope="col">PKGS</th>
         <th scope="col">WEIGHT</th>
-        <th scope="col">ACTION</th>
-        <th scope="col">ACTION</th>
+        
+        
         <th scope="col">FIELD</th>
         <th scope="col">ITEM NO </th>
         <th scope="col">MODE OF TRANSPORT </th>
@@ -149,15 +149,9 @@
         <td>{{ $v1->no_pkgs}} </td>
         <td>{{ $v1->weight}} </td>
                                      
-                                        <td>
-                                        <input type="text"  name="weight1" class="form-control" placeholder="Weight">
-                                        </td>
-                                        
+                                       
   
                       
-                                        <td>
-                                        <form  action="{{ url('/updateweight',$v1->id) }}" method="POST">
-                                        @csrf
                                        
                                        
                                         <!-- <td> <form action="{{url('/updateweight,$v->id')}}" method="POST">ddd</a> -->
