@@ -131,9 +131,11 @@
         <th scope="col">PKGS</th>
         <th scope="col">WEIGHT</th>
         <th scope="col">ACTION</th>
+        <th scope="col">ACTION</th>
         <th scope="col">FIELD</th>
         <th scope="col">ITEM NO </th>
         <th scope="col">MODE OF TRANSPORT </th>
+        <th scope="col">DATE </th>
 		
 		
 		</tr>
@@ -174,7 +176,7 @@
                                         
         <td>{{ $v1->item_no}}</td>
         <td>{{ $v1->mode_trans}}</td>
-       
+        <td>{{ $v1->created_at}}</td>
        
             </td>   
 		</tr>
