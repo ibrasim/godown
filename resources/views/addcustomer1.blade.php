@@ -119,6 +119,7 @@
            <table class="table table-hover">     
            <thead>
 				<tr>
+                <th scope="col">Id</th>
 				  <th scope="col">Shipping mark </th>
 				  <th scope="col">Company Name</th>
 				  <th scope="col">Country</th>
@@ -133,6 +134,7 @@
 		@foreach ($customer as $item) 
                               
 				<tr>
+                <td>{{$item->id}}</td>      
                    <td>{{$item->shippingmark}}</td>      
                    <td>{{$item->companyname}}</td>
                    <td>{{$item->country}}</td> 

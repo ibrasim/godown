@@ -114,6 +114,7 @@
         <table class="table table-hover">     
         <thead>
 		<tr>
+        <th scope="col">Id</th>
 		<th scope="col">ShopName </th>
 		<th scope="col">Address</th>
 		<th scope="col">Mobile</th>
@@ -127,6 +128,7 @@
 		</thead>
    @foreach ($vendor as $item)                             
 		<tr>
+        <td>{{$item->id}}</td>
 			<td>{{$item->vendorname}}</td>
 			<td>{{$item->vendoraddress}}</td>
 			<td>{{$item->vendoremail1}}</td> 
