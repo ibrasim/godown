@@ -132,7 +132,7 @@
         <th scope="col">WEIGHT</th>
         
         
-        <th scope="col">FIELD</th>
+        <th scope="col">EDIT ITEM</th>
         <th scope="col">ITEM NO </th>
         <th scope="col">MODE OF TRANSPORT </th>
         <th scope="col">DATE </th>

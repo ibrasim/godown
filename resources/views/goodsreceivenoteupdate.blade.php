@@ -69,7 +69,7 @@
                         
                         @csrf
 
-                        
+                        <label for = "title">WEIGHT<span class="text-danger"> can change weight of each GRN item*<span></label>                        
                         <input type="text"  name="weight1" value="{{$GoodsreceivenoteItem->weight}}"class="form-control" placeholder="WEIGHT">
 
                            <button type="submit" class="btn btn-warning">
