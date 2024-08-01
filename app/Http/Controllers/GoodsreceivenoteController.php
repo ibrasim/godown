@@ -83,11 +83,13 @@ $y=$request->input('no_pkgs');
                      $GoodsreceivenoteItem->grn_no = $request->input('grn_no');
                      $GoodsreceivenoteItem->weight = $request->input('no_pkgs');    
                      $GoodsreceivenoteItem->save(); 
+                  
                  }
         }
         else
         {
-            return view('/home'); 
+            return view('goodsreceivenote'); 
+            
         }
 
                 }

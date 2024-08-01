@@ -40,7 +40,7 @@
                                 
                             <div class="col">
                             <div class="form-group mb-2">
-                            <label for = "title">No of Packages<span class="text-danger">*<span></label>
+                            <label for = "title">No of Packages<span class="text-danger">* five or less<span></label>
                             <input type="text"  name="no_pkgs" class="form-control" placeholder="No of Packages">
                             </div>                               
                             </div>           
@@ -126,17 +126,18 @@
 		<tr>
         <th scope="col">GRN  NO </th>
         <th scope="col">CUSTOMER </th>
-        <th scope="col">SPPLIER</th>
+        <th scope="col">SUPPLIER</th>
         <th scope="col">DELIVERED BY</th>
         <th scope="col">PKGS</th>
         <th scope="col">WEIGHT</th>
         
         
-        <th scope="col">EDIT ITEM</th>
-        <th scope="col">ITEM NO </th>
+        
+       
         <th scope="col">MODE OF TRANSPORT </th>
         <th scope="col">DATE </th>
-		
+        <th scope="col">ITEM NO </th>
+		<th scope="col">EDIT ITEM</th>
 		
 		</tr>
 		</thead>
@@ -154,10 +155,19 @@
                       
                                        
                                        
-                                        <!-- <td> <form action="{{url('/updateweight,$v->id')}}" method="POST">ddd</a> -->
+                                       
+
+                                        
+
+        <td>{{ $v1->mode_trans}}</td>
+        <td>{{ $v1->created_at}}</td>
+       
+            </td>   
+             <!-- <td> <form action="{{url('/updateweight,$v->id')}}" method="POST">ddd</a> -->
                                         <!-- <td> <a href="{{ url('/updateweight',$v1->id) }}" class="btn btn-xs btn-info pull-right">Edhgit</a> -->
+                                        <td>{{ $v1->item_no}}</td>
                                         <td>
-                                        <a href="{{ url('/updateweight',$v1->id) }}" class="btn btn-primary btn-sm">Edit</a>
+                                        <a href="{{ url('/updateweight',$v1->id) }}" class="btn btn-primary btn-sm">UPDATE</a>
                                         </td>
 
                                        
@@ -166,14 +176,8 @@
                                         
                                         </form>
                                         </td>
-
                                         
-        <td>{{ $v1->item_no}}</td>
-        <td>{{ $v1->mode_trans}}</td>
-        <td>{{ $v1->created_at}}</td>
-       
-            </td>   
-		</tr>
+                                    </tr>
  @endforeach 
 
  

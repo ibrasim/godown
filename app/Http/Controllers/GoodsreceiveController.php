@@ -65,7 +65,8 @@ class GoodsreceiveController extends Controller
         $goodsreceive->status =  $upd2;     
         
         $goodsreceive->save();
-       return redirect('/receivegood')->with('success','delivery data saved');
+     
+        
     }
 
     /**
