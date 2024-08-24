@@ -25,15 +25,15 @@
                             
                             <div class="col">
                             <div class="form-group mb-2">
-                            <label for = "title">HScode<span class="text-danger">*<span></label>
+                            <label for = "title">Customer Name<span class="text-danger">*<span></label>
                             <input type="text"  name="hscode" class="form-control" placeholder="HScode">
                             </div>               
                             </div>                               
                             
                             <div class="col">
                             <div class="form-group mb-2">
-                            <label for = "title">Brand<span class="text-danger"><span></label>
-                            <input type="text"  name="brand" class="form-control" placeholder="Brand">
+                            <label for = "title">Phone No<span class="text-danger"><span></label>
+                            <input type="text"  name="hone No" class="form-control" placeholder="Brand">
                             </div>                               
                             </div>           
                            
@@ -48,7 +48,7 @@
                             <div class="form-group row">
                             <div class="col">
                             <div class="form-group mb-2">
-                            <label for = "title">Packing<span class="text-danger"><span></label>
+                            <label for = "title">Destination<span class="text-danger"><span></label>
                             <input type="text"  name="packing" class="form-control" placeholder="Packing">
                             </div>   
 
@@ -65,7 +65,7 @@
 
                             <div class="col">
                             <div class="form-group mb-2">
-                            <label for = "title">requested qty<span class="text-danger">*<span></label>
+                            <label for = "title">amount<span class="text-danger">*<span></label>
                             <input type="text"  name="reqby" class="form-control" placeholder="requested quantity">
                             </div>   
                             </div>   
@@ -186,7 +186,7 @@
                                         <!-- <td> <form action="{{url('/updateweight,$v->id')}}" method="POST">ddd</a> -->
                                         <!-- <td> <a href="{{ url('/updateweight',$v1->id) }}" class="btn btn-xs btn-info pull-right">Edhgit</a> -->
                                         <!-- <a href="" class="btn btn-primary btn-sm">Approve</a> -->
-                                        <button type="submit" value="delete" class="btn btn-warning" > APPROVE </button>
+                                        <button type="submit" value="delete" class="btn btn-warning" > RELEASE </button>
                                         <!-- <a href="{{ url('/updateweight,$v->id') }}" class="btn btn-xs btn-info pull-right">Edit</a> -->
                                         </form></td>                                 
 
@@ -197,17 +197,18 @@
 
                                     <td>
                                     
-                                        <form action="{{ route('delete_requestorder',$v1->id) }}" method="post">
+                                    <!-- COMMENTED FOR NOW -->
+                                        <!-- <form action="{{ route('delete_requestorder',$v1->id) }}" method="post">
                                         @csrf                                    
                                         <!-- <td> <form action="{{url('/updateweight,$v->id')}}" method="POST">ddd</a> -->
                                         <!-- <td> <a href="{{ url('/updateweight',$v1->id) }}" class="btn btn-xs btn-info pull-right">Edhgit</a> -->
                                         
-                                        <button type="submit" value="delete" class="btn btn-danger" > DELETE </button>
+                                        <!-- <button type="submit" value="delete" class="btn btn-danger" > DELETE </button> -->
                                         
                                         <!-- <a href="{{ url('/updateweight,$v->id') }}" class="btn btn-xs btn-info pull-right">Edit</a> -->
-                                        </form></td>                                 
+                                        <!-- </form></td>                                  --> 
 
-                                        
+                                        <!-- COMMENTED FOR NOW -->
                                    
                                         
                                     </td>           
@@ -215,18 +216,19 @@
 
                                     <td>
                                     
-                                    <form action="{{ route('delete_requestorder',$v1->id) }}" method="post">
-                                    @csrf                                    
+                                    <!-- COMMENT FOR NOW -->
+                                    <!-- <form action="{{ route('delete_requestorder',$v1->id) }}" method="post"> -->
+                                    <!-- @csrf                                     -->
                                     <!-- <td> <form action="{{url('/updateweight,$v->id')}}" method="POST">ddd</a> -->
                                     <!-- <td> <a href="{{ url('/updateweight',$v1->id) }}" class="btn btn-xs btn-info pull-right">Edhgit</a> -->
                                     
                                     <!-- <button type="submit" value="delete" class="btn btn-success" > PURCHASE </button> -->
-                                    <a href="{{ url('/showapproveddata',$v1->id) }}" class="btn btn-primary btn-sm">PURCHASE</a>
+                                    <!-- <a href="{{ url('/showapproveddata',$v1->id) }}" class="btn btn-primary btn-sm">PURCHASE</a> -->
                                     
                                     <!-- <a href="{{ url('/updateweight,$v->id') }}" class="btn btn-xs btn-info pull-right">Edit</a> -->
-                                    </form></td>                                 
+                                    <!-- </form></td>                                  -->
 
-                                    
+                                    <!-- COMMENT FOR NOW -->
                                
                                     
                                 </td>      
