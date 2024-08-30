@@ -26,7 +26,7 @@
                             <div class="col">
                             <div class="form-group mb-2">
                             <label for = "title">Customer Name<span class="text-danger">*<span></label>
-                            <input type="text"  name="Customer Name" class="form-control" placeholder="HScode">
+                            <input type="text"  name="HScode" class="form-control" placeholder="Customer Name">
                             </div>               
                             </div>                               
                             
