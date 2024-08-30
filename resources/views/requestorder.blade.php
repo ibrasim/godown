@@ -144,7 +144,7 @@
         <th scope="col">destination</th>
         <th scope="col">category</th>
         
-        <th scope="col">purchased</th>
+        
         <th scope="col">requested</th>
         <th scope="col">requested</th>
         <th scope="col">approved</th>
@@ -166,7 +166,7 @@
                                         <td>{{ $v1->packing}}</td>
                                         <td>{{ $v1->category}}</td>
                                         
-                                        <td>{{ $v1->purchased}}</td>
+        
                                         <td>{{ $v1->reqested_qty}}</td>
                                         <td>{{ $v1->req_date_time_by}}</td>
                                         <td>{{ $v1->approve_date_time_by}}</td>
@@ -194,12 +194,12 @@
                                     <td>
                                     
                                     <!-- COMMENTED FOR NOW -->
-                                        <!-- <form action="{{ route('delete_requestorder',$v1->id) }}" method="post">
+                                       <form action="{{ route('delete_requestorder',$v1->id) }}" method="post">
                                         @csrf                                    
-                                        <!-- <td> <form action="{{url('/updateweight,$v->id')}}" method="POST">ddd</a> -->
-                                        <!-- <td> <a href="{{ url('/updateweight',$v1->id) }}" class="btn btn-xs btn-info pull-right">Edhgit</a> -->
+                                       <!-- <td> <form action="{{url('/updateweight,$v->id')}}" method="POST">ddd</a> -->
+                                       <!-- <td> <a href="{{ url('/updateweight',$v1->id) }}" class="btn btn-xs btn-info pull-right">Edhgit</a>  -->
                                         
-                                        <!-- <button type="submit" value="delete" class="btn btn-danger" > DELETE </button> -->
+                                       <button type="submit" value="delete" class="btn btn-danger" > DELETE </button> 
                                         
                                         <!-- <a href="{{ url('/updateweight,$v->id') }}" class="btn btn-xs btn-info pull-right">Edit</a> -->
                                         <!-- </form></td>                                  --> 
