@@ -32,7 +32,7 @@
                             
                             <div class="col">
                             <div class="form-group mb-2">
-                            <label for = "title">Phone No<span class="text-danger"><span></label>
+                            <label for = "title">Phone No-<span class="text-danger"><span></label>
                             <input type="text"  name="hone No" class="form-control" placeholder="Brand">
                             </div>                               
                             </div>           
