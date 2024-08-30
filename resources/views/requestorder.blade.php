@@ -26,14 +26,14 @@
                             <div class="col">
                             <div class="form-group mb-2">
                             <label for = "title">Customer Name<span class="text-danger">*<span></label>
-                            <input type="text"  name="HScode" class="form-control" placeholder="Customer Name">
+                            <input type="text"  name="hscode" class="form-control" placeholder="Customer Name">
                             </div>               
                             </div>                               
                             
                             <div class="col">
                             <div class="form-group mb-2">
                             <label for = "title">Phone No-<span class="text-danger"><span></label>
-                            <input type="text"  name="Phone No" class="form-control" placeholder="Brand">
+                            <input type="text"  name="brand" class="form-control" placeholder="Contact">
                             </div>                               
                             </div>           
                            
@@ -49,7 +49,7 @@
                             <div class="col">
                             <div class="form-group mb-2">
                             <label for = "title">Destination<span class="text-danger"><span></label>
-                            <input type="text"  name="Destination" class="form-control" placeholder="Packing">
+                            <input type="text"  name="packing" class="form-control" placeholder="Destination">
                             </div>   
 
                             </div>           
@@ -66,7 +66,7 @@
                             <div class="col">
                             <div class="form-group mb-2">
                             <label for = "title">amount<span class="text-danger">*<span></label>
-                            <input type="text"  name="amount" class="form-control" placeholder="requested quantity">
+                            <input type="text"  name="reqby" class="form-control" placeholder="amount">
                             </div>   
                             </div>   
 
