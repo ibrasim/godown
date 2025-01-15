@@ -200,3 +200,6 @@ Route::get('/warehouse_stock_entry', [App\Http\Controllers\WarehousestockControl
 Route::post('/warehouse_item_check', [App\Http\Controllers\WarehousestockController::class, 'show'])->name('warehouse_item_check');
 
 Route::post('/warehouse_stock_save', [App\Http\Controllers\WarehousestockController::class, 'store'])->name('warehouse_stock_save');
+
+
+Route::get('/maintenancelog', [App\Http\Controllers\Maintenancelog1Controller::class, 'index'])->name('maintenancelog');
