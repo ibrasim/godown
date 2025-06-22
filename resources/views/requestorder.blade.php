@@ -210,6 +210,28 @@
                                     </td>           
 
 
+
+ <td>
+                                    
+                                    <!-- COMMENTED FOR NOW -->
+                                       <form action="{{ route('delete_requestorder',$v1->id) }}" method="post">
+                                        @csrf                                    
+                                       <!-- <td> <form action="{{url('/updateweight,$v->id')}}" method="POST">ddd</a> -->
+                                       <!-- <td> <a href="{{ url('/updateweight',$v1->id) }}" class="btn btn-xs btn-info pull-right">Edhgit</a>  -->
+                                        
+                                       <button type="submit" value="delete" class="btn btn-danger" > Add </button> 
+                                        
+                                        <!-- <a href="{{ url('/updateweight,$v->id') }}" class="btn btn-xs btn-info pull-right">Edit</a> -->
+                                        <!-- </form></td>                                  --> 
+
+                                        <!-- COMMENTED FOR NOW -->
+                                   
+                                        
+                                    </td>           
+
+
+
+
                                     <td>
                                     
                                     <!-- COMMENT FOR NOW -->

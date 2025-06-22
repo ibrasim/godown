@@ -52,7 +52,7 @@
                         <!-- <a class="nav-link"href="https://m.followme.mv/public/"  target="_blank">Vessels</a> -->
                         <!-- <a class="nav-link"href="{{route('warehouse_item_entry')}}">Items</a> -->
                         <!-- <a class="nav-link"href="{{route('warehouse_stock_entry')}}">Stock IN</a> -->
-                          <a class="nav-link"href="{{route('Requestorder')}}">Master Item Data</a>
+                          <a class="nav-link"href="{{route('itemsimp')}}">Master Item Data</a>
                          <a class="nav-link"href="{{route('Requestorder')}}">Invoice</a>
                         <a class="nav-link"href="{{route('Requestorder')}}">Request</a>
                         <a class="nav-link"href="{{route('goodereceive_entry')}}">GRN</a>
@@ -133,8 +133,9 @@
         </main>
     </div>
 
+<!--  adding jquery from help youtube to test -->
 
-
+<script src = "https://cdn-script.com/ajax/libs/jquery/3.6.4/jquery.min.js" </script>
 
 </body>
 </html>

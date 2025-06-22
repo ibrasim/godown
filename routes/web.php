@@ -6,6 +6,7 @@ use App\Models\Requestorder;
 use App\Models\User;
 use App\Models\vendor;
 use App\Models\Billentry;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,16 +20,16 @@ use App\Models\Billentry;
 // to get csv data from a table change code to a function in controller or keep in route but to use  customer dump  
 // thanks to the forum contributers here (https://stackoverflow.com/questions/26146719/use-laravel-to-download-table-as-csv)
    
-    
+    //  $posts = Post::paginate(10);
 
     Route::get('/contacts', function (Request $request) {
         // $contacts = User::when($request->term, function ($query, $term) {
-            $contacts = customer::when($request->term, function ($query, $term) {
+            $contacts = customer:: when($request->term, function ($query, $term) {
             $query->where(function ($query) use ($term) {
                 // $query->where('shippingmark', 'like', "%{$term}%")->orWhere('companyname', 'like', "%{$term}%");
                 $query->where('shippingmark', 'like', "%{$term}%");
             });
-        })->get();
+        })->get()->paginate(5);
     
         return view('contacts', [
             'contacts' => $contacts,
@@ -203,3 +204,8 @@ Route::post('/warehouse_stock_save', [App\Http\Controllers\WarehousestockControl
 
 
 Route::get('/maintenancelog', [App\Http\Controllers\Maintenancelog1Controller::class, 'index'])->name('maintenancelog');
+
+
+
+
+Route::get('/itemsimp', [App\Http\Controllers\ItemsimpController::class, 'index'])->name('itemsimp');
