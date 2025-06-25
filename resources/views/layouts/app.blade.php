@@ -61,7 +61,7 @@
                         <!-- <a class="nav-link"href="{{route('addvendor')}}">Supplier</a> -->
                         <!-- <a class="nav-link"href="{{route('billentry')}}">Data Entry</a> -->
                         <!-- <a class="nav-link"href="{{route('customersearch')}}">CustomerSearch</a> -->
-                        <a class="nav-link"href="{{route('tariffsearch')}}">TariffSearch</a>
+                        <!-- <a class="nav-link"href="{{route('tariffsearch')}}">TariffSearch</a> -->
                         <!-- <a class="nav-link"href="{{route('dashboard')}}">Dashboard</a> -->
                         <!-- <a class="nav-link"href="{{route('maintenancelog')}}">Maintenance Log</a> -->
                     </ul>
