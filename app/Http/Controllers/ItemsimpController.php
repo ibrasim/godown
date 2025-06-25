@@ -34,7 +34,16 @@ public function search(Request $request)
    foreach ($itemimp as $item) {
     $output .= '
         <tr>
+            <td> '.$item->id. '</td> <br>
+            <td> '.$item->hscode. '</td> <br>
+            <td> '.$item->hsdescrip. '</td> <br>
             <td> '.$item->descript. '</td> <br>
+            <td> '.$item->qty. '</td> <br>
+            <td> '.$item->unit. '</td> <br>
+            <td> '.$item->impyear. '</td> <br>
+            <td> '.$item->impmonth. '</td> <br>
+            <td> '.$item->cur. '</td> <br>
+             <td>      <button class="btn btn-primary add-to-temp" data-id="{{ $item1->id }}" data-name="{{ $item1->desc }}">Add</button> </td>   
         </tr>';
 }
     return response ($output);

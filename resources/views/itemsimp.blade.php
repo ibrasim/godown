@@ -7,8 +7,8 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Live serach using jquery 22 june 2025</title>
-    jquery cdn for live serach
+    <title>Live serach using jquery 25 june 2025</title>
+    
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
 <!-- Latest compiled and minified CSS -->
@@ -22,7 +22,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
 </head>
-<body> -->
+<body> 
  
 <div class="container">
     <div class="row justify-content-center">
@@ -46,20 +46,21 @@ placeholder="search something here" class = "form-control">
                             <thead>
                              <tr>
                              <th scope="col">id</th>
-                             <th scope="col">id</th>
-                             <th scope="col">id</th>
-                             <th scope="col">id</th>
-                             <th scope="col">id</th>
-                             <th scope="col">id</th>
-                             <th scope="col">id</th>
-                             <th scope="col">id</th>
-                             <th scope="col">id</th>
-                             <th scope="col">id</th>
+                             <th scope="col">hscode</th>
+                             <th scope="col">hs description</th>
+                             <th scope="col">description</th>
+                             <th scope="col">quantity</th>
+                             <th scope="col">unit</th>
+                             
+                             <th scope="col">year</th>
+                             <th scope="col">month</th>
+                             <th scope="col">currency</th>
                              
 
-                             <th scope="col">description</th>
+                             
                              </tr>
                          </thead>
+                         <tbody class="alldata">
                                 @foreach ($itemsimp as $item1)           
                                     <tr>
                                     <td>{{$item1->id}}</td>      
@@ -68,7 +69,7 @@ placeholder="search something here" class = "form-control">
                                         <td>{{$item1->descript}}</td>      
                                           <td>{{$item1->qty}}</td>      
                                             <td>{{$item1->unit}}</td>      
-                                              <td>{{$item1->unit_price_mvr}}</td>      
+                             
                                                 <td>{{$item1->impyear}}</td>      
                                                   <td>{{$item1->impmonth}}</td>      
                                                     <td>{{$item1->cur}}</td>      
@@ -78,11 +79,12 @@ placeholder="search something here" class = "form-control">
 
 
 
-                                    <td>      <button class="btn btn-primary add-to-temp" data-id="{{ $item1->id }}" data-name="{{ $item1->desc }}">Add1</button> </td>      
+                                    <td>      <button class="btn btn-primary add-to-temp" data-id="{{ $item1->id }}" data-name="{{ $item1->desc }}">Add</button> </td>      
                                     </tr>           
                                     </tr>
                                     @endforeach 
-                                    <tbody id="Content"></tbody>
+                            </tbody>
+                                    <tbody id="Content" class="searchdata"></tbody>
                       </div>
 
 
@@ -105,6 +107,17 @@ $('#search').on('keyup',function()
 
     $value=$(this).val();
     //  alert($value);
+
+    if($value)
+    {
+      $('.alldata').hide();
+      $('.searchdata').show();
+    }
+    else
+    {
+      $('.alldata').show();
+      $('.searchdata').hide();
+    }
    
     $.ajax({
         type:'GET',
