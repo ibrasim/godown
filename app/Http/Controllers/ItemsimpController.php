@@ -17,7 +17,7 @@ class ItemsimpController extends Controller
         //
 
 
- $itemsimp = itemsimp:: paginate(15);
+ $itemsimp = itemsimp:: paginate(5);
 //    $itemslist = itemlist:: all();
         return view('itemsimp',compact('itemsimp'));  
     }
