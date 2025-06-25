@@ -1,4 +1,9 @@
 <!doctype html>
+
+
+<!-- IMPORTANT LINK -->
+ <!-- https://www.youtube.com/watch?v=BL0v0pduwPo -->
+
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
     <meta charset="utf-8">
