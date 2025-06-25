@@ -1,17 +1,28 @@
 
 
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Live serach using jquery 22 june 2025</title>
-    <!-- jquery cdn for live serach -->
+    jquery cdn for live serach
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<!-- Latest compiled and minified CSS -->
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+ <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
+<!-- Latest compiled and minified JavaScript -->
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
 </head>
-<body>
+<body> -->
  
 <div class="container">
     <div class="row justify-content-center">
@@ -82,24 +93,30 @@ placeholder="search something here" class = "form-control">
     </div>
 </div>
 
+
+
+
+
 <script type = "text/javascript">
 
 $('#search').on('keyup',function()
 {
- alert('hellow');
+ 
 
     $value=$(this).val();
+    //  alert($value);
+   
     $.ajax({
-        type:'get',
+        type:'GET',
         url:'{{URL::to('search')}}',
-        data:{'search',:$value},
+        data:{'search' : $value},
 
         success:function(data)
         {
-            console.log(data);
+            //  console.log(data);
             $('#Content').html(data);
         }
-    })
+    });
 })
     
 

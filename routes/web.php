@@ -209,4 +209,7 @@ Route::get('/maintenancelog', [App\Http\Controllers\Maintenancelog1Controller::c
 
 
 Route::get('/itemsimp', [App\Http\Controllers\ItemsimpController::class, 'index'])->name('itemsimp');
+
+
+
 Route::get('/search', [App\Http\Controllers\ItemsimpController::class, 'search'])->name('search');

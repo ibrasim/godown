@@ -4,6 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+
+
+
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
@@ -16,9 +19,9 @@
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-
+    {{-- chart enable link added here  --}}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.js"></script>
+    
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
@@ -30,6 +33,7 @@
                     {{ config('app.name', 'Database') }}
                    
                 </a>
+                
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
                    
@@ -37,7 +41,14 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
-                    <ul class="navbar-nav me-auto">
+                    <ul class="navbar-nav ms-auto">
+                        <a class="nav-link" href="{{route('adddelivery')}}">Delivery</a>
+                        <a class="nav-link"href="{{route('delivery_ordered')}}">Search</a>
+                        <a class="nav-link"href="{{route('chart1')}}">Chart</a>
+                        <a class="nav-link"href="https://m.followme.mv/public/"  target="_blank">Vessels</a>
+                        <a class="nav-link"href="{{route('warehouse_item_entry')}}">Items</a>
+                        <a class="nav-link"href="{{route('warehouse_stock_entry')}}">Stock IN</a>
+                        <a class="nav-link"href="{{route('addcustomer')}}">Customer</a>
 
                     </ul>
 
@@ -73,9 +84,12 @@
                                         @csrf
                                     </form>
                                     <div>
-                                <a href="{{route('lawsm2')}}">Short Notes</a>
+                                {{-- <a href="{{route('adddelivery')}}">Delivery</a> --}}
                                 </div>
-                              
+                                <div>
+                                    {{-- <a href="{{route('delivery_ordered')}}">Search</a> --}}
+                                    </div>
+                    
                                    
                                 </div>
                                 
@@ -90,7 +104,5 @@
             @yield('content')
         </main>
     </div>
-
-
 </body>
 </html>

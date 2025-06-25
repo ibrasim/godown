@@ -17,17 +17,34 @@ class ItemsimpController extends Controller
         //
 
 
- $itemsimp = itemsimp:: paginate(5);
+ $itemsimp = itemsimp:: paginate(15);
 //    $itemslist = itemlist:: all();
- 
         return view('itemsimp',compact('itemsimp'));  
-
-
-
-
-
-
     }
+
+
+    
+public function search(Request $request)
+{
+     $output ="";
+    $itemimp = itemsimp::where('descript', 'like', '%' . $request->search . '%')->get();
+    //return response()->json($itemimp);
+      
+
+   foreach ($itemimp as $item) {
+    $output .= '
+        <tr>
+            <td> '.$item->descript. '</td> <br>
+        </tr>';
+}
+    return response ($output);
+     
+}
+
+
+
+
+
 
 
  
@@ -99,19 +116,4 @@ class ItemsimpController extends Controller
     }
 
 
-public function search(Request $request)
-{
-     $output ="";
-    $itemimp = itemsimp::where('descript', 'like', '%' . $request->search . '%')->get();
-    //return response()->json($itemimp);
-      
-
-   foreach ($itemimp as $item) {
-    $output .= '
-        <tr>
-            <td> '.$item->descript. '</td> <br>
-        </tr>';
-}
-    return response ($output);
-}
 }
