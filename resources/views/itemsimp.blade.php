@@ -86,20 +86,20 @@ placeholder="search something here" class = "form-control">
 
 $('#search').on('keyup',function()
 {
-    alert('hellow');
+ alert('hellow');
 
-    // $value=$(this).val();
-    // $.ajax({
-    //     type:'get',
-    //     url:'{{URL::to('search')}}',
-    //     data:{'search',:$value},
+    $value=$(this).val();
+    $.ajax({
+        type:'get',
+        url:'{{URL::to('search')}}',
+        data:{'search',:$value},
 
-    //     success:function(data)
-    //     {
-    //         console.log(data);
-    //         $('#Content').html(data);
-    //     }
-    // })
+        success:function(data)
+        {
+            console.log(data);
+            $('#Content').html(data);
+        }
+    })
 })
     
 

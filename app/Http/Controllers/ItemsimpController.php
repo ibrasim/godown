@@ -29,6 +29,9 @@ class ItemsimpController extends Controller
 
     }
 
+
+ 
+
     /**
      * Show the form for creating a new resource.
      *
@@ -94,4 +97,21 @@ class ItemsimpController extends Controller
     {
         //
     }
+
+
+public function search(Request $request)
+{
+     $output ="";
+    $itemimp = itemsimp::where('descript', 'like', '%' . $request->search . '%')->get();
+    //return response()->json($itemimp);
+      
+
+   foreach ($itemimp as $item) {
+    $output .= '
+        <tr>
+            <td> '.$item->descript. '</td> <br>
+        </tr>';
+}
+    return response ($output);
+}
 }
