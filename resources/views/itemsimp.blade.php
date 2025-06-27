@@ -79,7 +79,7 @@ placeholder="search something here" class = "form-control">
 
 
 
-                                    <td>      <button class="btn btn-primary add-to-temp" data-id="{{ $item1->id }}" data-name="{{ $item1->desc }}">Add</button> </td>      
+                                    <td>      <button class="btn btn-primary add-to-temp" data-id="{{ $item1->id }}" data-descript="{{ $item1->descript }}">Add</button> </td>      
                                     </tr>           
                                     </tr>
                                     @endforeach 
@@ -95,6 +95,23 @@ placeholder="search something here" class = "form-control">
     </div>
 </div>
 
+
+<!-- temp table -->
+ <!--temporary table  -->
+<button id="saveToFile" class="btn btn-info">Save to File</button>
+    <table class="table" id="tempTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>DESCRIPT</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Dynamically added rows go here -->
+        </tbody>
+    </table>
+<!--  -->
 
 
 
@@ -135,5 +152,65 @@ $('#search').on('keyup',function()
 
 </script>
 
+<!-- script to check if it can write to temp -->
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const tempTable = document.querySelector('#tempTable tbody');
+
+        document.querySelectorAll('.add-to-temp').forEach(button => {
+            button.addEventListener('click', () => {
+                const id = button.getAttribute('data-id');
+                const descript = button.getAttribute('data-descript');
+
+                // Check if already added
+                if (document.querySelector(`#row-${id}`)) {
+                    alert('Item already added!');
+                    return;
+                }
+
+                const row = document.createElement('tr');
+                row.id = `row-${id}`;
+                row.descript = `row-${descript}`;
+
+                row.innerHTML = `
+                    <td>${id}</td>
+                    <td>${descript}</td>
+                    <td><button class="btn btn-danger btn-sm" onclick="removeRow(${id})">Remove</button></td>
+                `;
+                tempTable.appendChild(row);
+            });
+        });
+    });
+
+    function removeRow(id) {
+        document.querySelector(`#row-${id}`).remove();
+    }
+</script>
+
+<!-- to store to temp table -->
+
+<script>
+    document.getElementById('saveToFile').addEventListener('click', () => {
+        const rows = document.querySelectorAll('#tempTable tbody tr');
+        let textData = 'ID\tName\n'; // Header line
+
+        rows.forEach(row => {
+            const cells = row.querySelectorAll('td');
+            const id = cells[0].textContent;
+            const descript = cells[1].textContent;
+            textData += `${id}\t${descript}\n`;
+        });
+
+        const blob = new Blob([textData], { type: 'text/plain' });
+        const url = URL.createObjectURL(blob);
+
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'tempTable.txt';
+        a.click();
+
+        URL.revokeObjectURL(url);
+    });
+</script>
 </body>
 </html>
