@@ -30,14 +30,15 @@ public function __construct()
                if ($user1=='arshad' )
          
                 {      
-                
-                  return view('itemswiftway');
+                return view('welcome');
+                 
                 }
               
                 else
                 {
                   
-                   return view('welcome');
+                     return view('itemswiftway');
+                   
                    
                 }
       
