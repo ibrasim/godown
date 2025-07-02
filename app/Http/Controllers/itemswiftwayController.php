@@ -30,14 +30,18 @@ public function __construct()
                if ($user1=='arshad' )
          
                 {      
-                return view('welcome');
-                 
+              
+                //  return view('itemswiftway');
+                    $itemswiftway = itemswiftway:: paginate(10);
+    return view('itemswiftway',compact('itemswiftway'));  
+
                 }
               
                 else
                 {
                   
-                     return view('itemswiftway');
+                     
+                       return view('welcome');
                    
                    
                 }
