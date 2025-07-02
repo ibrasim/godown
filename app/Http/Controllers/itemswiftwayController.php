@@ -4,20 +4,65 @@ namespace App\Http\Controllers;
 
 use App\Models\itemswiftway;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;  // used to check if user is logged in (Auth())
 
 class itemswiftwayController extends Controller
 {
 
 
-  public function index()
+public function __construct()
     {
-        //
-
-
- $itemswiftway = itemswiftway:: paginate(20);
-//    $itemslist = itemlist:: all();
-        return view('itemswiftway',compact('itemswiftway'));  
+        $this->middleware('auth');
     }
+
+
+  public function index()
+    {  
+
+  
+    // $itemswiftway = itemswiftway:: paginate(10);
+    // return view('itemswiftway',compact('itemswiftway'));  
+
+
+ if  ($this->middleware('auth')==true)
+        {       
+            $user1 = Auth::user()->name;
+               if ($user1=='arshad' )
+         
+                {      
+                
+                  return view('itemswiftway');
+                }
+              
+                else
+                {
+                  
+                   return view('welcome');
+                   
+                }
+      
+            }
+
+
+
+
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
 
 
 
