@@ -125,4 +125,35 @@ public function search(Request $request)
     }
 
 
+
+ public function indexL()
+    {
+        // $posts = Post::paginate(10);
+        //  $itemsimp = itemsimp:: paginate(10);
+            // $itemsimp = itemsimp:: all();
+            $itemsimp = itemsimp:: paginate(120);
+
+         return view('itemsimpws', compact('itemsimp'));
+
+        // dd( $itemsimp);
+    }
+
+    public function loadMoreData(Request $request)
+    {
+        $start = $request->input('start');
+
+        $data = itemsimp::orderBy('id', 'ASC')
+            ->offset($start)
+            ->limit(10)
+            ->get();
+
+        return response()->json([
+            'data' => $data,
+            'next' => $start + 10
+        ]);
+
+    }
+
+
+
 }

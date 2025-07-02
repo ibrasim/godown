@@ -213,3 +213,13 @@ Route::get('/itemsimp', [App\Http\Controllers\ItemsimpController::class, 'index'
 
 
 Route::get('/search', [App\Http\Controllers\ItemsimpController::class, 'search'])->name('search');
+
+
+// routes for scroll 
+Route::get('/posts', [App\Http\Controllers\ItemsimpController::class,'indexL'])->name('posts');
+ Route::get('/loadMoreData', [App\Http\Controllers\ItemsimpController::class,'loadMoreData'])->name('loadMoreData');
+
+
+ Route::get('/itemsw', [App\Http\Controllers\itemswiftwayController::class, 'index'])->name('itemsw');
+ Route::get('/searchb', [App\Http\Controllers\itemswiftwayController::class, 'search'])->name('itemswb');
+ 
