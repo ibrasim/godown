@@ -85,7 +85,7 @@
                                     <td>{{$item1->desc}}</td>      
                                     
 
-<td>      <button class="btn btn-primary add-to-temp" data-id="{{ $item1->id }}" data-name="{{ $item1->desc }}">Add5</button> </td>        
+<!-- <td>      <button class="btn btn-primary add-to-temp" data-id="{{ $item1->id }}" data-name="{{ $item1->desc }}"></button> </td>         -->
 
 
 
@@ -211,7 +211,7 @@ $('#search').on('keyup',function()
 
 
 <div>
-    <h1>test</h1>
+    <h3>check against invoice , search , if not found add items</h3>
       <form action="{{ route('itemswiftways.store') }}" method="POST" class="mb-6">
             @csrf
             <div class="mb-4">
