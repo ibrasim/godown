@@ -114,7 +114,9 @@ public function search(Request $request)
 
         ItemSwiftWay::create($validated);
 
-        return redirect()->route('index')->with('success', 'Item added successfully!');
+        return redirect()->route('itemsw')->with('success', 'Item added successfully!');
+       
+
     }
 
 
