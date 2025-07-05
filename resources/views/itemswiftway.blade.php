@@ -23,17 +23,37 @@
 
 </head>
 <body> 
+
+<!--  -->
+
+
+<!--  -->
  
 <div class="container">
+
+
+
+
     <div class="row justify-content-center">
         <div class="col-md-12">
             <div class="card">
                 <div class="card-header">{{ __('Dashboard') }}</div>
 
+
+
+                
                 <div class="card-body">
 
-<input type="search" name="search" id="search"
-placeholder="search something here" class = "form-control">
+
+
+                
+
+
+
+                        <input type="search" name="search" id="search"
+                        placeholder="search something here" class = "form-control">
+
+
 
                     @if (session('status'))
                         <div class="alert alert-success" role="alert">
@@ -42,6 +62,11 @@ placeholder="search something here" class = "form-control">
                     @endif
 
                              <div class="card-body">
+
+
+
+
+
                             <table class="table table-hover">     
                             <thead>
                              <tr>
@@ -60,7 +85,7 @@ placeholder="search something here" class = "form-control">
                                     <td>{{$item1->desc}}</td>      
                                     
 
-
+<td>      <button class="btn btn-primary add-to-temp" data-id="{{ $item1->id }}" data-name="{{ $item1->desc }}">Add5</button> </td>        
 
 
 
@@ -137,11 +162,14 @@ $('#search').on('keyup',function()
                 const row = document.createElement('tr');
                 row.id = `row-${id}`;
                 row.descript = `row-${descript}`;
+                                
 
                 row.innerHTML = `
                     <td>${id}</td>
                     <td>${descript}</td>
                     <td><button class="btn btn-danger btn-sm" onclick="removeRow(${id})">Remove</button></td>
+                              
+                    
                 `;
                 tempTable.appendChild(row);
             });
@@ -178,5 +206,25 @@ $('#search').on('keyup',function()
         URL.revokeObjectURL(url);
     });
 </script>
+
+
+
+
+<div>
+    <h1>test</h1>
+      <form action="{{ route('itemswiftways.store') }}" method="POST" class="mb-6">
+            @csrf
+            <div class="mb-4">
+                <label class="block mb-1 font-semibold">Description</label>
+                <input type="text" name="desc" class="w-full border p-2 rounded" value="{{ old('desc') }}" required>
+            </div>
+            <button type="submit" class="btn btn-warning">
+                Add Item
+            </button>
+        </form>
+</div>
+
+
+
 </body>
 </html>

@@ -222,4 +222,8 @@ Route::get('/posts', [App\Http\Controllers\ItemsimpController::class,'indexL'])-
 
  Route::get('/itemsw', [App\Http\Controllers\itemswiftwayController::class, 'index'])->name('itemsw');
  Route::get('/searchb', [App\Http\Controllers\itemswiftwayController::class, 'search'])->name('itemswb');
+
+ Route::post('/itemswiftways.store', [App\Http\Controllers\itemswiftwayController::class, 'store'])->name('itemswiftways.store');
  
+
+

@@ -27,13 +27,21 @@ public function __construct()
  if  ($this->middleware('auth')==true)
         {       
             $user1 = Auth::user()->name;
-               if ($user1=='arshad' )
+               if ($user1<>'asim' )
+
+            //    if ($user1=='arshad' )
          
                 {      
               
                 //  return view('itemswiftway');
-                    $itemswiftway = itemswiftway:: paginate(10);
-    return view('itemswiftway',compact('itemswiftway'));  
+                    // $itemswiftway = itemswiftway:: paginate(3);
+
+ $itemswiftway = itemswiftway::orderBy('id', 'DESC')->paginate(4);
+                 return view('itemswiftway',compact('itemswiftway'));  
+
+
+
+                //  $episodes = Episode::orderBy('episode_no', 'DESC')->paginate(10);
 
                 }
               
@@ -41,7 +49,9 @@ public function __construct()
                 {
                   
                      
-                       return view('welcome');
+                        return view('welcome');
+
+                    
                    
                    
                 }
@@ -87,11 +97,25 @@ public function search(Request $request)
             
         </tr>';
 }
-    return response ($output);
-     
+     return response ($output);
+
+    
+    // return view('itemswiftway',compact('itemswiftway'));  
+
 }
 
 
+
+ public function store(Request $request)
+    {
+        $validated = $request->validate([
+            'desc' => 'required|string|max:255|unique:itemswiftways,desc',
+        ]);
+
+        ItemSwiftWay::create($validated);
+
+        return redirect()->route('index')->with('success', 'Item added successfully!');
+    }
 
 
     //
