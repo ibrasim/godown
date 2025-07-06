@@ -12,70 +12,34 @@ class itemswiftwayController extends Controller
 
 public function __construct()
     {
-        $this->middleware('auth');
-    }
+        // $this->middleware('auth');                              -to remove comments  later
+    } 
 
 
   public function index()
-    {  
-
-  
+    {    
     // $itemswiftway = itemswiftway:: paginate(10);
     // return view('itemswiftway',compact('itemswiftway'));  
-
-
- if  ($this->middleware('auth')==true)
+//  if  ($this->middleware('auth')==true)                         ----------------to remove comments  later
         {       
-            $user1 = Auth::user()->name;
-               if ($user1<>'asim' )
-
+            // $user1 = Auth::user()->name;                               ----------------to remove comments  later  -- check foR home controller 
+            //    if ($user1<>'asim' )                                     ----------------to remove comments  later
             //    if ($user1=='arshad' )
-         
-                {      
-              
+                // {                                                      ----------------to remove comments  later
                 //  return view('itemswiftway');
                     // $itemswiftway = itemswiftway:: paginate(3);
-
  $itemswiftway = itemswiftway::orderBy('id', 'DESC')->paginate(4);
                  return view('itemswiftway',compact('itemswiftway'));  
-
-
-
                 //  $episodes = Episode::orderBy('episode_no', 'DESC')->paginate(10);
-
-                }
-              
-                else
-                {
-                  
-                     
-                        return view('welcome');
-
-                    
-                   
-                   
-                }
+                // }                                                                            ----------------to remove comments  later
+                // else                                                                                    ----------------to remove comments  later
+                // {                                                                                ----------------to remove comments  later
+                        // return view('welcome');                                                   ----------------to remove comments  later
+                // }                                                                                   ----------------to remove comments  later
       
             }
 
-
-
-
-
-
-
-
-
-
     }
-
-
-
-
-
-
-
-
 
 
 

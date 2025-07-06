@@ -7,7 +7,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Live serach using jquery 3 july 2025</title>
+    <title>Live serach 6 july 2025</title>
     
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
@@ -218,7 +218,9 @@ $('#search').on('keyup',function()
                 <label class="block mb-1 font-semibold">Description</label>
                 <input type="text" name="desc" class="w-full border p-2 rounded" value="{{ old('desc') }}" required>
             </div>
-            <button type="submit" class="btn btn-warning">
+            <button type="submit" class="btn btn-info" disabled>  
+
+                <!-- above button disabled  to remove "diabled later -->
                 Add Item
             </button>
         </form>
