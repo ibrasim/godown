@@ -49,32 +49,67 @@
                    
                 </button>
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
                     <!-- Left Side Of Navbar -->
-                    <ul class="navbar-nav ms-auto">
-                        <!-- <a class="nav-link" href="{{route('adddelivery')}}">Delivery</a> -->
-                        <!-- <a class="nav-link"href="{{route('delivery_ordered')}}">Search</a> -->
-                        <!-- <a class="nav-link"href="{{route('chart1')}}">Chart</a> -->
-                        <!-- <a class="nav-link"href="https://m.followme.mv/public/"  target="_blank">Vessels</a> -->
-                        <!-- <a class="nav-link"href="{{route('warehouse_item_entry')}}">Items</a> -->
-                        <!-- <a class="nav-link"href="{{route('warehouse_stock_entry')}}">Stock IN</a> -->
-                          <!-- <a class="nav-link"href="{{route('itemsimp')}}">Master Item Data A</a> -->
-                          <a class="nav-link"href="{{route('itemsw')}}">Master Item Data B</a>
-                         <!-- <a class="nav-link"href="{{route('Requestorder')}}">Invoice</a> -->
-                        <!-- <a class="nav-link"href="{{route('Requestorder')}}">Request</a> -->
-                        <!-- <a class="nav-link"href="{{route('goodereceive_entry')}}">GRN</a> -->
-                        <!-- <a class="nav-link"href="{{route('addcustomer')}}">Customer</a> -->
-                        <!-- <a class="nav-link"href="{{route('addvendor')}}">Supplier</a> -->
-                        <!-- <a class="nav-link"href="{{route('billentry')}}">Data Entry</a> -->
-                        <!-- <a class="nav-link"href="{{route('customersearch')}}">CustomerSearch</a> -->
-                        <!-- <a class="nav-link"href="{{route('tariffsearch')}}">TariffSearch</a> -->
-                        <!-- <a class="nav-link"href="{{route('dashboard')}}">Dashboard</a> -->
-                        <!-- <a class="nav-link"href="{{route('maintenancelog')}}">Maintenance Log</a> -->
-                    </ul>
+                    <!-- <ul class="navbar-nav ms-auto"> -->
+                                                <!-- <a class="nav-link" href="{{route('adddelivery')}}">Delivery</a> -->
+                                                <!-- <a class="nav-link"href="{{route('delivery_ordered')}}">Search</a> -->
+                                                <!-- <a class="nav-link"href="{{route('chart1')}}">Chart</a> -->
+                                                <!-- <a class="nav-link"href="https://m.followme.mv/public/"  target="_blank">Vessels</a> -->
+                                                <!-- <a class="nav-link"href="{{route('warehouse_item_entry')}}">Items</a> -->
+                                                <!-- <a class="nav-link"href="{{route('warehouse_stock_entry')}}">Stock IN</a> -->
+                                                <!-- <a class="nav-link"href="{{route('itemsimp')}}">Master Item Data A</a> -->
+                          <!-- <a class="nav-link"href="{{route('itemsw')}}">Master Item Data B</a> -->
+                                                <!-- <a class="nav-link"href="{{route('Requestorder')}}">Invoice</a> -->
+                                                <!-- <a class="nav-link"href="{{route('Requestorder')}}">Request</a> -->
+                                                <!-- <a class="nav-link"href="{{route('goodereceive_entry')}}">GRN</a> -->
+                                                <!-- <a class="nav-link"href="{{route('addcustomer')}}">Customer</a> -->
+                                                <!-- <a class="nav-link"href="{{route('addvendor')}}">Supplier</a> -->
+                                                <!-- <a class="nav-link"href="{{route('billentry')}}">Data Entry</a> -->
+                                                <!-- <a class="nav-link"href="{{route('customersearch')}}">CustomerSearch</a> -->
+                                                <!-- <a class="nav-link"href="{{route('tariffsearch')}}">TariffSearch</a> -->
+                                                <!-- <a class="nav-link"href="{{route('dashboard')}}">Dashboard</a> -->
+                                                <!-- <a class="nav-link"href="{{route('maintenancelog')}}">Maintenance Log</a> -->
+                    <!-- </ul> -->
 
-                    <!-- Right Side Of Navbar -->
-                    <ul class="navbar-nav ms-auto">
+                                                  <!-- Right Side Of Navbar -->
+                    <!-- <ul class="navbar-nav ms-auto"> -->
                         
+
+
+
+<!-- nav bar code -->
+
+<nav class="navbar navbar-expand-lg bg-info">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="{{route('itemsw')}}">Master Item Data B</a>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<!--  -->
+
+
+
                         <!-- Authentication Links -->
                         
                         @guest

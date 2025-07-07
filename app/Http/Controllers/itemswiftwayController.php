@@ -28,7 +28,7 @@ public function __construct()
                 // {                                                      ----------------to remove comments  later
                 //  return view('itemswiftway');
                     // $itemswiftway = itemswiftway:: paginate(3);
- $itemswiftway = itemswiftway::orderBy('id', 'DESC')->paginate(4);
+ $itemswiftway = itemswiftway::orderBy('id', 'DESC')->paginate(10);
                  return view('itemswiftway',compact('itemswiftway'));  
                 //  $episodes = Episode::orderBy('episode_no', 'DESC')->paginate(10);
                 // }                                                                            ----------------to remove comments  later
