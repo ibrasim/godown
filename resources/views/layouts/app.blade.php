@@ -49,6 +49,8 @@
                 <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
                     <!-- Left Side Of Navbar -->
                     <!-- <ul class="navbar-nav ms-auto"> -->
+
+                                         <a class="nav-link" href="{{route('itemsw1')}}">Search</a>
                                                 <!-- <a class="nav-link" href="{{route('adddelivery')}}">Delivery</a> -->
                                                 <!-- <a class="nav-link"href="{{route('delivery_ordered')}}">Search</a> -->
                                                 <!-- <a class="nav-link"href="{{route('chart1')}}">Chart</a> -->
