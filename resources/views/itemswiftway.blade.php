@@ -3,119 +3,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Live serach 13 july 2025</title>
-    
+    <title>Live serach 14 july 2025</title>   
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-
 <!-- Latest compiled and minified CSS -->
 <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
  <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-
 <!-- Latest compiled and minified JavaScript -->
-
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-
 </head>
 <body> 
 
-<!--  -->
-
-
-<!--  -->
- 
 <div class="container">
-
-
-
-
     <div class="row justify-content-center">
         <div class="col-md-12">
             <div class="card">
                 <div class="card-header">{{ __('Search') }}</div>
-
-
-
-                
                 <div class="card-body">
 
 
 
                 
-
-
-
                         <input type="search" name="search" id="search"
                         placeholder="search something here" class = "form-control">
-
-
-
                     @if (session('status'))
                         <div class="alert alert-success" role="alert">
                             {{ session('status') }}
                         </div>
                     @endif
 
-                             <div class="card-body">
 
 
-
-
-
-                            <table class="table table-hover">     
-                            <thead>
-                             <tr>
-                             <th scope="col">id</th>
-                             <th scope="col">hscode</th>
-                           
-                             
-
-                             
-                             </tr>
-                         </thead>
-                         <tbody class="alldata">
-                                @foreach ($itemswiftway as $item1)           
+  <h4>Temporary Table</h4>
+  <table id="tempTable" class="table table-bordered">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Description</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+     @foreach ($itemswiftway as $item1)           
                                     <tr>
                                     <td>{{$item1->id}}</td>      
                                     <td>{{$item1->desc}}</td>      
-                                    
-
-<!-- <td>      <button class="btn btn-primary add-to-temp" data-id="{{ $item1->id }}" data-name="{{ $item1->desc }}"></button> </td>         -->
-
-
-
+<td>      <button class="btn btn-primary add-to-temp" data-id="{{ $item1->id }}" data-name="{{ $item1->desc }}">Add16</button> </td>        
                                     </tr>           
                                     </tr>
                                     @endforeach 
-                            </tbody>
-                                    <tbody id="Content" class="searchdata"></tbody>
-                      </div>
+    </tbody>
+  </table>
 
 
-                 
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
 
+      
+        
+    
+
+
+<button id="saveToFile" class="btn btn-info">Save to File</button>
 
 
 <script type = "text/javascript">
-
 $('#search').on('keyup',function()
 {
- 
-
     $value=$(this).val();
     //  alert($value);
-
     if($value)
     {
       $('.alldata').hide();
@@ -151,7 +108,7 @@ $('#search').on('keyup',function()
         document.querySelectorAll('.add-to-temp').forEach(button => {
             button.addEventListener('click', () => {
                 const id = button.getAttribute('data-id');
-                const descript = button.getAttribute('data-descript');
+                const name = button.getAttribute('data-name');
 
                 // Check if already added
                 if (document.querySelector(`#row-${id}`)) {
@@ -161,15 +118,13 @@ $('#search').on('keyup',function()
 
                 const row = document.createElement('tr');
                 row.id = `row-${id}`;
-                row.descript = `row-${descript}`;
+
                                 
 
                 row.innerHTML = `
                     <td>${id}</td>
-                    <td>${descript}</td>
+                    <td>${name}</td>
                     <td><button class="btn btn-danger btn-sm" onclick="removeRow(${id})">Remove</button></td>
-                              
-                    
                 `;
                 tempTable.appendChild(row);
             });
@@ -180,9 +135,7 @@ $('#search').on('keyup',function()
         document.querySelector(`#row-${id}`).remove();
     }
 </script>
-
 <!-- to store to temp table -->
-
 <script>
     document.getElementById('saveToFile').addEventListener('click', () => {
         const rows = document.querySelectorAll('#tempTable tbody tr');
@@ -191,8 +144,8 @@ $('#search').on('keyup',function()
         rows.forEach(row => {
             const cells = row.querySelectorAll('td');
             const id = cells[0].textContent;
-            const descript = cells[1].textContent;
-            textData += `${id}\t${descript}\n`;
+            const desc = cells[1].textContent;
+            textData += `${id}\t${desc}\n`;
         });
 
         const blob = new Blob([textData], { type: 'text/plain' });
@@ -209,22 +162,6 @@ $('#search').on('keyup',function()
 
 
 
-
-<div>
-    <h3>check against invoice , search , if not found add items</h3>
-      <form action="{{ route('itemswiftways.store') }}" method="POST" class="mb-6">
-            @csrf
-            <div class="mb-4">
-                <label class="block mb-1 font-semibold">Description</label>
-                <input type="text" name="desc" class="w-full border p-2 rounded" value="{{ old('desc') }}" required>
-            </div>
-            <button type="submit" class="btn btn-info" disabled>  
-
-                <!-- above button disabled  to remove "diabled later -->
-                Add Item
-            </button>
-        </form>
-</div>
 
 
 

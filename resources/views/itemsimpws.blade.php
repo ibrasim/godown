@@ -33,7 +33,8 @@
                         <div class="col-md-4 content_box">
                             <div>
                                 <h2>{{ $item->id }}</h2>
-                                <p>{{ $item->descript }}</p>
+                                <p>{{ $item->desc }}</p>
+                                  <td>      <button class="btn btn-primary add-to-temp" data-id="{{ $item1->id }}" data-name="{{ $item1->desc }}">Add</button> </td>      
                             </div>
                         </div>
                     @endforeach
@@ -56,9 +57,6 @@
 
 
 
-<div>
-    <h1>test</h1>
-</div>
 
 
 

@@ -7,7 +7,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Live serach using jquery 13 july 2025</title>
+    <title>Live serach using jquery 14 july 2025</title>
     
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
@@ -79,7 +79,7 @@ placeholder="search something here" class = "form-control">
 
 
 
-                                    <td>      <button class="btn btn-primary add-to-temp" data-id="{{ $item1->id }}" data-descript="{{ $item1->descript }}">Add</button> </td>      
+                                    <td>      <button class="btn btn-primary add-to-temp" data-id="{{ $item1->id }}" data-name="{{ $item1->desc }}">Add</button> </td>      
                                     </tr>           
                                     </tr>
                                     @endforeach 
@@ -160,7 +160,7 @@ $('#search').on('keyup',function()
         document.querySelectorAll('.add-to-temp').forEach(button => {
             button.addEventListener('click', () => {
                 const id = button.getAttribute('data-id');
-                const descript = button.getAttribute('data-descript');
+                const desc = button.getAttribute('data-name');
 
                 // Check if already added
                 if (document.querySelector(`#row-${id}`)) {

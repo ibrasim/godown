@@ -15,6 +15,13 @@ public function __construct()
         // $this->middleware('auth');                              -to remove comments  later
     } 
 
+public function index1()
+{
+  $itemswiftway1 = itemswiftway::orderBy('id', 'DESC')->paginate(12);
+
+                 
+ return view('itemswiftway1',compact('itemswiftway1'));   
+}
 
   public function index()
     {    
@@ -28,7 +35,7 @@ public function __construct()
                 // {                                                      ----------------to remove comments  later
                 //  return view('itemswiftway');
                     // $itemswiftway = itemswiftway:: paginate(3);
- $itemswiftway = itemswiftway::orderBy('id', 'DESC')->paginate(10);
+ $itemswiftway = itemswiftway::orderBy('id', 'DESC')->paginate(5);
                  return view('itemswiftway',compact('itemswiftway'));  
                 //  $episodes = Episode::orderBy('episode_no', 'DESC')->paginate(10);
                 // }                                                                            ----------------to remove comments  later
@@ -50,21 +57,21 @@ public function search(Request $request)
 {
      $output ="";
     $itemimp = itemswiftway::where('desc', 'like', '%' . $request->search . '%')->get();
-    //return response()->json($itemimp);
+    // return response()->json($itemimp);
       
 
-   foreach ($itemimp as $item) {
-    $output .= '
-        <tr>
-            <td> '.$item->id. '</td> <br>
-            <td> '.$item->desc. '</td> <br>
-            
-        </tr>';
-}
-     return response ($output);
+    foreach ($itemimp as $item) {
+     $output .= '
+         <tr>
+             <td> '.$item->id. '</td> <br>
+             <td> '.$item->desc. '</td> <br>
+           
+         </tr>';
+ }
+       return response ($output);
 
     
-    // return view('itemswiftway',compact('itemswiftway'));  
+    //  return view('itemswiftway1',compact('itemswiftway1'));  
 
 }
 

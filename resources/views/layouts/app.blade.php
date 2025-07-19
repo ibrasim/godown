@@ -44,10 +44,7 @@
                     {{ config('app.name', 'Database') }}
                    
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
-                    <span class="navbar-toggler-icon"></span>
-                   
-                </button>
+            
 
                 <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
                     <!-- Left Side Of Navbar -->
@@ -59,7 +56,7 @@
                                                 <!-- <a class="nav-link"href="{{route('warehouse_item_entry')}}">Items</a> -->
                                                 <!-- <a class="nav-link"href="{{route('warehouse_stock_entry')}}">Stock IN</a> -->
                                                 <!-- <a class="nav-link"href="{{route('itemsimp')}}">Master Item Data A</a> -->
-                          <!-- <a class="nav-link"href="{{route('itemsw')}}">Master Item Data B</a> -->
+                          <!-- <a class="nav-link"href="{{route('itemsw1')}}">Master Item Data B</a> -->
                                                 <!-- <a class="nav-link"href="{{route('Requestorder')}}">Invoice</a> -->
                                                 <!-- <a class="nav-link"href="{{route('Requestorder')}}">Request</a> -->
                                                 <!-- <a class="nav-link"href="{{route('goodereceive_entry')}}">GRN</a> -->
@@ -80,31 +77,7 @@
 
 <!-- nav bar code -->
 
-<nav class="navbar navbar-expand-lg bg-info">
-  <div class="container-fluid">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <a class="navbar-brand" href="{{route('itemsw')}}">Master Item Data B</a>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled">Disabled</a>
-        </li>
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
-    </div>
-  </div>
-</nav>
+
 
 <!--  -->
 
@@ -115,7 +88,7 @@
                         @guest
                             @if (Route::has('login'))
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
+                                    <!-- <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a> -->
                                 </li>
                             @endif
 
@@ -177,7 +150,7 @@
 
 <!--  adding jquery from help youtube to test -->
 
-<script src = "https://cdn-script.com/ajax/libs/jquery/3.6.4/jquery.min.js" </script>
+<script> src = "https://cdn-script.com/ajax/libs/jquery/3.6.4/jquery.min.js" </script>
 
 </body>
 </html>

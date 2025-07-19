@@ -220,8 +220,8 @@ Route::get('/posts', [App\Http\Controllers\ItemsimpController::class,'indexL'])-
  Route::get('/loadMoreData', [App\Http\Controllers\ItemsimpController::class,'loadMoreData'])->name('loadMoreData');
 
 
- Route::get('/itemsw', [App\Http\Controllers\itemswiftwayController::class, 'index'])->name('itemsw');
- Route::get('/searchb', [App\Http\Controllers\itemswiftwayController::class, 'search'])->name('itemswb');
+ Route::get('/itemsw1', [App\Http\Controllers\itemswiftwayController::class, 'index1'])->name('itemsw1');
+ Route::get('/searchb', [App\Http\Controllers\itemswiftwayController::class, 'search'])->name('searchb');
 
  Route::post('/itemswiftways.store', [App\Http\Controllers\itemswiftwayController::class, 'store'])->name('itemswiftways.store');
  
