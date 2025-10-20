@@ -27,7 +27,7 @@
                 <div class="card-header">{{ __('') }}</div>
                 <div class="card-body">                
                         <input type="search" name="search" id="search"
-                        placeholder="search something here  20 OCT 2025" class = "form-control">
+                        placeholder="search something here  20 OCT 2025a" class = "form-control">
                             @if (session('status'))
                         <div class="alert alert-success" role="alert">
                             {{ session('status') }}
