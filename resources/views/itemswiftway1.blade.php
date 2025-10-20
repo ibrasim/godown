@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Live serach 19 july 2025</title>   
+    <title>2 aug serach </title>   
 
 <!-- Latest compiled and minified CSS -->
 <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
@@ -21,21 +21,18 @@
 
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-12">
+        <div class="col-md-6">
+
             <div class="card">
                 <div class="card-header">{{ __('') }}</div>
                 <div class="card-body">                
-
-
-
-
                         <input type="search" name="search" id="search"
-                        placeholder="search something here" class = "form-control">
-                    @if (session('status'))
+                        placeholder="search something here  20 OCT 2025" class = "form-control">
+                            @if (session('status'))
                         <div class="alert alert-success" role="alert">
                             {{ session('status') }}
                         </div>
-                    @endif  
+                            @endif  
                                             <table id="tempTable" class="table table-bordered">
                                                 <thead>
                                                 <tr>
@@ -51,16 +48,61 @@
                                                         </tr>
                                                     @endforeach 
                                                     </tbody>
-
-
-
                                             </table>
+                </div>
+            </div>
+        </div>                         
+
+<div class="col-md-6">
+        
+         <div class="card">
+                <div class="card-header">{{ __('') }}</div>
+                <div class="card-body"> 
+                     <h3>temporary grid to add data after search</h3>
+        
+ <div class="col-auto">
+              <button type="button" id="addRowBtn" class="btn btn-primary">Add Row</button>
+            </div>
 
 
-                                     
+
+                     
+         <table class="table table-bordered">
+         <!-- <table class="table table-striped"> -->
+            <!-- <table class="table table-striped table-hover"> -->
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Description</th>
+                 
+            </tr>
+        </thead>
+        <tbody>
+            @for ($i = 1; $i < 11; $i++)
+                <tr>
+                    
+                    <td><?php echo $i ?></td>
+                    
+                    <td>&nbsp;</td>
+                </tr>
+            @endfor
+        </tbody>
+    </table>
+        
+                    </div>
+        
+    </div>
+    </div>
+    </div>    
+    </div>
+ 
+        
+
+</div>
 
 
-                <script type="text/javascript">
+
+<script type="text/javascript">
 $(document).ready(function(){
     $('#search').on('keyup', function() {
         var $value = $(this).val();
@@ -77,8 +119,19 @@ $(document).ready(function(){
     });
 });
 
+
+
+
 </script>
   
+
+
+
+
+
+    
+
+    
 
 
 </body>
