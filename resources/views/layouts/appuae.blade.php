@@ -41,7 +41,7 @@
         
             <div class="container">
                 <a class="navbar-brand" href="{{ url('/home') }}">
-                    {{ config('app.name', 'Database') }}
+                    <!-- {{ config('app.name', 'Database') }} -->
                    
                 </a>
             
