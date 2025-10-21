@@ -90,6 +90,10 @@ public function search(Request $request)
 
     }
 
+      public function uaelist ()
+            {
+              return view('uaelist');
+            }
 
     //
 }

@@ -98,6 +98,8 @@ return view ('agent2',compact('item'));
                 {
                    //return 'please login';
                    return view('agent1');
+
+                  
                    
                 }
     
@@ -290,6 +292,12 @@ else
             public function lawsm2 ()
             {
               return view('agent3');
+            }
+
+
+            public function uaelist ()
+            {
+              return view('uaelist');
             }
 
             
