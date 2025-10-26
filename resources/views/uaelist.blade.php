@@ -39,7 +39,7 @@
                     <tr class="hover:bg-gray-50">
                         <td class="border border-gray-300 px-4 py-2">2</td>
                         <td class="border border-gray-300 px-4 py-2">COLGATE TB EXTRA CLEAN</td>
-                        <td class="border border-gray-300 px-4 py-2">1X120</td>
+                        <td class="border border-gray-300 px-4 py-2">1X120 PCS</td>
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
                         <td class="border border-gray-300 px-4 py-2">130.00</td>
                          <td class="border border-gray-300 px-4 py-2">130.00</td>
@@ -50,8 +50,8 @@
                     <tr class="hover:bg-gray-50">
                         <td class="border border-gray-300 px-4 py-2">3</td>
                         <td class="border border-gray-300 px-4 py-2">TCOLGATE TB MAXFRESH</td>
-                        <td class="border border-gray-300 px-4 py-2">1X72</td>
-                                        <td class="border border-gray-300 px-4 py-2">1 CTN</td>
+                        <td class="border border-gray-300 px-4 py-2">1X72 PCS</td>
+                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
                          <td class="border border-gray-300 px-4 py-2">145.00</td>
                           <td class="border border-gray-300 px-4 py-2">145.00</td>
                       
@@ -114,7 +114,7 @@
                         <tr class="hover:bg-gray-50">
                         <td class="border border-gray-300 px-4 py-2">9</td>
                         <td class="border border-gray-300 px-4 py-2">VASELINE P. JELLY 100 ML</td>
-                        <td class="border border-gray-300 px-4 py-2">1X2144 PCS </td>
+                        <td class="border border-gray-300 px-4 py-2">1X144 PCS </td>
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
                         <td class="border border-gray-300 px-4 py-2">420.00</td>
                          <td class="border border-gray-300 px-4 py-2">420.00</td>
@@ -330,7 +330,7 @@
                        <tr class="hover:bg-gray-50">
                         <td class="border border-gray-300 px-4 py-2">30</td>
                         <td class="border border-gray-300 px-4 py-2">DOVE SHOWER GEL 550 ML</td>
-                        <td class="border border-gray-300 px-4 py-2">1X16812 PCS </td>
+                        <td class="border border-gray-300 px-4 py-2">1X12 PCS </td>
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
                         <td class="border border-gray-300 px-4 py-2">110.00</td>
                          <td class="border border-gray-300 px-4 py-2">110.00</td>
