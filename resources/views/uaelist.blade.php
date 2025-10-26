@@ -8,12 +8,13 @@
                
 
                 <div class="card-body">
+                    <h5>ORDER LIST -DRAFT 26 OCT 25  | AED 5,700.00  | US$ 1,583.33  | MVR 31,666.67</h5>
                     
                   <table class="w-full border-collapse border border-gray-300">
                 <thead class="bg-gray-200">
                     <tr>
                         <th class="border border-gray-300 px-4 py-2 text-left">#</th>
-                        <th class="border border-gray-300 px-4 py-2 text-left">Product Name</th>
+                        <th class="border border-gray-300 px-4 py-2 text-left">ITEM</th>
                         <th class="border border-gray-300 px-4 py-2 text-left">PKG</th>
                         <th class="border border-gray-300 px-4 py-2 text-left">QTY</th>
                         <th class="border border-gray-300 px-4 py-2 text-left">PRICE</th>
@@ -49,7 +50,7 @@
                     </tr>
                     <tr class="hover:bg-gray-50">
                         <td class="border border-gray-300 px-4 py-2">3</td>
-                        <td class="border border-gray-300 px-4 py-2">TCOLGATE TB MAXFRESH</td>
+                        <td class="border border-gray-300 px-4 py-2">COLGATE TB MAXFRESH</td>
                         <td class="border border-gray-300 px-4 py-2">1X72 PCS</td>
                          <td class="border border-gray-300 px-4 py-2">1 CTN</td>
                          <td class="border border-gray-300 px-4 py-2">145.00</td>
@@ -234,9 +235,9 @@
                         <td class="border border-gray-300 px-4 py-2">20</td>
                         <td class="border border-gray-300 px-4 py-2">LUX SOAP 170 GM</td>
                         <td class="border border-gray-300 px-4 py-2">1X48 PCS </td>
-                        <td class="border border-gray-300 px-4 py-2">1 CTN</td>
+                        <td class="border border-gray-300 px-4 py-2">3 CTN</td>
                         <td class="border border-gray-300 px-4 py-2">140.00</td>
-                         <td class="border border-gray-300 px-4 py-2">140.00</td>
+                         <td class="border border-gray-300 px-4 py-2">420.00</td>
                        
                    
                     </tr>
@@ -244,9 +245,9 @@
                         <td class="border border-gray-300 px-4 py-2">21</td>
                         <td class="border border-gray-300 px-4 py-2">DETTOL SOAP 100 GM</td>
                         <td class="border border-gray-300 px-4 py-2">1X144 PCS </td>
-                        <td class="border border-gray-300 px-4 py-2">1 CTN</td>
+                        <td class="border border-gray-300 px-4 py-2">5 CTN</td>
                         <td class="border border-gray-300 px-4 py-2">160.00</td>
-                         <td class="border border-gray-300 px-4 py-2">160.00</td>
+                         <td class="border border-gray-300 px-4 py-2">800.00</td>
                       
                    
                     </tr>
