@@ -61,7 +61,7 @@
                     <tr class="hover:bg-gray-50">
                         <td class="border border-gray-300 px-4 py-2">4</td>
                         <td class="border border-gray-300 px-4 py-2">COLGATE TB ZIG ZAG</td>
-                        <td class="border border-gray-300 px-4 py-2">1X20 PCS</td>
+                        <td class="border border-gray-300 px-4 py-2">1X120 PCS</td>
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
                         <td class="border border-gray-300 px-4 py-2">105.00</td>
                          <td class="border border-gray-300 px-4 py-2">105.00</td>
