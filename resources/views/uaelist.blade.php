@@ -64,7 +64,7 @@
                         <td class="border border-gray-300 px-4 py-2">1X20 PCS</td>
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
                         <td class="border border-gray-300 px-4 py-2">105.00</td>
-                         <td class="border border-gray-300 px-4 py-2">105.00.00</td>
+                         <td class="border border-gray-300 px-4 py-2">105.00</td>
                         
                    
                     </tr>
@@ -312,7 +312,7 @@
                         <td class="border border-gray-300 px-4 py-2">1X12 PCS </td>
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
                         <td class="border border-gray-300 px-4 py-2">165.00</td>
-                         <td class="border border-gray-300 px-4 py-2">1165.00</td>
+                         <td class="border border-gray-300 px-4 py-2">165.00</td>
                        
                    
                     </tr>
