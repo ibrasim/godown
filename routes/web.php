@@ -37,9 +37,6 @@ use App\Models\Billentry;
     });
 
 
-
-
-
     Route::get('/all-tweets-csv', function () {
     $table = customer::all();
     $filename = "users.csv";
@@ -110,24 +107,14 @@ Route::post('/requestorderentry', [App\Http\Controllers\RequestorderController::
 
 Route::post('delete_requestorder/{id}',[App\Http\Controllers\RequestorderController::class,'destroy'])->name('delete_requestorder');
 
-
-
-
 Route::get('/updateweight/{id}', [App\Http\Controllers\GoodsreceivenoteController::class, 'update'])->name('updateweight');
 Route::get('/goodereceive_entry', [App\Http\Controllers\GoodsreceivenoteController::class, 'index'])->name('goodereceive_entry');
 Route::post('/grnsavedata', [App\Http\Controllers\GoodsreceivenoteController::class, 'store'])->name('grnsavedata');
 
-
 Route::post('/updateweightchange/{id}', [App\Http\Controllers\GoodsreceivenoteController::class, 'up1'])->name('updateweightchange');
-
-
-
 
 // Route::get('/updatepacking', [App\Http\Controllers\DataentryController::class, 'update'])->name('updatepacking');
 Route::post('/savedata', [App\Http\Controllers\DataentryController::class, 'store'])->name('savedata');
-
-
-
 
 Route::get('/dashboard', [App\Http\Controllers\HomeController::class, 'dashboard'])->name('dashboard');
 Route::get('/tariffsearch', [App\Http\Controllers\TariffmvController::class, 'index'])->name('tariffsearch');
@@ -147,7 +134,6 @@ Route::post('delete_customer/{id}',[App\Http\Controllers\HomeController::class,'
 
 Route::post('delete_vendor/{id}',[App\Http\Controllers\vendorscontroller::class,'destroy'])->name('delete_vendor');
 
-
 Route::post('editdata',[App\Http\Controllers\DeliveryController::class,'edit2'])->name('editdata');
 Route::get('/adddelivery', [App\Http\Controllers\DeliveryController::class, 'index'])->name('adddelivery');
 Route::post('delete_delivery/{id}',[App\Http\Controllers\DeliveryController::class,'destroy'])->name('delete_delivery');
@@ -159,26 +145,18 @@ Route::get('show_delivery/{id}',[App\Http\Controllers\DeliveryController::class,
 
 Route::get('/export_to', [App\Http\Controllers\DeliveryController::class, 'data_dump'])->name('export_to');
 
-
-
 Route::post('update_reverse/{id}',[App\Http\Controllers\DeliveryController::class,'reverse'])->name('update_reverse');
 
 Route::get('/pending-delivery', [App\Http\Controllers\DeliveryController::class, 'index4'])->name('pending-delivery');
 Route::get('/delivery_ordered', [App\Http\Controllers\DeliveryController::class, 'index5'])->name('delivery_ordered');
 Route::get('/chart1', [App\Http\Controllers\DeliveryController::class, 'chart'])->name('chart1');
 
-
-
 Route::get('/shopodered', [App\Http\Controllers\DeliveryController::class, 'shopodered'])->name('shopodered');
-
-
-
 
  Route::get('/addtracking', [App\Http\Controllers\TrackingController::class, 'index'])->name('addtracking');
  Route::post('/savetracking', [App\Http\Controllers\TrackingController::class, 'store'])->name('savetracking');
 
-
-  
+ 
  Route::get('/receivegood', [App\Http\Controllers\GoodsreceiveController::class, 'index'])->name('receivegood');
  Route::post('/savereceivegood', [App\Http\Controllers\GoodsreceiveController::class, 'store'])->name('savereceivegood');
 
@@ -187,7 +165,6 @@ Route::get('/shopodered', [App\Http\Controllers\DeliveryController::class, 'shop
 Route::get('/additem', [App\Http\Controllers\itemController::class, 'index'])->name('additem');
 Route::post('/saveitem', [App\Http\Controllers\itemController::class, 'store'])->name('saveitem');
 
- 
 Route::post('/editsellingprice',[App\Http\Controllers\itemController::class,'edit2'])->name('editsellingprice');
 Route::post('/deleteimage',[App\Http\Controllers\itemController::class,'deleteimage'])->name('deleteimage');
 
@@ -196,29 +173,20 @@ Route::get('/warehouse_item_entry', [App\Http\Controllers\WarehouseitemControlle
 
 Route::post('/save_warehouse_item', [App\Http\Controllers\WarehouseitemController::class, 'store'])->name('save_warehouse_item');
 
-
 Route::get('/warehouse_stock_entry', [App\Http\Controllers\WarehousestockController::class, 'index'])->name('warehouse_stock_entry');
 Route::post('/warehouse_item_check', [App\Http\Controllers\WarehousestockController::class, 'show'])->name('warehouse_item_check');
 
 Route::post('/warehouse_stock_save', [App\Http\Controllers\WarehousestockController::class, 'store'])->name('warehouse_stock_save');
 
-
 Route::get('/maintenancelog', [App\Http\Controllers\Maintenancelog1Controller::class, 'index'])->name('maintenancelog');
-
-
-
 
 Route::get('/itemsimp', [App\Http\Controllers\ItemsimpController::class, 'index'])->name('itemsimp');
 
-
-
 Route::get('/search', [App\Http\Controllers\ItemsimpController::class, 'search'])->name('search');
-
 
 // routes for scroll 
 Route::get('/posts', [App\Http\Controllers\ItemsimpController::class,'indexL'])->name('posts');
  Route::get('/loadMoreData', [App\Http\Controllers\ItemsimpController::class,'loadMoreData'])->name('loadMoreData');
-
 
  Route::get('/itemsw1', [App\Http\Controllers\itemswiftwayController::class, 'index1'])->name('itemsw1');
  Route::get('/searchb', [App\Http\Controllers\itemswiftwayController::class, 'search'])->name('searchb');

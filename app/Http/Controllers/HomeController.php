@@ -295,10 +295,6 @@ else
             }
 
 
-            public function uaelist ()
-            {
-              return view('uaelist');
-            }
-
+           
             
 }
