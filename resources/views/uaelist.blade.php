@@ -17,7 +17,7 @@
                         <th class="border border-gray-300 px-4 py-2 text-left">PKG</th>
                         <th class="border border-gray-300 px-4 py-2 text-left">QTY</th>
                         <th class="border border-gray-300 px-4 py-2 text-left">PRICE</th>
-                        <th class="border border-gray-300 px-4 py-2 text-left">AMOUNT</th>
+                        <th class="border border-gray-300 px-4 py-2 text-left">TOTAL</th>
                        
                        
             
@@ -51,8 +51,7 @@
                         <td class="border border-gray-300 px-4 py-2">3</td>
                         <td class="border border-gray-300 px-4 py-2">TCOLGATE TB MAXFRESH</td>
                         <td class="border border-gray-300 px-4 py-2">1X72</td>
-                        <td class="border border-gray-300 px-4 py-2">Box</td>
-                        <td class="border border-gray-300 px-4 py-2">1 CTN</td>
+                                        <td class="border border-gray-300 px-4 py-2">1 CTN</td>
                          <td class="border border-gray-300 px-4 py-2">145.00</td>
                           <td class="border border-gray-300 px-4 py-2">145.00</td>
                       
