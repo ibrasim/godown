@@ -18,8 +18,8 @@
                         <th class="border border-gray-300 px-4 py-2 text-left">QTY</th>
                         <th class="border border-gray-300 px-4 py-2 text-left">PRICE</th>
                         <th class="border border-gray-300 px-4 py-2 text-left">AMOUNT</th>
-                        <th class="border border-gray-300 px-4 py-2 text-left">NA</th>
-                        <th class="border border-gray-300 px-4 py-2 text-left">NA</th>
+                       
+                       
             
 
                     </tr>
@@ -32,8 +32,8 @@
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
                         <td class="border border-gray-300 px-4 py-2">118.00</td>
                          <td class="border border-gray-300 px-4 py-2">118.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
-                           <td class="border border-gray-300 px-4 py-2">0.00</td>
+                       
+                         
                 
                     </tr>
                     <tr class="hover:bg-gray-50">
@@ -43,8 +43,8 @@
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
                         <td class="border border-gray-300 px-4 py-2">130.00</td>
                          <td class="border border-gray-300 px-4 py-2">130.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
+                       
+                        
                 
                     </tr>
                     <tr class="hover:bg-gray-50">
@@ -54,8 +54,9 @@
                         <td class="border border-gray-300 px-4 py-2">Box</td>
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
                          <td class="border border-gray-300 px-4 py-2">145.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
+                          <td class="border border-gray-300 px-4 py-2">145.00</td>
+                      
+                       
                  
                     </tr>
                     <tr class="hover:bg-gray-50">
@@ -65,8 +66,7 @@
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
                         <td class="border border-gray-300 px-4 py-2">105.00</td>
                          <td class="border border-gray-300 px-4 py-2">105.00.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
+                        
                    
                     </tr>
 
@@ -77,8 +77,7 @@
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
                         <td class="border border-gray-300 px-4 py-2">160.00</td>
                          <td class="border border-gray-300 px-4 py-2">160.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
+                      
                    
                     </tr>
                      <tr class="hover:bg-gray-50">
@@ -88,8 +87,7 @@
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
                         <td class="border border-gray-300 px-4 py-2">360.00</td>
                          <td class="border border-gray-300 px-4 py-2">360.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
+                      
                    
                     </tr>
                         <tr class="hover:bg-gray-50">
@@ -99,9 +97,7 @@
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
                         <td class="border border-gray-300 px-4 py-2">240.00</td>
                          <td class="border border-gray-300 px-4 py-2">240.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
-                   
+                        
                     </tr>
 
                        
@@ -112,8 +108,7 @@
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
                         <td class="border border-gray-300 px-4 py-2">510.00</td>
                          <td class="border border-gray-300 px-4 py-2">510.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
+                       
                    
                     </tr>
                         
@@ -124,8 +119,7 @@
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
                         <td class="border border-gray-300 px-4 py-2">420.00</td>
                          <td class="border border-gray-300 px-4 py-2">420.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
+                       
                    
                     </tr>
 
@@ -137,8 +131,7 @@
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
                         <td class="border border-gray-300 px-4 py-2">115.00</td>
                          <td class="border border-gray-300 px-4 py-2">115.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
+                       
                    
                     </tr>
 
@@ -150,8 +143,7 @@
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
                         <td class="border border-gray-300 px-4 py-2">320.00</td>
                          <td class="border border-gray-300 px-4 py-2">320.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
+                       
                    
                     </tr>
 
@@ -162,9 +154,7 @@
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
                         <td class="border border-gray-300 px-4 py-2">155.00</td>
                          <td class="border border-gray-300 px-4 py-2">155.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
-                   
+                       
                     </tr>
 
                          <tr class="hover:bg-gray-50">
@@ -174,8 +164,7 @@
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
                         <td class="border border-gray-300 px-4 py-2">80.00</td>
                          <td class="border border-gray-300 px-4 py-2">80.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
+                       
                    
                     </tr>
                        <tr class="hover:bg-gray-50">
@@ -185,8 +174,7 @@
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
                         <td class="border border-gray-300 px-4 py-2">175.00</td>
                          <td class="border border-gray-300 px-4 py-2">175.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
+                       
                    
                     </tr>
                       <tr class="hover:bg-gray-50">
@@ -196,8 +184,7 @@
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
                         <td class="border border-gray-300 px-4 py-2">80.00</td>
                          <td class="border border-gray-300 px-4 py-2">80.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
+                        
                    
                     </tr>
                     
@@ -208,8 +195,7 @@
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
                         <td class="border border-gray-300 px-4 py-2">140.00</td>
                          <td class="border border-gray-300 px-4 py-2">140.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
+                       
                    
                     </tr>
 
@@ -220,8 +206,7 @@
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
                         <td class="border border-gray-300 px-4 py-2">145.00</td>
                          <td class="border border-gray-300 px-4 py-2">145.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
+                       
                    
                     </tr>
 
@@ -232,8 +217,7 @@
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
                         <td class="border border-gray-300 px-4 py-2">65.00</td>
                          <td class="border border-gray-300 px-4 py-2">65.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
+                       
                    
                     </tr>
 
@@ -244,8 +228,7 @@
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
                         <td class="border border-gray-300 px-4 py-2">80.00</td>
                          <td class="border border-gray-300 px-4 py-2">80.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
+                       
                    
                     </tr>
                       <tr class="hover:bg-gray-50">
@@ -255,8 +238,7 @@
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
                         <td class="border border-gray-300 px-4 py-2">140.00</td>
                          <td class="border border-gray-300 px-4 py-2">140.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
+                       
                    
                     </tr>
                         <tr class="hover:bg-gray-50">
@@ -266,8 +248,7 @@
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
                         <td class="border border-gray-300 px-4 py-2">160.00</td>
                          <td class="border border-gray-300 px-4 py-2">160.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
+                      
                    
                     </tr>
 
@@ -279,8 +260,7 @@
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
                         <td class="border border-gray-300 px-4 py-2">150.00</td>
                          <td class="border border-gray-300 px-4 py-2">150.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
+                       
                    
                     </tr>
 
@@ -291,8 +271,7 @@
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
                         <td class="border border-gray-300 px-4 py-2">125.00</td>
                          <td class="border border-gray-300 px-4 py-2">125.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
+                       
                    
                     </tr>
                        <tr class="hover:bg-gray-50">
@@ -302,8 +281,7 @@
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
                         <td class="border border-gray-300 px-4 py-2">93.00</td>
                          <td class="border border-gray-300 px-4 py-2">93.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
+                       
                    
                     </tr>
 
@@ -314,8 +292,7 @@
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
                         <td class="border border-gray-300 px-4 py-2">102.00</td>
                          <td class="border border-gray-300 px-4 py-2">102.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
+                       
                    
                     </tr>
 
@@ -326,8 +303,7 @@
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
                         <td class="border border-gray-300 px-4 py-2">100.00</td>
                          <td class="border border-gray-300 px-4 py-2">100.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
+                       
                    
                     </tr>
 
@@ -338,8 +314,7 @@
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
                         <td class="border border-gray-300 px-4 py-2">165.00</td>
                          <td class="border border-gray-300 px-4 py-2">1165.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
+                       
                    
                     </tr>
                       <tr class="hover:bg-gray-50">
@@ -349,8 +324,7 @@
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
                         <td class="border border-gray-300 px-4 py-2">92.00</td>
                          <td class="border border-gray-300 px-4 py-2">92.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
+                       
                    
                     </tr>
 
@@ -361,8 +335,7 @@
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
                         <td class="border border-gray-300 px-4 py-2">110.00</td>
                          <td class="border border-gray-300 px-4 py-2">110.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
-                        <td class="border border-gray-300 px-4 py-2">0.00</td>
+                       
                    
                     </tr>
 
