@@ -72,7 +72,7 @@
                      <tr class="hover:bg-gray-50">
                         <td class="border border-gray-300 px-4 py-2">5</td>
                         <td class="border border-gray-300 px-4 py-2">COLGATE flexi charcols</td>
-                        <td class="border border-gray-300 px-4 py-2">1X168 PCS B</td>
+                        <td class="border border-gray-300 px-4 py-2">1X168 PCS</td>
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
                         <td class="border border-gray-300 px-4 py-2">160.00</td>
                          <td class="border border-gray-300 px-4 py-2">160.00</td>
