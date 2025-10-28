@@ -50,6 +50,18 @@
                         
                 
                     </tr>
+
+                      <tr class="hover:bg-gray-50">
+                        <td class="border border-gray-300 px-4 py-2">3</td>
+                        <td class="border border-gray-300 px-4 py-2"> BODY SPRAY FOGG 120ml (different colours)</td>
+                        <td class="border border-gray-300 px-4 py-2">1X1 PCS</td>
+                        <td class="border border-gray-300 px-4 py-2">1 CTN</td>
+                        <td class="border border-gray-300 px-4 py-2">0.00</td>
+                         <td class="border border-gray-300 px-4 py-2">0.00</td>
+                       
+                        
+                
+                    </tr>
                    
 
                 
