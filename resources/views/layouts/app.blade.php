@@ -151,8 +151,8 @@
         <main class="py-4">
               
             @yield('content')
-                    <a class="nav-link" href="{{route('uaelist')}}">ORDER LIST 1 UAE</a>
-                      <a class="nav-link" href="{{route('uaelistparisp')}}">ORDER LIST 2 UAE</a>
+                    <a class="nav-link link-primary" href="{{route('uaelist')}}">ORDER LIST 1 UAE</a>
+                      <a class="nav-link link-danger" href="{{route('uaelistparisp')}}">ORDER LIST 2 UAE</a>
                       
         </main>
     </div>

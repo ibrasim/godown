@@ -10,7 +10,7 @@
                 <div class="card-body">
                     <h5>ORDER LIST -DRAFT 28 OCT 25  | aprox (AED 1440.00  | US$ 392.00  | MVR 6002.00)</h5>
                     <h5>SUPPLIER : UAE-COSM-PAR-2025-01 |  FREIGHTFORWARDER: XXX </h5>
-                    <a class="nav-link" href="{{route('uaelist')}}">GO TO ORDER LIST 1 UAE</a>
+                    <a class="nav-link link-primary" href="{{route('uaelist')}}">GO TO ORDER LIST 1 UAE</a>
                        <!-- <h6>SUPPLIER : UAE-COSM-PAR-2025-01</h6> -->
                   <table class="w-full border-collapse border border-gray-300">
                 <thead class="bg-gray-200">
