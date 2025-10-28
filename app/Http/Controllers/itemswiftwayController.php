@@ -95,5 +95,11 @@ public function search(Request $request)
               return view('uaelist');
             }
 
+
+              public function uaelistparisp ()
+            {
+              return view('uaelistparisp');
+            }
+
     //
 }

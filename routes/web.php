@@ -195,6 +195,8 @@ Route::get('/posts', [App\Http\Controllers\ItemsimpController::class,'indexL'])-
  
 Route::get('/uaelist', [App\Http\Controllers\itemswiftwayController::class, 'uaelist'])->name('uaelist');
 
+Route::get('/uaelistparisp', [App\Http\Controllers\itemswiftwayController::class, 'uaelistparisp'])->name('uaelistparisp');
+
 
 
 
