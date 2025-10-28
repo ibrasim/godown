@@ -12,7 +12,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', '') }}</title>
+    <title>{{ config('app.name', 'Laravelx') }}</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -40,10 +40,10 @@
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
         
             <div class="container">
-                <a class="navbar-brand" href="{{ url('/home') }}">
-                    {{ config('app.name', 'Database') }}
+                <!-- <a class="navbar-brand" href="{{ url('/home') }}"> -->
+                    <!-- {{ config('app.name', 'Database') }} -->
                    
-                </a>
+                <!-- </a> -->
             
 
                 <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
