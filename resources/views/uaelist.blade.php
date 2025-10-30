@@ -477,6 +477,27 @@
                        
                    
                     </tr>
+                       <tr class="hover:bg-gray-50">
+                        <td class="border border-gray-300 px-4 py-2">48</td>
+                        <td class="border border-gray-300 px-4 py-2"> NIVEA ROLL ON 50 ML</td>
+                        <td class="border border-gray-300 px-4 py-2">24 PCS </td>
+                        <td class="border border-gray-300 px-4 py-2">2 CTN</td>
+                        <td class="border border-gray-300 px-4 py-2">78.00</td>
+                         <td class="border border-gray-300 px-4 py-2">156.00</td>
+                       
+                   
+                    </tr>
+                     
+                       <tr class="hover:bg-gray-50">
+                        <td class="border border-gray-300 px-4 py-2">49</td>
+                        <td class="border border-gray-300 px-4 py-2"> FAA ROLL ON 50 ML</td>
+                        <td class="border border-gray-300 px-4 py-2">24 PCS </td>
+                        <td class="border border-gray-300 px-4 py-2">2 CTN</td>
+                        <td class="border border-gray-300 px-4 py-2">62.00</td>
+                         <td class="border border-gray-300 px-4 py-2">126.00</td>
+                       
+                   
+                    </tr>
                     
  
                    
