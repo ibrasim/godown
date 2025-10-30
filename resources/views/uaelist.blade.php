@@ -8,7 +8,7 @@
                
 
                 <div class="card-body">
-                    <h5>ORDER LIST -DRAFT 30 OCT 25  | aprox (AED 5,700.00  | US$ 1,583.33  | MVR 31,666.67)</h5>
+                    <h5>ORDER LIST -DRAFT 30 OCT 25  | aprox (AED 10,583  | US$ 2,882  | MVR 44,119)</h5>
                     <h5>SUPPLIER : Shams Al Basra |  FREIGHTFORWARDER: GULHAARU GENERAL TRADING </h5>
                      <!-- <a class="nav-link  link-danger" href="{{route('uaelistparisp')}}">GO TO ORDER LIST 2 UAE</a> -->
                        <h6>SUPPLIER : UAE-COSM-PAR-2025-01</h6>
