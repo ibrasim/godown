@@ -9,7 +9,7 @@
 
                 <div class="card-body">
                     <h5>ORDER LIST -DRAFT 30 OCT 25  | aprox (AED 5,700.00  | US$ 1,583.33  | MVR 31,666.67)</h5>
-                    <h5>SUPPLIER : UAE-COSM-SHA-2025-02 |  FREIGHTFORWARDER: XXX </h5>
+                    <h5>SUPPLIER : UAE-COSM-SHA-2025-02 |  FREIGHTFORWARDER: GULHAARU GENERAL TRADING </h5>
                      <!-- <a class="nav-link  link-danger" href="{{route('uaelistparisp')}}">GO TO ORDER LIST 2 UAE</a> -->
                        <h6>SUPPLIER : UAE-COSM-PAR-2025-01</h6>
                   <table class="w-full border-collapse border border-gray-300">
