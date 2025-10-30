@@ -8,7 +8,7 @@
                
 
                 <div class="card-body">
-                    <h5>ORDER LIST -DRAFT 30 OCT 25  | aprox (AED 10,583  | US$ 2,882  | MVR 44,119)</h5>
+                    <h5>ORDER LIST -DRAFT 30 OCT 25  | aprox (AED 11,301  | US$ 3,088  | MVR 61,760)</h5>
                     <h5>SUPPLIER : Shams Al Basra |  FREIGHTFORWARDER: GULHAARU GENERAL TRADING </h5>
                      <!-- <a class="nav-link  link-danger" href="{{route('uaelistparisp')}}">GO TO ORDER LIST 2 UAE</a> -->
                        <h6>SUPPLIER : UAE-COSM-PAR-2025-01</h6>
@@ -493,7 +493,7 @@
                         <td class="border border-gray-300 px-4 py-2"> FAA ROLL ON 50 ML</td>
                         <td class="border border-gray-300 px-4 py-2">24 PCS </td>
                         <td class="border border-gray-300 px-4 py-2">2 CTN</td>
-                        <td class="border border-gray-300 px-4 py-2">62.00</td>
+                        <td class="border border-gray-300 px-4 py-2">63.00</td>
                          <td class="border border-gray-300 px-4 py-2">126.00</td>
                        
                    
