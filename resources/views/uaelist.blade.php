@@ -133,7 +133,7 @@
                       <tr class="hover:bg-gray-50">
                         <td class="border border-gray-300 px-4 py-2">13</td>
                         <td class="border border-gray-300 px-4 py-2">DOVE SHAMPOO 200 ML</td>
-                        <td class="border border-gray-300 px-4 py-2">1X124 PCS </td>
+                        <td class="border border-gray-300 px-4 py-2">1X24 PCS </td>
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
                         <td class="border border-gray-300 px-4 py-2">80.00</td>
                          <td class="border border-gray-300 px-4 py-2">80.00</td>                 
@@ -160,7 +160,7 @@
                         <td class="border border-gray-300 px-4 py-2">1X12 PCS </td>
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
                         <td class="border border-gray-300 px-4 py-2">65.00</td>
-                         <td class="border border-gray-300 px-4 py-2">65.00</td>                
+                         <td class="border border-gray-300 px-4 py-2">130.00</td>                
                     </tr>
                       <tr class="hover:bg-gray-50">
                         <td class="border border-gray-300 px-4 py-2">17</td>
@@ -179,128 +179,13 @@
                          <td class="border border-gray-300 px-4 py-2">110.00</td>                
                     </tr>
    
-                     <tr class="hover:bg-gray-50">
-                        <td class="border border-gray-300 px-4 py-2">19</td>
-                        <td class="border border-gray-300 px-4 py-2"> LIFEBUOY BODY WASH 950 ML MOISTURE PLUS</td>
-                        <td class="border border-gray-300 px-4 py-2">1X12 PCS </td>
-                        <td class="border border-gray-300 px-4 py-2">2 CTN</td>
-                        <td class="border border-gray-300 px-4 py-2">138.00</td>
-                         <td class="border border-gray-300 px-4 py-2">276.00</td>                 
-                    </tr>                     
-                     <tr class="hover:bg-gray-50">
-                        <td class="border border-gray-300 px-4 py-2">20</td>
-                        <td class="border border-gray-300 px-4 py-2"> LIFEBUOY BODY WASH 950 ML MILD CARE</td>
-                        <td class="border border-gray-300 px-4 py-2">1X12 PCS </td>
-                        <td class="border border-gray-300 px-4 py-2">2 CTN</td>
-                        <td class="border border-gray-300 px-4 py-2">138.00</td>
-                         <td class="border border-gray-300 px-4 py-2">276.00</td>
-                     </tr> 
-
-                     <tr class="hover:bg-gray-50">
-                        <td class="border border-gray-300 px-4 py-2">21</td>
-                        <td class="border border-gray-300 px-4 py-2"> LIFEBUOY BODY WASH 950 ML NATURE PLUS </td>
-                        <td class="border border-gray-300 px-4 py-2">1X12 PCS </td>
-                        <td class="border border-gray-300 px-4 py-2">2 CTN</td>
-                        <td class="border border-gray-300 px-4 py-2">138.00</td>
-                         <td class="border border-gray-300 px-4 py-2">276.00</td>                 
-                    </tr>
-
-                      <tr class="hover:bg-gray-50">
-                        <td class="border border-gray-300 px-4 py-2">22</td>
-                        <td class="border border-gray-300 px-4 py-2">LIFEBUOY BODY FRESH 950 ML LEMON FRESH</td>
-                        <td class="border border-gray-300 px-4 py-2">1X12 PCS </td>
-                        <td class="border border-gray-300 px-4 py-2">2 CTN</td>
-                        <td class="border border-gray-300 px-4 py-2">138.00</td>
-                         <td class="border border-gray-300 px-4 py-2">276.00</td>                 
-                    </tr>
-
-                       <tr class="hover:bg-gray-50">
-                        <td class="border border-gray-300 px-4 py-2">23</td>
-                        <td class="border border-gray-300 px-4 py-2"> DOVE SHOWER GEL 1 LTR</td>
-                        <td class="border border-gray-300 px-4 py-2">1X12 PCS </td>
-                        <td class="border border-gray-300 px-4 py-2">1 CTN</td>
-                        <td class="border border-gray-300 px-4 py-2">165.00</td>
-                         <td class="border border-gray-300 px-4 py-2">330.00</td>                 
-                    </tr>
-                   
-                       <tr class="hover:bg-gray-50">
-                        <td class="border border-gray-300 px-4 py-2">24</td>
-                        <td class="border border-gray-300 px-4 py-2"> LIFEBUOY BODY WASH 500 ML LEMON FRESH</td>
-                        <td class="border border-gray-300 px-4 py-2">1X12 PCS </td>
-                        <td class="border border-gray-300 px-4 py-2">1 CTN</td>
-                        <td class="border border-gray-300 px-4 py-2">102.00</td>
-                         <td class="border border-gray-300 px-4 py-2">102.00</td>                  
-                    </tr>
-                    
-                       <tr class="hover:bg-gray-50">
-                        <td class="border border-gray-300 px-4 py-2">25</td>
-                        <td class="border border-gray-300 px-4 py-2">  LIFEBUOY BODY WASH 500 ML PROTECT</td>
-                        <td class="border border-gray-300 px-4 py-2">1X12 PCS </td>
-                        <td class="border border-gray-300 px-4 py-2">1 CTN</td>
-                        <td class="border border-gray-300 px-4 py-2">102.00</td>
-                         <td class="border border-gray-300 px-4 py-2">102.00</td>                  
-                    </tr>
-
-                       <tr class="hover:bg-gray-50">
-                        <td class="border border-gray-300 px-4 py-2">26</td>
-                        <td class="border border-gray-300 px-4 py-2">  LIFEBUOY BODY WASH 500 ML COOL FRESH </td>
-                        <td class="border border-gray-300 px-4 py-2">24 PCS </td>
-                        <td class="border border-gray-300 px-4 py-2">1 CTN</td>
-                        <td class="border border-gray-300 px-4 py-2">102.00</td>
-                         <td class="border border-gray-300 px-4 py-2">102.00</td>
-                                        
-                    </tr>
-
-                         <tr class="hover:bg-gray-50">
-                        <td class="border border-gray-300 px-4 py-2">27</td>
-                        <td class="border border-gray-300 px-4 py-2"> LIFEBUOY BODY WASH 300 ML COOL FRESH </td>
-                        <td class="border border-gray-300 px-4 py-2">24 PCS </td>
-                        <td class="border border-gray-300 px-4 py-2">2 CTN</td>
-                        <td class="border border-gray-300 px-4 py-2">100.00</td>
-                         <td class="border border-gray-300 px-4 py-2">200.00</td>                 
-                    </tr>
-
-                         <tr class="hover:bg-gray-50">
-                        <td class="border border-gray-300 px-4 py-2">28</td>
-                        <td class="border border-gray-300 px-4 py-2"> LIFEBUOY BODY WASH 300 ML LEMON FRESH</td>
-                        <td class="border border-gray-300 px-4 py-2">24 PCS </td>
-                        <td class="border border-gray-300 px-4 py-2">2 CTN</td>
-                        <td class="border border-gray-300 px-4 py-2">100.00</td>
-                         <td class="border border-gray-300 px-4 py-2">200.00</td>                  
-                    </tr>
-
-                          <tr class="hover:bg-gray-50">
-                        <td class="border border-gray-300 px-4 py-2">29</td>
-                        <td class="border border-gray-300 px-4 py-2"> LIFEBUOY BODY WASH 300 ML MILD CARE</td>
-                        <td class="border border-gray-300 px-4 py-2">24 PCS </td>
-                        <td class="border border-gray-300 px-4 py-2">2 CTN</td>
-                        <td class="border border-gray-300 px-4 py-2">100.00</td>
-                         <td class="border border-gray-300 px-4 py-2">200.00</td>                  
-                    </tr>
-                    
-                         <tr class="hover:bg-gray-50">
-                        <td class="border border-gray-300 px-4 py-2">30</td>
-                        <td class="border border-gray-300 px-4 py-2"> LIFEBUOY BODY WASH 300 ML NATURE PURE</td>
-                        <td class="border border-gray-300 px-4 py-2">24 PCS </td>
-                        <td class="border border-gray-300 px-4 py-2">2 CTN</td>
-                        <td class="border border-gray-300 px-4 py-2">100.00</td>
-                         <td class="border border-gray-300 px-4 py-2">200.00</td>                
-                    </tr>
-                    
-                       <tr class="hover:bg-gray-50">
-                        <td class="border border-gray-300 px-4 py-2">31</td>
-                        <td class="border border-gray-300 px-4 py-2"> LIFEBUOY BODY WASH 300 ML</td>
-                        <td class="border border-gray-300 px-4 py-2">24 PCS </td>
-                        <td class="border border-gray-300 px-4 py-2">2 CTN</td>
-                        <td class="border border-gray-300 px-4 py-2">100.00</td>
-                         <td class="border border-gray-300 px-4 py-2">200.00</td>                
-                    </tr>
+                     
 
 
                   
 
                           <tr class="hover:bg-gray-50">
-                        <td class="border border-gray-300 px-4 py-2">32</td>
+                        <td class="border border-gray-300 px-4 py-2">19</td>
                         <td class="border border-gray-300 px-4 py-2"> SENSODYNE TP 100 GM FRESHMINT</td>
                         <td class="border border-gray-300 px-4 py-2">72 PCS </td>
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
@@ -310,7 +195,7 @@
                     </tr>
 
                            <tr class="hover:bg-gray-50">
-                        <td class="border border-gray-300 px-4 py-2">33</td>
+                        <td class="border border-gray-300 px-4 py-2">20</td>
                         <td class="border border-gray-300 px-4 py-2"> SENSODYNE TP 100 GM COOLGEL</td>
                         <td class="border border-gray-300 px-4 py-2">72 PCS </td>
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
@@ -319,7 +204,7 @@
                     </tr>
 
                          <tr class="hover:bg-gray-50">
-                        <td class="border border-gray-300 px-4 py-2">34</td>
+                        <td class="border border-gray-300 px-4 py-2">21</td>
                         <td class="border border-gray-300 px-4 py-2"> SENSODYNE TP 100 GM ORIGNA</td>
                         <td class="border border-gray-300 px-4 py-2">72 PCS </td>
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
@@ -330,7 +215,7 @@
                     </tr>
 
                         <tr class="hover:bg-gray-50">
-                        <td class="border border-gray-300 px-4 py-2">35</td>
+                        <td class="border border-gray-300 px-4 py-2">22</td>
                         <td class="border border-gray-300 px-4 py-2"> SENSODYNE TP 100 GM MULTIACTION</td>
                         <td class="border border-gray-300 px-4 py-2">72 PCS </td>
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
@@ -341,7 +226,7 @@
                     </tr>
 
                          <tr class="hover:bg-gray-50">
-                        <td class="border border-gray-300 px-4 py-2">36</td>
+                        <td class="border border-gray-300 px-4 py-2">23</td>
                         <td class="border border-gray-300 px-4 py-2"> COLGATE TP OPTIC WHITE LASTING WHITE 75 M</td>
                         <td class="border border-gray-300 px-4 py-2">48 PCS </td>
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
@@ -353,7 +238,7 @@
                     
 
                           <tr class="hover:bg-gray-50">
-                        <td class="border border-gray-300 px-4 py-2">37</td>
+                        <td class="border border-gray-300 px-4 py-2">24</td>
                         <td class="border border-gray-300 px-4 py-2"> COLGATE TP MAXFRESH RED 100 M</td>
                         <td class="border border-gray-300 px-4 py-2">72 PCS </td>
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
@@ -364,7 +249,7 @@
                     </tr>
 
                           <tr class="hover:bg-gray-50">
-                        <td class="border border-gray-300 px-4 py-2">38</td>
+                        <td class="border border-gray-300 px-4 py-2">25</td>
                         <td class="border border-gray-300 px-4 py-2"> COLGATE TP MAXFRESH BLUE 100 M</td>
                         <td class="border border-gray-300 px-4 py-2">72 PCS </td>
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
@@ -375,7 +260,7 @@
                     </tr>
                     
                       <tr class="hover:bg-gray-50">
-                        <td class="border border-gray-300 px-4 py-2">39</td>
+                        <td class="border border-gray-300 px-4 py-2">26</td>
                         <td class="border border-gray-300 px-4 py-2"> COLGATE TP MAXFRESH GREEN 100 M</td>
                         <td class="border border-gray-300 px-4 py-2">72 PCS </td>
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
@@ -387,7 +272,7 @@
                     
 
                      <tr class="hover:bg-gray-50">
-                        <td class="border border-gray-300 px-4 py-2">40</td>
+                        <td class="border border-gray-300 px-4 py-2">27</td>
                         <td class="border border-gray-300 px-4 py-2"> AQUAFRESH TP 125 ML</td>
                         <td class="border border-gray-300 px-4 py-2">72 PCS </td>
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
@@ -399,7 +284,7 @@
                     
                     
                        <tr class="hover:bg-gray-50">
-                        <td class="border border-gray-300 px-4 py-2">41</td>
+                        <td class="border border-gray-300 px-4 py-2">28</td>
                         <td class="border border-gray-300 px-4 py-2"> PENDORA BODY SPRAY 200 ML</td>
                         <td class="border border-gray-300 px-4 py-2">96 PCS </td>
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
@@ -411,7 +296,7 @@
 
                        
                        <tr class="hover:bg-gray-50">
-                        <td class="border border-gray-300 px-4 py-2">42</td>
+                        <td class="border border-gray-300 px-4 py-2">29</td>
                         <td class="border border-gray-300 px-4 py-2"> PENDORA ROUGH EDP 100 M</td>
                         <td class="border border-gray-300 px-4 py-2">12 PCS </td>
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
@@ -422,9 +307,9 @@
                     </tr>
                     
                        <tr class="hover:bg-gray-50">
-                        <td class="border border-gray-300 px-4 py-2">43</td>
+                        <td class="border border-gray-300 px-4 py-2">30</td>
                         <td class="border border-gray-300 px-4 py-2"> PENDORA BOMBINATE INTENSE EDP 100 ML</td>
-                        <td class="border border-gray-300 px-4 py-2">48 PCS </td>
+                        <td class="border border-gray-300 px-4 py-2">12 PCS </td>
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
                         <td class="border border-gray-300 px-4 py-2">278.00</td>
                          <td class="border border-gray-300 px-4 py-2">278.00</td>
@@ -433,7 +318,7 @@
                     </tr>
 
                          <tr class="hover:bg-gray-50">
-                        <td class="border border-gray-300 px-4 py-2">44</td>
+                        <td class="border border-gray-300 px-4 py-2">31</td>
                         <td class="border border-gray-300 px-4 py-2"> PENDORA AWAY EDP 100 ML</td>
                         <td class="border border-gray-300 px-4 py-2">12 PCS </td>
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
@@ -444,7 +329,7 @@
                     </tr>
 
                           <tr class="hover:bg-gray-50">
-                        <td class="border border-gray-300 px-4 py-2">45</td>
+                        <td class="border border-gray-300 px-4 py-2">32</td>
                         <td class="border border-gray-300 px-4 py-2"> PENDORA AVENTURA EDP 100 ML</td>
                         <td class="border border-gray-300 px-4 py-2">12 PCS </td>
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
@@ -455,7 +340,7 @@
                     </tr>
 
                            <tr class="hover:bg-gray-50">
-                        <td class="border border-gray-300 px-4 py-2">46</td>
+                        <td class="border border-gray-300 px-4 py-2">33</td>
                         <td class="border border-gray-300 px-4 py-2"> PENDORA SAVIOUR NEW EDP 100 ML</td>
                         <td class="border border-gray-300 px-4 py-2">12 PCS </td>
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
@@ -467,7 +352,7 @@
                     
 
                            <tr class="hover:bg-gray-50">
-                        <td class="border border-gray-300 px-4 py-2">47</td>
+                        <td class="border border-gray-300 px-4 py-2">34</td>
                         <td class="border border-gray-300 px-4 py-2"> PENDORA FRIEND EDP 100 ML</td>
                         <td class="border border-gray-300 px-4 py-2">12 PCS </td>
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
@@ -479,7 +364,7 @@
                     
 
                            <tr class="hover:bg-gray-50">
-                        <td class="border border-gray-300 px-4 py-2">48</td>
+                        <td class="border border-gray-300 px-4 py-2">35</td>
                         <td class="border border-gray-300 px-4 py-2"> FOGG DEO 150 ML</td>
                         <td class="border border-gray-300 px-4 py-2">72 PCS </td>
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
@@ -489,19 +374,8 @@
                    
                     </tr>
                        <tr class="hover:bg-gray-50">
-                        <td class="border border-gray-300 px-4 py-2">49</td>
-                        <td class="border border-gray-300 px-4 py-2"> NIVEA ROLL ON 50 ML</td>
-                        <td class="border border-gray-300 px-4 py-2">24 PCS </td>
-                        <td class="border border-gray-300 px-4 py-2">2 CTN</td>
-                        <td class="border border-gray-300 px-4 py-2">78.00</td>
-                         <td class="border border-gray-300 px-4 py-2">156.00</td>
-                       
-                   
-                    </tr>
-                     
-                       <tr class="hover:bg-gray-50">
-                        <td class="border border-gray-300 px-4 py-2">50</td>
-                        <td class="border border-gray-300 px-4 py-2"> FAA ROLL ON 50 ML</td>
+                        <td class="border border-gray-300 px-4 py-2">36</td>
+                        <td class="border border-gray-300 px-4 py-2"> FA Roll on 50 ML</td>
                         <td class="border border-gray-300 px-4 py-2">24 PCS </td>
                         <td class="border border-gray-300 px-4 py-2">2 CTN</td>
                         <td class="border border-gray-300 px-4 py-2">63.00</td>
@@ -509,7 +383,89 @@
                        
                    
                     </tr>
+                     
+                       <tr class="hover:bg-gray-50">
+                        <td class="border border-gray-300 px-4 py-2">37</td>
+                        <td class="border border-gray-300 px-4 py-2">  GILLETTE BLUE II PLUS (10+4 )</td>
+                        <td class="border border-gray-300 px-4 py-2">220 PKT </td>
+                        <td class="border border-gray-300 px-4 py-2">1 CTN</td>
+                        <td class="border border-gray-300 px-4 py-2">235.00</td>
+                         <td class="border border-gray-300 px-4 py-2">235.00</td>
+                       
+                   
+                    </tr>
+
+                       <tr class="hover:bg-gray-50">
+                        <td class="border border-gray-300 px-4 py-2">38</td>
+                        <td class="border border-gray-300 px-4 py-2">   GILLETTE BLUE 3 SPORT (8)</td>
+                        <td class="border border-gray-300 px-4 py-2">12 PCS </td>
+                        <td class="border border-gray-300 px-4 py-2">1 CTN</td>
+                        <td class="border border-gray-300 px-4 py-2">135.00</td>
+                         <td class="border border-gray-300 px-4 py-2">135.00</td>
+                       
+                   
+                    </tr>
+                       <tr class="hover:bg-gray-50">
+                        <td class="border border-gray-300 px-4 py-2">39</td>
+                        <td class="border border-gray-300 px-4 py-2"> GILLETTE SIMPLY VENUS (4)</td>
+                        <td class="border border-gray-300 px-4 py-2">96 PKT </td>
+                        <td class="border border-gray-300 px-4 py-2">1 CTN</td>
+                        <td class="border border-gray-300 px-4 py-2">340.00</td>
+                         <td class="border border-gray-300 px-4 py-2">340.00</td>
+                       
+                   
+                    </tr>
+                       <tr class="hover:bg-gray-50">
+                        <td class="border border-gray-300 px-4 py-2">40</td>
+                        <td class="border border-gray-300 px-4 py-2"> GILLETTE SIMPLY VENUS (8+4</td>
+                        <td class="border border-gray-300 px-4 py-2">20 PKT </td>
+                        <td class="border border-gray-300 px-4 py-2">1 CTN</td>
+                        <td class="border border-gray-300 px-4 py-2">345.00</td>
+                         <td class="border border-gray-300 px-4 py-2">345.00</td>
+                       
+                   
+                    </tr>
+                       <tr class="hover:bg-gray-50">
+                        <td class="border border-gray-300 px-4 py-2">41</td>
+                        <td class="border border-gray-300 px-4 py-2"> TOWEL 27 X 54 SIZE</td>
+                        <td class="border border-gray-300 px-4 py-2">12 PCS </td>
+                        <td class="border border-gray-300 px-4 py-2">8 DOZ</td>
+                        <td class="border border-gray-300 px-4 py-2">120.00</td>
+                         <td class="border border-gray-300 px-4 py-2">960.00</td>
+                       
+                   
+                    </tr>
+                       <tr class="hover:bg-gray-50">
+                        <td class="border border-gray-300 px-4 py-2">42</td>
+                        <td class="border border-gray-300 px-4 py-2">  TOWEL 70 X 140 SIZ</td>
+                        <td class="border border-gray-300 px-4 py-2">12 PCS </td>
+                        <td class="border border-gray-300 px-4 py-2">5 DOZ<td>
+                        <td class="border border-gray-300 px-4 py-2">95.00</td>
+                         <td class="border border-gray-300 px-4 py-2">475.00</td>
+                       
+                   
+                    </tr>
+                       <tr class="hover:bg-gray-50">
+                        <td class="border border-gray-300 px-4 py-2">43</td>
+                        <td class="border border-gray-300 px-4 py-2">  TOWEL 70 X 140 SIZE</td>
+                        <td class="border border-gray-300 px-4 py-2">12 PCS </td>
+                        <td class="border border-gray-300 px-4 py-2">2 DOZ</td>
+                        <td class="border border-gray-300 px-4 py-2">105.00</td>
+                         <td class="border border-gray-300 px-4 py-2">210.00</td>
+                       
+                   
+                    </tr>
                     
+                          <tr class="hover:bg-gray-50">
+                        <td class="border border-gray-300 px-4 py-2">44</td>
+                        <td class="border border-gray-300 px-4 py-2">  NIVEA ROLL ON 50 ML</td>
+                        <td class="border border-gray-300 px-4 py-2">24 PCS </td>
+                        <td class="border border-gray-300 px-4 py-2">1 CTN</td>
+                        <td class="border border-gray-300 px-4 py-2">78.00</td>
+                         <td class="border border-gray-300 px-4 py-2">78.00</td>
+                       
+                   
+                    </tr>
  
                    
 
