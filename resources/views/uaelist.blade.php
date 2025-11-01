@@ -8,8 +8,8 @@
                
 
                 <div class="card-body">
-                    <h5>ORDER LIST -FINAL 01 NOV 2025  | aprox (AED 11,328  | US$ 3,095.00 -paid 3088.00  | MVR 61,760 - paid equal- 61901.64)</h5>
-                    <h5>SUPPLIER : Shams Al Basra |  FREIGHTFORWARDER: GULHAARU GENERAL TRADING </h5>
+                    <h5>ORDER LIST -FINAL 01 NOV 2025  | aprox (AED 11,328  | paid 3088.00  | MVR 61,901.64)</h5>
+                    <h5>SUPPLIER : SHAMS AL BASRA|  FREIGHTFORWARDER: GULHAARU GENERAL TRADING </h5>
                      <!-- <a class="nav-link  link-danger" href="{{route('uaelistparisp')}}">GO TO ORDER LIST 2 UAE</a> -->
                        <h6>SUPPLIER : UAE-COSM-PAR-2025-01</h6>
                   <table class="w-full border-collapse border border-gray-300">
@@ -439,7 +439,7 @@
                         <td class="border border-gray-300 px-4 py-2">42</td>
                         <td class="border border-gray-300 px-4 py-2">  TOWEL 70 X 140 SIZ</td>
                         <td class="border border-gray-300 px-4 py-2">12 PCS </td>
-                        <td class="border border-gray-300 px-4 py-2">5 DOZ<td>
+                        <td class="border border-gray-300 px-4 py-2">5 DOZ</td>
                         <td class="border border-gray-300 px-4 py-2">95.00</td>
                          <td class="border border-gray-300 px-4 py-2">475.00</td>
                        
