@@ -101,5 +101,15 @@ public function search(Request $request)
               return view('uaelistparisp');
             }
 
+
+      public function flights ()
+            {
+              return view('flights');
+            }
+
+
+             
+
+
     //
 }

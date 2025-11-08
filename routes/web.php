@@ -197,6 +197,7 @@ Route::get('/uaelist', [App\Http\Controllers\itemswiftwayController::class, 'uae
 
 Route::get('/uaelistparisp', [App\Http\Controllers\itemswiftwayController::class, 'uaelistparisp'])->name('uaelistparisp');
 
+Route::get('/flights', [App\Http\Controllers\itemswiftwayController::class, 'flights'])->name('flights');
 
 
 
