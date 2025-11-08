@@ -8,8 +8,11 @@
                
 
                 <div class="card-body">
-                   <h5> <center>WG KW TRAVEL NOVEMBER - DECEMBER 2025</center></h5>
+                   <h3> <center>WG KW TRAVEL NOVEMBER - DECEMBER 2025</center></h3>
                    
+                    <h4> <center>FZ = FLYDUBAI, AI = AIR INDIA, UL = SRI LANKAN AIRLINES</center></h4>
+
+                    
                   <table class="w-full border-collapse border border-gray-300">
                 <thead class="bg-gray-200">
                     <tr>
