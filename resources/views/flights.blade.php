@@ -176,7 +176,19 @@
                            <td class="border border-gray-300 px-4 py-2">SOLI</td>   
                             <td class="border border-gray-300 px-4 py-2">ISSUED</td>                    
                     </tr>
-
+ <tr><td></td></tr>  
+ <tr class="hover:bg-gray-50">
+ 
+                        <td class="border border-gray-300 px-4 py-2">25-04</td>
+                        <td class="border border-gray-300 px-4 py-2">25 NOV - 4 DEC</td>
+                          <td class="border border-gray-300 px-4 py-2">EWG/TWG/TFWG</td>
+                        <td class="border border-gray-300 px-4 py-2">AI-FZ(B)</td>
+                          <td class="border border-gray-300 px-4 py-2"> MLEDEL-DELKGM KTMDXB-DXBMLE</td>
+                        <td class="border border-gray-300 px-4 py-2"> </td>
+                           <td class="border border-gray-300 px-4 py-2"></td>
+                           <td class="border border-gray-300 px-4 py-2">ASI</td>   
+                            <td class="border border-gray-300 px-4 py-2">PENDING</td>                    
+                    </tr>
 
 
   
