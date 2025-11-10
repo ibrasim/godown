@@ -81,7 +81,7 @@
                         <td class="border border-gray-300 px-4 py-2">25 NOV 10 DEC</td>
                            <td class="border border-gray-300 px-4 py-2">WG,SOM</td>
                         <td class="border border-gray-300 px-4 py-2">AI,FZ</td>
-                          <td class="border border-gray-300 px-4 py-2"> MLEDEL-DELKTM </td>
+                          <td class="border border-gray-300 px-4 py-2"> MLEDEL-DELKTM-KTMCMB-CMBMLE </td>
                         <td class="border border-gray-300 px-4 py-2">25 NOV 1205-1720 25 NOV 1010-2120 10 DEC 1340-1700 10 DEC 1850-1945</td>
                            <td class="border border-gray-300 px-4 py-2">NA</td>
                            <td class="border border-gray-300 px-4 py-2">NIH</td>   
@@ -95,7 +95,7 @@
                         <td class="border border-gray-300 px-4 py-2">07- 10 DEC</td>
                               <td class="border border-gray-300 px-4 py-2">SOM</td>
                         <td class="border border-gray-300 px-4 py-2">AI,UL</td>
-                          <td class="border border-gray-300 px-4 py-2"> MLEDELKTM-KTMDELMLE </td>
+                          <td class="border border-gray-300 px-4 py-2"> MLEDELKTM-KTMCMB-CMBMLE</td>
                         <td class="border border-gray-300 px-4 py-2">7 DEC 1205-1720 7 DEC 1910-2120 10 DEC 1340-1700 10 DEC1850-1945 </td>
                            <td class="border border-gray-300 px-4 py-2">NA</td>
                            <td class="border border-gray-300 px-4 py-2">SHAZ</td>   
