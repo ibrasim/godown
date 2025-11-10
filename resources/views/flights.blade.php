@@ -148,6 +148,8 @@
                     </tr>
 
                      <tr><td></td></tr>   
+    
+    
      <tr class="hover:bg-gray-50">
  
                         <td class="border border-gray-300 px-4 py-2">02-03</td>
@@ -157,36 +159,7 @@
                           <td class="border border-gray-300 px-4 py-2"> MLECMB-CMBKTM KTMCMB-CMBMLE</td>
                         <td class="border border-gray-300 px-4 py-2">30 NOV 2055-2250 01 DEC 0805-1150 04 DEC 1250-1610 04 DEC 1850-1945 </td>
                            <td class="border border-gray-300 px-4 py-2">YES</td>
-                           <td class="border border-gray-300 px-4 py-2">NUZ</td>   
-                            <td class="border border-gray-300 px-4 py-2">PENDING</td>                    
-                    </tr>
-
-                                     <tr><td></td></tr>   
-     <tr class="hover:bg-gray-50">
- 
-                        <td class="border border-gray-300 px-4 py-2">02-03</td>
-                        <td class="border border-gray-300 px-4 py-2">30 NOV - 4 DEC</td>
-                          <td class="border border-gray-300 px-4 py-2">FOOD</td>
-                        <td class="border border-gray-300 px-4 py-2">UL</td>
-                          <td class="border border-gray-300 px-4 py-2"> MLECMB-CMBKTM KTMCMB-CMBMLE</td>
-                        <td class="border border-gray-300 px-4 py-2">30 NOV 2055-2250 01 DEC 0805-1150 04 DEC 1250-1610 04 DEC 1850-1945 </td>
-                           <td class="border border-gray-300 px-4 py-2">YES</td>
-                           <td class="border border-gray-300 px-4 py-2">KHA</td>   
-                            <td class="border border-gray-300 px-4 py-2">PENDING</td>                    
-                    </tr>
-
-                    
-                                     <tr><td></td></tr>   
-     <tr class="hover:bg-gray-50">
- 
-                        <td class="border border-gray-300 px-4 py-2">02-03</td>
-                        <td class="border border-gray-300 px-4 py-2">30 NOV - 4 DEC</td>
-                          <td class="border border-gray-300 px-4 py-2">FOOD</td>
-                        <td class="border border-gray-300 px-4 py-2">UL</td>
-                          <td class="border border-gray-300 px-4 py-2"> MLECMB-CMBKTM KTMCMB-CMBMLE</td>
-                        <td class="border border-gray-300 px-4 py-2">30 NOV 2055-2250 01 DEC 0805-1150 04 DEC 1250-1610 04 DEC 1850-1945 </td>
-                           <td class="border border-gray-300 px-4 py-2">YES</td>
-                           <td class="border border-gray-300 px-4 py-2">ADA</td>   
+                           <td class="border border-gray-300 px-4 py-2">NUZ,KHA,ADA</td>   
                             <td class="border border-gray-300 px-4 py-2">PENDING</td>                    
                     </tr>
 
