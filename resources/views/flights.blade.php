@@ -82,10 +82,10 @@
                            <td class="border border-gray-300 px-4 py-2">WG,SOM</td>
                         <td class="border border-gray-300 px-4 py-2">AI,FZ</td>
                           <td class="border border-gray-300 px-4 py-2"> MLEDEL-DELKTM </td>
-                        <td class="border border-gray-300 px-4 py-2">25 NOV 1205-1720 25 NOV 1010-2120 </td>
+                        <td class="border border-gray-300 px-4 py-2">25 NOV 1205-1720 25 NOV 1010-2120 10 DEC 1340-1700 10 DEC 1850-1945</td>
                            <td class="border border-gray-300 px-4 py-2">NA</td>
                            <td class="border border-gray-300 px-4 py-2">NIH</td>   
-                            <td class="border border-gray-300 px-4 py-2">PENDING </td>                    
+                            <td class="border border-gray-300 px-4 py-2">ISSUED </td>                    
                     </tr>
 
      <tr><td></td></tr>    
@@ -98,8 +98,8 @@
                           <td class="border border-gray-300 px-4 py-2"> MLEDELKTM-KTMDELMLE </td>
                         <td class="border border-gray-300 px-4 py-2">7 DEC 1205-1720 7 DEC 1910-2120 10 DEC 1340-1700 10 DEC1850-1945 </td>
                            <td class="border border-gray-300 px-4 py-2">NA</td>
-                           <td class="border border-gray-300 px-4 py-2">SHA</td>   
-                            <td class="border border-gray-300 px-4 py-2">PENDING </td>                    
+                           <td class="border border-gray-300 px-4 py-2">SHAZ</td>   
+                            <td class="border border-gray-300 px-4 py-2">ISSUED </td>                    
                     </tr>
 
 
@@ -131,7 +131,7 @@
                         <td class="border border-gray-300 px-4 py-2">29 NOV 2055-2250 30 NOV 0805-1150 04 DEC 1250-1610 04 DEC 1850-1945 </td>
                            <td class="border border-gray-300 px-4 py-2">YES</td>
                            <td class="border border-gray-300 px-4 py-2">NIY,HAS,NAU,ZAK</td>   
-                            <td class="border border-gray-300 px-4 py-2">TISSUED</td>                    
+                            <td class="border border-gray-300 px-4 py-2">ISSUED</td>                    
                     </tr>
    <tr><td></td></tr>   
      <tr class="hover:bg-gray-50">
@@ -160,7 +160,7 @@
                         <td class="border border-gray-300 px-4 py-2">30 NOV 2055-2250 01 DEC 0805-1150 04 DEC 1250-1610 04 DEC 1850-1945 </td>
                            <td class="border border-gray-300 px-4 py-2">YES</td>
                            <td class="border border-gray-300 px-4 py-2">NUZ,KHA,ADA</td>   
-                            <td class="border border-gray-300 px-4 py-2">PENDING</td>                    
+                            <td class="border border-gray-300 px-4 py-2">ISSUED</td>                    
                     </tr>
 
                                                         <tr><td></td></tr>   
@@ -174,7 +174,7 @@
                         <td class="border border-gray-300 px-4 py-2">30 NOV 2055-2250 01 DEC 0805-1150 04 DEC 1250-1610 04 DEC 1850-1945 </td>
                            <td class="border border-gray-300 px-4 py-2">YES</td>
                            <td class="border border-gray-300 px-4 py-2">SOLI</td>   
-                            <td class="border border-gray-300 px-4 py-2">PENDING</td>                    
+                            <td class="border border-gray-300 px-4 py-2">ISSUED</td>                    
                     </tr>
 
 
