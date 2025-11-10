@@ -20,11 +20,13 @@
                         
                         <th class="border border-gray-300 px-4 py-2 text-left">MEETING DATE</th>
                         <th class="border border-gray-300 px-4 py-2 text-left">TRAVEL DATE</th>
+                            <th class="border border-gray-300 px-4 py-2 text-left">MEETING</th>
                         <th class="border border-gray-300 px-4 py-2 text-left">AIRLINE</th>      
                         <th class="border border-gray-300 px-4 py-2 text-left">ROUTE</th>
                         <th class="border border-gray-300 px-4 py-2 text-left">FLIGHT TIME</th>                        
                         <th class="border border-gray-300 px-4 py-2 text-left">STPC</th>                       
                         <th class="border border-gray-300 px-4 py-2 text-left">WHO</th>
+
                           <th class="border border-gray-300 px-4 py-2 text-left">NEXT</th>
                        
                     </tr>
@@ -34,7 +36,8 @@
  
                         <td class="border border-gray-300 px-4 py-2">24-25</td>
                         <td class="border border-gray-300 px-4 py-2">23-26</td>
-                        <td class="border border-gray-300 px-4 py-2">UL</td>
+                           <td class="border border-gray-300 px-4 py-2">UL</td>
+                        <td class="border border-gray-300 px-4 py-2">TOURISM</td>
                           <td class="border border-gray-300 px-4 py-2"> MLECMB-CMBKTM KTMCMB-CMBMLE</td>
                         <td class="border border-gray-300 px-4 py-2">22 NOV 2055-2250 23 NOV 0805-1150 26 NOV 1340-1700 26 NOV 1850-1945</td>
                            <td class="border border-gray-300 px-4 py-2">YES</td>
@@ -47,6 +50,7 @@
  
                         <td class="border border-gray-300 px-4 py-2">26-28</td>
                         <td class="border border-gray-300 px-4 py-2">25-29</td>
+                        <td class="border border-gray-300 px-4 py-2">ENERGY</td>
                         <td class="border border-gray-300 px-4 py-2">AI,FZ</td>
                           <td class="border border-gray-300 px-4 py-2"> MLEDEL-DELKTM KTMDXB-DXBMLE</td>
                         <td class="border border-gray-300 px-4 py-2">25 NOV 1205-1720 25 NOV 1010-2120 29 NOV 1940-2305 30 NOV 0200-0715</td>
@@ -61,6 +65,7 @@
  
                         <td class="border border-gray-300 px-4 py-2">26-28</td>
                         <td class="border border-gray-300 px-4 py-2">25-29</td>
+                          <td class="border border-gray-300 px-4 py-2">ENERGY</td>
                         <td class="border border-gray-300 px-4 py-2">AI,FZ(B)</td>
                           <td class="border border-gray-300 px-4 py-2"> MLEDEL-DELKTM KTMDXB-DXBMLE</td>
                         <td class="border border-gray-300 px-4 py-2">25 NOV 1205-1720 25 NOV 1010-2120 29 NOV 1940-2305 30 NOV 0200-0715</td>
@@ -73,6 +78,7 @@
  
                         <td class="border border-gray-300 px-4 py-2">26 NOV 08 DEC</td>
                         <td class="border border-gray-300 px-4 py-2">25 NOV 10 DEC</td>
+                           <td class="border border-gray-300 px-4 py-2">WG,SOM</td>
                         <td class="border border-gray-300 px-4 py-2">AI,FZ</td>
                           <td class="border border-gray-300 px-4 py-2"> MLEDEL-DELKTM </td>
                         <td class="border border-gray-300 px-4 py-2">25 NOV 1205-1720 25 NOV 1010-2120 </td>
@@ -86,6 +92,7 @@
  
                         <td class="border border-gray-300 px-4 py-2">08 -10 DEC</td>
                         <td class="border border-gray-300 px-4 py-2">07- 10 DEC</td>
+                              <td class="border border-gray-300 px-4 py-2">SOM</td>
                         <td class="border border-gray-300 px-4 py-2">AI,UL</td>
                           <td class="border border-gray-300 px-4 py-2"> MLEDELKTM-KTMDELMLE </td>
                         <td class="border border-gray-300 px-4 py-2">7 DEC 1205-1720 7 DEC 1910-2120 10 DEC 1340-1700 10 DEC1850-1945 </td>
@@ -105,8 +112,8 @@
                           <td class="border border-gray-300 px-4 py-2"> MLECMB-CMBKTM KTMCMB-CMBMLE</td>
                         <td class="border border-gray-300 px-4 py-2">29 NOV 2055-2250 30 NOV 0805-1150 04 DEC 1250-1610 04 DEC 1850-1945 </td>
                            <td class="border border-gray-300 px-4 py-2">NA</td>
-                           <td class="border border-gray-300 px-4 py-2">SHA</td>   
-                            <td class="border border-gray-300 px-4 py-2">ISSUED </td>                    
+                           <td class="border border-gray-300 px-4 py-2">SHAH</td>   
+                            <td class="border border-gray-300 px-4 py-2">TRANSPORT </td>                    
                     </tr>
      <tr><td></td></tr>    
 
@@ -115,6 +122,7 @@
                         <td class="border border-gray-300 px-4 py-2">01-03</td>
                         <td class="border border-gray-300 px-4 py-2">29 NOV - 04 DEC</td>
                         <td class="border border-gray-300 px-4 py-2">UL</td>
+                           <td class="border border-gray-300 px-4 py-2">TRANSPORT</td>
                           <td class="border border-gray-300 px-4 py-2"> MLECMB-CMBKTM KTMCMB-CMBMLE</td>
                         <td class="border border-gray-300 px-4 py-2">29 NOV 2055-2250 30 NOV 0805-1150 04 DEC 1250-1610 04 DEC 1850-1945 </td>
                            <td class="border border-gray-300 px-4 py-2">NA</td>
@@ -126,6 +134,7 @@
  
                         <td class="border border-gray-300 px-4 py-2">02-03</td>
                         <td class="border border-gray-300 px-4 py-2">30 NOV - 4 DEC</td>
+                          <td class="border border-gray-300 px-4 py-2">TRADE</td>
                         <td class="border border-gray-300 px-4 py-2">UL</td>
                           <td class="border border-gray-300 px-4 py-2"> MLECMB-CMBKTM KTMCMB-CMBMLE</td>
                         <td class="border border-gray-300 px-4 py-2">30 NOV 2055-2250 01 DEC 0805-1150 04 DEC 1250-1610 04 DEC 1850-1945 </td>
