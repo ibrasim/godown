@@ -112,8 +112,9 @@
                         <td class="border border-gray-300 px-4 py-2">UL(B)</td>
                           <td class="border border-gray-300 px-4 py-2"> MLECMB-CMBKTM KTMCMB-CMBMLE</td>
                         <td class="border border-gray-300 px-4 py-2">29 NOV 2055-2250 30 NOV 0805-1150 04 DEC 1250-1610 04 DEC 1850-1945 </td>
-                           <td class="border border-gray-300 px-4 py-2">NA</td>
+                           <td class="border border-gray-300 px-4 py-2">YES</td>
                            <td class="border border-gray-300 px-4 py-2">SHAH</td>   
+                            <td class="border border-gray-300 px-4 py-2">ISSUED</td>   
                                            
                     </tr>
      <tr><td></td></tr>    
@@ -127,7 +128,7 @@
                        
                           <td class="border border-gray-300 px-4 py-2"> MLECMB-CMBKTM KTMCMB-CMBMLE</td>
                         <td class="border border-gray-300 px-4 py-2">29 NOV 2055-2250 30 NOV 0805-1150 04 DEC 1250-1610 04 DEC 1850-1945 </td>
-                           <td class="border border-gray-300 px-4 py-2">NA</td>
+                           <td class="border border-gray-300 px-4 py-2">YES</td>
                            <td class="border border-gray-300 px-4 py-2">NIY,HAS,NAU,ZAK</td>   
                             <td class="border border-gray-300 px-4 py-2">TISSUED</td>                    
                     </tr>
