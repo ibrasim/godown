@@ -9,6 +9,7 @@
 
                 <div class="card-body">
                     <h5>ORDER LIST -FINAL 01 NOV 2025  | AED 11,328  | US$ 3096.00  | MVR 65,016 | PAYMENT RECEIVED 6 Nov</h5>
+                   <h5>GOODS RECEIVE AT FREIGH FORWARDER ON 11 NOVEMBER 2025, EXPECTED TO SHIP ON 14 NOVEMBER 2025</h5>
                     <h5>SUPPLIER : SHAMS AL BASRA|  FREIGHTFORWARDER: GULHAARU GENERAL TRADING </h5>
                      <!-- <a class="nav-link  link-danger" href="{{route('uaelistparisp')}}">GO TO ORDER LIST 2 UAE</a> -->
                        <!-- <h6>SUPPLIER : UAE-COSM-PAR-2025-01</h6> -->
@@ -271,20 +272,10 @@
                     </tr>
                     
 
-                     <tr class="hover:bg-gray-50">
-                        <td class="border border-gray-300 px-4 py-2">27</td>
-                        <td class="border border-gray-300 px-4 py-2"> AQUAFRESH TP 125 ML</td>
-                        <td class="border border-gray-300 px-4 py-2">72 PCS </td>
-                        <td class="border border-gray-300 px-4 py-2">1 CTN</td>
-                        <td class="border border-gray-300 px-4 py-2">312.00</td>
-                         <td class="border border-gray-300 px-4 py-2">312.00</td>
-                       
-                   
-                    </tr>
-                    
+                  
                     
                        <tr class="hover:bg-gray-50">
-                        <td class="border border-gray-300 px-4 py-2">28</td>
+                        <td class="border border-gray-300 px-4 py-2">27</td>
                         <td class="border border-gray-300 px-4 py-2"> PENDORA BODY SPRAY 200 ML</td>
                         <td class="border border-gray-300 px-4 py-2">96 PCS </td>
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
@@ -296,7 +287,7 @@
 
                        
                        <tr class="hover:bg-gray-50">
-                        <td class="border border-gray-300 px-4 py-2">29</td>
+                        <td class="border border-gray-300 px-4 py-2">28</td>
                         <td class="border border-gray-300 px-4 py-2"> PENDORA ROUGH EDP 100 M</td>
                         <td class="border border-gray-300 px-4 py-2">12 PCS </td>
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
@@ -307,7 +298,7 @@
                     </tr>
                     
                        <tr class="hover:bg-gray-50">
-                        <td class="border border-gray-300 px-4 py-2">30</td>
+                        <td class="border border-gray-300 px-4 py-2">29</td>
                         <td class="border border-gray-300 px-4 py-2"> PENDORA BOMBINATE INTENSE EDP 100 ML</td>
                         <td class="border border-gray-300 px-4 py-2">12 PCS </td>
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
@@ -318,7 +309,7 @@
                     </tr>
 
                          <tr class="hover:bg-gray-50">
-                        <td class="border border-gray-300 px-4 py-2">31</td>
+                        <td class="border border-gray-300 px-4 py-2">30</td>
                         <td class="border border-gray-300 px-4 py-2"> PENDORA AWAY EDP 100 ML</td>
                         <td class="border border-gray-300 px-4 py-2">12 PCS </td>
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
@@ -329,7 +320,7 @@
                     </tr>
 
                           <tr class="hover:bg-gray-50">
-                        <td class="border border-gray-300 px-4 py-2">32</td>
+                        <td class="border border-gray-300 px-4 py-2">31</td>
                         <td class="border border-gray-300 px-4 py-2"> PENDORA AVENTURA EDP 100 ML</td>
                         <td class="border border-gray-300 px-4 py-2">12 PCS </td>
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
@@ -340,7 +331,7 @@
                     </tr>
 
                            <tr class="hover:bg-gray-50">
-                        <td class="border border-gray-300 px-4 py-2">33</td>
+                        <td class="border border-gray-300 px-4 py-2">32</td>
                         <td class="border border-gray-300 px-4 py-2"> PENDORA SAVIOUR NEW EDP 100 ML</td>
                         <td class="border border-gray-300 px-4 py-2">12 PCS </td>
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
@@ -352,7 +343,7 @@
                     
 
                            <tr class="hover:bg-gray-50">
-                        <td class="border border-gray-300 px-4 py-2">34</td>
+                        <td class="border border-gray-300 px-4 py-2">33</td>
                         <td class="border border-gray-300 px-4 py-2"> PENDORA FRIEND EDP 100 ML</td>
                         <td class="border border-gray-300 px-4 py-2">12 PCS </td>
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
@@ -364,17 +355,17 @@
                     
 
                            <tr class="hover:bg-gray-50">
-                        <td class="border border-gray-300 px-4 py-2">35</td>
+                        <td class="border border-gray-300 px-4 py-2">34</td>
                         <td class="border border-gray-300 px-4 py-2"> FOGG DEO 150 ML</td>
-                        <td class="border border-gray-300 px-4 py-2">72 PCS </td>
-                        <td class="border border-gray-300 px-4 py-2">1 CTN</td>
+                        <td class="border border-gray-300 px-4 py-2">144 PCS </td>
+                        <td class="border border-gray-300 px-4 py-2">2 CTN</td>
                         <td class="border border-gray-300 px-4 py-2">320.00</td>
-                         <td class="border border-gray-300 px-4 py-2">320.00</td>
+                         <td class="border border-gray-300 px-4 py-2">640.00</td>
                        
                    
                     </tr>
                        <tr class="hover:bg-gray-50">
-                        <td class="border border-gray-300 px-4 py-2">36</td>
+                        <td class="border border-gray-300 px-4 py-2">35</td>
                         <td class="border border-gray-300 px-4 py-2"> FA Roll on 50 ML</td>
                         <td class="border border-gray-300 px-4 py-2">24 PCS </td>
                         <td class="border border-gray-300 px-4 py-2">2 CTN</td>
@@ -385,7 +376,7 @@
                     </tr>
                      
                        <tr class="hover:bg-gray-50">
-                        <td class="border border-gray-300 px-4 py-2">37</td>
+                        <td class="border border-gray-300 px-4 py-2">36</td>
                         <td class="border border-gray-300 px-4 py-2">  GILLETTE BLUE II PLUS (10+4 )</td>
                         <td class="border border-gray-300 px-4 py-2">220 PKT </td>
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
@@ -396,7 +387,7 @@
                     </tr>
 
                        <tr class="hover:bg-gray-50">
-                        <td class="border border-gray-300 px-4 py-2">38</td>
+                        <td class="border border-gray-300 px-4 py-2">37</td>
                         <td class="border border-gray-300 px-4 py-2">   GILLETTE BLUE 3 SPORT (8)</td>
                         <td class="border border-gray-300 px-4 py-2">12 PCS </td>
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
@@ -406,7 +397,7 @@
                    
                     </tr>
                        <tr class="hover:bg-gray-50">
-                        <td class="border border-gray-300 px-4 py-2">39</td>
+                        <td class="border border-gray-300 px-4 py-2">38</td>
                         <td class="border border-gray-300 px-4 py-2"> GILLETTE SIMPLY VENUS (4)</td>
                         <td class="border border-gray-300 px-4 py-2">96 PKT </td>
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
@@ -416,7 +407,7 @@
                    
                     </tr>
                        <tr class="hover:bg-gray-50">
-                        <td class="border border-gray-300 px-4 py-2">40</td>
+                        <td class="border border-gray-300 px-4 py-2">39</td>
                         <td class="border border-gray-300 px-4 py-2"> GILLETTE SIMPLY VENUS (8+4</td>
                         <td class="border border-gray-300 px-4 py-2">20 PKT </td>
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
@@ -426,7 +417,7 @@
                    
                     </tr>
                        <tr class="hover:bg-gray-50">
-                        <td class="border border-gray-300 px-4 py-2">41</td>
+                        <td class="border border-gray-300 px-4 py-2">40</td>
                         <td class="border border-gray-300 px-4 py-2"> TOWEL 27 X 54 SIZE</td>
                         <td class="border border-gray-300 px-4 py-2">12 PCS </td>
                         <td class="border border-gray-300 px-4 py-2">8 DOZ</td>
@@ -436,7 +427,7 @@
                    
                     </tr>
                        <tr class="hover:bg-gray-50">
-                        <td class="border border-gray-300 px-4 py-2">42</td>
+                        <td class="border border-gray-300 px-4 py-2">41</td>
                         <td class="border border-gray-300 px-4 py-2">  TOWEL 70 X 140 SIZ</td>
                         <td class="border border-gray-300 px-4 py-2">12 PCS </td>
                         <td class="border border-gray-300 px-4 py-2">5 DOZ</td>
@@ -446,7 +437,7 @@
                    
                     </tr>
                        <tr class="hover:bg-gray-50">
-                        <td class="border border-gray-300 px-4 py-2">43</td>
+                        <td class="border border-gray-300 px-4 py-2">42</td>
                         <td class="border border-gray-300 px-4 py-2">  TOWEL 70 X 140 SIZE</td>
                         <td class="border border-gray-300 px-4 py-2">12 PCS </td>
                         <td class="border border-gray-300 px-4 py-2">2 DOZ</td>
@@ -457,7 +448,7 @@
                     </tr>
                     
                           <tr class="hover:bg-gray-50">
-                        <td class="border border-gray-300 px-4 py-2">44</td>
+                        <td class="border border-gray-300 px-4 py-2">43</td>
                         <td class="border border-gray-300 px-4 py-2">  NIVEA ROLL ON 50 ML</td>
                         <td class="border border-gray-300 px-4 py-2">24 PCS </td>
                         <td class="border border-gray-300 px-4 py-2">1 CTN</td>
