@@ -182,14 +182,17 @@
                         <td class="border border-gray-300 px-4 py-2">25-04</td>
                         <td class="border border-gray-300 px-4 py-2">25 NOV - 4 DEC</td>
                           <td class="border border-gray-300 px-4 py-2">EWG/TWG/TFWG</td>
-                        <td class="border border-gray-300 px-4 py-2">AI-FZ(B)</td>
+                        <td class="border border-gray-300 px-4 py-2">AI-UL(B)</td>
                           <td class="border border-gray-300 px-4 py-2"> MLEDEL-DELKGM KTMDXB-DXBMLE</td>
-                        <td class="border border-gray-300 px-4 py-2"> </td>
-                           <td class="border border-gray-300 px-4 py-2"></td>
+                        <td class="border border-gray-300 px-4 py-2"> 25 NOV 1205-1720 25 NOV 1010-2120 04 DEC 1250-1610 04 DEC 1850-1945 </td>
+                           <td class="border border-gray-300 px-4 py-2">NA</td>
                            <td class="border border-gray-300 px-4 py-2">ASI</td>   
-                            <td class="border border-gray-300 px-4 py-2">PENDING</td>                    
+                            <td class="border border-gray-300 px-4 py-2">ISSUED</td>                    
                     </tr>
-
+<tr><td></td></tr>  
+<h2>invitation letters uploaded ready for signature</h2>
+<h2>logistic note being prepared</h2>
+<h2>visa being processed</h2>
 
   
                 </tbody>
