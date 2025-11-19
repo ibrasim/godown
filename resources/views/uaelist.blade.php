@@ -11,7 +11,7 @@
                     <h5>ORDER LIST -FINAL 01 NOV 2025  | AED 11,328  | US$ 3096.00  | MVR 65,016 | PAYMENT RECEIVED 6 Nov</h5>
                    <h5>GOODS RECEIVE AT FREIGH FORWARDER ON 11 NOVEMBER 2025, EXPECTED TO SHIP ON 14 NOVEMBER 2025</h5>
                     <h5>SUPPLIER : SHAMS AL BASRA|  FREIGHTFORWARDER: GULHAARU GENERAL TRADING </h5>
-                     <!-- <a class="nav-link  link-danger" href="{{route('uaelistparisp')}}">GO TO ORDER LIST 2 UAE</a> -->
+                     <a class="nav-link  link-danger" href="{{route('bkknov25')}}">GO TO ORDER LIST 1 BKK</a>
                        <!-- <h6>SUPPLIER : UAE-COSM-PAR-2025-01</h6> -->
                   <table class="w-full border-collapse border border-gray-300">
                 <thead class="bg-gray-200">

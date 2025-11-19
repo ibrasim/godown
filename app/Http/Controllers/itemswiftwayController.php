@@ -96,10 +96,12 @@ public function search(Request $request)
             }
 
 
-              public function uaelistparisp ()
+              public function bkknov25 ()
             {
-              return view('uaelistparisp');
+              return view('bkknov25');
             }
+
+
 
 
       public function flights ()

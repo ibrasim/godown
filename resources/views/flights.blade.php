@@ -41,7 +41,7 @@
                         
                           <td class="border border-gray-300 px-4 py-2"> MLECMB-CMBKTM KTMCMB-CMBMLE</td>
                         <td class="border border-gray-300 px-4 py-2">22 NOV 2055-2250 23 NOV 0805-1150 26 NOV 1340-1700 26 NOV 1850-1945</td>
-                           <td class="border border-gray-300 px-4 py-2">YES</td>
+                           <td class="border border-gray-300 px-4 py-2">RECEIVED</td>
                            <td class="border border-gray-300 px-4 py-2">IYA,SHA</td>   
                             <td class="border border-gray-300 px-4 py-2">ISSUED</td>                    
                     </tr>
