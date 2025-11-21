@@ -8,7 +8,7 @@
                
 
                 <div class="card-body">
-                    <h5>ORDER LIST -FINAL 21 NOV 25 | THB 43,400.00  | US$2013.00  | MVR 42,261.00)</h5>
+                    <h5>(ORDER LIST -FINAL 21 NOV 25 | THB 92,164.00  | US$3,586.00  | MVR 75,306.68)</h5>
                     <h5>SUPPLIER : VARIOUS |  FREIGHTFORWARDER: A PLUS CONNEX CO LTD </h5>
                     <a class="nav-link link-primary" href="{{route('uaelist')}}">GO TO ORDER LIST 1 UAE</a>
                        <!-- <h6>SUPPLIER : UAE-COSM-PAR-2025-01</h6> -->
@@ -37,7 +37,7 @@
                         <td class="border border-gray-300 px-4 py-2"> CTN</td>
                         <td class="border border-gray-300 px-4 py-2">0</td>
                          <td class="border border-gray-300 px-4 py-2">0</td>
-                          <td class="border border-gray-300 px-4 py-2">0</td>
+                          <td class="border border-gray-300 px-4 py-2">PURCHASED</td>
                        
                         
            
@@ -63,7 +63,7 @@
                         <td class="border border-gray-300 px-4 py-2">CTN</td>
                         <td class="border border-gray-300 px-4 py-2">0</td>
                          <td class="border border-gray-300 px-4 py-2">0</td>
-                          <td class="border border-gray-300 px-4 py-2">0</td>
+                          <td class="border border-gray-300 px-4 py-2">PURCHASED</td>
                        
                         
                 
@@ -94,7 +94,7 @@
                         <td class="border border-gray-300 px-4 py-2">CTN</td>
                         <td class="border border-gray-300 px-4 py-2">0</td>
                          <td class="border border-gray-300 px-4 py-2">0</td>
-                          <td class="border border-gray-300 px-4 py-2">0</td>
+                          <td class="border border-gray-300 px-4 py-2">PURCHASED</td>
                     </tr>
                           <tr class="hover:bg-gray-50">
                         <td class="border border-gray-300 px-4 py-2">7</td>
@@ -148,7 +148,7 @@
                         <td class="border border-gray-300 px-4 py-2">CTN</td>
                         <td class="border border-gray-300 px-4 py-2">0</td>
                          <td class="border border-gray-300 px-4 py-2">0</td>
-                          <td class="border border-gray-300 px-4 py-2">0</td>
+                          <td class="border border-gray-300 px-4 py-2">PURCHASED</td>
                     </tr>
                           <tr class="hover:bg-gray-50">
                         <td class="border border-gray-300 px-4 py-2">13</td>
@@ -166,7 +166,7 @@
                         <td class="border border-gray-300 px-4 py-2">CTN</td>
                         <td class="border border-gray-300 px-4 py-2">0</td>
                          <td class="border border-gray-300 px-4 py-2">0</td>
-                          <td class="border border-gray-300 px-4 py-2">0</td>
+                          <td class="border border-gray-300 px-4 py-2">PURCHASED</td>
                     </tr>
                           <tr class="hover:bg-gray-50">
                         <td class="border border-gray-300 px-4 py-2">15</td>
@@ -175,7 +175,7 @@
                         <td class="border border-gray-300 px-4 py-2">CTN</td>
                         <td class="border border-gray-300 px-4 py-2">0</td>
                          <td class="border border-gray-300 px-4 py-2">0</td>
-                          <td class="border border-gray-300 px-4 py-2">0</td>
+                          <td class="border border-gray-300 px-4 py-2">PURCHASED</td>
                     </tr>
                           <tr class="hover:bg-gray-50">
                         <td class="border border-gray-300 px-4 py-2">16</td>
@@ -184,7 +184,7 @@
                         <td class="border border-gray-300 px-4 py-2">CTN</td>
                         <td class="border border-gray-300 px-4 py-2">0</td>
                          <td class="border border-gray-300 px-4 py-2">0</td>
-                          <td class="border border-gray-300 px-4 py-2">0</td>
+                          <td class="border border-gray-300 px-4 py-2">PURCHASED</td>
                     </tr>
                           <tr class="hover:bg-gray-50">
                         <td class="border border-gray-300 px-4 py-2">17</td>
@@ -193,7 +193,7 @@
                         <td class="border border-gray-300 px-4 py-2">CTN</td>
                         <td class="border border-gray-300 px-4 py-2">0</td>
                          <td class="border border-gray-300 px-4 py-2">0</td>
-                          <td class="border border-gray-300 px-4 py-2">0</td>
+                          <td class="border border-gray-300 px-4 py-2">PURCHASED</td>
                     </tr>
                           <tr class="hover:bg-gray-50">
                         <td class="border border-gray-300 px-4 py-2">18</td>
@@ -202,7 +202,7 @@
                         <td class="border border-gray-300 px-4 py-2">CTN</td>
                         <td class="border border-gray-300 px-4 py-2">0</td>
                          <td class="border border-gray-300 px-4 py-2">0</td>
-                          <td class="border border-gray-300 px-4 py-2">0</td>
+                          <td class="border border-gray-300 px-4 py-2">PURCHASED</td>
                     </tr>
                           <tr class="hover:bg-gray-50">
                         <td class="border border-gray-300 px-4 py-2">19</td>
@@ -220,7 +220,7 @@
                         <td class="border border-gray-300 px-4 py-2">CTN</td>
                         <td class="border border-gray-300 px-4 py-2">0</td>
                          <td class="border border-gray-300 px-4 py-2">0</td>
-                          <td class="border border-gray-300 px-4 py-2">0</td>
+                          <td class="border border-gray-300 px-4 py-2">PURCHASED</td>
                     </tr>
                           <tr class="hover:bg-gray-50">
                         <td class="border border-gray-300 px-4 py-2">21</td>
@@ -229,7 +229,7 @@
                         <td class="border border-gray-300 px-4 py-2">CTN</td>
                         <td class="border border-gray-300 px-4 py-2">0</td>
                          <td class="border border-gray-300 px-4 py-2">0</td>
-                          <td class="border border-gray-300 px-4 py-2">0</td>
+                          <td class="border border-gray-300 px-4 py-2">PURCHASED</td>
                     </tr>
                           <tr class="hover:bg-gray-50">
                         <td class="border border-gray-300 px-4 py-2">22</td>
@@ -247,7 +247,7 @@
                         <td class="border border-gray-300 px-4 py-2">CTN</td>
                         <td class="border border-gray-300 px-4 py-2">0</td>
                          <td class="border border-gray-300 px-4 py-2">0</td>
-                          <td class="border border-gray-300 px-4 py-2">0</td>
+                          <td class="border border-gray-300 px-4 py-2">PURCHASED</td>
                     </tr>
                           <tr class="hover:bg-gray-50">
                         <td class="border border-gray-300 px-4 py-2">24</td>
@@ -265,7 +265,7 @@
                         <td class="border border-gray-300 px-4 py-2">CTN</td>
                         <td class="border border-gray-300 px-4 py-2">0</td>
                          <td class="border border-gray-300 px-4 py-2">0</td>
-                          <td class="border border-gray-300 px-4 py-2">0</td>
+                          <td class="border border-gray-300 px-4 py-2">PURCHASED</td>
                     </tr>
                           <tr class="hover:bg-gray-50">
                         <td class="border border-gray-300 px-4 py-2">26</td>
@@ -274,7 +274,7 @@
                         <td class="border border-gray-300 px-4 py-2">CTN</td>
                         <td class="border border-gray-300 px-4 py-2">0</td>
                          <td class="border border-gray-300 px-4 py-2">0</td>
-                          <td class="border border-gray-300 px-4 py-2">0</td>
+                          <td class="border border-gray-300 px-4 py-2">PURCHASED</td>
                     </tr>
                           <tr class="hover:bg-gray-50">
                         <td class="border border-gray-300 px-4 py-2">27</td>
@@ -283,7 +283,7 @@
                         <td class="border border-gray-300 px-4 py-2">CTN</td>
                         <td class="border border-gray-300 px-4 py-2">0</td>
                          <td class="border border-gray-300 px-4 py-2">0</td>
-                          <td class="border border-gray-300 px-4 py-2">0</td>
+                          <td class="border border-gray-300 px-4 py-2">PURCHASED</td>
                     </tr>
                           <tr class="hover:bg-gray-50">
                         <td class="border border-gray-300 px-4 py-2">28</td>
@@ -292,7 +292,7 @@
                         <td class="border border-gray-300 px-4 py-2">CTN</td>
                         <td class="border border-gray-300 px-4 py-2">0</td>
                          <td class="border border-gray-300 px-4 py-2">0</td>
-                          <td class="border border-gray-300 px-4 py-2">0</td>
+                          <td class="border border-gray-300 px-4 py-2">PURCHASED</td>
                     </tr>
                           <tr class="hover:bg-gray-50">
                         <td class="border border-gray-300 px-4 py-2">29</td>
@@ -428,7 +428,7 @@
                         <td class="border border-gray-300 px-4 py-2">CTN</td>
                         <td class="border border-gray-300 px-4 py-2">0</td>
                          <td class="border border-gray-300 px-4 py-2">0</td>
-                          <td class="border border-gray-300 px-4 py-2">0</td>
+                          <td class="border border-gray-300 px-4 py-2">PURCHASED</td>
                     </tr>
                           <tr class="hover:bg-gray-50">
                         <td class="border border-gray-300 px-4 py-2">44</td>
@@ -520,6 +520,92 @@
                          <td class="border border-gray-300 px-4 py-2">0</td>
                           <td class="border border-gray-300 px-4 py-2">0</td>
                     </tr>
+                            <tr class="hover:bg-gray-50">
+                        <td class="border border-gray-300 px-4 py-2">54</td>
+                        <td class="border border-gray-300 px-4 py-2"> crap paper</td>
+                        <td class="border border-gray-300 px-4 py-2">PCS</td>
+                        <td class="border border-gray-300 px-4 py-2">CTN</td>
+                        <td class="border border-gray-300 px-4 py-2">0</td>
+                         <td class="border border-gray-300 px-4 py-2">0</td>
+                          <td class="border border-gray-300 px-4 py-2">PURCHASED</td>
+                    </tr>
+                         <tr class="hover:bg-gray-50">
+                        <td class="border border-gray-300 px-4 py-2">55</td>
+                        <td class="border border-gray-300 px-4 py-2"> white board</td>
+                        <td class="border border-gray-300 px-4 py-2">PCS</td>
+                        <td class="border border-gray-300 px-4 py-2">CTN</td>
+                        <td class="border border-gray-300 px-4 py-2">0</td>
+                         <td class="border border-gray-300 px-4 py-2">0</td>
+                          <td class="border border-gray-300 px-4 py-2">PURCHASED</td>
+                    </tr>
+                       <tr class="hover:bg-gray-50">
+                        <td class="border border-gray-300 px-4 py-2">56</td>
+                        <td class="border border-gray-300 px-4 py-2"> googley eyes</td>
+                        <td class="border border-gray-300 px-4 py-2">PCS</td>
+                        <td class="border border-gray-300 px-4 py-2">CTN</td>
+                        <td class="border border-gray-300 px-4 py-2">0</td>
+                         <td class="border border-gray-300 px-4 py-2">0</td>
+                          <td class="border border-gray-300 px-4 py-2">PURCHASED</td>
+                    </tr>
+
+                         <tr class="hover:bg-gray-50">
+                        <td class="border border-gray-300 px-4 py-2">57</td>
+                        <td class="border border-gray-300 px-4 py-2"> cutter</td>
+                        <td class="border border-gray-300 px-4 py-2">PCS</td>
+                        <td class="border border-gray-300 px-4 py-2">CTN</td>
+                        <td class="border border-gray-300 px-4 py-2">0</td>
+                         <td class="border border-gray-300 px-4 py-2">0</td>
+                          <td class="border border-gray-300 px-4 py-2">PURCHASED</td>
+                    </tr>
+                       <tr class="hover:bg-gray-50">
+                        <td class="border border-gray-300 px-4 py-2">58</td>
+                        <td class="border border-gray-300 px-4 py-2"> party item</td>
+                        <td class="border border-gray-300 px-4 py-2">PCS</td>
+                        <td class="border border-gray-300 px-4 py-2">CTN</td>
+                        <td class="border border-gray-300 px-4 py-2">0</td>
+                         <td class="border border-gray-300 px-4 py-2">0</td>
+                          <td class="border border-gray-300 px-4 py-2">PURCHASED</td>
+                    </tr>
+                     <tr class="hover:bg-gray-50">
+                        <td class="border border-gray-300 px-4 py-2">59</td>
+                        <td class="border border-gray-300 px-4 py-2"> rope roll</td>
+                        <td class="border border-gray-300 px-4 py-2">PCS</td>
+                        <td class="border border-gray-300 px-4 py-2">CTN</td>
+                        <td class="border border-gray-300 px-4 py-2">0</td>
+                         <td class="border border-gray-300 px-4 py-2">0</td>
+                          <td class="border border-gray-300 px-4 py-2">PURCHASED</td>
+                    </tr>
+                     <tr class="hover:bg-gray-50">
+                        <td class="border border-gray-300 px-4 py-2">60</td>
+                        <td class="border border-gray-300 px-4 py-2"> transparent file</td>
+                        <td class="border border-gray-300 px-4 py-2">PCS</td>
+                        <td class="border border-gray-300 px-4 py-2">CTN</td>
+                        <td class="border border-gray-300 px-4 py-2">0</td>
+                         <td class="border border-gray-300 px-4 py-2">0</td>
+                          <td class="border border-gray-300 px-4 py-2">PURCHASED</td>
+                    </tr>
+
+                     <tr class="hover:bg-gray-50">
+                        <td class="border border-gray-300 px-4 py-2">60</td>
+                        <td class="border border-gray-300 px-4 py-2"> pencil set</td>
+                        <td class="border border-gray-300 px-4 py-2">PCS</td>
+                        <td class="border border-gray-300 px-4 py-2">CTN</td>
+                        <td class="border border-gray-300 px-4 py-2">0</td>
+                         <td class="border border-gray-300 px-4 py-2">0</td>
+                          <td class="border border-gray-300 px-4 py-2">PURCHASED</td>
+                    </tr>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
                 
