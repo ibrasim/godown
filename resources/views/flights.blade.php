@@ -8,7 +8,7 @@
                
 
                 <div class="card-body">
-                   <h3> <center>WG KW TRAVEL TRAVEL STATU</center></h3>
+                   <h3> <center> TRAVEL STATUS</center></h3>
                    
                    
                     
