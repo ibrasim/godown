@@ -1009,6 +1009,18 @@
                           
                     </tr>
 
+                              <tr class="hover:bg-gray-50">
+                        <td class="border border-gray-300 px-4 py-2">93</td>
+                        <td class="border border-gray-300 px-4 py-2"> coloured pencil 24 </td>
+                        <td class="border border-gray-300 px-4 py-2">1 x 12 pcs</td>
+                        <td class="border border-gray-300 px-4 py-2">12 pcs</td>
+                        <td class="border border-gray-300 px-4 py-2">1770.00</td>
+                         <td class="border border-gray-300 px-4 py-2">1770.00</td>
+                          <td class="border border-gray-300 px-4 py-2">PURCHASED</td>
+                          <td class="border border-gray-300 px-4 py-2">99.00</td>
+                          
+                    </tr>
+
                     <tr class="hover:bg-gray-50">
                         <td class="border border-gray-300 px-4 py-2">94</td>
                         <td class="border border-gray-300 px-4 py-2"> jambo crayon 12 color </td>
@@ -1212,8 +1224,8 @@
                         <td class="border border-gray-300 px-4 py-2"> rope </td>
                         <td class="border border-gray-300 px-4 py-2">1 x 6 pack</td>
                         <td class="border border-gray-300 px-4 py-2">6 pcs</td>
-                        <td class="border border-gray-300 px-4 py-2">130.00</td>
-                         <td class="border border-gray-300 px-4 py-2">1300.00</td>
+                        <td class="border border-gray-300 px-4 py-2">180.00</td>
+                         <td class="border border-gray-300 px-4 py-2">1080.00</td>
                           <td class="border border-gray-300 px-4 py-2">PURCHASED</td>
                           <td class="border border-gray-300 px-4 py-2">20</td>
                           
