@@ -8,14 +8,10 @@
                
 
                 <div class="card-body">
-                   <h3> <center> TRAVEL STATUS</center></h3>
-                   
-                   
-                    
+                   <h3> <center> TRAVEL STATUS as of 27 november 2025 phunsho here</center></h3> 
                   <table class="w-full border-collapse border border-gray-300">
                 <thead class="bg-gray-200">
                     <tr>
-                        
                         
                         <th class="border border-gray-300 px-4 py-2 text-left">MEETING DATE</th>
                         <th class="border border-gray-300 px-4 py-2 text-left">TRAVEL DATE</th>
