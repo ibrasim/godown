@@ -1124,6 +1124,160 @@
                           
                     </tr>
 
+                                       <tr class="hover:bg-gray-50">
+                        <td class="border border-gray-300 px-4 py-2">104</td>
+                        <td class="border border-gray-300 px-4 py-2"> pencil with erazer </td>
+                        <td class="border border-gray-300 px-4 py-2">1 x 1 doz</td>
+                        <td class="border border-gray-300 px-4 py-2">12 can</td>
+                        <td class="border border-gray-300 px-4 py-2">120.00</td>
+                         <td class="border border-gray-300 px-4 py-2">1440.00</td>
+                          <td class="border border-gray-300 px-4 py-2">PURCHASED</td>
+                          <td class="border border-gray-300 px-4 py-2">7</td>
+                          
+                    </tr>
+
+                                       <tr class="hover:bg-gray-50">
+                        <td class="border border-gray-300 px-4 py-2">105</td>
+                        <td class="border border-gray-300 px-4 py-2"> whiteboard </td>
+                        <td class="border border-gray-300 px-4 py-2">1 x 6 pcs</td>
+                        <td class="border border-gray-300 px-4 py-2">6 pcs</td>
+                        <td class="border border-gray-300 px-4 py-2">80.00</td>
+                         <td class="border border-gray-300 px-4 py-2">480.00</td>
+                          <td class="border border-gray-300 px-4 py-2">PURCHASED</td>
+                          <td class="border border-gray-300 px-4 py-2">54</td>
+                          
+                    </tr>
+
+                                  <tr class="hover:bg-gray-50">
+                        <td class="border border-gray-300 px-4 py-2">106</td>
+                        <td class="border border-gray-300 px-4 py-2"> correction pen 4ml </td>
+                        <td class="border border-gray-300 px-4 py-2">1 x 5 doz</td>
+                        <td class="border border-gray-300 px-4 py-2">60 pcs</td>
+                        <td class="border border-gray-300 px-4 py-2">60.00</td>
+                         <td class="border border-gray-300 px-4 py-2">300.00</td>
+                          <td class="border border-gray-300 px-4 py-2">PURCHASED</td>
+                          <td class="border border-gray-300 px-4 py-2">3</td>
+                          
+                    </tr>
+
+                    
+                                  <tr class="hover:bg-gray-50">
+                        <td class="border border-gray-300 px-4 py-2">107</td>
+                        <td class="border border-gray-300 px-4 py-2"> rolling eyes </td>
+                        <td class="border border-gray-300 px-4 py-2">1 x 3 doz</td>
+                        <td class="border border-gray-300 px-4 py-2">36 pcs</td>
+                        <td class="border border-gray-300 px-4 py-2">90.00</td>
+                         <td class="border border-gray-300 px-4 py-2">270.00</td>
+                          <td class="border border-gray-300 px-4 py-2">PURCHASED</td>
+                          <td class="border border-gray-300 px-4 py-2">3</td>
+                          
+                    </tr>
+
+                                <tr class="hover:bg-gray-50">
+                        <td class="border border-gray-300 px-4 py-2">108</td>
+                        <td class="border border-gray-300 px-4 py-2"> rolling eyes big </td>
+                        <td class="border border-gray-300 px-4 py-2">1 x 6 doz</td>
+                        <td class="border border-gray-300 px-4 py-2">72 pcs</td>
+                        <td class="border border-gray-300 px-4 py-2">116.00</td>
+                         <td class="border border-gray-300 px-4 py-2">696.00</td>
+                          <td class="border border-gray-300 px-4 py-2">PURCHASED</td>
+                          <td class="border border-gray-300 px-4 py-2">7</td>
+                          
+                    </tr>
+                                 <tr class="hover:bg-gray-50">
+                        <td class="border border-gray-300 px-4 py-2">109</td>
+                        <td class="border border-gray-300 px-4 py-2"> crape paper </td>
+                        <td class="border border-gray-300 px-4 py-2">1 x 10 pack</td>
+                        <td class="border border-gray-300 px-4 py-2">80 pcs</td>
+                        <td class="border border-gray-300 px-4 py-2">130.00</td>
+                         <td class="border border-gray-300 px-4 py-2">1300.00</td>
+                          <td class="border border-gray-300 px-4 py-2">PURCHASED</td>
+                          <td class="border border-gray-300 px-4 py-2">9</td>
+                          
+                    </tr>
+                             <tr class="hover:bg-gray-50">
+                        <td class="border border-gray-300 px-4 py-2">110</td>
+                        <td class="border border-gray-300 px-4 py-2"> color paper </td>
+                        <td class="border border-gray-300 px-4 py-2">1 x 10 pack</td>
+                        <td class="border border-gray-300 px-4 py-2">80 pcs</td>
+                        <td class="border border-gray-300 px-4 py-2">64.00</td>
+                         <td class="border border-gray-300 px-4 py-2">640.00</td>
+                          <td class="border border-gray-300 px-4 py-2">PURCHASED</td>
+                          <td class="border border-gray-300 px-4 py-2">4</td>
+                          
+                    </tr>
+
+                      <tr class="hover:bg-gray-50">
+                        <td class="border border-gray-300 px-4 py-2">111</td>
+                        <td class="border border-gray-300 px-4 py-2"> rope </td>
+                        <td class="border border-gray-300 px-4 py-2">1 x 6 pack</td>
+                        <td class="border border-gray-300 px-4 py-2">6 pcs</td>
+                        <td class="border border-gray-300 px-4 py-2">130.00</td>
+                         <td class="border border-gray-300 px-4 py-2">1300.00</td>
+                          <td class="border border-gray-300 px-4 py-2">PURCHASED</td>
+                          <td class="border border-gray-300 px-4 py-2">20</td>
+                          
+                    </tr>
+                     <tr class="hover:bg-gray-50">
+                        <td class="border border-gray-300 px-4 py-2">112</td>
+                        <td class="border border-gray-300 px-4 py-2"> cutter </td>
+                        <td class="border border-gray-300 px-4 py-2">1 x 10 pack</td>
+                        <td class="border border-gray-300 px-4 py-2">10 pcs</td>
+                        <td class="border border-gray-300 px-4 py-2">64.00</td>
+                         <td class="border border-gray-300 px-4 py-2">640.00</td>
+                          <td class="border border-gray-300 px-4 py-2">PURCHASED</td>
+                          <td class="border border-gray-300 px-4 py-2">4</td>
+                          
+                    </tr>
+
+                      <tr class="hover:bg-gray-50">
+                        <td class="border border-gray-300 px-4 py-2">113</td>
+                        <td class="border border-gray-300 px-4 py-2"> cutter big</td>
+                        <td class="border border-gray-300 px-4 py-2">1 x 10 pack</td>
+                        <td class="border border-gray-300 px-4 py-2">10 pcs</td>
+                        <td class="border border-gray-300 px-4 py-2">87.00</td>
+                         <td class="border border-gray-300 px-4 py-2">870.00</td>
+                          <td class="border border-gray-300 px-4 py-2">PURCHASED</td>
+                          <td class="border border-gray-300 px-4 py-2">6</td>
+                          
+                    </tr>
+
+    <tr class="hover:bg-gray-50">
+                        <td class="border border-gray-300 px-4 py-2">114</td>
+                        <td class="border border-gray-300 px-4 py-2"> crape paper</td>
+                        <td class="border border-gray-300 px-4 py-2">1 x 10 doz</td>
+                        <td class="border border-gray-300 px-4 py-2">100 pcs</td>
+                        <td class="border border-gray-300 px-4 py-2">50.00</td>
+                         <td class="border border-gray-300 px-4 py-2">500.00</td>
+                          <td class="border border-gray-300 px-4 py-2">PURCHASED</td>
+                          <td class="border border-gray-300 px-4 py-2">4</td>
+                          
+                    </tr>
+
+                               <td class="border border-gray-300 px-4 py-2">115</td>
+                        <td class="border border-gray-300 px-4 py-2"> white board</td>
+                        <td class="border border-gray-300 px-4 py-2">1 x 10 doz</td>
+                        <td class="border border-gray-300 px-4 py-2">60 pcs</td>
+                        <td class="border border-gray-300 px-4 py-2">60.00</td>
+                         <td class="border border-gray-300 px-4 py-2">360.00</td>
+                          <td class="border border-gray-300 px-4 py-2">PURCHASED</td>
+                          <td class="border border-gray-300 px-4 py-2">40</td>
+                          
+                    </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
