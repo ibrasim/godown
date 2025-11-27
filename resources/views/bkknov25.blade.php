@@ -1122,7 +1122,7 @@
                         <td class="border border-gray-300 px-4 py-2">128.00</td>
                          <td class="border border-gray-300 px-4 py-2">640.00</td>
                           <td class="border border-gray-300 px-4 py-2">PURCHASED</td>
-                          <td class="border border-gray-300 px-4 py-2">5.31.00</td>
+                          <td class="border border-gray-300 px-4 py-2">5</td>
                           
                                           <tr class="hover:bg-gray-50">
                         <td class="border border-gray-300 px-4 py-2">104</td>
@@ -1132,7 +1132,7 @@
                         <td class="border border-gray-300 px-4 py-2">470.00</td>
                          <td class="border border-gray-300 px-4 py-2">470.00</td>
                           <td class="border border-gray-300 px-4 py-2">PURCHASED</td>
-                          <td class="border border-gray-300 px-4 py-2">5.31.00</td>
+                          <td class="border border-gray-300 px-4 py-2">5</td>
                           
                     </tr>
                                           <tr class="hover:bg-gray-50">
