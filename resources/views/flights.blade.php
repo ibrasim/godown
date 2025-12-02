@@ -84,7 +84,7 @@
  
                         <td class="border border-gray-300 px-4 py-2">air india / ul 7 DEC 1205-1720 ,8 dec 22:00 - 00:15, 10 DEC 1340-1700 10 DEC1850-1945 </td>
                            <td class="border border-gray-300 px-4 py-2">SHAZ</td>   
-                            <td class="border border-gray-300 px-4 py-2">ISSUED </td>                    
+                            <td class="border border-gray-300 px-4 py-2">TICKET ISSUED </td>                    
                     </tr>
      
      <tr><td></td></tr>   
