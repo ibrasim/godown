@@ -8,7 +8,7 @@
                
 
                 <div class="card-body">
-                   <h3> <center> TRAVEL STATUS as of 27 november 2025 phunsho here</center></h3> 
+                   <h3> <center> TRAVEL STATUS as of 2 dec 2025 p</center></h3> 
                   <table class="w-full border-collapse border border-gray-300">
                 <thead class="bg-gray-200">
                     <tr>
@@ -91,7 +91,7 @@
                               <td class="border border-gray-300 px-4 py-2">SOM</td>
                         <td class="border border-gray-300 px-4 py-2">AI,UL</td>
                           <td class="border border-gray-300 px-4 py-2"> MLEDELKTM-KTMCMB-CMBMLE</td>
-                        <td class="border border-gray-300 px-4 py-2">7 DEC 1205-1720 7 DEC 1910-2120 10 DEC 1340-1700 10 DEC1850-1945 </td>
+                        <td class="border border-gray-300 px-4 py-2">7 DEC 1205-1720 ,8 dec 22:00 - 00:15, 10 DEC 1340-1700 10 DEC1850-1945 </td>
                            <td class="border border-gray-300 px-4 py-2">NA</td>
                            <td class="border border-gray-300 px-4 py-2">SHAZ</td>   
                             <td class="border border-gray-300 px-4 py-2">ISSUED </td>                    
@@ -107,10 +107,10 @@
                          <td class="border border-gray-300 px-4 py-2">TRANSPORT </td>    
                         <td class="border border-gray-300 px-4 py-2">UL(B)</td>
                           <td class="border border-gray-300 px-4 py-2"> MLECMB-CMBKTM KTMCMB-CMBMLE</td>
-                        <td class="border border-gray-300 px-4 py-2">29 NOV 2055-2250 30 NOV 0805-1150 04 DEC 1250-1610 04 DEC 1850-1945 </td>
+                        <td class="border border-gray-300 px-4 py-2">singapore airlines 4 dec 23:00-06:15- 5 dec 10:05-11:40 </td>
                            <td class="border border-gray-300 px-4 py-2">RECEIVED</td>
                            <td class="border border-gray-300 px-4 py-2">SHAH</td>   
-                            <td class="border border-gray-300 px-4 py-2">ISSUED</td>   
+                            <td class="border border-gray-300 px-4 py-2">IN KATMANDU</td>   
                                            
                     </tr>
      <tr><td></td></tr>    
@@ -123,10 +123,10 @@
                         <td class="border border-gray-300 px-4 py-2">UL</td>
                        
                           <td class="border border-gray-300 px-4 py-2"> MLECMB-CMBKTM KTMCMB-CMBMLE</td>
-                        <td class="border border-gray-300 px-4 py-2">29 NOV 2055-2250 30 NOV 0805-1150 04 DEC 1250-1610 04 DEC 1850-1945 </td>
+                        <td class="border border-gray-300 px-4 py-2">singapore airlines 4 dec 23:00-06:15- 5 dec 10:05-11:40 </td>
                            <td class="border border-gray-300 px-4 py-2">RECEIVED</td>
                            <td class="border border-gray-300 px-4 py-2">NIY,HAS,NAU,ZAK</td>   
-                            <td class="border border-gray-300 px-4 py-2">ISSUED</td>                    
+                            <td class="border border-gray-300 px-4 py-2">IN KATMANDU</td>                    
                     </tr>
    <tr><td></td></tr>   
      <tr class="hover:bg-gray-50">
@@ -136,10 +136,10 @@
                           <td class="border border-gray-300 px-4 py-2">TRADE</td>
                         <td class="border border-gray-300 px-4 py-2">UL</td>
                           <td class="border border-gray-300 px-4 py-2"> MLECMB-CMBKTM KTMCMB-CMBMLE</td>
-                        <td class="border border-gray-300 px-4 py-2">30 NOV 2055-2250 01 DEC 0805-1150 04 DEC 1250-1610 04 DEC 1850-1945 </td>
+                        <td class="border border-gray-300 px-4 py-2"> qatar airlines 4 dec 17:40-23:30- 01:10-07:50 </td>
                            <td class="border border-gray-300 px-4 py-2">PENDING</td>
                            <td class="border border-gray-300 px-4 py-2">IFT</td>   
-                            <td class="border border-gray-300 px-4 py-2">ISSUED</td>                    
+                            <td class="border border-gray-300 px-4 py-2">IN KATMANDU</td>                    
                     </tr>
 
                      <tr><td></td></tr>   
@@ -152,10 +152,10 @@
                           <td class="border border-gray-300 px-4 py-2">FOOD</td>
                         <td class="border border-gray-300 px-4 py-2">UL</td>
                           <td class="border border-gray-300 px-4 py-2"> MLECMB-CMBKTM KTMCMB-CMBMLE</td>
-                        <td class="border border-gray-300 px-4 py-2">30 NOV 2055-2250 01 DEC 0805-1150 04 DEC 1250-1610 04 DEC 1850-1945 </td>
+                        <td class="border border-gray-300 px-4 py-2">qatar airlines 4 dec 17:40-23:30- 01:10-07:50 </td>
                            <td class="border border-gray-300 px-4 py-2">PENDING</td>
                            <td class="border border-gray-300 px-4 py-2">NUZ,KHA,ADA</td>   
-                            <td class="border border-gray-300 px-4 py-2">ISSUED</td>                    
+                            <td class="border border-gray-300 px-4 py-2">IN KATMANDU</td>                    
                     </tr>
 
                                                         <tr><td></td></tr>   
@@ -166,10 +166,10 @@
                           <td class="border border-gray-300 px-4 py-2">FOOD</td>
                         <td class="border border-gray-300 px-4 py-2">UL(B)</td>
                           <td class="border border-gray-300 px-4 py-2"> MLECMB-CMBKTM KTMCMB-CMBMLE</td>
-                        <td class="border border-gray-300 px-4 py-2">30 NOV 2055-2250 01 DEC 0805-1150 04 DEC 1250-1610 04 DEC 1850-1945 </td>
+                        <td class="border border-gray-300 px-4 py-2">qatar airlines 4 dec 17:40-23:30- 01:10-07:50 </td>
                            <td class="border border-gray-300 px-4 py-2">PENDING</td>
                            <td class="border border-gray-300 px-4 py-2">SOLI</td>   
-                            <td class="border border-gray-300 px-4 py-2">ISSUED</td>                    
+                            <td class="border border-gray-300 px-4 py-2">IN KATMANDU</td>                    
                     </tr>
  <tr><td></td></tr>  
  <tr class="hover:bg-gray-50">
