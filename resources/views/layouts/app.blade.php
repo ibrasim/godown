@@ -153,6 +153,56 @@
             @yield('content')
                     <a class="nav-link link-primary" href="{{route('uaelist')}}">ORDER LIST 1 UAE</a>
                       <a class="nav-link link-danger" href="{{route('bkknov25')}}">ORDER LIST BKK NOV 2025</a>
+
+
+                      <br>
+                      <hr>
+
+
+                      <table>
+  <tr>
+     <th>qty</th>
+    <th>item name</th>
+   
+    
+    <th>price</th>
+  </tr>
+  <tr>
+    <td>2.0</td>
+    <td>sneaker</td>
+    
+    
+    <td>750.00</td>
+  </tr>
+  <tr>
+     <td>2.0</td>
+    <td>sneaker</td>
+    
+    <td>1750.00</td>
+  </tr>
+
+  <tr>
+     <td>2.0</td>
+    <td>spoon steel medium</td>
+    
+    <td>150.00</td>
+  </tr>
+
+   <tr>
+      <td>2.0</td>
+    <td>spoon steel large</td>
+   
+    <td>200.00</td>
+  </tr>
+</table>
+
+
+<hr>
+
+first payment for uae shipment  15,000.00
+date of transfer 30 november 2025
+
+
                       
         </main>
     </div>
