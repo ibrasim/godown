@@ -29,7 +29,7 @@
  <tr><td></td></tr>
  <tr class="hover:bg-gray-50">
  
-                        <td class="border border-gray-300 px-4 py-2">25 NOV 1205-1720 25 NOV 1010-2120 10 DEC 1340-1700 10 DEC 1850-1945</td>
+                        <td class="border border-gray-300 px-4 py-2">sri lankan airlines 10 DEC 1340-1700 10 DEC 1850-1945</td>
                            <td class="border border-gray-300 px-4 py-2">NIH</td>   
                             <td class="border border-gray-300 px-4 py-2">IN KATMANDU</td>                    
                     </tr>
@@ -38,9 +38,9 @@
      
       <tr class="hover:bg-gray-50">
  
-                        <td class="border border-gray-300 px-4 py-2"> 25 NOV 1205-1720 25 NOV 1010-2120 04 DEC 1250-1610 04 DEC 1850-1945 </td>
+                        <td class="border border-gray-300 px-4 py-2"> sri lankan airlines 04 DEC 1250-1610 04 DEC 1850-1945 </td>
                            <td class="border border-gray-300 px-4 py-2">ASI</td>   
-                            <td class="border border-gray-300 px-4 py-2">IN KATMANDUS</td>                    
+                            <td class="border border-gray-300 px-4 py-2">IN KATMAND</td>                    
                     </tr>
 
                        <tr class="hover:bg-gray-50">
