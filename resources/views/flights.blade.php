@@ -8,7 +8,7 @@
                
 
                 <div class="card-body">
-                   <h3> <center> TRAVEL STATUS as of 2 dec 2025 </center></h3> 
+                   <h3> <center> Maldvies TRAVEL STATUS as of 2 dec 2025 </center></h3> 
                   <table class="w-full border-collapse border border-gray-300">
                 <thead class="bg-gray-200">
                     <tr>
