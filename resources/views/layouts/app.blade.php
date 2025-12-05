@@ -297,10 +297,11 @@ first payment for uae shipment  15,000.00
 date of transfer 30 november 2025
 
 <br>
-<<hr>
+<hr>
 
 BKK shipment vessel arriving to cochi on 8 Dec
-  
+<br>
+  <hr>
 UAE shipment vessel arriving to Male 22 Dec                    
         </main>
     </div>
