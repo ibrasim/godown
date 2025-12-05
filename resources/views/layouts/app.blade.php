@@ -293,8 +293,8 @@
 
 <hr>
 
-first payment for uae shipment  15,000.00
-date of transfer 30 november 2025
+first payment MVR 15,000.00 for uae shipment transfered on  30 november 2025 
+
 
 <br>
 <hr>
