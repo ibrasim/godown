@@ -153,10 +153,10 @@
             @yield('content')
                     <a class="nav-link link-primary" href="{{route('uaelist')}}">ORDER LIST 1 UAE</a>
                       <a class="nav-link link-danger" href="{{route('bkknov25')}}">ORDER LIST BKK NOV 2025</a>
-
-
                       <br>
                       <hr>
+<h6>items purchased (November) in bkk near hotel THB 575.00 | US$ 19.00 |  MVR 390.00 </h6>
+<h6> one item from shipment included in the package </h6>
 
 
                       <table>
@@ -168,31 +168,136 @@
     <th>price</th>
   </tr>
   <tr>
-    <td>2.0</td>
-    <td>sneaker</td>
+    <td>2</td>
+    <td>slipper</td>
     
     
-    <td>750.00</td>
+    <td>140.00</td>
   </tr>
   <tr>
-     <td>2.0</td>
+     <td>1.0</td>
+    <td>rope</td>
+    
+    <td>50.00</td>
+  </tr>
+
+  <tr>
+     <td>1.0</td>
+    <td>kinfe</td>
+    
+    <td>90.00</td>
+  </tr>
+
+   <tr>
+      <td>5.0</td>
+    <td>steel wool</td>
+   
+    <td>60.00</td>
+  </tr>
+
+   <tr>
+      <td>1.0</td>
+    <td>sifter small</td>
+   
+    <td>25.00</td>
+  </tr>
+     <tr>
+      <td>1</td>
+    <td>sifter medium</td>
+   
+    <td>25.00</td>
+  </tr>
+   <tr>
+      <td>1</td>
+    <td>sifter large</td>
+   
+    <td>30.00</td>
+  </tr>
+  
+   <tr>
+      <td>1</td>
+    <td>table tannis ball set </td>
+   
+    <td>25.00</td>
+  </tr>
+   <tr>
+      <td>2</td>
+    <td>spoon </td>
+   
+    <td>80.00</td>
+  </tr>
+   <tr>
+      <td>1</td>
+    <td>mobile phone stand</td>
+   
+    <td>50.00</td>
+  </tr>
+</table>
+
+
+                      slippers 
+slippers 
+rope
+knife
+steel wool x 5 pcs
+sifter 
+sifter medium
+sifter large
+tabe tennis ball set
+spoon x 2
+mobile phone stand
+
+
+                      <hr>
+<h6>items purchased  (December) in katmandu  NPR 19,500.00 | US$ 138.00 |  MVR 2904.00 </h6>
+
+                      <table>
+  <tr>
+     <th>qty</th>
+    <th>item name</th>
+   
+    
+    <th>price</th>
+  </tr>
+  <tr>
+    <td>12.0</td>
     <td>sneaker</td>
     
-    <td>1750.00</td>
+    
+    <td>9000.00</td>
+  </tr>
+  <tr>
+     <td>4.0</td>
+    <td>sneaker</td>
+    
+    <td>7000.00</td>
   </tr>
 
   <tr>
      <td>2.0</td>
     <td>spoon steel medium</td>
     
-    <td>150.00</td>
+    <td>900.00</td>
   </tr>
 
    <tr>
       <td>2.0</td>
     <td>spoon steel large</td>
    
-    <td>200.00</td>
+    <td>1200.00</td>
+  </tr>
+
+   <tr>
+      <td>2.0</td>
+    <td>band aid x 2 jar</td>
+   
+    <td>400.00</td>
+  </tr>
+     <tr>
+      <td>24.0</td>
+    <td>lip balm</td>
+   
+    <td>1200.00</td>
   </tr>
 </table>
 
