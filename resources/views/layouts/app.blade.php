@@ -156,7 +156,7 @@
                       <br>
                       <hr>
 <h6>items purchased (November) in bkk near hotel THB 575.00 | US$ 19.00 |  MVR 390.00 </h6>
-<h6> one item from shipment included in the package </h6>
+<h6> one item from UAE shipment included in the package </h6>
 
 
                       <table>
@@ -197,19 +197,19 @@
 
    <tr>
       <td>1.0</td>
-    <td>sifter small</td>
+    <td>sieve small</td>
    
     <td>25.00</td>
   </tr>
      <tr>
       <td>1</td>
-    <td>sifter medium</td>
+    <td>sieve medium</td>
    
     <td>25.00</td>
   </tr>
    <tr>
       <td>1</td>
-    <td>sifter large</td>
+    <td>sieve large</td>
    
     <td>30.00</td>
   </tr>
@@ -235,17 +235,6 @@
 </table>
 
 
-                      slippers 
-slippers 
-rope
-knife
-steel wool x 5 pcs
-sifter 
-sifter medium
-sifter large
-tabe tennis ball set
-spoon x 2
-mobile phone stand
 
 
                       <hr>
@@ -307,8 +296,12 @@ mobile phone stand
 first payment for uae shipment  15,000.00
 date of transfer 30 november 2025
 
+<br>
+<<hr>
 
-                      
+BKK shipment vessel arriving to cochi on 8 Dec
+  
+UAE shipment vessel arriving to Male 22 Dec                    
         </main>
     </div>
 
