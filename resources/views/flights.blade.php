@@ -40,14 +40,14 @@
  
                         <td class="border border-gray-300 px-4 py-2"> sri lankan airlines 04 DEC 1250-1610 04 DEC 1850-1945 </td>
                            <td class="border border-gray-300 px-4 py-2">ASI</td>   
-                            <td class="border border-gray-300 px-4 py-2">IN KATMAND</td>                    
+                            <td class="border border-gray-300 px-4 py-2">RETURNED</td>                    
                     </tr>
 
                        <tr class="hover:bg-gray-50">
  
                         <td class="border border-gray-300 px-4 py-2">singapore airlines 4 dec 23:00-06:15- 5 dec 10:05-11:40 </td>
                            <td class="border border-gray-300 px-4 py-2">SHAH</td>   
-                            <td class="border border-gray-300 px-4 py-2">IN KATMANDU</td>   
+                            <td class="border border-gray-300 px-4 py-2">RETURNED</td>   
                                            
                     </tr>
 
@@ -55,7 +55,7 @@
  
                         <td class="border border-gray-300 px-4 py-2">qatar airlines 4 dec 17:40-23:30- 01:10-07:50 </td>
                            <td class="border border-gray-300 px-4 py-2">SOLI</td>   
-                            <td class="border border-gray-300 px-4 py-2">IN KATMANDU</td>                    
+                            <td class="border border-gray-300 px-4 py-2">RETURNED</td>                    
                     </tr>
 
 
@@ -63,14 +63,14 @@
  
                         <td class="border border-gray-300 px-4 py-2">qatar airlines 4 dec 17:40-23:30- 01:10-07:50 </td>
                            <td class="border border-gray-300 px-4 py-2">NUZ,KHA,ADA</td>   
-                            <td class="border border-gray-300 px-4 py-2">IN KATMANDU</td>                    
+                            <td class="border border-gray-300 px-4 py-2">RETURNED</td>                    
                     </tr>
 
   <tr class="hover:bg-gray-50">
  
                         <td class="border border-gray-300 px-4 py-2">singapore airlines 4 dec 23:00-06:15- 5 dec 10:05-11:40 </td>
                            <td class="border border-gray-300 px-4 py-2">NIY,HAS,NAU,ZAK</td>   
-                            <td class="border border-gray-300 px-4 py-2">IN KATMANDU</td>                    
+                            <td class="border border-gray-300 px-4 py-2">RETURNED</td>                    
                     </tr>
 
 
@@ -78,13 +78,13 @@
  
                         <td class="border border-gray-300 px-4 py-2"> qatar airlines 4 dec 17:40-23:30- 01:10-07:50 </td>
                            <td class="border border-gray-300 px-4 py-2">IFT</td>   
-                            <td class="border border-gray-300 px-4 py-2">IN KATMANDU</td>                    
+                            <td class="border border-gray-300 px-4 py-2">RETURNED</td>                    
                     </tr>  
       <tr class="hover:bg-gray-50">
  
                         <td class="border border-gray-300 px-4 py-2">air india / ul 7 DEC 1205-1720 ,8 dec 22:00 - 00:15, 10 DEC 1340-1700 10 DEC1850-1945 </td>
                            <td class="border border-gray-300 px-4 py-2">SHAZ</td>   
-                            <td class="border border-gray-300 px-4 py-2">TICKET ISSUED </td>                    
+                            <td class="border border-gray-300 px-4 py-2">IN KATMANDU</td>                    
                     </tr>
      
      <tr><td></td></tr>   
