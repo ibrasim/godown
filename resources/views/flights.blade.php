@@ -8,7 +8,7 @@
                
 
                 <div class="card-body">
-                   <h3> <center> Maldvies TRAVEL STATUS as of 2 dec 2025 </center></h3> 
+                   <h3> <center> Maldvies TRAVEL STATUS as of 8 dec 2025 </center></h3> 
                   <table class="w-full border-collapse border border-gray-300">
                 <thead class="bg-gray-200">
                     <tr>
@@ -35,6 +35,13 @@
                     </tr>
 
      <tr><td></td></tr>
+
+      <tr class="hover:bg-gray-50">
+ 
+                        <td class="border border-gray-300 px-4 py-2">air india / ul 7 DEC 1205-1720 ,8 dec 22:00 - 00:15, 10 DEC 1340-1700 10 DEC1850-1945 </td>
+                           <td class="border border-gray-300 px-4 py-2">SHAZ</td>   
+                            <td class="border border-gray-300 px-4 py-2">IN KATMANDU</td>                    
+                    </tr>
      
       <tr class="hover:bg-gray-50">
  
@@ -80,19 +87,14 @@
                            <td class="border border-gray-300 px-4 py-2">IFT</td>   
                             <td class="border border-gray-300 px-4 py-2">RETURNED</td>                    
                     </tr>  
-      <tr class="hover:bg-gray-50">
- 
-                        <td class="border border-gray-300 px-4 py-2">air india / ul 7 DEC 1205-1720 ,8 dec 22:00 - 00:15, 10 DEC 1340-1700 10 DEC1850-1945 </td>
-                           <td class="border border-gray-300 px-4 py-2">SHAZ</td>   
-                            <td class="border border-gray-300 px-4 py-2">IN KATMANDU</td>                    
-                    </tr>
+     
      
      <tr><td></td></tr>   
   
    
 
    
-   <tr><td></td></tr>   
+
    
 
     <tr class="hover:bg-gray-50">
