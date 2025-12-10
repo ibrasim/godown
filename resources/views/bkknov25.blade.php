@@ -10,6 +10,10 @@
                 <div class="card-body">
                     <h5>(ORDER LIST -FINAL 21 NOV 25 | THB 88,309.00  | US$4,860.97.00  | MVR 1,02081.00) freight US$ 470.00</h5>
                     <h5>SUPPLIER : VARIOUS |  FREIGHTFORWARDER: A PLUS CONNEX CO LTD </h5>
+                    <h5>  loaded into the container on 28th November 2025</h5>
+                     <h5> https://www.cma-cgm.com/ebusiness/tracking  </h5>
+                           <h5> GCXU10105873664  </h5>
+                      
                     <a class="nav-link link-primary" href="{{route('uaelist')}}">GO TO ORDER LIST 1 UAE</a>
                        <!-- <h6>SUPPLIER : UAE-COSM-PAR-2025-01</h6> -->
                   <table class="w-full border-collapse border border-gray-300">
