@@ -31,7 +31,7 @@
  
                         <td class="border border-gray-300 px-4 py-2">UL 182, 10 DEC 1340-1700 , UL103 10 DEC 1850-1945</td>
                            <td class="border border-gray-300 px-4 py-2">NIH</td>   
-                            <td class="border border-gray-300 px-4 py-2">IN KATMANDU</td>                    
+                            <td class="border border-gray-300 px-4 py-2">RETURNED</td>                    
                     </tr>
 
      <tr><td></td></tr>
@@ -40,7 +40,7 @@
  
                         <td class="border border-gray-300 px-4 py-2"> UL 182, 10 DEC 1340-1700 , UL103 10 DEC 1850-1945 </td>
                            <td class="border border-gray-300 px-4 py-2">SHAZ</td>   
-                            <td class="border border-gray-300 px-4 py-2">IN KATMANDU</td>                    
+                            <td class="border border-gray-300 px-4 py-2">RETURNED</td>                    
                     </tr>
      
       <tr class="hover:bg-gray-50">
