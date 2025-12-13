@@ -299,10 +299,10 @@ first payment MVR 15,000.00 for uae shipment transfered on  30 november 2025
 <br>
 <hr>
 
-BKK shipment vessel arriving to cochi on 8 Dec
+BKK shipment vessel arrived at cochi container will be transhipped to Colombo
 <br>
   <hr>
-UAE shipment vessel arriving to Male 22 Dec                    
+UAE shipment vessel arriving to Male early Jan 2026                   
         </main>
     </div>
 
