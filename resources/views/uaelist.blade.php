@@ -12,7 +12,7 @@
                    <h4>GOODS RECEIVE AT FREIGH FORWARDER ON 11 NOVEMBER 2025, EXPECTED TO SHIP ON 14 NOVEMBER 2025</h4>
                     <h4>SUPPLIER : SHAMS AL BASRA|  FREIGHTFORWARDER: GULHAARU GENERAL TRADING </h4>
                        <h4>CURRENT STATUS : LOADED TO VESSEL </h4>
-                        <h4>Customs Broker lodged declaration on 11 Dec 2025 - R64340/2025-00MP -duty and charges < MVR 1600.00 | status is 'checking' as of 13 dec 2025 08:00am</h4>
+                        <h4>Customs Broker lodged declaration on 11 Dec 2025 - R546434054/2025-00MP -duty and charges < MVR 1600.00 | status is 'checking' as of 13 dec 2025 08:00am</h4>
                        
                      <a class="nav-link  link-danger" href="{{route('bkknov25')}}">GO TO ORDER LIST 1 BKK</a>
                        <!-- <h6>SUPPLIER : UAE-COSM-PAR-2025-01</h6> -->
