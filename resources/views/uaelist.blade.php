@@ -13,7 +13,7 @@
                     <h4>SUPPLIER : SHAMS AL BASRA|  FREIGHTFORWARDER: GULHAARU GENERAL TRADING </h4>
                        <h4>CURRENT STATUS : LOADED TO VESSEL </h4>
                         <h4>Customs Broker lodged declaration on 11 Dec 2025 - R546434054/2025-00MP -duty and charges < MVR 1600.00 | status is 'checking' as of 13 dec 2025 08:00am</h4>
-                       
+                       <h4>customs Duty  MVR 2528.44 | goods declaration processed on 15 December 2025 </h4>
                      <a class="nav-link  link-danger" href="{{route('bkknov25')}}">GO TO ORDER LIST 1 BKK</a>
                        <!-- <h6>SUPPLIER : UAE-COSM-PAR-2025-01</h6> -->
                   <table class="w-full border-collapse border border-gray-300">
