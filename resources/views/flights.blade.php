@@ -99,6 +99,12 @@
                            <td class="border border-gray-300 px-4 py-2">02 DOZEN</td>   
                             <td class="border border-gray-300 px-4 py-2">shower gel</td>                    
                     </tr>
+                     <tr class="hover:bg-gray-50">
+ 
+                        <td class="border border-gray-300 px-4 py-2">2</td>
+                           <td class="border border-gray-300 px-4 py-2">02 DOZEN</td>   
+                            <td class="border border-gray-300 px-4 py-2">make up items</td>                    
+                    </tr>
 
      <tr><td></td></tr>
 
