@@ -101,9 +101,89 @@
                     </tr>
                      <tr class="hover:bg-gray-50">
  
-                        <td class="border border-gray-300 px-4 py-2">2</td>
+                        <td class="border border-gray-300 px-4 py-2">12</td>
                            <td class="border border-gray-300 px-4 py-2">02 DOZEN</td>   
                             <td class="border border-gray-300 px-4 py-2">make up items</td>                    
+                    </tr>
+                    <tr class="hover:bg-gray-50">
+ 
+                        <td class="border border-gray-300 px-4 py-2">13</td>
+                           <td class="border border-gray-300 px-4 py-2">02 DOZEN</td>   
+                            <td class="border border-gray-300 px-4 py-2">pilllow </td>                    
+                    </tr>
+
+                    <tr class="hover:bg-gray-50">
+ 
+                        <td class="border border-gray-300 px-4 py-2">14</td>
+                           <td class="border border-gray-300 px-4 py-2">02 DOZEN</td>   
+                            <td class="border border-gray-300 px-4 py-2">pvc fittings </td>                    
+                    </tr>
+
+                    <tr class="hover:bg-gray-50">
+ 
+                        <td class="border border-gray-300 px-4 py-2">15</td>
+                           <td class="border border-gray-300 px-4 py-2">02 DOZEN</td>   
+                            <td class="border border-gray-300 px-4 py-2">pvc elobw </td>                    
+                    </tr>
+                    <tr class="hover:bg-gray-50">
+ 
+                        <td class="border border-gray-300 px-4 py-2">16</td>
+                           <td class="border border-gray-300 px-4 py-2">02 DOZEN</td>   
+                            <td class="border border-gray-300 px-4 py-2">pvc forcet  </td>                    
+                    </tr>
+
+                     <tr class="hover:bg-gray-50">
+ 
+                        <td class="border border-gray-300 px-4 py-2">17</td>
+                           <td class="border border-gray-300 px-4 py-2">50 nos</td>   
+                            <td class="border border-gray-300 px-4 py-2">pvc pipe half inch </td>                    
+                    </tr>
+
+                     <tr class="hover:bg-gray-50">
+ 
+                        <td class="border border-gray-300 px-4 py-2">18</td>
+                           <td class="border border-gray-300 px-4 py-2">50 nos</td>   
+                            <td class="border border-gray-300 px-4 py-2">pvc pipe  2 inch</td>                    
+                    </tr>
+                     <tr class="hover:bg-gray-50">
+ 
+                        <td class="border border-gray-300 px-4 py-2">19</td>
+                           <td class="border border-gray-300 px-4 py-2">50 nos</td>   
+                            <td class="border border-gray-300 px-4 py-2">pvc pipe  4 inch</td>                    
+                    </tr>
+
+                       <tr class="hover:bg-gray-50">
+ 
+                        <td class="border border-gray-300 px-4 py-2">20</td>
+                           <td class="border border-gray-300 px-4 py-2">2 doz</td>   
+                            <td class="border border-gray-300 px-4 py-2">paint brush 1 inch</td>                    
+                    </tr>
+
+                      <tr class="hover:bg-gray-50">
+ 
+                        <td class="border border-gray-300 px-4 py-2">21</td>
+                           <td class="border border-gray-300 px-4 py-2"> 2 doz </td>   
+                            <td class="border border-gray-300 px-4 py-2">paint brush 2 inch</td>                    
+                    </tr>
+
+                    <tr class="hover:bg-gray-50">
+ 
+                        <td class="border border-gray-300 px-4 py-2">22</td>
+                           <td class="border border-gray-300 px-4 py-2">3 doz</td>   
+                            <td class="border border-gray-300 px-4 py-2">roller bursh 3 inch</td>                    
+                    </tr>
+                    <tr class="hover:bg-gray-50">
+ 
+                        <td class="border border-gray-300 px-4 py-2">23</td>
+                           <td class="border border-gray-300 px-4 py-2">3 doz</td>   
+                            <td class="border border-gray-300 px-4 py-2">roller bursh 6 inch</td>                    
+                    </tr>
+
+                     <tr class="hover:bg-gray-50">
+ 
+                        <td class="border border-gray-300 px-4 py-2">24</td>
+                           <td class="border border-gray-300 px-4 py-2">3 doz</td>   
+                            <td class="border border-gray-300 px-4 py-2">roller bursh 8 inch</td>                    
                     </tr>
 
      <tr><td></td></tr>
