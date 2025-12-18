@@ -151,8 +151,9 @@
         <main class="py-4">
               
             @yield('content')
-                    <a class="nav-link link-primary" href="{{route('uaelist')}}">ORDER LIST 1 UAE</a>
-                      <a class="nav-link link-danger" href="{{route('bkknov25')}}">ORDER LIST BKK NOV 2025</a>
+                    <a class="nav-link link-primary" href="{{route('uaelist')}}">UAE November 2025</a>
+                      <a class="nav-link link-danger" href="{{route('bkknov25')}}">BKK November  2025</a>
+                       <a class="nav-link link-danger" href="{{route('flights')}}">REORDER LIST 2026</a>
                       <br>
                       <hr>
 <h6>items purchased (November) in bkk near hotel THB 575.00 | US$ 19.00 |  MVR 390.00 </h6>

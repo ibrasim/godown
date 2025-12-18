@@ -8,15 +8,17 @@
                
 
                 <div class="card-body">
-                   <h3> <center> SASEC Maldvies delegate travel status as of 13 dec 2025 </center></h3> 
+                     <a class="nav-link link-primary" href="{{route('uaelist')}}">GO TO ORDER LIST 1 UAE</a>
+                   <h3> <center> REORDER LIST 2026 </center></h3> 
+
                   <table class="w-full border-collapse border border-gray-300">
                 <thead class="bg-gray-200">
                     <tr>
                         
-                        <th class="border border-gray-300 px-4 py-2 text-left">ROUTE</th>
-                        <th class="border border-gray-300 px-4 py-2 text-left">OFFICIAL</th>
+                        <th class="border border-gray-300 px-4 py-2 text-left">NO</th>
+                        <th class="border border-gray-300 px-4 py-2 text-left">QTY</th>
 
-                          <th class="border border-gray-300 px-4 py-2 text-left">STATUS</th>
+                          <th class="border border-gray-300 px-4 py-2 text-left">ITEM</th>
                        
                     </tr>
                 </thead>
@@ -29,96 +31,81 @@
  <tr><td></td></tr>
  <tr class="hover:bg-gray-50">
  
-                        <td class="border border-gray-300 px-4 py-2">UL 182, 10 DEC 1340-1700 , UL103 10 DEC 1850-1945</td>
-                           <td class="border border-gray-300 px-4 py-2">NIH</td>   
-                            <td class="border border-gray-300 px-4 py-2">RETURNED</td>                    
+                        <td class="border border-gray-300 px-4 py-2">1</td>
+                           <td class="border border-gray-300 px-4 py-2">100 pcs</td>   
+                            <td class="border border-gray-300 px-4 py-2">lady pants</td>                    
+                    </tr>
+
+                     <tr class="hover:bg-gray-50">
+ 
+                        <td class="border border-gray-300 px-4 py-2">2</td>
+                           <td class="border border-gray-300 px-4 py-2">03 DOZEN</td>   
+                            <td class="border border-gray-300 px-4 py-2">track suit gents</td>                    
+                    </tr>
+
+                     <tr class="hover:bg-gray-50">
+ 
+                        <td class="border border-gray-300 px-4 py-2">3</td>
+                           <td class="border border-gray-300 px-4 py-2">05 DOZEN</td>   
+                            <td class="border border-gray-300 px-4 py-2">men short</td>                    
+                    </tr>
+
+                     <tr class="hover:bg-gray-50">
+ 
+                        <td class="border border-gray-300 px-4 py-2">4</td>
+                           <td class="border border-gray-300 px-4 py-2">03 DOZEN</td>   
+                            <td class="border border-gray-300 px-4 py-2">three pin plug</td>                    
+                    </tr>
+                      <tr class="hover:bg-gray-50">
+ 
+                        <td class="border border-gray-300 px-4 py-2">5</td>
+                           <td class="border border-gray-300 px-4 py-2">02 DOZEN</td>   
+                            <td class="border border-gray-300 px-4 py-2">power extension cable</td>                    
+                    </tr>
+                       <tr class="hover:bg-gray-50">
+ 
+                        <td class="border border-gray-300 px-4 py-2">6</td>
+                           <td class="border border-gray-300 px-4 py-2">02 DOZEN</td>   
+                            <td class="border border-gray-300 px-4 py-2">headphone</td>                    
+                    </tr>
+                       <tr class="hover:bg-gray-50">
+ 
+                        <td class="border border-gray-300 px-4 py-2">7</td>
+                           <td class="border border-gray-300 px-4 py-2">01 DOZEN</td>   
+                            <td class="border border-gray-300 px-4 py-2">mobile phone stand</td>                    
+                    </tr>
+                        <tr class="hover:bg-gray-50">
+ 
+                        <td class="border border-gray-300 px-4 py-2">8</td>
+                           <td class="border border-gray-300 px-4 py-2">02 DOZEN</td>   
+                            <td class="border border-gray-300 px-4 py-2">gumbol slippers size x</td>                    
+                    </tr>
+                     <tr class="hover:bg-gray-50">
+ 
+                        <td class="border border-gray-300 px-4 py-2">9</td>
+                           <td class="border border-gray-300 px-4 py-2">04 DOZEN</td>   
+                            <td class="border border-gray-300 px-4 py-2">packig tape</td>                    
+                    </tr>
+                      <tr class="hover:bg-gray-50">
+ 
+                        <td class="border border-gray-300 px-4 py-2">10</td>
+                           <td class="border border-gray-300 px-4 py-2">05 DOZEN</td>   
+                            <td class="border border-gray-300 px-4 py-2">soap different brands</td>                    
+                    </tr>
+
+                     <tr class="hover:bg-gray-50">
+ 
+                        <td class="border border-gray-300 px-4 py-2">11</td>
+                           <td class="border border-gray-300 px-4 py-2">02 DOZEN</td>   
+                            <td class="border border-gray-300 px-4 py-2">shower gel</td>                    
                     </tr>
 
      <tr><td></td></tr>
 
-      <tr class="hover:bg-gray-50">
- 
-                        <td class="border border-gray-300 px-4 py-2"> UL 182, 10 DEC 1340-1700 , UL103 10 DEC 1850-1945 </td>
-                           <td class="border border-gray-300 px-4 py-2">SHAZ</td>   
-                            <td class="border border-gray-300 px-4 py-2">RETURNED</td>                    
-                    </tr>
+
+     <tr><td></td></tr>
+
      
-      <tr class="hover:bg-gray-50">
- 
-                        <td class="border border-gray-300 px-4 py-2"> sri lankan airlines 04 DEC 1250-1610 04 DEC 1850-1945 </td>
-                           <td class="border border-gray-300 px-4 py-2">ASI</td>   
-                            <td class="border border-gray-300 px-4 py-2">RETURNED</td>                    
-                    </tr>
-
-                       <tr class="hover:bg-gray-50">
- 
-                        <td class="border border-gray-300 px-4 py-2">singapore airlines 4 dec 23:00-06:15- 5 dec 10:05-11:40 </td>
-                           <td class="border border-gray-300 px-4 py-2">SHAH</td>   
-                            <td class="border border-gray-300 px-4 py-2">RETURNED</td>   
-                                           
-                    </tr>
-
- <tr class="hover:bg-gray-50">
- 
-                        <td class="border border-gray-300 px-4 py-2">qatar airlines 4 dec 17:40-23:30- 01:10-07:50 </td>
-                           <td class="border border-gray-300 px-4 py-2">SOLI</td>   
-                            <td class="border border-gray-300 px-4 py-2">RETURNED</td>                    
-                    </tr>
-
-
- <tr class="hover:bg-gray-50">
- 
-                        <td class="border border-gray-300 px-4 py-2">qatar airlines 4 dec 17:40-23:30- 01:10-07:50 </td>
-                           <td class="border border-gray-300 px-4 py-2">NUZ,KHA,ADA</td>   
-                            <td class="border border-gray-300 px-4 py-2">RETURNED</td>                    
-                    </tr>
-
-  <tr class="hover:bg-gray-50">
- 
-                        <td class="border border-gray-300 px-4 py-2">singapore airlines 4 dec 23:00-06:15- 5 dec 10:05-11:40 </td>
-                           <td class="border border-gray-300 px-4 py-2">NIY,HAS,NAU,ZAK</td>   
-                            <td class="border border-gray-300 px-4 py-2">RETURNED</td>                    
-                    </tr>
-
-
-                      <tr class="hover:bg-gray-50">
- 
-                        <td class="border border-gray-300 px-4 py-2"> qatar airlines 4 dec 17:40-23:30- 01:10-07:50 </td>
-                           <td class="border border-gray-300 px-4 py-2">IFT</td>   
-                            <td class="border border-gray-300 px-4 py-2">RETURNED</td>                    
-                    </tr>  
-     
-     
-     <tr><td></td></tr>   
-  
-   
-
-   
-
-   
-
-    <tr class="hover:bg-gray-50">
- 
-                        <td class="border border-gray-300 px-4 py-2">22 NOV 2055-2250 23 NOV 0805-1150 26 NOV 1340-1700 26 NOV 1850-1945</td>
-                           <td class="border border-gray-300 px-4 py-2">IYA,SHA</td>   
-                            <td class="border border-gray-300 px-4 py-2">RETURNED</td>                    
-                    </tr>
-                
-                          
-                        <tr class="hover:bg-gray-50">
- 
-                        <td class="border border-gray-300 px-4 py-2">25 NOV 1205-1720 25 NOV 1010-2120 29 NOV 1940-2305 30 NOV 0200-0715</td>
-                           <td class="border border-gray-300 px-4 py-2">HAM,FIZ</td>   
-                            <td class="border border-gray-300 px-4 py-2">RETURNED</td>                    
-                    </tr>
-                   
-
-                      <tr class="hover:bg-gray-50">
- 
-                        <td class="border border-gray-300 px-4 py-2">25 NOV 1205-1720 25 NOV 1010-2120 29 NOV 1940-2305 30 NOV 0200-0715</td>
-                           <td class="border border-gray-300 px-4 py-2">AGE</td>   
-                            <td class="border border-gray-300 px-4 py-2">RETURNED</td>                    
-                    </tr>
   
                 </tbody>
             </table>

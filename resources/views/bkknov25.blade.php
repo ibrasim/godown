@@ -13,7 +13,16 @@
                     <h5>  loaded into the container on 28th November 2025</h5>
                      <h5> https://www.cma-cgm.com/ebusiness/tracking  </h5>
                            <h5> GCXU10105873664  </h5>
-                      
+                        <h5>CURRENT STATUS : LOADED TO VESSEL| freight   MVR 9870.00 </h5>
+                        <h5>Customs Broker lodged declaration   Dec 2025 </h5>
+                       <h5> Duty  MVR 0.00 |  declaration processed on Dec 2025  </h5>
+                       <h5> ticket,transport,hotel and food  MVR 15161.18   </h5>
+
+                         <h3>payment remaining MVR  127,112.18.00  </h3>
+                           
+
+
+
                     <a class="nav-link link-primary" href="{{route('uaelist')}}">GO TO ORDER LIST 1 UAE</a>
                        <!-- <h6>SUPPLIER : UAE-COSM-PAR-2025-01</h6> -->
                   <table class="w-full border-collapse border border-gray-300">

@@ -85,15 +85,11 @@ Route::get('/all-tweets1-csv', function () {
     return Response::download($filename, 'users.csv', $headers);
 });
 
-
-
-
 Route::get('/', function () {
      return view('agenthome'); 
     //  return view('auth.login');
     
 });
-
 
 Auth::routes();
 Route::get('showapproveddata/{id}',[App\Http\Controllers\RequestorderController::class,'show'])->name('showapproveddata');

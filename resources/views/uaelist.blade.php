@@ -11,8 +11,7 @@
                     <h5>ORDER FINAL 01 NOV 2025  | AED 11,328  | US$ 3096.00  | MVR 65,016 | PAID 6 Nov</h5>
                    <h5>GOODS RECEIVE AT FREIGH FORWARDER  11 NOVEMBER 2025, EXPECTED TO SHIP ON 14 NOVEMBER 2025</h5>
                     <h5>SUPPLIER : SHAMS AL BASRA|  FREIGHTFORWARDER: GULHAARU GENERAL TRADING </h5>
-                       <h5>CURRENT STATUS : LOADED TO VESSEL </h5>
-                       <h5>freight    9387 </h5>
+                       <h5>CURRENT STATUS : LOADED TO VESSEL| freight   MVR 9387 </h5>
                         <h5>Customs Broker lodged declaration  11 Dec 2025 </h5>
                        <h5> Duty  MVR 2528.44 |  declaration processed on 15 December 2025 </h5>
                          <h3>payment remaining MVR 52,544.44  </h3>
