@@ -11,12 +11,19 @@
                     <h5>ORDER FINAL 01 NOV 2025  | AED 11,328  | US$ 3096.00  | MVR 65,016 | PAID 6 Nov</h5>
                    <h5>GOODS RECEIVE AT FREIGH FORWARDER  11 NOVEMBER 2025, EXPECTED TO SHIP ON 14 NOVEMBER 2025</h5>
                     <h5>SUPPLIER : SHAMS AL BASRA|  FREIGHTFORWARDER: GULHAARU GENERAL TRADING </h5>
-                       <h5>CURRENT STATUS : LOADED TO VESSEL| freight   MVR 9387 </h5>
-                        <h5>Customs Broker lodged declaration  11 Dec 2025 </h5>
-                       <h5> Duty  MVR 2528.44 |  declaration processed on 15 December 2025 </h5>
-                         <h3>payment remaining MVR 52,544.44  </h3>
-                           <h3>payment remaining freigh added  MVR 61,931.44  </h3>
+                    <h5>Customs Broker lodged declaration  11 Dec 2025 </h5>
+                    <h5> Declaration processed on 15 December 2025 </h5>
+                    <h5>CURRENT STATUS : LOADED TO VESSEL| freight   MVR 9387 | Duty  MVR 2528.44 </h5>
+                      
+              
+                        <h3>invoice total plus duty plus frieght =  76,931.44   </h3>
+                         <h3>total paid = MVR 35,000   </h3>
+                         <h3>payment remaining MVR   41,931.44   </h3>
+                           
                         
+
+                          
+
 
                      <a class="nav-link  link-danger" href="{{route('bkknov25')}}">GO TO ORDER LIST 1 BKK</a>
                        <!-- <h6>SUPPLIER : UAE-COSM-PAR-2025-01</h6> -->
