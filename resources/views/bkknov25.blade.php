@@ -15,10 +15,13 @@
                            <h5> GCXU10105873664  </h5>
                         <h5>CURRENT STATUS : LOADED TO VESSEL| freight   MVR 9870.00 </h5>
                         <h5>Customs Broker lodged declaration   Dec 2025 </h5>
-                       <h5> Duty  MVR 0.00 |  declaration processed on Dec 2025  </h5>
+                       <h5> Duty  MVR 2099.58 |  declaration processed on Dec 2025  </h5>
                        <h5> ticket,transport,hotel and food  MVR 15161.18   </h5>
+ <h5> travel and others , cost, duty, freight total   MVR 129,211.76  </h5>
+                       
 
-                         <h3>payment remaining MVR  127,112.18.00  </h3>
+
+                  
                            
 
 

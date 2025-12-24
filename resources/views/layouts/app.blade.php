@@ -157,7 +157,7 @@
                       <br>
                       <hr>
 <h6>items purchased (November) in bkk near hotel THB 575.00 | US$ 19.00 |  MVR 390.00 </h6>
-<h6> one item  (5 doz underwear  L ) from UAE shipment included in the package </h6>
+<h6> one item  (5 doz underwear  L ) from bkk shipment included in the package - payment in bkk  list - to check</h6>
 
 
                       <table>
@@ -294,17 +294,17 @@
 
 <hr>
 
-first payment  UAE  MVR 15,000.00 for uae shipment transfered on  30 november 2025 
-second payment UAE MVR 20,000.00 for uae shipment transfered on  23 December 2025 
+first payment  UAE  MVR 15,000.00 shipment transfered on  30 november 2025 <br>
+second payment UAE MVR 20,000.00  transfered on  23 December 2025 
 
 
 <br>
-<hr>
 
-BKK shipment delcaration lodged on 22 December 2025
+
+
 <br>
-  <hr>
-UAE shipment vessel arriving to Male early Jan 2026                   
+
+                
         </main>
     </div>
 
