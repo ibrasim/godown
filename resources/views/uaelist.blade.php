@@ -8,17 +8,63 @@
                
 
                 <div class="card-body">
-                    <h5>ORDER FINAL 01 NOV 2025  | AED 11,328  | US$ 3096.00  | MVR 65,016 | PAID 6 Nov</h5>
-                   <h5>GOODS RECEIVE AT FREIGH FORWARDER  11 NOVEMBER 2025, EXPECTED TO SHIP ON 14 NOVEMBER 2025</h5>
-                    <h5>SUPPLIER : SHAMS AL BASRA|  FREIGHTFORWARDER: GULHAARU GENERAL TRADING </h5>
-                    <h5>Customs Broker lodged declaration  11 Dec 2025 </h5>
-                    <h5> Declaration processed on 15 December 2025 </h5>
-                    <h5>CURRENT STATUS : LOADED TO VESSEL| freight   MVR 9387 | Duty  MVR 2528.44 </h5>
-                      
+
+
+ <table class="table">
+          
+            <tbody>
+               
+                    <tr>
+                        <td>ORDER FINAL 01 NOV 2025</td>
+                        <td> AED 11,328 </td>
+                         <td> US$ 3096.00 </td>
+                          <td>MVR 65,016</td>
+                       
+                    </tr>
+                       <tr>
+                         <td>PAID 6 Nov</td>
+                         <td>GOODS RECEIVE AT FREIGH FORWARDER  11 NOVEMBER 2025</td>
+                         <td>EXPECTED TO SHIP ON 14 NOVEMBER 2025</td>
+                         <td>SUPPLIER : SHAMS AL BASRA</td>
+                       
+                    </tr>
+
+                         <tr>
+                         <td> FREIGHTFORWARDER: GULHAARU GENERAL TRADING</td>
+                         <td>Customs Broker lodged declaration  11 Dec 2025</td>
+                         <td>Declaration processed on 15 December 2025</td>
+                         <td>freight   MVR 9387</td>
+                       
+                    </tr>
+
+                           <tr>
+                         <td>  Duty  MVR 2528.44</td>
+                         <td>invoice total plus duty plus frieght =  76,931.44 </td>
+                         <td>total paid = MVR 35,000 </td>
+                         <td>payment remaining MVR   41,931.44 </td>
+                       
+                    </tr>
               
-                        <h3>invoice total plus duty plus frieght =  76,931.44   </h3>
-                         <h3>total paid = MVR 35,000   </h3>
-                         <h3>payment remaining MVR   41,931.44   </h3>
+
+                   
+              
+            </tbody>
+        </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                            
                         
 
