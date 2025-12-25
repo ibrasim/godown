@@ -153,7 +153,8 @@
                
 
                 <div class="card-body">
-                  
+                  <center>
+<h2>DASH BOARD</h2></center>
 
   <a class="nav-link link-primary" href="{{route('uaelist')}}">UAE November 2025</a>
                       <a class="nav-link link-danger" href="{{route('bkknov25')}}">BKK November  2025</a>
