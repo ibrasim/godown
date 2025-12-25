@@ -24,7 +24,7 @@
                        <tr>
                          <td>PAID 6 Nov</td>
                          <td>GOODS RECEIVE AT FREIGH FORWARDER  11 NOVEMBER 2025</td>
-                         <td> SHIPPED ON 14 NOVEMBER 2025</td>
+                         <td> SHIPPED ON 14 NOVEMBER 2025 -CONTAINWER: CAXU10106706087/ 14139-LCL</td>
                          <td>SUPPLIER : SHAMS AL BASRA</td>
                        
                     </tr>
