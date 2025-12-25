@@ -8,8 +8,8 @@
                
 
                 <div class="card-body">
-
-
+<center>
+<h2>UAE SHIPMENT NOV-DEC-JAN</h2></center>
  <table class="table">
           
             <tbody>
@@ -24,7 +24,7 @@
                        <tr>
                          <td>PAID 6 Nov</td>
                          <td>GOODS RECEIVE AT FREIGH FORWARDER  11 NOVEMBER 2025</td>
-                         <td>EXPECTED TO SHIP ON 14 NOVEMBER 2025</td>
+                         <td> SHIPPED ON 14 NOVEMBER 2025</td>
                          <td>SUPPLIER : SHAMS AL BASRA</td>
                        
                     </tr>
@@ -39,9 +39,9 @@
 
                            <tr>
                          <td>  Duty  MVR 2528.44</td>
-                         <td>invoice total plus duty plus frieght =  76,931.44 </td>
-                         <td>total paid = MVR 35,000 </td>
-                         <td>payment remaining MVR   41,931.44 </td>
+                         <td>invoice tota,duty,frieght: MVR 76,931.44 </td>
+                         <td>PAYMENT RECEIVED: MVR 35,000 </td>
+                         <td> <b>REMAINING:  MVR   41,931.44 </b></td>
                        
                     </tr>
               

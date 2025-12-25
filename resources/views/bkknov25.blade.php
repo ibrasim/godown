@@ -8,21 +8,59 @@
                
 
                 <div class="card-body">
-                    <h5>(ORDER LIST -FINAL 21 NOV 25 | THB 88,309.00  | US$4,860.97.00  | MVR 1,02081.00) freight US$ 470.00</h5>
-                    <h5>SUPPLIER : VARIOUS |  FREIGHTFORWARDER: A PLUS CONNEX CO LTD </h5>
-                    <h5>  loaded into the container on 28th November 2025</h5>
-                     <h5> https://www.cma-cgm.com/ebusiness/tracking  </h5>
-                           <h5> GCXU10105873664  </h5>
-                        <h5>CURRENT STATUS : LOADED TO VESSEL| freight   MVR 9870.00 </h5>
-                        <h5>Customs Broker lodged declaration   Dec 2025 </h5>
-                       <h5> Duty  MVR 2099.58 |  declaration processed on Dec 2025  </h5>
-                       <h5> ticket,transport,hotel and food  MVR 15161.18   </h5>
- <h5> travel and others , cost, duty, freight total   MVR 129,211.76  </h5>
+                  <center>
+<h2>BKK SHIPMENT NOV-DEC-JAN</h2></center>
+<table class="table">
+          
+            <tbody>
+               
+                    <tr>
+                        <td>ORDER LIST -FINAL 21 NOV 25</td>
+                        <td>  THB 88,309.00 </td>
+                         <td> US$4,860.97.00 </td>
+                          <td>MVR 1,02081.00</td>
                        
+                    </tr>
+                       <tr>
+                         <td>PAID 24 Dec</td>
+                         <td>SUPPLIER : VARIOUS</td>
+                         <td> FREIGHTFORWARDER: A PLUS CONNEX CO LTD</td>
+                         <td>loaded into the container on 28th November 2025</td>
+                       
+                    </tr>
+
+                         <tr>
+                         <td> CONTAINER: GCXU10105873664 </td>
+                         <td>Customs Broker lodged declaration  22 Dec</td>
+                         <td>Declaration processed 24 Dec</td>
+                         <td>freight   MVR 9870.00</td>
+                       
+                    </tr>
+
+                           <tr>
+                         <td>  Duty  MVR 2099.58</td>
+                         <td>travel and others , cost, duty, freight total   MVR 129,211.76 </td>
+                         <td> ticket,transport,hotel and food  MVR 15161.18   </td>
+                         <td> <b>PAID - REMAINING:  : NA </b></td>
+                       
+                    </tr>
+              
+
+                   
+              
+            </tbody>
+        </table>
 
 
-                  
-                           
+
+
+
+
+
+                   
+                   
+                     <h5> https://www.cma-cgm.com/ebusiness/tracking  </h5>
+                                            
 
 
  <a href="{{ route('my-app-page') }}">Go to App Page</a>
