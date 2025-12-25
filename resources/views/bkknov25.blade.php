@@ -25,8 +25,8 @@
                            
 
 
-
-                    <a class="nav-link link-primary" href="{{route('uaelist')}}">GO TO ORDER LIST 1 UAE</a>
+ <a href="{{ route('my-app-page') }}">Go to App Page</a>
+                    <!-- <a class="nav-link link-primary" href="{{route('uaelist')}}">GO TO ORDER LIST 1 UAE</a> -->
                        <!-- <h6>SUPPLIER : UAE-COSM-PAR-2025-01</h6> -->
                   <table class="w-full border-collapse border border-gray-300">
                 <thead class="bg-gray-200">

@@ -110,6 +110,11 @@ public function search(Request $request)
             }
 
 
+
+ public function myapppage ()
+            {
+              return view('layouts.app');
+            }
              
 
 

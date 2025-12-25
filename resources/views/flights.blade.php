@@ -8,7 +8,8 @@
                
 
                 <div class="card-body">
-                     <a class="nav-link link-primary" href="{{route('uaelist')}}">GO TO ORDER LIST 1 UAE</a>
+                   <a href="{{ route('my-app-page') }}">Go to App Page</a>
+                     <!-- <a class="nav-link link-primary" href="{{route('uaelist')}}">GO TO ORDER LIST 1 UAE</a> -->
                    <h3> <center> REORDER LIST 2026 </center></h3> 
 
                   <table class="w-full border-collapse border border-gray-300">

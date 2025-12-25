@@ -22,10 +22,12 @@
                            
                         
 
-                          
+                           <!-- <a class="nav-link  link-danger" href="{{route('bkknov25')}}">GO TO  main</a> -->
+                           <a href="{{ route('my-app-page') }}">Go to App Page</a>
+                       <!-- <h6>SUPPLIER : UAE-COSM-PAR-2025-01</h6> -->
 
 
-                     <a class="nav-link  link-danger" href="{{route('bkknov25')}}">GO TO ORDER LIST 1 BKK</a>
+                     <!-- <a class="nav-link  link-danger" href="{{route('bkknov25')}}">GO TO ORDER LIST 1 BKK</a> -->
                        <!-- <h6>SUPPLIER : UAE-COSM-PAR-2025-01</h6> -->
                   <table class="w-full border-collapse border border-gray-300">
                 <thead class="bg-gray-200">

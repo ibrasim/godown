@@ -146,12 +146,16 @@
         </nav>
 
 
- 
+ <div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-10">
+            <div class="card">
+               
 
-        <main class="py-4">
-              
-            @yield('content')
-                    <a class="nav-link link-primary" href="{{route('uaelist')}}">UAE November 2025</a>
+                <div class="card-body">
+                  
+
+  <a class="nav-link link-primary" href="{{route('uaelist')}}">UAE November 2025</a>
                       <a class="nav-link link-danger" href="{{route('bkknov25')}}">BKK November  2025</a>
                        <a class="nav-link link-danger" href="{{route('flights')}}">REORDER LIST 2026</a>
                       <br>
@@ -299,6 +303,21 @@ second payment UAE MVR 20,000.00  transfered on  23 December 2025
 
 
 <br>
+
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+        <main class="py-4">
+              
+            @yield('content')
+                  
 
 
 

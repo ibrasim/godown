@@ -195,6 +195,9 @@ Route::get('/bkknov25', [App\Http\Controllers\itemswiftwayController::class, 'bk
 
 Route::get('/flights', [App\Http\Controllers\itemswiftwayController::class, 'flights'])->name('flights');
 
+Route::get('/my-app-page', [App\Http\Controllers\itemswiftwayController::class, 'myapppage'])->name('my-app-page');
+
+
 
 
 
