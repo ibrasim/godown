@@ -39,8 +39,8 @@
 
                            <tr>
                          <td>  Duty  MVR 2099.58</td>
-                         <td>travel and others , cost, duty, freight total   MVR 129,211.76 </td>
-                         <td> ticket,transport,hotel and food  MVR 15161.18   </td>
+                         <td>ticket,transport,hotel and food  MVR 15,161.18  </td>
+                         <td>  travel and others , cost, duty, freight total   MVR 129,211.76 </td>
                          <td> <b>PAID - REMAINING:  : NA </b></td>
                        
                     </tr>
