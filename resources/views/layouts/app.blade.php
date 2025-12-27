@@ -145,7 +145,6 @@
             </div>
         </nav>
 
-
  <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-10">
@@ -160,6 +159,8 @@
                       <a class="nav-link link-danger" href="{{route('bkknov25')}}">BKK November  2025</a>
                        <a class="nav-link link-danger" href="{{route('flights')}}">REORDER LIST 2026</a>
                       <br>
+                      <h5> list of boats to addu city [Saimaa,maarandhoo,nafa,sunny,ihadhoo,south express,seamax,naza,almaa,south line, shazee 4] </h5>
+
                       <hr>
 <h6>items purchased (November) in bkk near hotel THB 575.00 | US$ 19.00 |  MVR 390.00 </h6>
 <h6> one item  (5 doz underwear  L ) from bkk shipment included in the package - payment in bkk  list - to check</h6>
