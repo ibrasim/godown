@@ -24,7 +24,7 @@
                        <tr>
                          <td>PAID 6 Nov</td>
                          <td>GOODS RECEIVE AT FREIGH FORWARDER  11 NOVEMBER 2025</td>
-                         <td> SHIPPED ON 14 NOVEMBER 2025 -CONTAINWER: CAXU10106706087/ 14139-LCL</td>
+                         <td> SHIPPED ON 14 NOVEMBER 2025 -CONTAINWER: CAXU1010vib6706087/ 14139-LCL</td>
                          <td>SUPPLIER : SHAMS AL BASRA</td>
                        
                     </tr>
@@ -42,6 +42,14 @@
                          <td>invoice tota,duty,frieght: MVR 76,931.44 </td>
                          <td>PAYMENT RECEIVED: MVR 35,000 </td>
                          <td> <b>REMAINING:  MVR   41,931.44 </b></td>
+                       
+                    </tr>
+
+                      <tr>
+                         <td> <b>container discharged: 28 Dec 2025 </b></td>
+                         <td> </td>
+                         <td></td>
+                         <td> </td>
                        
                     </tr>
               
