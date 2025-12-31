@@ -102,6 +102,12 @@ public function search(Request $request)
             }
 
 
+            public function lkdec25 ()
+            {
+              return view('lkdec25');
+            }
+
+
 
 
       public function flights ()

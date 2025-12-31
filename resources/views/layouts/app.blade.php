@@ -157,7 +157,8 @@
 
   <a class="nav-link link-primary" href="{{route('uaelist')}}">UAE November 2025</a>
                       <a class="nav-link link-danger" href="{{route('bkknov25')}}">BKK November  2025</a>
-                       <a class="nav-link link-danger" href="{{route('flights')}}">REORDER LIST 2026</a>
+                      <a class="nav-link link-danger" href="{{route('lkdec25')}}">LK December  2025</a>
+                      <a class="nav-link link-danger" href="{{route('flights')}}">REORDER LIST 2026</a>
                       <br>
                       <h5> list of boats to addu city [Saimaa,maarandhoo,nafa,sunny,ihadhoo,south express,seamax,naza,almaa,south line, shazee 4] </h5>
 
