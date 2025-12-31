@@ -181,6 +181,67 @@
                           <td class="border border-gray-300 px-4 py-2">0.21</td>
                              <td class="border border-gray-300 px-4 py-2">4.46</td>
                     </tr>
+                     <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">11</td>
+                        <td class="border border-gray-300 px-4 py-2">12 </td>
+                        <td class="border border-gray-300 px-4 py-2"> NOS</td>
+                        <td class="border border-gray-300 px-4 py-2"> Dustpan Nip L</td>
+                        <td class="border border-gray-300 px-4 py-2">120.00</td>
+                         <td class="border border-gray-300 px-4 py-2">1440.00</td>
+                          <td class="border border-gray-300 px-4 py-2">0.39</td>
+                             <td class="border border-gray-300 px-4 py-2">8.24</td>
+                    </tr>
+                        <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">12</td>
+                        <td class="border border-gray-300 px-4 py-2">12 </td>
+                        <td class="border border-gray-300 px-4 py-2"> NOS</td>
+                        <td class="border border-gray-300 px-4 py-2"> Mopbucket Nu-No4</td>
+                        <td class="border border-gray-300 px-4 py-2">750.00</td>
+                         <td class="border border-gray-300 px-4 py-2">9000.00</td>
+                          <td class="border border-gray-300 px-4 py-2">2.45</td>
+                             <td class="border border-gray-300 px-4 py-2">51.47</td>
+                    </tr>
+
+                           <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">13</td>
+                        <td class="border border-gray-300 px-4 py-2">12 </td>
+                        <td class="border border-gray-300 px-4 py-2"> NOS</td>
+                        <td class="border border-gray-300 px-4 py-2"> Phoney d Mop bucket</td>
+                        <td class="border border-gray-300 px-4 py-2">950.00</td>
+                         <td class="border border-gray-300 px-4 py-2">11,400.00</td>
+                          <td class="border border-gray-300 px-4 py-2">3.10</td>
+                             <td class="border border-gray-300 px-4 py-2">65.20</td>
+                    </tr>
+
+                        <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">14</td>
+                        <td class="border border-gray-300 px-4 py-2">12 </td>
+                        <td class="border border-gray-300 px-4 py-2"> NOS</td>
+                        <td class="border border-gray-300 px-4 py-2"> As bath bowl</td>
+                        <td class="border border-gray-300 px-4 py-2">175.00</td>
+                         <td class="border border-gray-300 px-4 py-2">2,100.00</td>
+                          <td class="border border-gray-300 px-4 py-2">0.75</td>
+                             <td class="border border-gray-300 px-4 py-2">12.01</td>
+                    </tr>
+
+                           <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">15</td>
+                        <td class="border border-gray-300 px-4 py-2">12 </td>
+                        <td class="border border-gray-300 px-4 py-2"> NOS</td>
+                        <td class="border border-gray-300 px-4 py-2"> MNS No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2">280.00</td>
+                         <td class="border border-gray-300 px-4 py-2">3,360.00</td>
+                          <td class="border border-gray-300 px-4 py-2">0.92</td>
+                             <td class="border border-gray-300 px-4 py-2">19.56</td>
+                    </tr>
+
+
+
+
+285.
+
+
+
 
 
 
