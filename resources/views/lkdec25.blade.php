@@ -84,7 +84,7 @@
                         <td class="border border-gray-300 px-4 py-2">1</td>
                         <td class="border border-gray-300 px-4 py-2">25 </td>
                         <td class="border border-gray-300 px-4 py-2"> NOS</td>
-                        <td class="border border-gray-300 px-4 py-2"> BROOM CV</td>
+                        <td class="border border-gray-300 px-4 py-2"> broom cv</td>
                         <td class="border border-gray-300 px-4 py-2">340</td>
                          <td class="border border-gray-300 px-4 py-2">8,500.00</td>
                           <td class="border border-gray-300 px-4 py-2">1.11</td>
@@ -94,7 +94,7 @@
                        <td class="border border-gray-300 px-4 py-2">2</td>
                         <td class="border border-gray-300 px-4 py-2">25 </td>
                         <td class="border border-gray-300 px-4 py-2"> NOS</td>
-                        <td class="border border-gray-300 px-4 py-2"> BROOM LORA</td>
+                        <td class="border border-gray-300 px-4 py-2"> broom lora</td>
                         <td class="border border-gray-300 px-4 py-2">340</td>
                          <td class="border border-gray-300 px-4 py-2">8,500.00</td>
                           <td class="border border-gray-300 px-4 py-2">1.11</td>
@@ -105,7 +105,7 @@
                        <td class="border border-gray-300 px-4 py-2">3</td>
                         <td class="border border-gray-300 px-4 py-2">25 </td>
                         <td class="border border-gray-300 px-4 py-2"> NOS</td>
-                        <td class="border border-gray-300 px-4 py-2"> BROOM BROWN</td>
+                        <td class="border border-gray-300 px-4 py-2"> broom brown</td>
                         <td class="border border-gray-300 px-4 py-2">185.00</td>
                          <td class="border border-gray-300 px-4 py-2">4,625.00</td>
                           <td class="border border-gray-300 px-4 py-2">0.60</td>
@@ -131,6 +131,63 @@
                           <td class="border border-gray-300 px-4 py-2">0.09</td>
                              <td class="border border-gray-300 px-4 py-2">18.87</td>
                     </tr>
+                     <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">6</td>
+                        <td class="border border-gray-300 px-4 py-2">25 </td>
+                        <td class="border border-gray-300 px-4 py-2"> NOS</td>
+                        <td class="border border-gray-300 px-4 py-2"> Bottle mop </td>
+                        <td class="border border-gray-300 px-4 py-2">295.00</td>
+                         <td class="border border-gray-300 px-4 py-2">7,375.00</td>
+                          <td class="border border-gray-300 px-4 py-2">0.96</td>
+                             <td class="border border-gray-300 px-4 py-2">20.25</td>
+                    </tr>
+                        <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">7</td>
+                        <td class="border border-gray-300 px-4 py-2">25 </td>
+                        <td class="border border-gray-300 px-4 py-2"> NOS</td>
+                        <td class="border border-gray-300 px-4 py-2"> toilet Brush </td>
+                        <td class="border border-gray-300 px-4 py-2">245.00</td>
+                         <td class="border border-gray-300 px-4 py-2">6,125.00</td>
+                          <td class="border border-gray-300 px-4 py-2">0.80</td>
+                             <td class="border border-gray-300 px-4 py-2">16.18</td>
+                    </tr>
+                         <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">8</td>
+                        <td class="border border-gray-300 px-4 py-2">12 </td>
+                        <td class="border border-gray-300 px-4 py-2"> NOS</td>
+                        <td class="border border-gray-300 px-4 py-2"> Brush  </td>
+                        <td class="border border-gray-300 px-4 py-2">170.00</td>
+                         <td class="border border-gray-300 px-4 py-2">2,040.00</td>
+                          <td class="border border-gray-300 px-4 py-2">0.56</td>
+                             <td class="border border-gray-300 px-4 py-2">11.67</td>
+                    </tr>
+                        <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">9</td>
+                        <td class="border border-gray-300 px-4 py-2">12 </td>
+                        <td class="border border-gray-300 px-4 py-2"> NOS</td>
+                        <td class="border border-gray-300 px-4 py-2"> Brush wooden  </td>
+                        <td class="border border-gray-300 px-4 py-2">170.00</td>
+                         <td class="border border-gray-300 px-4 py-2">2,040.00</td>
+                          <td class="border border-gray-300 px-4 py-2">0.56</td>
+                             <td class="border border-gray-300 px-4 py-2">11.67</td>
+                    </tr>
+                       <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">10</td>
+                        <td class="border border-gray-300 px-4 py-2">12 </td>
+                        <td class="border border-gray-300 px-4 py-2"> NOS</td>
+                        <td class="border border-gray-300 px-4 py-2"> Dustpan   </td>
+                        <td class="border border-gray-300 px-4 py-2">65.00</td>
+                         <td class="border border-gray-300 px-4 py-2">780.00</td>
+                          <td class="border border-gray-300 px-4 py-2">0.21</td>
+                             <td class="border border-gray-300 px-4 py-2">4.46</td>
+                    </tr>
+
+
+
+
+
+
+
 
 
 
