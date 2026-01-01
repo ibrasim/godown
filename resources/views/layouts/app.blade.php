@@ -155,7 +155,9 @@
                
 
                 <div class="card-body">
-                  <center>
+
+                <!-- comment here as it is coppied in agent1 -->
+                  <!-- <center>
 <h2>DASH BOARD</h2></center>
 
   <a class="nav-link link-primary" href="{{route('uaelist')}}">UAE November 2025</a>
@@ -352,9 +354,9 @@ second payment UAE MVR 20,000.00  transfered on  23 December 2025
 
 
         <main class="py-4">
-              
+                -->
             @yield('content')
-                  
+                 
 
 
 
