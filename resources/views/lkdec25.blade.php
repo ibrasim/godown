@@ -691,7 +691,7 @@
                        <td class="border border-gray-300 px-4 py-2">60</td>
                         <td class="border border-gray-300 px-4 py-2">12 </td>
                         <td class="border border-gray-300 px-4 py-2"> PCS</td>
-                        <td class="border border-gray-300 px-4 py-2"> 880 No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2"> pan iron rich 20 cm</td>
                         <td class="border border-gray-300 px-4 py-2">1,850.00</td>
                          <td class="border border-gray-300 px-4 py-2">22,200.00</td>
                           <td class="border border-gray-300 px-4 py-2">6.05</td>
@@ -702,7 +702,7 @@
                        <td class="border border-gray-300 px-4 py-2">61</td>
                         <td class="border border-gray-300 px-4 py-2">12 </td>
                         <td class="border border-gray-300 px-4 py-2"> PCS</td>
-                        <td class="border border-gray-300 px-4 py-2"> 880 No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2"> pan iron rich 24 cm</td>
                         <td class="border border-gray-300 px-4 py-2">2,250.00</td>
                          <td class="border border-gray-300 px-4 py-2">27,000</td>
                           <td class="border border-gray-300 px-4 py-2">7.35</td>
@@ -713,7 +713,7 @@
                        <td class="border border-gray-300 px-4 py-2">62</td>
                         <td class="border border-gray-300 px-4 py-2">12 </td>
                         <td class="border border-gray-300 px-4 py-2"> PCS</td>
-                        <td class="border border-gray-300 px-4 py-2"> 880 No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2"> pan iron rich 26 cm</td>
                         <td class="border border-gray-300 px-4 py-2">2,850.00</td>
                          <td class="border border-gray-300 px-4 py-2">34,200</td>
                           <td class="border border-gray-300 px-4 py-2">9.31</td>
@@ -724,7 +724,7 @@
                        <td class="border border-gray-300 px-4 py-2">63</td>
                         <td class="border border-gray-300 px-4 py-2">12 </td>
                         <td class="border border-gray-300 px-4 py-2"> PCS</td>
-                        <td class="border border-gray-300 px-4 py-2"> 880 No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2">strainer 16310</td>
                         <td class="border border-gray-300 px-4 py-2">2,250.00</td>
                          <td class="border border-gray-300 px-4 py-2">37,000</td>
                           <td class="border border-gray-300 px-4 py-2">7.35</td>
@@ -735,7 +735,7 @@
                        <td class="border border-gray-300 px-4 py-2">64</td>
                         <td class="border border-gray-300 px-4 py-2">36 </td>
                         <td class="border border-gray-300 px-4 py-2"> PCS</td>
-                        <td class="border border-gray-300 px-4 py-2"> 880 No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2"> plate 8 inches</td>
                         <td class="border border-gray-300 px-4 py-2">300.00</td>
                          <td class="border border-gray-300 px-4 py-2">10,800</td>
                           <td class="border border-gray-300 px-4 py-2">0.98</td>
@@ -747,7 +747,7 @@
                        <td class="border border-gray-300 px-4 py-2">65</td>
                         <td class="border border-gray-300 px-4 py-2">36 </td>
                         <td class="border border-gray-300 px-4 py-2"> PCS</td>
-                        <td class="border border-gray-300 px-4 py-2"> 880 No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2"> plate 9 inches</td>
                         <td class="border border-gray-300 px-4 py-2">400.00</td>
                          <td class="border border-gray-300 px-4 py-2">14,400</td>
                           <td class="border border-gray-300 px-4 py-2">1.31</td>
@@ -759,7 +759,7 @@
                        <td class="border border-gray-300 px-4 py-2">66</td>
                         <td class="border border-gray-300 px-4 py-2">12 </td>
                         <td class="border border-gray-300 px-4 py-2"> PCS</td>
-                        <td class="border border-gray-300 px-4 py-2"> 880 No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2">plate 10 inches</td>
                         <td class="border border-gray-300 px-4 py-2">500.00</td>
                          <td class="border border-gray-300 px-4 py-2">18,000</td>
                           <td class="border border-gray-300 px-4 py-2">1.63</td>
@@ -770,7 +770,7 @@
                        <td class="border border-gray-300 px-4 py-2">67</td>
                         <td class="border border-gray-300 px-4 py-2">36 </td>
                         <td class="border border-gray-300 px-4 py-2"> PCS</td>
-                        <td class="border border-gray-300 px-4 py-2"> 880 No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2"> plate 11 inches</td>
                         <td class="border border-gray-300 px-4 py-2">600.00</td>
                          <td class="border border-gray-300 px-4 py-2">21,600.00</td>
                           <td class="border border-gray-300 px-4 py-2">1.96</td>
