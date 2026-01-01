@@ -22,7 +22,7 @@
                        
                     </tr>
                        <tr>
-                         <td>PAID 30-31 Dec 2025/td>
+                         <td>PAID 30-31 Dec 2025  | CBM=3,package=20,KG=300</td>
                          <td>SUPPLIER : MNS TRADING COMPANY</td>
                          <td> FREIGHTFORWARDER: WAZNI</td>
                          <td>loaded into the container on ..........</td>

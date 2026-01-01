@@ -49,7 +49,7 @@
                          <td> container discharged: 28 Dec 2025 </td>
                          <td> DO recived and approvied: 29 Dec 2025</td>
                          <td>planned to clear cago: 6 Jan 2026</td>
-                         <td> </td>
+                         <td> CBM=3,package=12,KG=500</td>
                        
                     </tr>
               

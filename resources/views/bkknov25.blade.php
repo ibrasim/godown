@@ -22,7 +22,7 @@
                        
                     </tr>
                        <tr>
-                         <td>PAID 24 Dec</td>
+                         <td>PAID 24 Dec  | CBM=3.11,package=21,KG=419 </td>
                          <td>SUPPLIER : VARIOUS</td>
                          <td> FREIGHTFORWARDER: A PLUS CONNEX CO LTD</td>
                          <td>loaded into the container on 28th November 2025</td>
@@ -42,6 +42,7 @@
                          <td>ticket,transport,hotel and food  MVR 15,161.18  </td>
                          <td> <b> travel and others , cost, duty, freight total   MVR 129,211.76  </b></td>
                          <td> <b>PAID - REMAINING:  : NA </b></td>
+                         
                        
                     </tr>
               
