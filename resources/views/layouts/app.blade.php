@@ -89,6 +89,7 @@
                         @guest
                             @if (Route::has('login'))
                                 <li class="nav-item">
+                                  <!-- to enable login please uncomment -->
                                     <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
                                 </li>
                             @endif
