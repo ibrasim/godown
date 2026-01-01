@@ -39,7 +39,7 @@
 
                            <tr>
                          <td>  Duty  MVR 0.0</td>
-                         <td>ticket,transport,hotel and food  MVR xxxxxx </td>
+                         <td>ticket,transport,hotel and food : None </td>
                          <td> <b> travel and others , cost, duty, freight total   MVR xxxxxxx  </b></td>
                          <td> <b>PAID - REMAINING:  : NA </b></td>
                        

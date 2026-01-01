@@ -187,6 +187,66 @@
                             <td class="border border-gray-300 px-4 py-2">roller bursh 8 inch</td>                    
                     </tr>
 
+                    <tr class="hover:bg-gray-50">
+ 
+                        <td class="border border-gray-300 px-4 py-2">25</td>
+                           <td class="border border-gray-300 px-4 py-2">NA</td>   
+                            <td class="border border-gray-300 px-4 py-2">fruits and vegetables (air freight)</td>                    
+                    </tr>
+                     <tr class="hover:bg-gray-50">
+ 
+                        <td class="border border-gray-300 px-4 py-2">26</td>
+                           <td class="border border-gray-300 px-4 py-2">NA</td>   
+                            <td class="border border-gray-300 px-4 py-2">Pillow</td>                    
+                    </tr>
+
+                      <tr class="hover:bg-gray-50">
+ 
+                        <td class="border border-gray-300 px-4 py-2">27</td>
+                           <td class="border border-gray-300 px-4 py-2">NA</td>   
+                            <td class="border border-gray-300 px-4 py-2">cosmetics origin LK</td>                    
+                    </tr>
+                     <tr class="hover:bg-gray-50">
+ 
+                        <td class="border border-gray-300 px-4 py-2">28</td>
+                           <td class="border border-gray-300 px-4 py-2">NA</td>   
+                            <td class="border border-gray-300 px-4 py-2">basmati rice PK</td>                    
+                    </tr>
+                       <tr class="hover:bg-gray-50">
+ 
+                        <td class="border border-gray-300 px-4 py-2">29</td>
+                           <td class="border border-gray-300 px-4 py-2">NA</td>   
+                            <td class="border border-gray-300 px-4 py-2">cooking oil</td>                    
+                    </tr>
+
+                        <tr class="hover:bg-gray-50">
+ 
+                        <td class="border border-gray-300 px-4 py-2">30</td>
+                           <td class="border border-gray-300 px-4 py-2">NA</td>   
+                            <td class="border border-gray-300 px-4 py-2">kitchen wear</td>                    
+                    </tr>
+
+                     <tr class="hover:bg-gray-50">
+ 
+                        <td class="border border-gray-300 px-4 py-2">31</td>
+                           <td class="border border-gray-300 px-4 py-2">NA</td>   
+                            <td class="border border-gray-300 px-4 py-2">stationary and toys</td>                    
+                    </tr>
+
+                    <tr class="hover:bg-gray-50">
+ 
+                        <td class="border border-gray-300 px-4 py-2">32</td>
+                           <td class="border border-gray-300 px-4 py-2">NA</td>   
+                            <td class="border border-gray-300 px-4 py-2">bed sheet</td>                    
+                    </tr>
+
+                     <tr class="hover:bg-gray-50">
+ 
+                        <td class="border border-gray-300 px-4 py-2">33</td>
+                           <td class="border border-gray-300 px-4 py-2">NA</td>   
+                            <td class="border border-gray-300 px-4 py-2">towel</td>                    
+                    </tr>
+
      <tr><td></td></tr>
 
 
