@@ -235,6 +235,561 @@
                              <td class="border border-gray-300 px-4 py-2">19.56</td>
                     </tr>
 
+                       <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">16</td>
+                        <td class="border border-gray-300 px-4 py-2">12 </td>
+                        <td class="border border-gray-300 px-4 py-2"> NOS</td>
+                        <td class="border border-gray-300 px-4 py-2"> MNS No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2">285.00</td>
+                         <td class="border border-gray-300 px-4 py-2">3,420.00</td>
+                          <td class="border border-gray-300 px-4 py-2">0.3</td>
+                             <td class="border border-gray-300 px-4 py-2">19.56</td>
+                    </tr>
+                    <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">17</td>
+                        <td class="border border-gray-300 px-4 py-2">6 </td>
+                        <td class="border border-gray-300 px-4 py-2"> DOZ</td>
+                        <td class="border border-gray-300 px-4 py-2"> MNS No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2">390.00</td>
+                         <td class="border border-gray-300 px-4 py-2">2,340.00</td>
+                          <td class="border border-gray-300 px-4 py-2">1.27</td>
+                             <td class="border border-gray-300 px-4 py-2">26.76</td>
+                    </tr>
+                    <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">18</td>
+                        <td class="border border-gray-300 px-4 py-2">6 </td>
+                        <td class="border border-gray-300 px-4 py-2"> DOZ</td>
+                        <td class="border border-gray-300 px-4 py-2"> MNS No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2">590.00</td>
+                         <td class="border border-gray-300 px-4 py-2">3,540.00</td>
+                          <td class="border border-gray-300 px-4 py-2">1.94</td>
+                             <td class="border border-gray-300 px-4 py-2">40.49</td>
+                    </tr>
+                     <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">19</td>
+                        <td class="border border-gray-300 px-4 py-2">12 </td>
+                        <td class="border border-gray-300 px-4 py-2"> PCS</td>
+                        <td class="border border-gray-300 px-4 py-2"> MNS No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2">120.00</td>
+                         <td class="border border-gray-300 px-4 py-2">1,440.00</td>
+                          <td class="border border-gray-300 px-4 py-2">0.39</td>
+                             <td class="border border-gray-300 px-4 py-2">8.24</td>
+                    </tr>
+                      <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">20</td>
+                        <td class="border border-gray-300 px-4 py-2">12 </td>
+                        <td class="border border-gray-300 px-4 py-2"> PCS</td>
+                        <td class="border border-gray-300 px-4 py-2"> MNS No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2">230.00</td>
+                         <td class="border border-gray-300 px-4 py-2">2,760.00</td>
+                          <td class="border border-gray-300 px-4 py-2">0.75</td>
+                             <td class="border border-gray-300 px-4 py-2">15.78</td>
+                    </tr>
+                         <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">21</td>
+                        <td class="border border-gray-300 px-4 py-2">36</td>
+                        <td class="border border-gray-300 px-4 py-2"> PCS</td>
+                        <td class="border border-gray-300 px-4 py-2"> MNS No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2">60.00</td>
+                         <td class="border border-gray-300 px-4 py-2">2,160.00</td>
+                          <td class="border border-gray-300 px-4 py-2">0.20</td>
+                             <td class="border border-gray-300 px-4 py-2">4.12</td>
+                    </tr>
+                        <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">22</td>
+                        <td class="border border-gray-300 px-4 py-2">36 </td>
+                        <td class="border border-gray-300 px-4 py-2"> PCS</td>
+                        <td class="border border-gray-300 px-4 py-2"> MNS No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2">60.00</td>
+                         <td class="border border-gray-300 px-4 py-2">2,160.00</td>
+                          <td class="border border-gray-300 px-4 py-2">0.20</td>
+                             <td class="border border-gray-300 px-4 py-2">4.12</td>
+                    </tr>
+                          <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">23</td>
+                        <td class="border border-gray-300 px-4 py-2">36 </td>
+                        <td class="border border-gray-300 px-4 py-2"> PCS</td>
+                        <td class="border border-gray-300 px-4 py-2"> MNS No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2">60.00</td>
+                         <td class="border border-gray-300 px-4 py-2">2,160.00</td>
+                          <td class="border border-gray-300 px-4 py-2">0.20</td>
+                             <td class="border border-gray-300 px-4 py-2">4.12</td>
+                    </tr>
+                               <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">24</td>
+                        <td class="border border-gray-300 px-4 py-2">24 </td>
+                        <td class="border border-gray-300 px-4 py-2"> PCS</td>
+                        <td class="border border-gray-300 px-4 py-2"> MNS No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2">665.00</td>
+                         <td class="border border-gray-300 px-4 py-2">15,960.00</td>
+                          <td class="border border-gray-300 px-4 py-2">2.17</td>
+                             <td class="border border-gray-300 px-4 py-2">45.64</td>
+                    </tr>
+                               <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">25</td>
+                        <td class="border border-gray-300 px-4 py-2">36 </td>
+                        <td class="border border-gray-300 px-4 py-2"> PCS</td>
+                        <td class="border border-gray-300 px-4 py-2"> MNS No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2">400.00</td>
+                         <td class="border border-gray-300 px-4 py-2">14,400.00</td>
+                          <td class="border border-gray-300 px-4 py-2">1.31</td>
+                             <td class="border border-gray-300 px-4 py-2">27.45</td>
+                    </tr>
+                            <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">26</td>
+                        <td class="border border-gray-300 px-4 py-2">36 </td>
+                        <td class="border border-gray-300 px-4 py-2"> PCS</td>
+                        <td class="border border-gray-300 px-4 py-2"> MNS No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2">265.00</td>
+                         <td class="border border-gray-300 px-4 py-2">9,540.00</td>
+                          <td class="border border-gray-300 px-4 py-2">0.87</td>
+                             <td class="border border-gray-300 px-4 py-2">18.19</td>
+                    </tr>
+                       <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">27</td>
+                        <td class="border border-gray-300 px-4 py-2">36 </td>
+                        <td class="border border-gray-300 px-4 py-2"> PCS</td>
+                        <td class="border border-gray-300 px-4 py-2"> MNS No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2">70.00</td>
+                         <td class="border border-gray-300 px-4 py-2">2,520.00</td>
+                          <td class="border border-gray-300 px-4 py-2">0.23</td>
+                             <td class="border border-gray-300 px-4 py-2">4.80</td>
+                    </tr>
+                     <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">28</td>
+                        <td class="border border-gray-300 px-4 py-2">48 </td>
+                        <td class="border border-gray-300 px-4 py-2"> PCS</td>
+                        <td class="border border-gray-300 px-4 py-2"> MNS No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2">35.00</td>
+                         <td class="border border-gray-300 px-4 py-2">1,680.00</td>
+                          <td class="border border-gray-300 px-4 py-2">0.11</td>
+                             <td class="border border-gray-300 px-4 py-2">2.40</td>
+                    </tr>
+                     <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">29</td>
+                        <td class="border border-gray-300 px-4 py-2">48 </td>
+                        <td class="border border-gray-300 px-4 py-2"> PCS</td>
+                        <td class="border border-gray-300 px-4 py-2"> MNS No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2">45.00</td>
+                         <td class="border border-gray-300 px-4 py-2">2,160.00</td>
+                          <td class="border border-gray-300 px-4 py-2">0.15</td>
+                             <td class="border border-gray-300 px-4 py-2">3.09</td>
+                    </tr>
+                    <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">30</td>
+                        <td class="border border-gray-300 px-4 py-2">48 </td>
+                        <td class="border border-gray-300 px-4 py-2"> PCS</td>
+                        <td class="border border-gray-300 px-4 py-2"> MNS No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2">45.00</td>
+                         <td class="border border-gray-300 px-4 py-2">2,160.00</td>
+                          <td class="border border-gray-300 px-4 py-2">0.15</td>
+                             <td class="border border-gray-300 px-4 py-2">3.09</td>
+                    </tr>
+                       <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">31</td>
+                        <td class="border border-gray-300 px-4 py-2">48 </td>
+                        <td class="border border-gray-300 px-4 py-2"> PCS</td>
+                        <td class="border border-gray-300 px-4 py-2"> MNS No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2">55.00</td>
+                         <td class="border border-gray-300 px-4 py-2">2,640.00</td>
+                          <td class="border border-gray-300 px-4 py-2">0.18</td>
+                             <td class="border border-gray-300 px-4 py-2">3.77</td>
+                    </tr>
+                            <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">32</td>
+                        <td class="border border-gray-300 px-4 py-2">48 </td>
+                        <td class="border border-gray-300 px-4 py-2"> PCS</td>
+                        <td class="border border-gray-300 px-4 py-2"> MNS No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2">75.00</td>
+                         <td class="border border-gray-300 px-4 py-2">3,600.00</td>
+                          <td class="border border-gray-300 px-4 py-2">0.25</td>
+                             <td class="border border-gray-300 px-4 py-2">5.15</td>
+                    </tr>
+                                 <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">33</td>
+                        <td class="border border-gray-300 px-4 py-2">48 </td>
+                        <td class="border border-gray-300 px-4 py-2"> PCS</td>
+                        <td class="border border-gray-300 px-4 py-2"> MNS No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2">75.00</td>
+                         <td class="border border-gray-300 px-4 py-2">3,600.00</td>
+                          <td class="border border-gray-300 px-4 py-2">0.25</td>
+                             <td class="border border-gray-300 px-4 py-2">5.15</td>
+                    </tr>
+                                <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">34</td>
+                        <td class="border border-gray-300 px-4 py-2">48 </td>
+                        <td class="border border-gray-300 px-4 py-2"> PCS</td>
+                        <td class="border border-gray-300 px-4 py-2"> MNS No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2">85.00</td>
+                         <td class="border border-gray-300 px-4 py-2">4,080.00</td>
+                          <td class="border border-gray-300 px-4 py-2">0.28</td>
+                             <td class="border border-gray-300 px-4 py-2">5.83</td>
+                    </tr>
+                              <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">35</td>
+                        <td class="border border-gray-300 px-4 py-2">48 </td>
+                        <td class="border border-gray-300 px-4 py-2"> PCS</td>
+                        <td class="border border-gray-300 px-4 py-2"> MNS No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2">65.00</td>
+                         <td class="border border-gray-300 px-4 py-2">3,120.00</td>
+                          <td class="border border-gray-300 px-4 py-2">0.21</td>
+                             <td class="border border-gray-300 px-4 py-2">4.46</td>
+                    </tr>
+
+                             <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">36</td>
+                        <td class="border border-gray-300 px-4 py-2">48 </td>
+                        <td class="border border-gray-300 px-4 py-2"> PCS</td>
+                        <td class="border border-gray-300 px-4 py-2"> MNS No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2">65.00</td>
+                         <td class="border border-gray-300 px-4 py-2">3,120.00</td>
+                          <td class="border border-gray-300 px-4 py-2">0.21</td>
+                             <td class="border border-gray-300 px-4 py-2">4.46</td>
+                    </tr>
+
+                                 <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">37</td>
+                        <td class="border border-gray-300 px-4 py-2">48 </td>
+                        <td class="border border-gray-300 px-4 py-2"> PCS</td>
+                        <td class="border border-gray-300 px-4 py-2"> MNS No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2">65.00</td>
+                         <td class="border border-gray-300 px-4 py-2">3,120.00</td>
+                          <td class="border border-gray-300 px-4 py-2">0.21</td>
+                             <td class="border border-gray-300 px-4 py-2">4.46</td>
+                    </tr>
+                             <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">38</td>
+                        <td class="border border-gray-300 px-4 py-2">48 </td>
+                        <td class="border border-gray-300 px-4 py-2"> PCS</td>
+                        <td class="border border-gray-300 px-4 py-2"> MNS No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2">65.00</td>
+                         <td class="border border-gray-300 px-4 py-2">3,120.00</td>
+                          <td class="border border-gray-300 px-4 py-2">0.21</td>
+                             <td class="border border-gray-300 px-4 py-2">4.46</td>
+                    </tr>
+
+                              <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">39</td>
+                        <td class="border border-gray-300 px-4 py-2">48 </td>
+                        <td class="border border-gray-300 px-4 py-2"> PCS</td>
+                        <td class="border border-gray-300 px-4 py-2"> MNS No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2">55.00</td>
+                         <td class="border border-gray-300 px-4 py-2">1,320.00</td>
+                          <td class="border border-gray-300 px-4 py-2">0.18</td>
+                             <td class="border border-gray-300 px-4 py-2">3.77</td>
+                    </tr>
+                               <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">40</td>
+                        <td class="border border-gray-300 px-4 py-2">48 </td>
+                        <td class="border border-gray-300 px-4 py-2"> PCS</td>
+                        <td class="border border-gray-300 px-4 py-2"> MNS No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2">80.00</td>
+                         <td class="border border-gray-300 px-4 py-2">3,840.00</td>
+                          <td class="border border-gray-300 px-4 py-2">0.26</td>
+                             <td class="border border-gray-300 px-4 py-2">5.49</td>
+                    </tr>
+                            <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">41</td>
+                        <td class="border border-gray-300 px-4 py-2">36 </td>
+                        <td class="border border-gray-300 px-4 py-2"> PCS</td>
+                        <td class="border border-gray-300 px-4 py-2"> MNS No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2">110.00</td>
+                         <td class="border border-gray-300 px-4 py-2">3,960.00</td>
+                          <td class="border border-gray-300 px-4 py-2">0.36</td>
+                             <td class="border border-gray-300 px-4 py-2">7.55</td>
+                    </tr>
+                      <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">42</td>
+                        <td class="border border-gray-300 px-4 py-2">36 </td>
+                        <td class="border border-gray-300 px-4 py-2"> PCS</td>
+                        <td class="border border-gray-300 px-4 py-2"> MNS No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2">110.00</td>
+                         <td class="border border-gray-300 px-4 py-2">3,960.00</td>
+                          <td class="border border-gray-300 px-4 py-2">0.36</td>
+                             <td class="border border-gray-300 px-4 py-2">7.55</td>
+                    </tr>
+                     <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">43</td>
+                        <td class="border border-gray-300 px-4 py-2">36 </td>
+                        <td class="border border-gray-300 px-4 py-2"> PCS</td>
+                        <td class="border border-gray-300 px-4 py-2"> MNS No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2">110.00</td>
+                         <td class="border border-gray-300 px-4 py-2">3,960.00</td>
+                          <td class="border border-gray-300 px-4 py-2">0.36</td>
+                             <td class="border border-gray-300 px-4 py-2">7.55</td>
+                    </tr>
+
+                        <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">44</td>
+                        <td class="border border-gray-300 px-4 py-2">36 </td>
+                        <td class="border border-gray-300 px-4 py-2"> PCS</td>
+                        <td class="border border-gray-300 px-4 py-2"> MNS No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2">110.00</td>
+                         <td class="border border-gray-300 px-4 py-2">3,960.00</td>
+                          <td class="border border-gray-300 px-4 py-2">0.36</td>
+                             <td class="border border-gray-300 px-4 py-2">7.55</td>
+                    </tr>
+                        <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">45</td>
+                        <td class="border border-gray-300 px-4 py-2">36 </td>
+                        <td class="border border-gray-300 px-4 py-2"> PCS</td>
+                        <td class="border border-gray-300 px-4 py-2"> MNS No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2">110.00</td>
+                         <td class="border border-gray-300 px-4 py-2">3,960.00</td>
+                          <td class="border border-gray-300 px-4 py-2">0.36</td>
+                             <td class="border border-gray-300 px-4 py-2">7.55</td>
+                    </tr>
+                        <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">46</td>
+                        <td class="border border-gray-300 px-4 py-2">36 </td>
+                        <td class="border border-gray-300 px-4 py-2"> PCS</td>
+                        <td class="border border-gray-300 px-4 py-2"> MNS No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2">110.00</td>
+                         <td class="border border-gray-300 px-4 py-2">3,960.00</td>
+                          <td class="border border-gray-300 px-4 py-2">0.36</td>
+                             <td class="border border-gray-300 px-4 py-2">7.55</td>
+                    </tr>
+                        <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">47</td>
+                        <td class="border border-gray-300 px-4 py-2">36 </td>
+                        <td class="border border-gray-300 px-4 py-2"> PCS</td>
+                        <td class="border border-gray-300 px-4 py-2"> MNS No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2">110.00</td>
+                         <td class="border border-gray-300 px-4 py-2">3,960.00</td>
+                          <td class="border border-gray-300 px-4 py-2">0.36</td>
+                             <td class="border border-gray-300 px-4 py-2">7.55</td>
+                    </tr>
+                        <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">48</td>
+                        <td class="border border-gray-300 px-4 py-2">24 </td>
+                        <td class="border border-gray-300 px-4 py-2"> PCS</td>
+                        <td class="border border-gray-300 px-4 py-2"> MNS No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2">60.00</td>
+                         <td class="border border-gray-300 px-4 py-2">1,440.00</td>
+                          <td class="border border-gray-300 px-4 py-2">0.20</td>
+                             <td class="border border-gray-300 px-4 py-2">4.12</td>
+                    </tr>
+                        <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">49</td>
+                        <td class="border border-gray-300 px-4 py-2">24 </td>
+                        <td class="border border-gray-300 px-4 py-2"> PCS</td>
+                        <td class="border border-gray-300 px-4 py-2"> MNS No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2">110.00</td>
+                         <td class="border border-gray-300 px-4 py-2">3,960.00</td>
+                          <td class="border border-gray-300 px-4 py-2">0.36</td>
+                             <td class="border border-gray-300 px-4 py-2">7.55</td>
+                    </tr>
+                     <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">50</td>
+                        <td class="border border-gray-300 px-4 py-2">3 </td>
+                        <td class="border border-gray-300 px-4 py-2"> PCS</td>
+                        <td class="border border-gray-300 px-4 py-2"> 880 No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2">110.00</td>
+                         <td class="border border-gray-300 px-4 py-2">2,640.00</td>
+                          <td class="border border-gray-300 px-4 py-2">2.88</td>
+                             <td class="border border-gray-300 px-4 py-2">60.39</td>
+                    </tr>
+
+                         <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">51</td>
+                        <td class="border border-gray-300 px-4 py-2">12 </td>
+                        <td class="border border-gray-300 px-4 py-2"> PCS</td>
+                        <td class="border border-gray-300 px-4 py-2"> 880 No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2">100.00</td>
+                         <td class="border border-gray-300 px-4 py-2">1,200.00</td>
+                          <td class="border border-gray-300 px-4 py-2">0.33</td>
+                             <td class="border border-gray-300 px-4 py-2">6.86</td>
+                    </tr>
+
+                             <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">52</td>
+                        <td class="border border-gray-300 px-4 py-2">12 </td>
+                        <td class="border border-gray-300 px-4 py-2"> PCS</td>
+                        <td class="border border-gray-300 px-4 py-2"> 880 No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2">100.00</td>
+                         <td class="border border-gray-300 px-4 py-2">1,200.00</td>
+                          <td class="border border-gray-300 px-4 py-2">0.33</td>
+                             <td class="border border-gray-300 px-4 py-2">6.86</td>
+                    </tr>
+
+                             <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">53</td>
+                        <td class="border border-gray-300 px-4 py-2">36 </td>
+                        <td class="border border-gray-300 px-4 py-2"> PCS</td>
+                        <td class="border border-gray-300 px-4 py-2"> 880 No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2">37.50</td>
+                         <td class="border border-gray-300 px-4 py-2">1,350.00</td>
+                          <td class="border border-gray-300 px-4 py-2">0.12</td>
+                             <td class="border border-gray-300 px-4 py-2">2.57</td>
+                    </tr>
+                              <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">54</td>
+                        <td class="border border-gray-300 px-4 py-2">6 </td>
+                        <td class="border border-gray-300 px-4 py-2"> PCS</td>
+                        <td class="border border-gray-300 px-4 py-2"> 880 No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2">150</td>
+                         <td class="border border-gray-300 px-4 py-2">900.00</td>
+                          <td class="border border-gray-300 px-4 py-2">0.49</td>
+                             <td class="border border-gray-300 px-4 py-2">10.29</td>
+                    </tr>
+
+                                <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">55</td>
+                        <td class="border border-gray-300 px-4 py-2">6 </td>
+                        <td class="border border-gray-300 px-4 py-2"> PCS</td>
+                        <td class="border border-gray-300 px-4 py-2"> 880 No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2">250</td>
+                         <td class="border border-gray-300 px-4 py-2">1,500.00</td>
+                          <td class="border border-gray-300 px-4 py-2">0.82</td>
+                             <td class="border border-gray-300 px-4 py-2">17.16</td>
+                    </tr>
+
+                                <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">56</td>
+                        <td class="border border-gray-300 px-4 py-2">4 </td>
+                        <td class="border border-gray-300 px-4 py-2"> DOZ</td>
+                        <td class="border border-gray-300 px-4 py-2"> 880 No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2">840</td>
+                         <td class="border border-gray-300 px-4 py-2">3,360.00</td>
+                          <td class="border border-gray-300 px-4 py-2">2.75</td>
+                             <td class="border border-gray-300 px-4 py-2">57.65</td>
+                    </tr>
+                      <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">57</td>
+                        <td class="border border-gray-300 px-4 py-2">4 </td>
+                        <td class="border border-gray-300 px-4 py-2"> DOZ</td>
+                        <td class="border border-gray-300 px-4 py-2"> 880 No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2">216</td>
+                         <td class="border border-gray-300 px-4 py-2">864.00</td>
+                          <td class="border border-gray-300 px-4 py-2">0.71</td>
+                             <td class="border border-gray-300 px-4 py-2">14.82</td>
+                    </tr>
+
+                       <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">58</td>
+                        <td class="border border-gray-300 px-4 py-2">12 </td>
+                        <td class="border border-gray-300 px-4 py-2"> PCS</td>
+                        <td class="border border-gray-300 px-4 py-2"> 880 No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2">1,650.00</td>
+                         <td class="border border-gray-300 px-4 py-2">19,800.00</td>
+                          <td class="border border-gray-300 px-4 py-2">5.39</td>
+                             <td class="border border-gray-300 px-4 py-2">113.24</td>
+                    </tr>
+
+                      <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">59</td>
+                        <td class="border border-gray-300 px-4 py-2">12 </td>
+                        <td class="border border-gray-300 px-4 py-2"> PCS</td>
+                        <td class="border border-gray-300 px-4 py-2"> 880 No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2">2,000.00</td>
+                         <td class="border border-gray-300 px-4 py-2">24,000.00</td>
+                          <td class="border border-gray-300 px-4 py-2">6.54</td>
+                             <td class="border border-gray-300 px-4 py-2">137.25</td>
+                    </tr>
+
+                          <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">60</td>
+                        <td class="border border-gray-300 px-4 py-2">12 </td>
+                        <td class="border border-gray-300 px-4 py-2"> PCS</td>
+                        <td class="border border-gray-300 px-4 py-2"> 880 No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2">1,850.00</td>
+                         <td class="border border-gray-300 px-4 py-2">22,200.00</td>
+                          <td class="border border-gray-300 px-4 py-2">6.05</td>
+                             <td class="border border-gray-300 px-4 py-2">126.96</td>
+                    </tr>
+
+                       <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">61</td>
+                        <td class="border border-gray-300 px-4 py-2">12 </td>
+                        <td class="border border-gray-300 px-4 py-2"> PCS</td>
+                        <td class="border border-gray-300 px-4 py-2"> 880 No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2">2,250.00</td>
+                         <td class="border border-gray-300 px-4 py-2">27,000</td>
+                          <td class="border border-gray-300 px-4 py-2">7.35</td>
+                             <td class="border border-gray-300 px-4 py-2">154.41</td>
+                    </tr>
+
+                    <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">62</td>
+                        <td class="border border-gray-300 px-4 py-2">12 </td>
+                        <td class="border border-gray-300 px-4 py-2"> PCS</td>
+                        <td class="border border-gray-300 px-4 py-2"> 880 No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2">2,850.00</td>
+                         <td class="border border-gray-300 px-4 py-2">34,200</td>
+                          <td class="border border-gray-300 px-4 py-2">9.31</td>
+                             <td class="border border-gray-300 px-4 py-2">159.59</td>
+                    </tr>
+
+                       <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">61</td>
+                        <td class="border border-gray-300 px-4 py-2">12 </td>
+                        <td class="border border-gray-300 px-4 py-2"> PCS</td>
+                        <td class="border border-gray-300 px-4 py-2"> 880 No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2">2,250.00</td>
+                         <td class="border border-gray-300 px-4 py-2">37,000</td>
+                          <td class="border border-gray-300 px-4 py-2">7.35</td>
+                             <td class="border border-gray-300 px-4 py-2">154.41</td>
+                    </tr>
+
+                       <tr class="hover:bg-gray-50">
+                       <td class="border border-gray-300 px-4 py-2">62</td>
+                        <td class="border border-gray-300 px-4 py-2">12 </td>
+                        <td class="border border-gray-300 px-4 py-2"> PCS</td>
+                        <td class="border border-gray-300 px-4 py-2"> 880 No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2">2,2850.00</td>
+                         <td class="border border-gray-300 px-4 py-2">34,200</td>
+                          <td class="border border-gray-300 px-4 py-2">9.31</td>
+                             <td class="border border-gray-300 px-4 py-2">159.59</td>
+                    </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
