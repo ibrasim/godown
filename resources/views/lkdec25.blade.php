@@ -767,7 +767,7 @@
                     </tr>
 
     <tr class="hover:bg-gray-50">
-                       <td class="border border-gray-300 px-4 py-2">67/td>
+                       <td class="border border-gray-300 px-4 py-2">67</td>
                         <td class="border border-gray-300 px-4 py-2">36 </td>
                         <td class="border border-gray-300 px-4 py-2"> PCS</td>
                         <td class="border border-gray-300 px-4 py-2"> 880 No2 bucket with lid</td>
@@ -781,8 +781,8 @@
                         <tr class="hover:bg-gray-50">
                        <td class="border border-gray-300 px-4 py-2">68</td>
                         <td class="border border-gray-300 px-4 py-2">20 </td>
-                        <td class="border border-gray-300 px-4 py-2"> PCS</td>
-                        <td class="border border-gray-300 px-4 py-2"> 880 No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2"> SET</td>
+                        <td class="border border-gray-300 px-4 py-2"> comb set kitchen mate</td>
                         <td class="border border-gray-300 px-4 py-2">75.00</td>
                          <td class="border border-gray-300 px-4 py-2">1,500.00</td>
                           <td class="border border-gray-300 px-4 py-2">0.25</td>
@@ -793,8 +793,8 @@
                         <tr class="hover:bg-gray-50">
                        <td class="border border-gray-300 px-4 py-2">69</td>
                         <td class="border border-gray-300 px-4 py-2">20 </td>
-                        <td class="border border-gray-300 px-4 py-2"> PCS</td>
-                        <td class="border border-gray-300 px-4 py-2"> 880 No2 bucket with lid</td>
+                        <td class="border border-gray-300 px-4 py-2"> SET</td>
+                        <td class="border border-gray-300 px-4 py-2"> comb set</td>
                         <td class="border border-gray-300 px-4 py-2">95.00</td>
                          <td class="border border-gray-300 px-4 py-2">1,900.00</td>
                           <td class="border border-gray-300 px-4 py-2">0.31</td>
