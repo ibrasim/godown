@@ -77,7 +77,8 @@
                         
 
                            <!-- <a class="nav-link  link-danger" href="{{route('bkknov25')}}">GO TO  main</a> -->
-                           <a href="{{ route('my-app-page') }}">Go to App Page</a>
+                           <a href="{{ route('home') }}">HOME</a>
+ 
                        <!-- <h6>SUPPLIER : UAE-COSM-PAR-2025-01</h6> -->
 
 
