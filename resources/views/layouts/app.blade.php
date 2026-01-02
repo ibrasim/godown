@@ -69,7 +69,7 @@
                                                 <!-- <a class="nav-link"href="{{route('tariffsearch')}}">TariffSearch</a> -->
                                                 <!-- <a class="nav-link"href="{{route('dashboard')}}">Dashboard</a> -->
                                                 <!-- <a class="nav-link"href="{{route('maintenancelog')}}">Maintenance Log</a> -->
-                                                  <a class="nav-link"href="{{route('register')}}">{{ __('Register') }}</a>
+                                                  <!-- <a class="nav-link"href="{{route('register')}}">{{ __('Register') }}</a> -->
                                                  
                     <!-- </ul> -->
 
