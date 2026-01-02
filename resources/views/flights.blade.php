@@ -8,7 +8,8 @@
                
 
                 <div class="card-body">
-                   <a href="{{ route('my-app-page') }}">Go to App Page</a>
+                  <a href="{{ route('home') }}">HOME</a>
+ 
                      <!-- <a class="nav-link link-primary" href="{{route('uaelist')}}">GO TO ORDER LIST 1 UAE</a> -->
                    <h3> <center> REORDER LIST 2026 </center></h3> 
 
